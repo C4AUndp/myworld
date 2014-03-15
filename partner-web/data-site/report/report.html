@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MYWorld2015 Analytics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link type="text/css" href="../assets/css/v2.css" rel="stylesheet" />
+	<link type="text/css" href="report/report.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="../assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets/js/lib/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="?"><img src="../assets/img/small-logo.png" alt="" /></a>
+				<div class="brand">Report / Alpha</div>
+				<div id="seed" class="pull-right">
+					<a class="brand" href="?"><img src="../assets/img/seed.png" alt="" /></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>  
+	<hr>
+	<hr>
+	<div class="container" id="container">
+		<div class="row-fluid">			
+				<div class="accordion span12" id="accordion">
+					<!-- Group -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<h4 class="accordion-toggle" data-toggle="collapse" data-target="#c-overview" href="#">
+								Dissimilarity Index <i class="icon-chevron-down pull-right"></i>
+							</h4>
+						</div>
+						<div id="c-overview" class="collapse in">
+							<div class="accordion-inner pagination-centered">
+								<div id="network"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Group End -->
+					<!-- Group -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<h4 class="accordion-toggle" data-toggle="collapse" data-target="#c-rankings" href="#">
+								Ranking <i class="icon-chevron-down pull-right"></i>
+							</h4>
+						</div>
+						<div id="c-rankings" class="collapse in">
+							<div class="accordion-inner pagination-centered">
+								<div id="rankings"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Group End -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="footer_un">
+					<div class="span4">
+						<h5 id="about-title" class="title">About MY World</h5>
+						<p>MY World is a United Nations global survey for citizens. Working with partners, we aim to capture people’s voices, priorities and views, so world leaders can be informed as they begin the process of defining the next set of global goals to end poverty.</p>
+						<p>To join the global conversation and post-2015 debate go to:</p>
+						<p><a class="about-logo" href="http://www.worldwewant2015.org" target="_blank"><img src="../assets/img/partners/logo_www2015.png" alt="www2015.png" width="60"></a></p>
+					</div>
+					<div class="span7">
+						<h5 id="partners-title" class="title">This initiative has been developed by:</h5>
+						<ul class="partners-list">
+							<li>
+								<a href="http://www.un.org" target="_blank">
+									<img src="../assets/img/partners/logo_un.png" alt="UN" width="60"><br>
+									<span id="first-logo-label">United Nations</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.webfoundation.org" target="_blank">
+									<img src="../assets/img/partners/logo_wwwf.png" alt="WWWF" width="60"><br>
+									<span id="third-logo-label">World Wide <br> Web Foundation</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.odi.org.uk/" target="_blank">
+									<img src="../assets/img/partners/logo_uk.png" alt="UK" width="60"><br>
+									<span id="second-logo-label">Overseas Development <br> Institute</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.ipsos-mori.com/" target="_blank"><br>
+									<img src="../assets/img/partners/logo_ipsos.png" alt="UK" ><br><br>
+									<span id="second-logo-label">Ipsos Mori</span>
+								</a>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+						<br><br><br>
+						<h5 class="title">With the support of partners across the world</h5>
+					</div>
+				</div>	
+			</div>
+			<hr>
+			<div id="footer" class="muted">
+				<span>v 2.1 April 2013 </span>
+<!-- 				<div class="pull-right">
+					<a href="http://seedscientific.com"><img src="../assets/img/seed.png" alt="" /></a>
+				</div> -->
+			</div>
+		</div>
+
+		<script src="../assets/js/lib/d3.v3.min.js"></script>
+		<script src="../assets/js/lib/queue.min.js"></script>
+		<script src="report/network.js"></script>
+		<script src="report/bars.js"></script>
+	</body>
+	</html>

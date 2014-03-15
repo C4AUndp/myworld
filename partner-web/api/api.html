@@ -1,0 +1,433 @@
+<h3>About this API</h3>
+
+<p>
+	This API allows partner websites and apps to post votes directly to the MY World database. The partner must first register their site or app to obtain an API key. They can use the optional "test" flag to try the API while building their app. The API will respond with a success message, or an error detailing which fields were not accepted.
+</p>
+
+<hr />
+
+<h3>Steps</h3>
+<ol>
+	<li>register your app or website to get an API key</li>
+	<li>build your application using the API key and the test=1 flag</li>
+	<li>once your application is ready, remove the test=1 flag from the API calls</li>
+</ol>
+
+<hr />
+
+<h3>Method</h3>
+<p>Send each vote to the API individually. The API response will confirm whether the vote was successfully saved, or if there were errors in the request. Details:</p>
+<ul>
+	<li>use the POST request method</li>
+	<li>data must be in the format of a JSON string (e.g. output of JSON.stringify() in Javascript)</li>
+	<li>URL: <strong>http://apps.myworld2015.org/vote.php</strong></li>
+</ul>
+
+<hr />
+
+<h3>Fields</h3>
+<table border="1" cellspacing="0" cellpadding="3">
+	<tr>
+		<th>name</th>
+		<th>format</th>
+		<th>required?</th>
+	</tr>
+	<tr>
+		<td>key</td>
+		<td>API authentication key (registration required)</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>votes</td>
+		<td>comma-separated list of numbers (see values below)</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>suggested_priority</td>
+		<td>text</td>
+		<td>No</td>	
+	<tr>
+		<td>reason</td>
+		<td>text</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<td>gender</td>
+		<td>number: 1-2 (see values below)</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>age</td>
+		<td>number: 1 - 140</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>country</td>
+		<td>number: 1-3 decimal identifier (see values below)</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>education</td>
+		<td>number: 1-4 (see values below)</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>partner</td>
+		<td>text: registered MY World partner ID (if applicable)</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<td>test</td>
+		<td>number: 1 = will test vote values but will not save</td>
+		<td>No</td>
+	</tr>
+</table>
+
+<hr />
+
+<h3>Example POST (as JSON object)</h3>
+<code>
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"key": "r6aIoL2jfreqY0IKgq4QYcTh",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"votes": [1,2,3,4,5,6],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"suggested": "Lorem ipsum dolor sit amet...",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;gender: 1,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;age: 25,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;country: 185,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;education: 3<br />
+}
+</code>
+<p>Implementation example (jQuery):
+<code>
+<br />&lt;!DOCTYPE html&gt;
+<br />&lt;html&gt;
+<br />&lt;head&gt;
+<br />&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.<br />js&quot;&gt;&lt;/script&gt;
+<br />&lt;/head&gt;
+<br />&lt;body&gt;
+<br />&lt;script type=&quot;text/javascript&quot;&gt;
+<br />
+<br />var url = &quot;https://apps.myworld2015.org/vote.php&quot;,
+<br />&nbsp;&nbsp;data = {
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;key&quot;: &quot;r6aIoL2jfreqY0IKgq4QYcTh&quot;,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;country&quot;: 184,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;gender&quot;: 1,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;suggested_priority&quot;: &quot;This is a test.&quot;,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;education&quot;: 4,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;age&quot;: 30,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;votes&quot;: [1,2,3,4,5,6],
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&quot;test&quot;: 1
+<br />&nbsp;&nbsp;};
+<br />
+<br />$.ajax({
+<br />&nbsp;&nbsp;type: &quot;POST&quot;,
+<br />&nbsp;&nbsp;url: url, 
+<br />&nbsp;&nbsp;data: JSON.stringify(data),
+<br />&nbsp;&nbsp;success: function(response) {
+<br />&nbsp;&nbsp;&nbsp;&nbsp;returnedData = JSON.parse(response);
+<br />&nbsp;&nbsp;&nbsp;&nbsp;console.log(returnedData);
+<br />&nbsp;&nbsp;}, 
+<br />&nbsp;&nbsp;error: function(error) { 
+<br />&nbsp;&nbsp;&nbsp;&nbsp;console.log(&quot;There was an error&quot;);
+<br />&nbsp;&nbsp;&nbsp;&nbsp;console.log(error); 
+<br />&nbsp;&nbsp;}
+<br />});
+<br />
+<br />&lt;/script&gt;
+<br />&lt;/body&gt;
+<br />&lt;/html&gt;
+</code>
+
+<hr />
+
+<h3>Format details</h3>
+
+<br /><h4>key</h4>
+<ul>
+	<li>24-character API key given to you when you register</li>
+	<li>attached to your site's domain: only votes from your domain will be allowed</li>
+</ul>
+
+<br /><h4>votes</h4>
+<ul>
+	<li>1 = "Better job opportunities" </li>
+	<li>2 = "A good education" </li>
+	<li>3 = "Better healthcare" </li>
+	<li>4 = "Affordable and nutritious food" </li>
+	<li>5 = "Support for people who can't work" </li>
+	<li>6 = "Phone and internet access" </li>
+	<li>7 = "Access to clean water and sanitation" </li>
+	<li>8 = "Reliable energy at home" </li>
+	<li>9 = "Protecting forests, rivers and oceans" </li>
+	<li>10 = "Action taken on climate change" </li>
+	<li>11 = "A responsive government we can trust" </li>
+	<li>12 = "Political freedoms" </li>
+	<li>13 = "Protection against crime and violence" </li>
+	<li>14 = "Equality between men and women" </li>
+	<li>15 = "Freedom from discrimination and persecution" </li>
+	<li>16 = "Better transport and roads"</li>
+</ul>
+
+<br /><h4>suggested_priority</h4>
+<ul>
+	<li>optional suggested priority text field</li>
+	<li>accepts up to 500 characters</li>
+	<li>must not include HTML</li>
+</ul>
+
+<br /><h4>reason</h4>
+<ul>
+	<li>optional "Tell us why you voted the way you did" text field</li>
+	<li>accepts up to 1000 characters</li>
+	<li>must not include HTML</li>
+</ul>
+
+<br /><h4>gender</h4>
+<ul>
+	<li>1 = male</li>
+	<li>2 = female</li>
+</ul>
+
+<br /><h4>country</h4>
+Use the following number codes to indicate the country:
+<br />
+<input type="button" onclick="javascript:$('#countryList').slideToggle('fast'); return false;" value="See full country code list" />
+<script type="text/javascript">$(document).ready(function() { $("#countryList").slideToggle("fast"); });</script>
+<div id="countryList">
+	<ul>
+		<li>1 = Afghanistan</li>
+		<li>2 = Albania</li>
+		<li>3 = Algeria</li>
+		<li>4 = Andorra</li>
+		<li>5 = Angola</li>
+		<li>6 = Antigua and Barbuda</li>
+		<li>7 = Argentina</li>
+		<li>8 = Armenia</li>
+		<li>9 = Australia</li>
+		<li>10 = Austria</li>
+		<li>11 = Azerbaijan</li>
+		<li>12 = Bahamas</li>
+		<li>13 = Bahrain</li>
+		<li>14 = Bangladesh</li>
+		<li>15 = Barbados</li>
+		<li>16 = Belarus</li>
+		<li>17 = Belgium</li>
+		<li>18 = Belize</li>
+		<li>19 = Benin</li>
+		<li>20 = Bhutan</li>
+		<li>21 = Bolivia (Plurinational State of)</li>
+		<li>22 = Bosnia and Herzegovina</li>
+		<li>23 = Botswana</li>
+		<li>24 = Brazil</li>
+		<li>25 = Brunei Darussalam</li>
+		<li>26 = Bulgaria</li>
+		<li>27 = Burkina Faso</li>
+		<li>28 = Burundi</li>
+		<li>29 = Cambodia</li>
+		<li>30 = Cameroon</li>
+		<li>31 = Canada</li>
+		<li>32 = Cape Verde</li>
+		<li>33 = Central African Republic</li>
+		<li>34 = Chad</li>
+		<li>35 = Chile</li>
+		<li>36 = China</li>
+		<li>37 = Colombia</li>
+		<li>38 = Comoros</li>
+		<li>39 = Congo</li>
+		<li>40 = Costa Rica</li>
+		<li>41 = Cote d'Ivoire</li>
+		<li>42 = Croatia</li>
+		<li>43 = Cuba</li>
+		<li>44 = Cyprus</li>
+		<li>45 = Czech Republic</li>
+		<li>46 = Democratic People's Republic of Korea</li>
+		<li>47 = Democratic Republic of the Congo</li>
+		<li>48 = Denmark</li>
+		<li>49 = Djibouti</li>
+		<li>50 = Dominica</li>
+		<li>51 = Dominican Republic</li>
+		<li>52 = Ecuador</li>
+		<li>53 = Egypt</li>
+		<li>54 = El Salvador</li>
+		<li>55 = Equatorial Guinea</li>
+		<li>56 = Eritrea</li>
+		<li>57 = Estonia</li>
+		<li>58 = Ethiopia</li>
+		<li>59 = Fiji</li>
+		<li>60 = Finland</li>
+		<li>61 = France</li>
+		<li>62 = Gabon</li>
+		<li>63 = Gambia</li>
+		<li>64 = Georgia</li>
+		<li>65 = Germany</li>
+		<li>66 = Ghana</li>
+		<li>67 = Greece</li>
+		<li>68 = Grenada</li>
+		<li>69 = Guatemala</li>
+		<li>70 = Guinea</li>
+		<li>71 = Guinea-Bissau</li>
+		<li>72 = Guyana</li>
+		<li>73 = Haiti</li>
+		<li>74 = Honduras</li>
+		<li>75 = Hungary</li>
+		<li>76 = Iceland</li>
+		<li>77 = India</li>
+		<li>78 = Indonesia</li>
+		<li>79 = Iran (Islamic Republic of)</li>
+		<li>80 = Iraq</li>
+		<li>81 = Ireland</li>
+		<li>82 = Israel</li>
+		<li>83 = Italy</li>
+		<li>84 = Jamaica</li>
+		<li>85 = Japan</li>
+		<li>86 = Jordan</li>
+		<li>87 = Kazakhstan</li>
+		<li>88 = Kenya</li>
+		<li>89 = Kiribati</li>
+		<li>90 = Kuwait</li>
+		<li>91 = Kyrgyzstan</li>
+		<li>92 = Lao People's Democratic Republic</li>
+		<li>93 = Latvia</li>
+		<li>94 = Lebanon</li>
+		<li>95 = Lesotho</li>
+		<li>96 = Liberia</li>
+		<li>97 = Libya</li>
+		<li>98 = Liechtenstein</li>
+		<li>99 = Lithuania</li>
+		<li>100 = Luxembourg</li>
+		<li>101 = Madagascar</li>
+		<li>102 = Malawi</li>
+		<li>103 = Malaysia</li>
+		<li>104 = Maldives</li>
+		<li>105 = Mali</li>
+		<li>106 = Malta</li>
+		<li>107 = Marshall Islands</li>
+		<li>108 = Mauritania</li>
+		<li>109 = Mauritius</li>
+		<li>110 = Mexico</li>
+		<li>111 = Micronesia (Federated States of)</li>
+		<li>112 = Monaco</li>
+		<li>113 = Mongolia</li>
+		<li>114 = Montenegro</li>
+		<li>115 = Morocco</li>
+		<li>116 = Mozambique</li>
+		<li>117 = Myanmar</li>
+		<li>118 = Namibia</li>
+		<li>119 = Nauru</li>
+		<li>120 = Nepal</li>
+		<li>121 = Netherlands</li>
+		<li>122 = New Zealand</li>
+		<li>123 = Nicaragua</li>
+		<li>124 = Niger</li>
+		<li>125 = Nigeria</li>
+		<li>126 = Norway</li>
+		<li>127 = Oman</li>
+		<li>128 = Pakistan</li>
+		<li>129 = Palau</li>
+		<li>130 = Panama</li>
+		<li>131 = Papua New Guinea</li>
+		<li>132 = Paraguay</li>
+		<li>133 = Peru</li>
+		<li>134 = Philippines</li>
+		<li>135 = Poland</li>
+		<li>136 = Portugal</li>
+		<li>137 = Qatar</li>
+		<li>138 = Republic of Korea</li>
+		<li>139 = Republic of Moldova</li>
+		<li>140 = Romania</li>
+		<li>141 = Russian Federation</li>
+		<li>142 = Rwanda</li>
+		<li>143 = Saint Kitts and Nevis</li>
+		<li>144 = Saint Lucia</li>
+		<li>145 = Saint Vincent and the Grenadines</li>
+		<li>146 = Samoa</li>
+		<li>147 = San Marino</li>
+		<li>148 = Sao Tome and Principe</li>
+		<li>149 = Saudi Arabia</li>
+		<li>150 = Senegal</li>
+		<li>151 = Serbia</li>
+		<li>152 = Seychelles</li>
+		<li>153 = Sierra Leone</li>
+		<li>154 = Singapore</li>
+		<li>155 = Slovakia</li>
+		<li>156 = Slovenia</li>
+		<li>157 = Solomon Islands</li>
+		<li>158 = Somalia</li>
+		<li>159 = South Africa</li>
+		<li>160 = South Sudan</li>
+		<li>161 = Spain</li>
+		<li>162 = Sri Lanka</li>
+		<li>163 = Sudan</li>
+		<li>164 = Suriname</li>
+		<li>165 = Swaziland</li>
+		<li>166 = Sweden</li>
+		<li>167 = Switzerland</li>
+		<li>168 = Syrian Arab Republic</li>
+		<li>169 = Tajikistan</li>
+		<li>170 = Thailand</li>
+		<li>171 = The former Yugoslav Republic of Macedonia</li>
+		<li>172 = Timor-Leste</li>
+		<li>173 = Togo</li>
+		<li>174 = Tonga</li>
+		<li>175 = Trinidad and Tobago</li>
+		<li>176 = Tunisia</li>
+		<li>177 = Turkey</li>
+		<li>178 = Turkmenistan</li>
+		<li>179 = Tuvalu</li>
+		<li>180 = Uganda</li>
+		<li>181 = Ukraine</li>
+		<li>182 = United Arab Emirates</li>
+		<li>183 = United Kingdom of Great Britain and Northern Ireland</li>
+		<li>184 = United Republic of Tanzania</li>
+		<li>185 = United States of America</li>
+		<li>186 = Uruguay</li>
+		<li>187 = Uzbekistan</li>
+		<li>188 = Vanuatu</li>
+		<li>189 = Venezuela (Bolivarian Republic of)</li>
+		<li>190 = Viet Nam</li>
+		<li>191 = Yemen</li>
+		<li>192 = Zambia</li>
+		<li>193 = Zimbabwe</li>
+		<li>194 = Palestine (State of)</li>
+	</ul>
+</div>
+
+<br /><br /><h4>education</h4>
+<ul>
+	<li>1 = "Some primary"</li>
+	<li>2 = "Finished primary"</li>
+	<li>3 = "Some secondary"</li>
+	<li>4 = "Finished secondary"</li>
+</ul>
+
+<br /><h4>partner</h4>
+<p>MY World Partner organizations register for a unique partner id. Passing this id along with the ballot data will associate the ballot with that partner. Details can be found here: <a style="color: blue; font-size: inherit;" href="http://partner.myworld2015.org/">http://partner.myworld2015.org/</a></p>
+
+<br /><h4>test</h4>
+<ul>
+	<li>use test=1 while building your application</li>
+	<li>none of these votes will be saved to the master database</li>
+	<li>votes with test=1 do not have to come from the domain attached to your API key, so you can develop locally or in a test environment</li>
+</ul>
+
+<hr />
+
+<h3>Responses</h3>
+
+<br />
+
+<p><strong>Success:</strong></p>
+<code>
+{ success: 1, errors: null, _id: "512d1305e4b06f7d5c4a8eb4" }
+</code>
+
+<br />
+
+<p><strong>Errors (can contain multiple):</strong></p>
+<code>{ success: 0, errors: [ { type: "Invalid key" } ] }</code>
+<code>{ success: 0, errors: [ { type: "Key - domain mismatch" } ] }</code>
+<code>{ success: 0, errors: [ { type: "Missing field", field: "country" } ] }</code>
+<code>{ success: 0, errors: [ { type: "Invalid field", field: "education" } ] }</code>
+<code>{ success: 0, errors: [ { type: "Missing field", field: "country" }, { type: "Invalid field", field: "education" } ] }</code>
+
+<hr />

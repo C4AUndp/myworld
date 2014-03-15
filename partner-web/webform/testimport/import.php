@@ -1,0 +1,145 @@
+<?php
+ini_set('memory_limit', '64M');
+require_once('../toolbox.php');
+include('../arrays.php');
+//ini_set('display_errors',1);
+//error_reporting(E_ALL);
+
+$filename ="/var/www/html/webform/upload/DATA.csv";
+$ballotsinserted = 0;
+$errors = 0;
+$row = 0;
+
+
+
+function check($countrylist, $genderlist, $educationlist, $prioritylist, $monthlist, $line, $partnerID, $country, $region_state, $day, $month, $year, $voter_gender, $voter_year_of_birth, $education_level, $priority1, $priority2, $priority3, $priority4, $priority5, $priority6, $suggested_priority)
+{
+	$line++;
+	//$query = perform_query("SELECT * FROM data WHERE data.country='$country' && data.year='$year' && data.variable='$variable'");
+	//$query2 = perform_query("SELECT variable FROM vars WHERE vars.variable='$variable'");
+	//$query3 = perform_query("SELECT country FROM countries WHERE countries.country='$country'");
+	/*if($partnerID == '' || $partnerID == ' ')	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$partnerID.' is not a valid Partner ID.'."<br>");
+			return TRUE;
+	}*/				
+
+	//print_r($countrylist);
+	if(!isset($countrylist[strtolower($country)]))	{	
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$country.' is not a valid country code.  Valid entries for this field are 1-193'."<br>");
+			return TRUE;
+	}
+	if(!isset($genderlist[strtolower(rtrim($voter_gender))]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$voter_gender.' is not a valid gender code.  Valid entries for this field are 1 or 2 (male or female)'."<br>");
+			return TRUE;
+	}
+	if(($voter_year_of_birth >= 2016 || $voter_year_of_birth <= 1871) && ($voter_year_of_birth <= 1 || $voter_year_of_birth >= 151))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$voter_year_of_birth.' is not a valid age or year of birth.  Valid entries for this field are 1872-2015 (year of birth) or 1-150 (age)'."<br>");
+			return TRUE;
+	}
+	if($day >= 32 || $day <= 0)	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$day.' is not a valid day.  Valid entries for this field are 1-31'."<br>");
+			return TRUE;
+	}
+	if($month >= 13 || $month <= 0)	{
+		if(!isset($monthlist[strtolower($month)])) {
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$month.' is not a valid month. Valid entries for this field are 1-12'."<br>");
+			return TRUE; }
+	}
+	if($year >= 2016 || $year <= 2011)	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$year.' is not a valid year.  Valid entries for this field are 2012-2015'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority1)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority1.' for Priority #1 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority2)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority2.' for Priority #2 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority3)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority3.' for Priority #3 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority4)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority4.' for Priority #4 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority5)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority5.' for Priority #5 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if(!isset($prioritylist[strtolower($priority6)]))	{
+			echo ('<br>ERROR: Line #'.$line.', VALUE: '.$priority6.' for Priority #6 is not valid.  Valid entries for this field are 100-115'."<br>");
+			return TRUE;
+	}
+	if($priority1 == $priority2 || $priority1 == $priority3 || $priority1 == $priority4 || $priority1 == $priority5 || $priority1 == $priority6 || $priority2 == $priority3 || $priority2 == $priority4 || $priority2 == $priority5 || $priority2 == $priority6 || $priority3 == $priority4 || $priority3 == $priority5 || $priority3 == $priority6 || $priority4 == $priority5 || $priority4 == $priority6 || $priority5 == $priority6)	{
+			echo ('<br>ERROR: Line #'.$line.', All six (6) priorities need to be unique.'."<br>");
+			return TRUE;
+	}	
+}
+
+ini_set("auto_detect_line_endings", 1);
+$data = file_get_contents($filename);
+//echo "filename: $filename\n<br>";
+//echo "file_get_contents: ".print_r($data,true)."\n---------------------------\n<br>";
+if (!function_exists('str_getcsv')) {
+    function str_getcsv($input, $delimiter = ",", $enclosure = '"', $escape = "\\") {
+        $fiveMBs = 5 * 1024 * 1024;
+        $fp = fopen("php://temp/maxmemory:$fiveMBs", 'r+');
+        fputs($fp, $input);
+        rewind($fp);
+
+        $data = fgetcsv($fp, 1000, $delimiter, $enclosure); //  $escape only got added in 5.3.0
+
+        fclose($fp);
+        return $data;
+    }
+}
+
+$fields = array("partnerID","country","region_state","day","month","year","voter_gender","voter_year_of_birth","education_level","priority1","priority2","priority3","priority4","priority5","priority6","suggested_priority");
+
+$csvlines = file($filename);//explode("\n", $data);
+//echo "csvlines: ".print_r($csvlines,true)."\n---------------------------\n<br><br>";
+foreach($csvlines as $k=>$line) {
+	//echo "csvlines loop $k => $line \n<br><br>";
+	$out[] = str_getcsv($line,",",'"',"\\");
+}
+
+
+foreach($out as $lineNumber=>$fieldarray) {
+	if($lineNumber == 0) { continue; }
+	foreach($fieldarray as $fieldNum => $val) {
+		if($fieldNum >= 16) { continue; }
+			//$val = mysql_real_escape_string($val);
+			//echo "csvlines loop $fieldNum => $val \n<br><br>";
+			$out2[$lineNumber][$fields[$fieldNum]] = $val;
+	}
+}
+
+$out = $out2;
+foreach($out as $k=>$v) {
+	if($k == 0) { continue; }
+		if ($v['country'] != '') { 
+      //echo 'check('.$v[0].', '.$v[1].', '.$v[2].')'."\n";
+      $nogood = check($countrylist, $genderlist, $educationlist, $prioritylist, $monthlist, $k, $v['partnerID'], $v['country'], $v['region_state'], $v['day'], $v['month'], $v['year'], $v['voter_gender'], $v['voter_year_of_birth'], $v['education_level'], $v['priority1'], $v['priority2'], $v['priority3'], $v['priority4'], $v['priority5'], $v['priority6'], $v['suggested_priority']);
+		if ($nogood == TRUE) {	$errors++; }
+	  } }
+
+if($errors == 0){
+	foreach($out as $k=>$v) {
+	if($k == 0) { continue; }
+      //echo 'check('.$v[0].', '.$v[1].', '.$v[2].')'."\n";
+	  if ($v['country'] != '') { 
+      write($countrylist, $genderlist, $educationlist, $prioritylist, $monthlist, $v['partnerID'], $v['country'], $v['region_state'], $v['day'], $v['month'], $v['year'], $v['voter_gender'], $v['voter_year_of_birth'], $v['education_level'], $v['priority1'], $v['priority2'], $v['priority3'], $v['priority4'], $v['priority5'], $v['priority6'], $v['suggested_priority']); 
+	  $ballotsinserted++; 
+	  }	  	}
+	  if($errors == 0  && $ballotsinserted != 0){ echo ('<br>Ballot import successful: '.$ballotsinserted.' ballots inserted into database.<br><br><a href="upload2.php">Back</a>'); } 
+	  if($ballotsinserted == 0){ echo ('<br>Ballot import failed: Please check the format of your CSV file and try again.<br><br><a href="upload2.php">Back</a><br>'); }
+	  }
+	  else { if($errors > 0){ echo ('<br>Ballot import failed, please correct the referenced errors and submit the file again.<br><br><a href="upload2.php">Back</a><br><br><a href="import2.php">Proceed to Import Records</a>'); }
+}
+
+
+//mysql_close();
+?>

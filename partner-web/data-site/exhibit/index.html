@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MYWorld Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/myw-ex.css">
+    
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/html5shiv.js"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="myw-header" class="row">
+      <div id="myw-logo" class="col-md-8"><img src="assets/img/logo.png"></div>
+      <div id="myw-counters" class="col-md-3">
+                <div class="columns" id='pnumber-header'>People:&nbsp;&nbsp;</div>
+                <!-- <span class="columns" id="people-from">people from </span> -->
+                <div class="columns" id='cnumber-header'>Countries:&nbsp;&nbsp;</div>
+                <!-- <span class="columns" id="countries-vote">countries</span> -->
+      </div>
+    </div>
+    <div class="row">
+      <!-- COUNTRY PROFILE -->
+      <div id="myw-country" class="col-md-5">
+          <div class="myw-section-info">
+            <h2>Country Details</h2>
+            <p>Gain a better understanding of what issues matter to a country</p>
+          </div>
+          <!-- <h5>Overview</h5> -->
+          <div id="s-country-container">
+              <select id="s-country" class="form-control">
+                      <option value="?country=0" selected="selected">All Countries</option>
+              </select>
+            </div>
+
+            <div class="myw-cont">
+              <div id="total-container">
+                <div id="total"></div>
+                <div id="update"></div>
+              </div>
+             <div id="charts"></div>
+           </div>
+           <hr />
+           <div class="myw-cont">
+           <!-- <h5>Segments</h5> -->
+           <div id="segment-summary">
+           </div>
+      </div>  
+                    
+      </div>
+
+      <!-- COMPARE CONTAINER -->
+      <div id="myw-compare" class="col-md-3">
+        <div class="myw-section-info">
+            <h2>Compare Segments</h2>
+            <p> Compare priorities by gender and age across countries. </p>
+          </div>
+            
+            <div id="myw-compare-3er">
+            <div class="comparison-container">
+                          <div id="viz-explore-custom-results1">
+                              <form id="viz-form-results1"></form>
+                          </div>
+            
+                          <div id="viz-explore-results1"></div>
+                        </div>
+            
+                        <div class="comparison-container">
+                          <div id="viz-explore-custom-results2">
+                              <form id="viz-form-results2"></form>
+                          </div>
+                          <div id="viz-explore-results2"></div>
+                        </div>
+            
+                        <div class="comparison-container">
+                          <div id="viz-explore-custom-results3">
+                              <form id="viz-form-results3"></form>
+                          </div>
+                          <div id="viz-explore-results3"></div>
+                        </div>
+            </div>
+            
+      </div>
+
+      <!-- NETWORK CONTAINER -->
+      <div id="myw-network" class="col-md-4">
+        <div class="myw-section-info">
+            <h2>Dissimilarity Index</h2>
+            <p>Discover the connections between countries based on shared priorities. </p>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- Libraries -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+
+    <!-- Visualization Scripts -->
+    <script src="assets/js/myw-country.js"></script>
+    <script src="assets/js/myw-compare.js"></script>
+    
+    <script src="assets/js/myw-network.js"></script>
+    
+  </body>
+</html>

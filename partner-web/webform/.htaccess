@@ -1,0 +1,5 @@
+Allow from all
+Satisfy any
+<FilesMatch "\.(?i:csv)$">
+  Header set Content-Disposition attachment
+</FilesMatch>

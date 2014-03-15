@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MYWorld2015 Analytics | Countries Table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link type="text/css" href="http://data.myworld2015.org/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/x-icon" href="http://data.myworld2015.org/assets/img/favicon.ico">
+
+ 	<script type="text/javascript" src="http://data.myworld2015.org/assets/js/lib/jquery.min.js"></script>
+ 	<script type="text/javascript" src="http://data.myworld2015.org/assets/js/lib/jquery.tablesorter.min.js"></script>
+
+ 	<style type="text/css">
+
+body { margin: 20px; }
+table th, td {
+	text-align: left;
+	padding: 5px 10px;
+}
+th.headerSortUp, th.headerSortDown { color: #428CE1; }
+tr.total td { background-color: #ccc !important; }
+.tablesorter th { cursor: pointer; }
+
+ 	</style>
+
+</head>
+<body>
+
+<div id="loading">Loading data...</div>
+<div id="data-table"></div>
+
+<script type="text/javascript">
+
+$.getJSON("http://54.227.246.164/stats2/countries", function(json) {
+	$("#loading").remove();
+	if (!json.countries) {
+		alert("Error loading data.");
+	} else {
+		json.countries.push({ name: "Totals", op: "total", "stats": json.overall, "hdi_index": "NA" });
+		json.countries = json.countries.sort(function(a,b) { return b.stats["_total"] - a.stats["_total"]; });
+		drawTable(json);
+	}
+});
+
+function drawTable(data) {
+
+	// headers
+	var headers = [ 
+		{ label: "Country", key: "name" },
+		{ label: "HDI", key: "hdi_index" },
+
+		{ label: "Votes", key: "stats._total" },
+		{ label: "% of Votes", op: "percentTotal" },
+
+		{ label: "Male", key: "stats.dimensions.gender.1" },
+		{ label: "Female", key: "stats.dimensions.gender.2" },
+
+		{ label: "1-15", key: "stats.dimensions.age.15" },
+		{ label: "16-30", key: "stats.dimensions.age.30" },
+		{ label: "31-45", key: "stats.dimensions.age.45" },
+		{ label: "46-60", key: "stats.dimensions.age.60" },
+		{ label: "61+", key: "stats.dimensions.age.140" },
+
+		{ label: "Some Primary", key: "stats.dimensions.education.1" },
+		{ label: "Finished Primary", key: "stats.dimensions.education.2" },
+		{ label: "Finished Secondary", key: "stats.dimensions.education.3" },
+		{ label: "Beyond Secondary", key: "stats.dimensions.education.4" },
+
+	];
+
+	var table = $("<table class='table table-striped tablesorter' border='0' cellspacing='0' cellpadding='0'></table>");
+
+	var headersRow = $("<tr></tr>");
+	for (var i in headers) {
+		$(headersRow).append("<th>" + headers[i].label + "</th>");
+	}
+	$(table).append($("<thead></thead>").append(headersRow));
+
+	var tbody = $("<tbody></tbody>");
+
+	for (var i in data.countries) {
+		var d = data.countries[i],
+			row = $("<tr></tr>");
+		if (d.op && d.op == "total")
+			$(row).addClass("total")
+		for (var hi in headers) {
+			var h = headers[hi];
+
+			// value
+			if (h.op && h.op == "percentTotal") {
+				val = Math.round((d.stats["_total"] / data.overall["_total"]) * 10000) / 100;
+			} else {
+				val = ref(d, h.key);
+				if (!val) val = 0;
+			}
+
+			$(row).append("<td>" + val + "</td>");
+		}
+		$(tbody).append(row);
+	}
+
+	$(table).append(tbody);	
+
+	$(table).tablesorter();
+
+	$("#data-table").html("");
+	$("#data-table").append("<div class='info'>Last updated: " + data.overall["_timestamp"] + " UTC</div>");
+	$("#data-table").append(table);
+
+}
+
+function ref(obj, str) {
+    str = str.split(".");
+    for (var i = 0; i < str.length; i++)
+        obj = obj[str[i]];
+    return obj;
+}
+
+</script>
+
+</body>

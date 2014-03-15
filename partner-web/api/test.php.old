@@ -1,0 +1,23 @@
+<?php
+		$postData['partner'] = 'DYNAMIX1';
+		$postData['country'] = 193;
+		$postData['region'] = 'New York';
+		$postData['gender'] = 1;
+		$postData['suggested_priority'] = 'test suggested priority';
+		$postData['education'] = 1;
+		$postData['age'] = 25;
+		$postData['sourceMethod'] = 'apps';
+		$postData['sourceDetail'] = 'apikey';
+		$postData['choices'] = array(1,2,3,4,5,6);
+		$postData['test'] = 1;
+		
+		$json = json_encode($postData); // $row can be an associative array or usually even a class object
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8'));
+		curl_setopt($ch, CURLOPT_URL, 'http://myworldapps.seedmediagroup.com/vote.php?key=5084b374e4b059e606c9fef5');
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+
+		curl_exec($ch);
+		curl_close($ch); 
+?>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+var url = "http://myworldapps.seedmediagroup.com/vote.php?debug=1",
+	data = {
+		"key": "r6aIoL2jfreqY0IKgq4QYcTh",
+		"country": "USA",
+		"region": "New York",
+		"gender": 1,
+		"suggested_priority": "TEST",
+		"education": 4,
+		"age": 20,
+		"votes": [1,2,3,4,5,6],
+		"test": 1
+	};
+
+$.ajax({
+	type: "POST",
+	url: url, 
+	data: JSON.stringify(data),
+	success: function(response) { console.log("Success"); console.log(response); }, 
+	error: function(error) { console.log("Error"); console.log(error); }
+});
+
+</script>
+</body>
+</html>

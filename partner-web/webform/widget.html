@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY World Ballot Widget</title>
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" />
+<style type="text/css">
+#page {
+	width: 1105px;
+	margin: 50px auto;
+}
+#content {
+	width: 453px;
+	padding-right: 50px;
+}
+h1 {
+	font-size: 3em;
+	margin: 0 0 15px 0;
+}
+h2.subtitle {
+	font-style: italic;
+	font-weight: 200;
+	margin: 0 0 30px 0;
+	padding-bottom: 30px;
+	color: #418BE0;
+	border-bottom: 1px solid #ddd;
+}
+h3 {
+	margin: 30px 0 8px 0;
+	font-size: 1.1em;
+}
+p, li {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 8px 0;
+}
+li {
+	margin: 0 0 2px 0;
+}
+#iframe-container {
+	float: right;
+	width: 602px;
+}
+code {
+	font-size: 14px;
+	color: #555;
+}
+code.block {
+	display: block;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.highlight {
+	color: rgb(243, 71, 28);
+}
+</style>
+</head>
+<body>
+
+<div id="page">
+
+	<h1>MY World Ballot Widget</h1>
+
+	<h2 class="subtitle">Embed the MY World ballot on your web site</h2>
+
+	<div id="iframe-container">
+		<h3 style="margin-top: 0">Example:</h3>
+		<em>Note: This is a real ballot &mdash; please do not submit test votes.</em>
+		<iframe src="http://www.myworld2015.org/?iframe=600&partner=TESTORG" width="600" height="900" frameborder="0" style="border:1px solid #aaa;"></iframe>
+	</div>
+
+	<div id="content">
+
+		<h3>What is this?</h3>
+		<p>
+			The MY World ballot can easily be embedded as a widget on your own web site. This will allow visitors to your site to vote on MY World priorities without leaving your page.
+		</p>
+		<h3>How does it work?</h3>
+		<p>
+			To embed the widget on your page, use the simple <code>&lt;iframe&gt;</code> tag. Below is an example of how this code should look in your web page:
+		</p>
+		<code class="block">
+			&lt;iframe src=&quot;http://www.myworld2015.org/?iframe=600&amp;partner=demo&quot; width=&quot;600&quot; height=&quot;800px&quot; frameborder=&quot;0&quot; style=&quot;border:1px solid #aaa;&quot;&gt;&lt;/iframe&gt;
+		</code>
+
+		<h3>Dimensions: <span style="font-weight: 200">600 pixels wide, 500-800 pixels tall</span></h3>
+		<p>
+			The widget is designed to work at 600 pixels wide. Please only use this width when embedding on your site. You may set the height to whatever you think is appropriate, but a height of between 500 and 800 pixels is recommended.
+		</p>
+
+		<h3>Partner ID</h3>
+		<p>Make sure to include your organization's partner ID in the frame's source URL. In the example above, replace <code>partner=demo</code> with <code>partner=<span class="highlight">YourPartnerID</span></code>.</p>
+
+		<h3>Introductory Text</h3>
+		<p>Because the widget contains minimal description of the MY World project, you are encouraged to include some introductory text on your web page above the widget. You should contextualize the ballot and promote your organization's involvement in the voting. For general information about the project, see the <a href="http://www.myworld2015.org/?page=about-my-world" target="_blank">MY World about pages</a>.</p>
+
+		<h3>Language</h3>
+		<p>To set the default language of your widget, include a <code>lang=<span class="highlight">??</span></code> argument in the frame's source URL. The example below shows the URL for French:</p>
+		<code class="block">http://www.myworld2015.org/?iframe=600&<span class="highlight">lang=fr</span></code>
+		<br />
+		<p>Available languages:</p>
+		<ul>
+			<li>Arabic = ar</li>
+			<li>Chinese = ch</li>
+			<li>English = en</li>
+			<li>French = fr</li>
+			<li>Indonesian = bi</li>
+			<li>Korean = kr</li>
+			<li>Portuguese = pr</li>
+			<li>Russian = ru</li>
+			<li>Spanish = es</li>
+			<li>Thai = th</li>
+			<li>Vietnamese = vt</li>
+		</ul>
+
+	</div>
+
+</div>
+</body>
+</html>

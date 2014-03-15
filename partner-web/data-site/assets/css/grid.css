@@ -1,0 +1,147 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.ie7 .clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.row:after, .group:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.column, .columns {
+    display: block;
+    float: left;
+    margin-left: 2%;
+}
+
+.column:first-child, .columns:first-child, .alpha {
+    margin-left: 0;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+.one {
+    width: 2.25%;
+}
+
+.two {
+    width: 6.5%;
+}
+
+.three {
+    width: 10.75%;
+}
+
+.four {
+    width: 15%;
+}
+
+.five {
+    width: 19.25%;
+}
+
+.six {
+    width: 23.5%;
+}
+
+.seven {
+    width: 27.75%;
+}
+
+.eight {
+    width: 32%;
+}
+
+.nine {
+    width: 36.25%;
+}
+
+.ten {
+    width: 59.5%;
+}
+
+.eleven {
+    width: 44.75%;
+}
+
+.twelve {
+    width: 49%;
+}
+
+.thirteen {
+    width: 53.25%;
+}
+
+.fourteen {
+    width: 38.5%;
+}
+
+.fifteen {
+    width: 61.75%;
+}
+
+.sixteen {
+    width: 66%;
+}
+
+.seventeen {
+    width: 70.25%;
+}
+
+.eighteen {
+    width: 74.5%;
+}
+
+.nineteen {
+    width: 78.75%;
+}
+
+.twenty {
+    width: 83%;
+}
+
+.twentyone {
+    width: 87.25%;
+}
+
+.twentytwo {
+    width: 91.5%;
+}
+
+.twentythree {
+    width: 95.75%;
+}
+
+.twentyfour {
+    width: 100%;
+}

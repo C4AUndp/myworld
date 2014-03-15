@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.node circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  opacity: .5;
+  pointer-events: none;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+
+var color = d3.scale.linear()
+    .domain([0, 0.41])
+    .range(["red", "white"]);
+
+
+var r = d3.scale.linear()
+    .domain([0, 0.5])
+    .range([5, 1]);    
+
+
+var svg = d3.select("body").append("svg");
+
+var force = d3.layout.force()
+	.charge(-600)
+  .linkDistance(120);
+var country = [];
+var	links = [];
+
+d3.csv("data.csv", function(rows) {
+
+	rows.forEach(function(d, i){
+		country.push({name: d['Country'], cid: i})
+	})
+
+	rows.forEach(function(d,i){ 
+		country.forEach(function(l){ 
+			links.push({source: i, target: l.cid, value: d[l.name]})
+		})
+	})
+
+
+
+		console.log(links)
+
+	render();
+});
+
+
+function render() {
+
+
+ links = links.filter(function(d, i) { return d.value < 0.41; });
+
+force
+      .nodes(country)
+      .links(links)
+      .on("tick", tick)
+      .start();
+
+  var link = svg.selectAll(".link")
+      .data(force.links())
+    .enter().append("line")
+      .attr("class", "link")
+      .style("stroke", function(d) { return color(d.value) })
+      .style("stroke-width", function(d) { return r(d.value) });
+
+
+var node = svg.selectAll(".node")
+    .data(force.nodes())
+  .enter().append("g")
+  .filter(function(d, i) { return d.weight > 1; })
+    .attr("class", "node")
+    .on("mouseover", mouseover)
+    .on("mouseout", mouseout)
+    .call(force.drag);
+
+node.append("circle")
+    .attr("r", function(d) { return d.weight });
+
+node.append("text")
+    .attr("x", 12)
+    .attr("dy", ".35em")
+    .text(function(d) { return d.name; });
+
+
+
+  resize();
+  d3.select(window).on("resize", resize);
+
+  function tick() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  }
+
+  function resize() {
+    width = window.innerWidth, height = window.innerHeight;
+    svg.attr("width", width).attr("height", height);
+    force.size([width, height]).resume();
+  }
+
+  function mouseover() {
+  d3.select(this).select("circle").transition()
+      .duration(750)
+      // .attr("r", 16);
+}
+
+function mouseout() {
+  d3.select(this).select("circle").transition()
+      .duration(750)
+      // .attr("r", 8);
+}
+
+}
+
+</script>

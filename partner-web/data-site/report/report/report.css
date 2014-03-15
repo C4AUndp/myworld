@@ -1,0 +1,35 @@
+.nodeText {
+    font-size: 11px;
+}
+
+.axis {
+	font-size: 8px;
+	fill: #666;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.countryName {
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	fill: #333;
+}
+
+.pritext {
+	font-size: 10px;
+	font-weight: bold;
+}

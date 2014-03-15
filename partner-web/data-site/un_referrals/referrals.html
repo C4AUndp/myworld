@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- bootstrap requires two files-->
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- bootstrap, d3 and jquery-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/d3.v2.js"></script>
+
+<style type="text/css">
+
+body {
+  font: 10px sans-serif;
+}
+
+.bar {
+  opacity: .7;
+}
+
+line, path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+    </style>
+    <title>Referrals</title>
+  </head>
+  <body>
+  <svg id="chart"></svg>
+  <div id="meta" class="container">
+    
+  
+    <div class="row"><h3><div class="span3">referred: </div> <div class="span8 offset1" id="referral_count"></div></h3></div>
+    <div class="row"><h3><div class="span3">ballot ID:   </div> <div class="span8 offset1" id="_id"> </div></h3></div>
+    <div class="row"><h3><div class="span3">language: </div> <div class="span8 offset1" id="language"> </div></h3></div>
+    <div class="row"><h3><div class="span3">country: </div> <div class="span8 offset1" id="country"> </div></h3></div>
+    <div class="row"><h3><div class="span3">name: </div> <div class="span8 offset1" id="full_name"> </div></h3></div>
+    <div class="row"><h3><div class="span3">partner: </div> <div class="span8 offset1" id="partner"> </div></h3></div>
+    <div class="row"><h3><div class="span3">voted on: </div> <div class="span8 offset1" id="time"> </div></h3></div>
+    <div class="row"><h3><div class="span3">email: </div> <div class="span8 offset1" id="email"> </div></h3></div>
+    <div class="row"><h3><div class="span3">% totals referrals: </div> <div class="span8 offset1" id="perc"> </div></h3></div>
+    
+    
+  </div>
+    <script type="text/javascript">
+
+$("#meta").hide();
+
+var loadData = function(data) {
+  console.log(data);
+  
+  //calc aggregates
+  data.forEach( function(d) {
+    totalReferrals += d['referral_count'];
+  });
+  console.log(totalReferrals);
+  
+  //percentage
+  data.forEach( function(d, i) {
+    d['perc'] = d['referral_count']/totalReferrals;
+    if(i<10)
+      topTenData.push(d);
+  });
+  console.log(topTenData);
+  
+  drawChart(topTenData);
+  
+};
+
+var drawChart = function(data) {
+
+var maxVal = d3.max(data, function(d) { return d['referral_count']+1; });
+//x.domain([0, d3.max(data, function(d) { return d['rank']; })]);
+//y.domain(data.map(function(d) { return d['referral_count']; }));
+y.domain([ maxVal, 0]);
+
+    
+svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(xAxis);
+
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+    
+//draw bar gruops
+var bar = svg.selectAll("g.bar")
+    .data(data)
+  .enter().append("g")
+    .attr("class", "bar")
+    .attr("transform", function(d) { return "translate(" + (x(d.rank)) + "," + (y(d['referral_count'])) + ")"; });
+
+  bar.append("rect")
+      .attr("id", function(d) { return ("bar_"+d["rank"]); })
+      .attr("width",  bWidth)
+      .attr("height", function(d) { return (height-y(d['referral_count'])); })
+      .on("mouseover", onEvent)
+      .on("mouseout", offEvent);
+      
+
+  
+};
+
+var onEvent = function(d) {
+  console.log(d);
+  $("#referral_count").text(d['referral_count']);
+  $("#_id").text(d['_id']);
+  $("#language").text(d['language']);
+  $("#country").text(d['country']);
+  $("#full_name").text(d['full_name']);
+  $("#partner").text(d['partner']);
+  $("#time").text(d['time']);
+  $("#email").text(d['email']);
+  $("#perc").text(Math.round(100*d['perc'])+" %");
+  
+  
+  
+  $("#meta").fadeIn(10);
+};
+
+var offEvent = function() {
+ // $("#meta").fadeOut(10);
+};
+
+//init
+var margin = {top: 30, right: 50, bottom: 20, left: 50},
+    width = 900 - margin.right - margin.left,
+    height = 400 - margin.top - margin.bottom;
+
+var svg = d3.select("#chart")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var ordinals = [];
+for (var i = 1; i <= 10; i++) {
+   ordinals.push(i);
+}
+
+var bWidth = 50;
+
+var x = d3.scale.ordinal()
+        .domain(ordinals)
+        .rangePoints([0, width]);
+
+var y = d3.scale.linear()
+    .range([0, height]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var totalReferrals =  0;
+var topTenData = [];
+
+//load data
+d3.json('data/referrers.json', loadData);
+
+    </script>
+  </body>
+</html>

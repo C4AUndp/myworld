@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MYWorld2015 Analytics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link type="text/css" href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- <link type="text/css" href="assets/css/bootstrap-responsive.css" rel="stylesheet" /> -->
+	<!-- <link type="text/css" href="assets/css/reset.css" rel="stylesheet" /> -->
+	<!-- <link type="text/css" href="assets/css/layout.css" rel="stylesheet" /> -->
+	<!-- <link type="text/css" href="assets/css/grid.css" rel="stylesheet" /> -->
+	<!-- <link type="text/css" href="assets/css/style-myworld.css" rel="stylesheet" /> -->
+	<link type="text/css" href="assets/css/analytics.css" rel="stylesheet" />
+	<link href="assets/css/smoothness/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+ 	<script type="text/javascript" src="assets/js/lib/jquery.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/lib/jquery.tablesorter.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/lib/jquery.ba-bbq.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/lib/jquery-ui-1.10.0.min.js"></script>
+	<script src="assets/js/lib/d3.v3.min.js"></script>
+	<script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+	
+	<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10576069-17']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+              <div class="navbar-inner">
+                <div class="container">
+		          <a class="brand" href="?"><img src="assets/img/small-logo-invert.png" alt="" /></a>
+
+		          <ul class="nav pull-left" role="navigation">
+		          	<li class="header-divide"><img src="assets/img/divider.png" alt="" /></li>
+		          	<li class="dropdown"><a ><div id="current"></div></a></li>
+		          </ul>
+                  <ul class="nav pull-right" role="navigation">
+                  	<li class="dropdown" id="backtoall"><a id="dropall" href="?" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-arrow-left icon-white"></i> All</a></li>
+                  	<li class="divider-vertical"></li>
+                    <li class="dropdown">
+                      <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Source <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1" id="drop-source">
+                        <li><a tabindex="-1" href="?source=Website">Website</a></li>
+                        <li><a tabindex="-1" href="?source=Ballot">Ballot</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a tabindex="-1" href="?source=SMS">SMS</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Partners <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop2" id="drop-partner">
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Countries &amp; Regions <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3" id="drop-country">
+                      </ul>
+                    </li>                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+        <div id="seedbrand"><a href="http://seedscientific.com"><img class="pull-right" src="assets/img/seed-white2.png" width="40" alt="" /></a></div>    
+        <hr>
+        <hr>    
+       	<div class="container" id="container">
+    
+		<div class="row" id="summary">
+
+			<!-- <div class="span12"><h1 id="current" class="section-title"></h1></div> -->
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Overview</h1>
+			</div>
+			<div id="summary-container" class="span4">
+				<div id="loadingd" class="loader"><div><span>Loading Data...</span></div></div>	
+
+				<div id="total-container">
+					<h2 class="graph-title">Votes</h2>
+					<div id="total"></div>
+					<div id="update"></div>
+				</div>
+			</div>
+			<div class="span8"><div id="charts"></div></div>
+		</div>
+
+<!-- 		<hr>
+		<div class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Segments Summary</h1>
+			</div>
+			<div id="segment-summary">
+					
+			</div>			
+		</div> -->	
+
+		<div class="clearfix clearspace"></div>
+		<div id="tseries-container" class="row">
+			<div class="span12">
+				<h1 class="section-title navbar-inner">Last 14 Days</h1>
+			</div>
+			<div id="tseries" class="span12">
+				<form>
+					<select id="t-segments">
+            			<option value="gender">Gender</option>
+            			<option value="edu">Education</option>
+            			<option value="hdi" selected="selected">HDI</option>
+          			</select>
+				</form>
+				<div id="loadingt" class="loader"><div><span>Loading Data...</span></div></div>
+			</div>			
+		</div>	
+		<div class="clearfix clearspace"></div>
+		<div id="segment-container" class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Segments &amp; Priorities</h1>
+			</div>
+			<!-- <div id="segment-bar-filter" class="span3"></div> -->
+			<div id="segment-bar-filter" class="span3">
+				<div class="segment-bar-title">Filters</div>
+				<form>
+				  <!-- <label for="s-hdi">Country</label> -->
+				  <select id="s-country" class="target">
+				  	<option value="&country=0" selected="selected">All Countries &amp; Country Groups</option>
+				    <option value="&country=0"> -- HDI -- </option>
+				    <option value="&hdi=1">Low HDI Countries</option>
+				    <option value="&hdi=2">Medium HDI Countries</option>
+				    <option value="&hdi=3">High HDI Countries</option>
+				    <option value="&hdi=4">Very High HDI Countries</option>
+				    <option value="&country=0"> -- Continents -- </option>
+				    <option value="&continent=1">Africa</option>
+				    <option value="&continent=2">Americas</option>
+				    <option value="&continent=3">Asia</option>
+				    <option value="&continent=4">Europe</option>
+				    <option value="&continent=5">Oceania</option>
+				    <option value="&country=0"> -- Regions -- </option>
+				    <option value="&region=1">Australia and New Zealand</option>
+				    <option value="&region=2">Caribbean</option>
+				    <option value="&region=3">Central America</option>
+				    <option value="&region=4">Central Asia</option>
+				    <option value="&region=5">Eastern Africa</option>
+				    <option value="&region=6">Eastern Asia</option>
+				    <option value="&region=7">Eastern Europe</option>
+				    <option value="&region=8">Melanesia</option>
+				    <option value="&region=9">Micronesia</option>
+				    <option value="&region=10">Middle Africa</option>
+				    <option value="&region=11">Northern Africa</option>
+				    <option value="&region=12">Northern America</option>
+				    <option value="&region=13">Northern Europe</option>
+				    <option value="&region=14">Polynesia</option>
+				    <option value="&region=15">South America</option>
+				    <option value="&region=16">South-Eastern Asia</option>
+				    <option value="&region=17">Southern Africa</option>
+				    <option value="&region=18">Southern Asia</option>
+				    <option value="&region=19">Southern Europe</option>
+				    <option value="&region=20">Western Africa</option>
+				    <option value="&region=21">Western Asia</option>
+				    <option value="&region=22">Western Europe</option>
+				    <option value="&country=0"> -- Countries -- </option>
+				  </select>
+
+				  <!-- <label for="s-gender">Gender</label> -->
+				  <select id="s-gender" class="target">
+				    <option value="&gender=0" selected="selected">All Genders</option>
+				    <option value="&gender=1">Male</option>
+				    <option value="&gender=2">Female</option>
+				  </select>
+
+				  <!-- <label for="s-edu">Education</label>	 -->
+  				  <select id="s-edu" class="target">
+				    <option value="&education=0" selected="selected">All Education Levels</option>
+				    <option value="&education=1">Some Primary</option>
+				    <option value="&education=2">Finished Primary</option>
+				    <option value="&education=3">Finished Secondary</option>
+				    <option value="&education=4">Beyond Secondary</option>
+				  </select>
+
+				   <!-- <label for="s-age">Age Groups</label>	 -->
+  				  <select id="s-age" class="target">
+				    <option value="" selected="selected">All Age Groups</option>
+				    <option value="&age=15">≤15</option>
+				    <option value="&age=30">16-30</option>
+				    <option value="&age=45">31-45</option>
+				    <option value="&age=60">46-60</option>
+				    <option value="&age=140">≥61</option>
+				  </select>
+
+				  <!-- <label for="s-age">Age Group (<span id="age-value"></span>)</label> -->
+				  <!-- <div id="age-slider"></div> -->
+				  <!-- <br><br><br> -->
+				  <!-- <div><a id="csv-button" href="" class="btn" type="button">CSV Export</a></div> -->
+
+				</form>
+			</div>
+			<div id="segment-bar-viz" class="span9">
+				<div id="loadings" class="loader"><div><span>Loading Data...</span></div></div>	
+				<div class="segment-bar-title" id="segment-bar-title">
+				<span id="segmentv1" class="highlight">Loading...</span> votes for
+				<span id="segmentv2">...</span>
+				</div>
+				<div id="segment-bar"></div>
+			</div>			
+		</div>
+
+		<hr>
+		<div class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Segments Map</h1>
+			</div>
+			<div id="segment-summary"  class="span12">
+				<div id="loadings2" class="loader"><div><span>Loading Data...</span></div></div>
+			</div>			
+		</div>	
+
+		<div class="row" id="cTable">
+			<hr>
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Countries</h1>
+			<table id="table-country" class="tablesorter table table-bordered table-striped">			
+				<thead>
+				<tr>
+					<th class="span2" style="text-align:left">Country</th>
+					<th class="span1">HDI</th>
+					<th class="span1">Votes</th>
+					<th class="span1">Votes%</th>
+					<th class="span1">Male</th>
+					<th class="span1">Female</th>
+					<th class="span1">&le;15</th>
+					<th class="span1">16-30</th>
+					<th class="span1">31-45</th>
+					<th class="span1">46-60</th>
+					<th class="span1">&ge;61</th>
+					<th class="span1">Some Primary</th>
+					<th class="span1">Finished Primary</th>
+					<th class="span1">Finished Secondary</th>
+					<th class="span1">Beyond Secondary</th>
+					<!-- <th>Priority</th> -->
+				</tr>
+				</thead>
+				<tbody id="countrylist">
+																																		
+				</tbody>
+
+			</table>
+			</div>
+		</div>
+
+		<div class="row" id="pTable">
+			<hr>
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Partners</h1>
+			<table id="table-partners" class="tablesorter table table-bordered table-striped">			
+				<thead>
+				<tr>
+					<th class="span4" style="text-align:left">Organization</th>
+					<th class="span2">ID</th>
+					<!-- <th class="span4">Name</th> -->
+					<th class="span2">Votes</th>
+				</tr>
+				</thead>
+				<tbody id="t-partnerlist">
+																																		
+				</tbody>
+
+			</table>
+			</div>
+		</div>
+
+		<hr>
+		<div class="row">
+			<div id="footer_un">
+				<div class="span4">
+					<h3 id="about-title" class="title">About MY World</h3>
+						<p>MY World is a United Nations global survey for citizens. Working with partners, we aim to capture people’s voices, priorities and views, so world leaders can be informed as they begin the process of defining the next set of global goals to end poverty.</p>
+						<p>To join the global conversation and post-2015 debate go to:</p>
+						<p><a class="about-logo" href="http://www.worldwewant2015.org" target="_blank"><img src="assets/img/partners/logo_www2015.png" alt="www2015.png" width="60"></a></p>
+				</div>
+				<div class="span7">
+					<h3 id="partners-title" class="title">This initiative has been developed by:</h3>
+					<ul class="partners-list">
+						<li>
+							<a href="http://www.un.org" target="_blank">
+								<img src="assets/img/partners/logo_un.png" alt="UN" width="60"><br>
+								<span id="first-logo-label">United Nations</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.webfoundation.org" target="_blank">
+								<img src="assets/img/partners/logo_wwwf.png" alt="WWWF" width="60"><br>
+								<span id="third-logo-label">World Wide <br> Web Foundation</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.odi.org.uk/" target="_blank">
+								<img src="assets/img/partners/logo_uk.png" alt="UK" width="60"><br>
+								<span id="second-logo-label">Overseas Development <br> Institute</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.ipsos-mori.com/" target="_blank"><br>
+								<img src="assets/img/partners/logo_ipsos.png" alt="UK" ><br><br>
+								<span id="second-logo-label">Ipsos Mori</span>
+							</a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<br><br><br>
+					<h4 class="title">With the support of partners across the world</h4>
+				</div>
+			</div>	
+		</div>
+		<hr>
+		<div id="footer">
+			<span class="small gray">v 1.0 / May 2013 </span>
+			<div class="pull-right"><a href="http://seedscientific.com"><img src="assets/img/seed.png" alt="" /></a></div>
+		</div>
+</div>
+
+
+<script type="text/javascript" src="assets/js/av3.js"></script>
+
+</body>
+</html>

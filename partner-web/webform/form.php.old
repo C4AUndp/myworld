@@ -1,0 +1,765 @@
+ <?php  
+ error_reporting(E_ALL);
+ini_set('display_errors', '1');
+ 
+session_start();
+ if(!$_SESSION['logged']){
+   header("Location: index.php");
+    exit;
+}
+
+if(isset($_POST['submit'])){
+    # connect to the database here
+	$dbHost = "localhost";        //Location Of Database usually its localhost
+    $dbUser = "myworld";            //Database User Name
+    $dbPass = "eituv7";            //Database Password
+    $dbDatabase = "myworld_paper_ballot";    //Database Name
+    
+    $db = mysql_connect($dbHost,$dbUser,$dbPass)or die("Error connecting to database.");
+    //Connect to the databasse
+    mysql_select_db($dbDatabase, $db)or die("Couldn't select the database.");
+    # search the database to see if the user name has been taken or not
+	$c1 = mysql_real_escape_string($_POST['c1']);
+	$c2 = mysql_real_escape_string($_POST['c2']);
+	$c3 = mysql_real_escape_string($_POST['c3']);
+	$c4 = mysql_real_escape_string($_POST['c4']);
+	$c5 = mysql_real_escape_string($_POST['c5']);
+	$c6 = mysql_real_escape_string($_POST['c6']);
+	$choices = $c1. ', ' .$c2. ', ' .$c3. ', ' .$c4. ', ' .$c5. ', ' .$c6;
+	$usr = $_SESSION['scoutid'];
+	$country = mysql_real_escape_string($_POST['country']);
+	$region = mysql_real_escape_string($_POST['state']);
+    #check too see what fields have been left empty, and if the passwords match
+ 
+        # If all fields are not empty, and the passwords match,
+        # create a session, and session variables,
+		$date1 = date_create();
+		$date = date_format($date1, 'U = Y-m-d H:i:s');
+        $query = sprintf("INSERT INTO ballots(`timestamp`, `partnerID`, `country`, `region_state`, `voter_gender`, `day`, `month`, `year`, `voter_year_of_birth`, `education_level`, `suggested_priority`, `choices`)
+            VALUES('$date', '$usr', '$country', '$region','%s','%s','%s','%s','%s','%s','%s','$choices')",
+            mysql_real_escape_string($_POST['gender']),
+			mysql_real_escape_string($_POST['day']),
+			mysql_real_escape_string($_POST['month']),
+			mysql_real_escape_string($_POST['year']),
+			mysql_real_escape_string($_POST['yob']),
+			mysql_real_escape_string($_POST['edu']),
+            mysql_real_escape_string($_POST['reason']))or die(mysql_error());
+			echo $query;
+        $sql = mysql_query($query);
+		
+
+		$postData['partner'] = $usr;
+		$postData['country'] = (int)$_POST['country'];
+		$postData['region'] = mysql_real_escape_string($_POST['state']);
+		$postData['gender'] = (int)$_POST['gender'];
+		$postData['suggested_priority'] = mysql_real_escape_string($_POST['reason']);
+		$postData['education'] = (int)$_POST['edu'];
+		$postData['age'] = (int)( (date("Y")) - ($_POST['yob']) );
+		$postData['sourceMethod'] = 'offline';
+		$postData['sourceDetail'] = 'form';
+		$postData['choices'] = array((int)$c1, (int)$c2, (int)$c3, (int)$c4, (int)$c5, (int)$c6);
+		
+		$json = json_encode($postData); // $row can be an associative array or usually even a class object
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8'));
+		curl_setopt($ch, CURLOPT_URL, 'https://api.mongolab.com/api/1/databases/myworld_manual2/collections/votes?apiKey=5084b374e4b059e606c9fef5');
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+
+		curl_exec($ch);
+		curl_close($ch); 
+        # Redirect the user to a login page
+        //header("Location: admin.php");
+        exit;
+}
+# echo out each variable that was set from above,
+# then destroy the variable.
+if(isset($error)){
+    echo $error;
+    unset($error);
+}
+?> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MyWorld Partner System - Ballot Entry Form</title>
+	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+
+<!--replace with prefered version of jQuery or other library & make a local copy-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script>window.jQuery || document.write("<script src='js/jquery-1.8.0.min.js'>\x3C/script>")</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script><script>window.jQuery.ui || document.write("<script src='js/jquery-ui-1.8.23.custom.min.js'>\x3C/script>")</script>
+	  
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="ie7.css">
+<![endif]-->	
+
+
+<script>
+
+$(window).load(function(){
+
+
+ 
+ var s = "<?php echo $_SESSION['s'];?>"
+ $("input#s").val(s);
+ });
+ 
+var iDivRenameCount = 2;
+var rbs = 0;
+
+function addMore() {
+
+curday = $("select#day").val();
+curmonth = $("select#month").val();
+curyear = $("select#year").val();
+
+var iAddCount = $("#amount").val();
+for(var i=0; i<iAddCount; i++) {
+var tmpBallot = $("#ballot").clone();
+tmpBallot.find('form')[0].reset();
+tmpBallot.appendTo(".moreBallots");
+} 
+$('.moreBallots #ballot').each( function() {
+    $(this).attr("id", "ballot"+iDivRenameCount);
+	$('#ballot'+iDivRenameCount+' #number').html("Ballot " +iDivRenameCount);
+	$('#ballot'+iDivRenameCount+' #close').show();
+	$('#ballot'+iDivRenameCount+' #day').val(curday);
+	$('#ballot'+iDivRenameCount+' #month').val(curmonth);
+	$('#ballot'+iDivRenameCount+' #year').val(curyear);
+	//alert (iDivRenameCount);
+	$('#ballot'+iDivRenameCount+' input#ballotnumber').attr('value', iDivRenameCount);
+	//$('#ballot'+iDivRenameCount+' input#ballotnumber').hide();
+	
+    iDivRenameCount++;
+});
+}
+
+function setDay(newday) {
+
+var dayCount = 2;
+curday = $(newday).val();
+
+var iBallotCount = 500;
+for(var i=2; i<iBallotCount; i++) {
+$('#ballot'+i+' #day').val(curday);
+}}
+
+function setMonth(newmonth) {
+
+var monthCount = 2;
+curmonth = $(newmonth).val();
+
+var iBallotCount = 500;
+for(var i=2; i<iBallotCount; i++) {
+$('#ballot'+i+' #month').val(curmonth);
+}}
+
+function setYear(newyear) {
+
+var yearCount = 2;
+curyear = $(newyear).val();
+
+var iBallotCount = 500;
+for(var i=2; i<iBallotCount; i++) {
+$('#ballot'+i+' #year').val(curyear);
+}}
+
+var submitArray = [];
+var iCurrentForm = 0;
+var formsCount = 0;
+
+function submitForms() {
+	// ADD VALIDATION CODE HERE
+	var forms = $('form');
+	formsCountreal = forms.length;
+	formsCount = forms.length;
+	//alert(formsCount);
+	//alert (rbs);
+	for (var cf=1;cf<formsCount+1;cf++)
+	{	
+		
+		//var bnumber = $('#gender').parents("div").attr('id');
+		//var bnumber = $(this).closest("div").attr("id");
+		//var bnumber = $(this).parents('[id^=ballot]').attr('id');
+		//alert(bnumber);
+		var ballotname='#ballot';
+		//var rbv = $(ballotname+' #ballotnumber').val();
+		if(cf > 1){var ballotname='#ballot' +cf;}
+		if ($(ballotname).length){
+        //alert('Found with Length');
+    
+		//var rbv = $(this).parents("#ballotnumber").attr("value");
+		//alert (rbv);
+		if($('select#country').val()=="Country"){
+			alert('Please select a country for all ballots.'); return;}
+		if($(ballotname+' #gender').val()=="Gender"){
+			alert('Please select a gender for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #yob').val()=="Year"){
+			alert('Please select a year of birth for ballot #'+cf+'.'); return;}
+		//if($(ballotname+' #edu').val()=="Level"){
+		//	alert('Please select an education level for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #year').val()=="YYYY"){
+			alert('Please select a year for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #month').val()=="MM"){
+			alert('Please select a month for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #day').val()=="DD"){
+			alert('Please select a day for ballot #'+cf+'.'); return;}			
+		if($(ballotname+' #c1').val()=="Priority"){
+			alert('Please select priority #1 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c2').val()=="Priority"){
+			alert('Please select priority #2 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c3').val()=="Priority"){
+			alert('Please select priority #3 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c4').val()=="Priority"){
+			alert('Please select priority #4 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c5').val()=="Priority"){
+			alert('Please select priority #5 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c6').val()=="Priority"){
+			alert('Please select priority #6 for ballot #'+cf+'.'); return;}
+		if($(ballotname+' #c1').val()==$(ballotname+' #c2').val() || $(ballotname+' #c1').val()==$(ballotname+' #c3').val() || $(ballotname+' #c1').val()==$(ballotname+' #c4').val() || $(ballotname+' #c1').val()==$(ballotname+' #c5').val() || $(ballotname+' #c1').val()==$(ballotname+' #c6').val() || $(ballotname+' #c2').val()==$(ballotname+' #c3').val() || $(ballotname+' #c2').val()==$(ballotname+' #c4').val() || $(ballotname+' #c2').val()==$(ballotname+' #c5').val() || $(ballotname+' #c2').val()==$(ballotname+' #c6').val() || $(ballotname+' #c3').val()==$(ballotname+' #c4').val() || $(ballotname+' #c3').val()==$(ballotname+' #c5').val() || $(ballotname+' #c3').val()==$(ballotname+' #c6').val() || $(ballotname+' #c4').val()==$(ballotname+' #c5').val() || $(ballotname+' #c4').val()==$(ballotname+' #c6').val() || $(ballotname+' #c5').val()==$(ballotname+' #c6').val()){
+			alert('All six (6) priorities must be unique for ballot #'+cf+'.'); return;}
+			}
+		else { formsCount++; }
+	}	
+	$("#submitButton").attr("disabled", "disabled");
+	submitArray = [];
+	iCurrentForm = 0;
+	
+	$(function() {
+		$("#progressbar").show();
+    	$("#progressbar").progressbar({ value: 0, max: formsCountreal, complete:function(event, ui) {
+    		alert(formsCountreal + " votes were successfully submitted");
+    		$("#progressbar").progressbar("destroy");
+    		$("#progressbar").html("Completed");
+			//alert(formsCount + " votes were successfully submitted");
+    		location.reload(); 
+    	}});
+	});
+	
+	
+	var scoutID = $('#s').val();
+ 	var country = $("#country").val();
+ 	var state = $("#state").val();
+	$('form').each(function() {
+		var data = $(this).serializeArray();
+		//var bid = $(this).parents("div").attr('id');
+		//data.push({name: 'bid', value: bid});
+		data.push({name: 'country', value: country});
+		data.push({name: 'state', value: state});
+		data.push({name: 'scoutid', value: scoutID});
+		data.push({name: 'submit', value: 1});
+		submitArray.push(data);		
+	});	
+	
+	runQueueInOrder();
+}
+
+function runQueueInOrder() {
+	if (submitArray.length === 0) { return; }
+    var arg = submitArray.pop();
+    var iCurrentForm = formsCount-submitArray.length;
+   
+    $.ajax({
+	  type: 'POST',
+	  url: 'form.php',
+	  data: arg,
+	  success: function(data, textStatus, jqXHR) {
+	  	$( "#progressbar" ).progressbar( "value", iCurrentForm );
+	  }
+	}).then(function() {
+       	runQueueInOrder();
+	});
+}
+
+//function removeballot(x) {
+//rbs++;
+//$(x).parents('[id^=ballot]').remove();
+//alert (rbs);
+//}
+
+</script>
+
+<script type="text/javascript">
+
+$(".voter").mouseover(function () {
+    $(this).css("background-color","#e1e1e1");
+  });
+
+
+</script>
+
+</head>
+<body>
+	<div id="wrapper">
+		
+			<a href="form.php"><img src="images/logo.png" width="150" alt="logo"></a>
+<!--Display Username Associated with ID-->
+				<p style="float:right; margin:10px 0px 0px 0px;">Welcome,<br><b><?php echo ' '.$_SESSION['fname'].' '.$_SESSION['lname']; ?></b></p>
+<!--Delete <p>-->
+
+			<h1>Partner System</h1>
+			<p style="color: #2E2E2E; font-size: 12pt; line-height:1.5em; font-style: normal; margin: 0 80px 30px 0px;">
+Please use this form to manually enter votes data from MY World paper ballots.<br>
+
+To enter priorities choose the number from the drop down that corresponds to checked priority number on the ballot.<br><br>
+
+By default you are provided with 1 form. You may add more ballot forms by entering the desired number in the number field at the bottom of the page and clicking on the "+" button.  You may remove a ballot form by selecting the "X" button.</p>
+		
+
+<!--Scout ID populates from Scout ID on login page-->
+		<div id="scout">
+			<h2>MY World Partner</h2>
+				
+					  <div class="label_form"> ID</div>					 
+						<input name="s" id="s" type="text" size="8" maxlength="8" value="">
+			</div>
+
+<!--Country: Carnevale has the list-->
+<div id="medialink" style="float: right; position: absolute; top: 82px; right: 8px;"></div>
+<?php
+if($_SESSION['admin'] == '1'){
+			?><script>$("#medialink").html("<a href='volunteers.php'>Partner Listing</a> | <a href='form.php' class='active'>Online Submission Form</a> | <a href='media.php'>Printable Ballot Cards</a> | <a href='spreadsheet.php'>Template Spreadsheet</a> | <a href='upload2.php'>Upload Spreadsheet</a> | <a href='index.php'>Logout</a>");</script>
+			<?php
+		}else{
+			?><script>$("#medialink").html("<a href='form.php' class='active'>Online Submission Form</a> | <a href='media.php'>Printable Ballot Cards</a> | <a href='spreadsheet.php'>Template Spreadsheet</a> | <a href='upload.php'>Upload Spreadsheet</a> | <a href='index.php'>Logout</a>");</script>
+			<?php
+		} 	
+?>
+	
+		<div id="ballots">
+			<h2>Ballots collected from</h2>
+			
+				<div class="label_form"> Country</div>
+					<select name="country" class="select_style" id="country" name="country" style="width: 225px;">
+					  <option selected="selected">Country</option><option value="1">Afghanistan</option><option value="2">Albania</option><option value="3">Algeria</option><option value="4">Andorra</option><option value="5">Angola</option><option value="6">Antigua and Barbuda</option><option value="7">Argentina</option><option value="8">Armenia</option><option value="9">Australia</option><option value="10">Austria</option><option value="11">Azerbaijan</option><option value="12">Bahamas</option><option value="13">Bahrain</option><option value="14">Bangladesh</option><option value="15">Barbados</option><option value="16">Belarus</option><option value="17">Belgium</option><option value="18">Belize</option><option value="19">Benin</option><option value="20">Bhutan</option><option value="21">Bolivia (Plurinational State of)</option><option value="22">Bosnia and Herzegovina</option><option value="23">Botswana</option><option value="24">Brazil</option><option value="25">Brunei Darussalam</option><option value="26">Bulgaria</option><option value="27">Burkina Faso</option><option value="28">Burundi</option><option value="29">Cambodia</option><option value="30">Cameroon</option><option value="31">Canada</option><option value="32">Cape Verde</option><option value="33">Central African Republic</option><option value="34">Chad</option><option value="35">Chile</option><option value="36">China</option><option value="37">Colombia</option><option value="38">Comoros</option><option value="39">Congo</option><option value="40">Costa Rica</option><option value="41">Cote d'Ivoire</option><option value="42">Croatia</option><option value="43">Cuba</option><option value="44">Cyprus</option><option value="45">Czech Republic</option><option value="46">Democratic People's Republic of Korea</option><option value="47">Democratic Republic of the Congo</option><option value="48">Denmark</option><option value="49">Djibouti</option><option value="50">Dominica</option><option value="51">Dominican Republic</option><option value="52">Ecuador</option><option value="53">Egypt</option><option value="54">El Salvador</option><option value="55">Equatorial Guinea</option><option value="56">Eritrea</option><option value="57">Estonia</option><option value="58">Ethiopia</option><option value="59">Fiji</option><option value="60">Finland</option><option value="61">France</option><option value="62">Gabon</option><option value="63">Gambia</option><option value="64">Georgia</option><option value="65">Germany</option><option value="66">Ghana</option><option value="67">Greece</option><option value="68">Grenada</option><option value="69">Guatemala</option><option value="70">Guinea</option><option value="71">Guinea-Bissau</option><option value="72">Guyana</option><option value="73">Haiti</option><option value="74">Honduras</option><option value="75">Hungary</option><option value="76">Iceland</option><option value="77">India</option><option value="78">Indonesia</option><option value="79">Iran (Islamic Republic of)</option><option value="80">Iraq</option><option value="81">Ireland</option><option value="82">Israel</option><option value="83">Italy</option><option value="84">Jamaica</option><option value="85">Japan</option><option value="86">Jordan</option><option value="87">Kazakhstan</option><option value="88">Kenya</option><option value="89">Kiribati</option><option value="90">Kuwait</option><option value="91">Kyrgyzstan</option><option value="92">Lao People's Democratic Republic</option><option value="93">Latvia</option><option value="94">Lebanon</option><option value="95">Lesotho</option><option value="96">Liberia</option><option value="97">Libya</option><option value="98">Liechtenstein</option><option value="99">Lithuania</option><option value="100">Luxembourg</option><option value="101">Madagascar</option><option value="102">Malawi</option><option value="103">Malaysia</option><option value="104">Maldives</option><option value="105">Mali</option><option value="106">Malta</option><option value="107">Marshall Islands</option><option value="108">Mauritania</option><option value="109">Mauritius</option><option value="110">Mexico</option><option value="111">Micronesia (Federated States of)</option><option value="112">Monaco</option><option value="113">Mongolia</option><option value="114">Montenegro</option><option value="115">Morocco</option><option value="116">Mozambique</option><option value="117">Myanmar</option><option value="118">Namibia</option><option value="119">Nauru</option><option value="120">Nepal</option><option value="121">Netherlands</option><option value="122">New Zealand</option><option value="123">Nicaragua</option><option value="124">Niger</option><option value="125">Nigeria</option><option value="126">Norway</option><option value="127">Oman</option><option value="128">Pakistan</option><option value="129">Palau</option><option value="130">Panama</option><option value="131">Papua New Guinea</option><option value="132">Paraguay</option><option value="133">Peru</option><option value="134">Philippines</option><option value="135">Poland</option><option value="136">Portugal</option><option value="137">Qatar</option><option value="138">Republic of Korea</option><option value="139">Republic of Moldova</option><option value="140">Romania</option><option value="141">Russian Federation</option><option value="142">Rwanda</option><option value="143">Saint Kitts and Nevis</option><option value="144">Saint Lucia</option><option value="145">Saint Vincent and the Grenadines</option><option value="146">Samoa</option><option value="147">San Marino</option><option value="148">Sao Tome and Principe</option><option value="149">Saudi Arabia</option><option value="150">Senegal</option><option value="151">Serbia</option><option value="152">Seychelles</option><option value="153">Sierra Leone</option><option value="154">Singapore</option><option value="155">Slovakia</option><option value="156">Slovenia</option><option value="157">Solomon Islands</option><option value="158">Somalia</option><option value="159">South Africa</option><option value="160">South Sudan</option><option value="161">Spain</option><option value="162">Sri Lanka</option><option value="163">Sudan</option><option value="164">Suriname</option><option value="165">Swaziland</option><option value="166">Sweden</option><option value="167">Switzerland</option><option value="168">Syrian Arab Republic</option><option value="169">Tajikistan</option><option value="170">Thailand</option><option value="171">The former Yugoslav Republic of Macedonia</option><option value="172">Timor-Leste</option><option value="173">Togo</option><option value="174">Tonga</option><option value="175">Trinidad and Tobago</option><option value="176">Tunisia</option><option value="177">Turkey</option><option value="178">Turkmenistan</option><option value="179">Tuvalu</option><option value="180">Uganda</option><option value="181">Ukraine</option><option value="182">United Arab Emirates</option><option value="183">United Kingdom of Great Britain and Northern Ireland</option><option value="184">United Republic of Tanzania</option><option value="185">United States of America</option><option value="186">Uruguay</option><option value="187">Uzbekistan</option><option value="188">Vanuatu</option><option value="189">Venezuela (Bolivarian Republic of)</option><option value="190">Viet Nam</option><option value="191">Yemen</option><option value="192">Zambia</option><option value="193">Zimbabwe</option>
+					</select>
+<!--Region list loads in correspondence with country selection: e.g. Country Selection USA loads the states list-->
+<!--If we do not get a list of regions shortly we would replace the dropdown with a text box-->					
+				<div class="label_form">State/Region</div>
+					<input name="state" type="text" id="state" name="state" size="20" maxlength="150" style="margin: 15px 0; width: 130px;">
+					 	
+				</div>	
+
+<div class="border"></div>
+				
+<!--Ballot entry-->
+<div id="ballot">
+	<form action=" <? echo $_SERVER['PHP_SELF']; ?>" method="post">
+	<input name="ballotnumber" type="hidden" id="ballotnumber" size="20" maxlength="150" value="1">
+<!--Border-->
+		<div class="border"></div>
+<!--Voter information-->
+<!--Headings-->		
+				<h2 style="float:left; margin-right:113px;"> Voter information</h2>				
+				<h2>Priorities <span id="number" style="float: right; padding-right: 10px; color: #E2E2E2; font-weight: normal;">Ballot 1</span></h2>
+<!--Voter Fields-->						
+				<div class="voter">
+						<div class="label_form" style="margin-top: 5px; margin-left: 15px;">Gender</div>
+							<select id="gender" name="gender" class="select_style" style="margin-top: 0px;">
+							  <option selected="selected">Gender</option>>
+							  <option value="1">Male</option>
+							  <option value="2">Female</option>
+							</select>	
+<!--Standard list of years for YOB -->			
+						<div class="label_form" style="margin-left:34px; clear:left;"> YOB</div>
+							<select id="yob" name="yob" class="select_style">
+							<option value="Year" selected>Year</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value="2006">2006</option>
+							<option value="2005">2005</option>
+							<option value="2004">2004</option>
+							<option value="2003">2003</option>
+							<option value="2002">2002</option>
+							<option value="2001">2001</option>
+							<option value="2000">2000</option>
+							<option value="1999">1999</option>
+							<option value="1998">1998</option>
+							<option value="1997">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>
+							<option value="1990">1990</option>
+							<option value="1989">1989</option>
+							<option value="1988">1988</option>
+							<option value="1987">1987</option>
+							<option value="1986">1986</option>
+							<option value="1985">1985</option>
+							<option value="1984">1984</option>
+							<option value="1983">1983</option>
+							<option value="1982">1982</option>
+							<option value="1981">1981</option>
+							<option value="1980">1980</option>
+							<option value="1979">1979</option>
+							<option value="1978">1978</option>
+							<option value="1977">1977</option>
+							<option value="1976">1976</option>
+							<option value="1975">1975</option>
+							<option value="1974">1974</option>
+							<option value="1973">1973</option>
+							<option value="1972">1972</option>
+							<option value="1971">1971</option>
+							<option value="1970">1970</option>
+							<option value="1969">1969</option>
+							<option value="1968">1968</option>
+							<option value="1967">1967</option>
+							<option value="1966">1966</option>
+							<option value="1965">1965</option>
+							<option value="1964">1964</option>
+							<option value="1963">1963</option>
+							<option value="1962">1962</option>
+							<option value="1961">1961</option>
+							<option value="1960">1960</option>
+							<option value="1959">1959</option>
+							<option value="1958">1958</option>
+							<option value="1957">1957</option>
+							<option value="1956">1956</option>
+							<option value="1955">1955</option>
+							<option value="1954">1954</option>
+							<option value="1953">1953</option>
+							<option value="1952">1952</option>
+							<option value="1951">1951</option>
+							<option value="1950">1950</option>
+							<option value="1949">1949</option>
+							<option value="1948">1948</option>
+							<option value="1947">1947</option>
+							<option value="1946">1946</option>
+							<option value="1945">1945</option>
+							<option value="1944">1944</option>
+							<option value="1943">1943</option>
+							<option value="1942">1942</option>
+							<option value="1941">1941</option>
+							<option value="1940">1940</option>
+							<option value="1939">1939</option>
+							<option value="1938">1938</option>
+							<option value="1937">1937</option>
+							<option value="1936">1936</option>
+							<option value="1935">1935</option>
+							<option value="1934">1934</option>
+							<option value="1933">1933</option>
+							<option value="1932">1932</option>
+							<option value="1931">1931</option>
+							<option value="1930">1930</option>
+							<option value="1929">1929</option>
+							<option value="1928">1928</option>
+							<option value="1927">1927</option>
+							<option value="1926">1926</option>
+							<option value="1925">1925</option>
+							<option value="1924">1924</option>
+							<option value="1923">1923</option>
+							<option value="1922">1922</option>
+							<option value="1921">1921</option>
+							<option value="1920">1920</option>
+							<option value="1919">1919</option>
+							<option value="1918">1918</option>
+							<option value="1917">1917</option>
+							<option value="1916">1916</option>
+							<option value="1915">1915</option>
+							<option value="1914">1914</option>
+							<option value="1913">1913</option>
+							<option value="1912">1912</option>
+							<option value="1911">1911</option>
+							<option value="1910">1910</option>
+							<option value="1909">1909</option>
+							<option value="1908">1908</option>
+							<option value="1907">1907</option>
+							<option value="1906">1906</option>
+							<option value="1905">1905</option>
+							<option value="1904">1904</option>
+							<option value="1903">1903</option>
+							<option value="1902">1902</option>
+							<option value="1901">1901</option>
+							<option value="1900">1900</option>
+							<option value="1899">1899</option>
+							<option value="1898">1898</option>
+							<option value="1897">1897</option>
+							<option value="1896">1896</option>
+							<option value="1895">1895</option>
+							<option value="1894">1894</option>
+							<option value="1893">1893</option>
+							<option value="1892">1892</option>
+							<option value="1891">1891</option>
+							<option value="1890">1890</option>
+							<option value="1889">1889</option>
+							<option value="1888">1888</option>
+							<option value="1887">1887</option>
+							<option value="1886">1886</option>
+							<option value="1885">1885</option>
+							<option value="1884">1884</option>
+							<option value="1883">1883</option>
+							<option value="1882">1882</option>
+							<option value="1881">1881</option>
+							<option value="1880">1880</option>
+							<option value="1879">1879</option>
+							<option value="1878">1878</option>
+							<option value="1877">1877</option>
+							<option value="1876">1876</option>
+							<option value="1875">1875</option>
+							<option value="1874">1874</option>
+							<option value="1873">1873</option>
+							<option value="1872">1872</option>
+							</select>						
+				<div class="label_form" style="margin-left:0px; clear:left;">Education</div>
+							<select id="edu" name="edu" class="select_style">
+							  <option selected="selected">Level</option>>
+							  <option value="1">Some Primary</option>
+							  <option value="2">Finished Primary</option>
+							  <option value="3">Finished Secondary</option>
+							  <option value="4">Beyond Secondary</option>
+							</select>	
+				</div>
+<!--Priorities id -->			
+				
+				
+				<div class="priorities">
+					
+							
+<!--Date populates automatically all date fields on the page -->			
+						<div class="label_form"> Date</div>
+						<span id="close" style="float: right; position: relative; right: -10px; display: none; cursor: pointer; opacity: .4;"><img src="images/remove.png" onclick="$(this).parents('[id^=ballot]').remove();"></span>
+						
+						<select id="year" name="year" class="select_style" onchange="setYear(this);">
+							  <option selected="selected">YYYY</option>
+							  <option value="1">2012</option>
+							  <option value="2">2013</option>
+							  <option value="3">2014</option>							  							  
+							  <option value="4">2015</option>
+							</select>			
+							
+						<select id="month" name="month" class="select_style" onchange="setMonth(this);">
+							  <option selected="selected">MM</option>
+							  <option value="1">January</option>
+							  <option value="2">February</option>
+							  <option value="3">March</option>
+							  <option value="4">April</option>
+							  <option value="5">May</option>
+							  <option value="6">June</option>
+							  <option value="7">July</option>
+							  <option value="8">August</option>
+							  <option value="9">September</option>
+							  <option value="10">October</option>
+							  <option value="11">November</option>
+							  <option value="12">December</option>
+							</select>
+							
+						<select id="day" name="day" class="select_style" onchange="setDay(this);">
+							  <option selected="selected">DD</option>
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							  <option value="6">6</option>
+							  <option value="7">7</option>
+							  <option value="8">8</option>
+							  <option value="9">9</option>
+							  <option value="10">10</option>
+							  <option value="11">11</option>
+							  <option value="12">12</option>
+							  <option value="13">13</option>
+							  <option value="14">14</option>
+							  <option value="15">15</option>
+							  <option value="16">16</option>
+							  <option value="17">17</option>
+							  <option value="18">18</option>
+							  <option value="19">19</option>
+							  <option value="20">20</option>
+							  <option value="21">21</option>
+							  <option value="22">22</option>
+							  <option value="23">23</option>
+							  <option value="24">24</option>
+							  <option value="25">25</option>
+							  <option value="26">26</option>
+							  <option value="27">27</option>
+							  <option value="28">28</option>
+							  <option value="29">29</option>
+							  <option value="30">30</option>
+							  <option value="31">31</option>
+							</select>	
+							
+							
+				</div>
+<!--Vote fields-->	
+				<div class="vote">
+<!--Priority IDs from 100-115-->	
+							<select id="c1" name="c1" class="select_style">
+							  <option selected="selected">Priority</option>
+							  <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>	
+							
+							<select id="c2" name="c2" class="select_style">
+							  <option selected="selected">Priority</option>
+							    <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>	
+							
+							<select id="c3" name="c3" class="select_style">
+							  <option selected="selected">Priority</option>
+							    <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>	
+							
+							<select id="c4" name="c4" class="select_style">
+							  <option selected="selected">Priority</option>
+							    <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>
+							
+							<select id="c5" name="c5" class="select_style">
+							  <option selected="selected">Priority</option>
+							  <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>	
+							
+							<select id="c6" name="c6" class="select_style">
+							  <option selected="selected">Priority</option>
+							   <option value="10">100</option>
+							  <option value="16">101</option>
+							  <option value="5">102</option>
+							  <option value="7">103</option>							  							  
+							  <option value="3">104</option>
+							  <option value="2">105</option>
+							  <option value="11">106</option>
+							  <option value="6">107</option>
+							  <option value="8">108</option>
+							  <option value="4">109</option>
+							  <option value="9">110</option>
+							  <option value="13">111</option>
+							  <option value="12">112</option>
+							  <option value="15">113</option>
+							  <option value="14">114</option>
+							  <option value="1">115</option>
+							</select>						
+				</div>
+
+<!--Add you own-->
+				<div class="add_priority">
+				
+				
+					<img src="images/plus.png" width="30" alt="plus" style="float:left;margin:15px 10px 0px 0px;">
+							
+							   <input name="reason" class="test_box" type="text" size="20" maxlength="10000" style="margin-right:30px;">
+							   
+					<!--<div style="float:left; font-size:10pt; margin: 20px 10px 0px 0px"><span>Pledge checked&nbsp;&nbsp;</span>-->
+
+				</div>
+</form>
+	</div>
+
+<div class="moreBallots">
+
+</div>		
+<!--Border-->
+	<div class="border"></div>
+			
+			
+<!--Add more fields/Default amount is 10/-->
+				<div class="addMore">
+					
+						<input id="amount" type="text" size="40" maxlength="3" value="10">
+					
+					
+					<a href="#">
+						<img src="images/add.png" width="30" alt="add more" onClick="addMore();">
+					</a>
+					
+				</div>
+			
+				<br><br>
+					<button class="btn_index" style="float:right; margin:-25px 10px 0px 0px;" onClick="submitForms();" id="submitButton">Submit</button>
+					<div id="progressbar" style="display:none; height: 20px; margin-top: 5px;"></div>
+				<br>
+		
+		
+		
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MYWorld2015 Analytics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link type="text/css" href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="assets/css/bootstrap-responsive.css" rel="stylesheet" />    
+	<!-- <link type="text/css" href="assets/css/reset.css"> -->
+  	<!-- <link type="text/css" href="assets/css/default.css"> -->
+
+	<link type="text/css" href="assets/css/style.css" rel="stylesheet" />
+	<!-- <link type="text/css" href="assets/css/counter.css" rel="stylesheet" /> -->
+	<link rel="shortcut icon" href="assets/img/favicon.png" />
+
+	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/lib/flot/excanvas.min.js"></script><![endif]-->
+ 	<script type="text/javascript" src="assets/js/lib/jquery.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/lib/jquery.tablesorter.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/lib/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="assets/js/lib/flot/jquery.flot.pie.js"></script>
+	
+</head>
+<body>
+<!-- 	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37373455-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ -->
+
+	<div class="container" id="container">
+		<div class="navbar">
+		  <div class="navbar-inner">
+		    <a class="brand" href="#"><img src="assets/img/small-logo.png" alt="" /></a>
+		    <ul class="nav pull-right">
+		    	<li>Version: 0.1</li>
+		    	<!-- <li class="pull-right"><a href="http://www.myworld2015.org/">MYWorld Website</a></li> -->
+		    </ul>
+		  </div>
+		</div>
+		<div class="row" id="summary">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Overview</h1>
+			</div>
+			<div class="span4">
+				<h2 class="graph-title">Total Votes</h2>
+				<div id="total">Loading...</div>
+				<div id="update"></div>
+			</div>
+			<div class="span2">
+				<h2 class="graph-title">Gender</h2>
+				<div id="d-gender" class="graph">Loading Data...</div>
+			</div>
+			<div class="span2">
+				<h2 class="graph-title">Age</h2>
+				<div id="d-age" class="graph">Loading Data...</div>
+			</div>
+			<div class="span2">
+				<h2 class="graph-title">Education</h2>
+				<div id="d-education" class="graph">Loading Data...</div>
+			</div>
+			<div class="span2">
+				<h2 class="graph-title">HDI</h2>
+				<div id="d-hdi" class="graph">Loading Data...</div>
+			</div>									
+		</div>
+		<hr>
+		<hr>
+
+		<div class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Segments</h1>
+			</div>
+			<div class="span4">
+				<form>
+				  <!-- <input class="target" type="text" value="Field 1" /> -->
+				    <label for="s-hdi">HDI</label>
+				  <select id="s-hdi" class="target">
+				    <option value="0" selected="selected">All</option>
+				    <option value="1">Low</option>
+				    <option value="2">Medium</option>
+				    <option value="3">High</option>
+				    <option value="4">Very High</option>
+				  </select>
+
+			    <label for="s-hdi">Country</label>
+				  <select id="s-country" class="target">
+				    <option value="0" selected="selected">All</option>
+				  </select>
+
+				  <label for="s-gender">Gender</label>
+				  <select id="s-gender" class="target">
+				    <option value="0" selected="selected">All</option>
+				    <option value="1">Male</option>
+				    <option value="2">Female</option>
+				  </select>
+
+				  <label for="s-age">Age Group</label>				  
+				  <select id="s-age" class="target">
+				    <option value="0" selected="selected">All</option>
+				    <option value="1">&le;34</option>
+				    <option value="2">35-54</option>
+				    <option value="3">&ge;55</option>
+				  </select>
+
+				  <label for="s-edu">Education</label>	
+  				  <select id="s-edu" class="target">
+				    <option value="0" selected="selected">All</option>
+				    <option value="1">Some Primary</option>
+				    <option value="2">Finished Primary</option>
+				    <option value="3">Finished Secondary</option>
+				    <option value="4">Beyond Secondary</option>
+				  </select>
+				</form>
+			</div>
+			<div class="span8" id="segment-title">
+				<span id="segmentv1" class="highlight">Loading...</span> votes for
+				<span id="segmentv6" class="highlight">All Countries</span>,
+				<span id="segmentv2" class="highlight">All</span> HDI, 
+				<span id="segmentv3" class="highlight">All</span> Gender, 
+				<span id="segmentv4" class="highlight">All</span> Age Group, 
+				<span id="segmentv5" class="highlight">All</span> Education.
+			 </div>
+			<!-- <div class="span8">Rankings</div> -->
+			<div class="span4">
+				<table class="table table-striped">
+					<thead>
+				<tr>
+<!-- 				<th class="span1"style="text-align:left">#</th>
+					<th class="span1"></th>
+					<th class="span10">Title</th> -->
+				</tr>
+				</thead>
+				<tbody id="rankings">
+				</tbody>
+				</table>	
+			</div>
+			<div class="span4">
+				<table class="table table-striped">
+					<thead>
+				<tr>
+<!-- 				<th class="span1" style="text-align:left">#</th>
+					<th class="span1"></th>
+					<th class="span10">Title</th> -->
+				</tr>
+				</thead>
+				<tbody id="rankings2">
+				</tbody>
+				</table>	
+			</div>
+			<!-- <div class="span3">a</div> -->
+			<!-- <div class="span3">a</div> -->
+
+		</div>
+
+		<hr>
+
+		<div class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Countries</h1>
+			<table id="table-country" class="tablesorter table table-bordered table-striped">			
+				<thead>
+				<tr>
+					<th class="span2" style="text-align:left">Country</th>
+					<th class="span1">HDI</th>
+					<th class="span1">Votes</th>
+					<th class="span1">Votes%</th>
+					<th class="span1">Male</th>
+					<th class="span1">Female</th>
+					<th class="span1">&le;34</th>
+					<th class="span1">35-54</th>
+					<th class="span1">&ge;55</th>
+					<th class="span1">Some Primary</th>
+					<th class="span1">Finished Primary</th>
+					<th class="span1">Finished Secondary</th>
+					<th class="span1">Beyond Secondary</th>
+					<!-- <th>Priority</th> -->
+				</tr>
+				</thead>
+				<tbody id="countrylist">
+																																		
+				</tbody>
+
+			</table>
+			</div>
+		</div>
+
+		<hr>
+
+
+
+<!-- 		<div class="row">
+			<div class="span12">
+			<h1 class="section-title navbar-inner">Priorities</h1>
+			</div>
+		</div> -->
+
+
+		<div id="footer">
+			<!-- <hr class="dark" /> -->
+			<div class="pull-right"><a href="http://seedscientific.com"><img src="assets/img/seed.png" alt="" /></a></div>
+			<!-- <p id="copy">&copy; 2013 MyWorld.org</p> -->
+	</div>
+
+		
+
+	<script type="text/javascript" src="assets/js/script.js"></script>	
+
+</body>
+</html>

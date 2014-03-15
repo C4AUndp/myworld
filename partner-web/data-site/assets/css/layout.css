@@ -1,0 +1,587 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .main-wrap {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        min-width: 320px !important;
+        width: 100%;
+    }
+
+    .logo-wrap img {
+        float: none !important;
+        margin: 0 auto;
+    }
+
+    .langs-list {
+        float: none !important;
+        margin: 30px auto !important;
+        width: 525px;
+    }
+
+    .langs-list li:first-child {
+        margin-left: 0 !important;
+    }
+
+    .top-social-list {
+        float: none !important;
+        margin: 20px auto 0 auto;
+        width: 255px;
+    }
+
+    .top-social-list li {
+        margin-right: 20px;
+    }
+
+    #top-button-6 a, #top-button-6 {
+        margin-right: 0 !important;
+    }
+
+    .info-wrap {
+        width: 100% !important;
+        border: none !important;
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    #teaser-content {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .teaser-wrap {
+        margin: 0 0 20px 0 !important;
+        width: 100% !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        text-align: center;
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+
+    .vote-info-wrap {
+        margin-top: 30px !important;
+        padding: 0 !important;
+    }
+
+    .vote-info-wrap article {
+        margin-bottom: 20px;
+        padding: 0 30px 20px 30px;
+        border-bottom: dotted 2px #9cc1eb;
+    }
+
+    .celebrities-list li {
+        float: none !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+    }
+
+    .celebrities-list .item a {
+        width: 100% !important;
+    }
+
+    .support-list {
+        width: 100.6% !important;
+    }
+
+    .vote-header-wrap, .about-wrap, .page-wrap header {
+        margin: 0 0 20px 0 !important;
+        width: 100% !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        text-align: center;
+    }
+
+    .vote-header-wrap p {
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+
+    #vote-form {
+        width: 100% !important;
+    }
+
+    .accordion {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .accordion h3 {
+        font-size: 16px !important;
+    }
+
+    .accordion p {
+        margin-right: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .check-wrap {
+        display: none !important;
+    }
+
+    .priority-wrap {
+        margin-top: 30px !important;
+        margin-bottom: 0 !important;
+    }
+
+    #priority-item-content-wrap {
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .dropdowns-wrap {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .dropdowns-wrap-inner {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        font-size: 16px !important;
+    }
+
+    #dropdowns-content {
+        font-size: 16px !important;
+    }
+
+    #dropdowns-title {
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        line-height: 24px;
+    }
+
+    .partners {
+        margin-top: 50px !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    #gender-dropdown, #age-dropdown, #countries-dropdown {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        color: #000000 !important;
+    }
+
+    .partners-list {
+        margin: 30px auto 0 auto !important;
+        width: 385px !important;
+    }
+
+    .date {
+        margin-bottom: 10px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .partners-list li {
+        margin: 0 20px 30px 20px !important;
+    }
+
+    .footer-wrap a {
+        display: block;
+        margin: 0 !important;
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .thank-you-wrap {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .thank-you-img-wrap, .thank-you-why h3, .thank-you-join a, .thank-you-vote {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .social-list {
+        margin: 20px auto !important;
+        width: 217px !important;
+    }
+
+    #thank-you-img {
+        margin: 0 auto !important;
+    }
+
+    .thank-you-why h3 img, .thank-you-join a img {
+        padding-left: 20px !important;
+    }
+
+    .page-wrap {
+        width: 100% !important;
+        padding: 30px 20px !important;
+    }
+
+    #thank-you-title, .page-wrap header {
+        font-size: 22px !important;
+    }
+
+    .page-wrap article {
+        font-size: 14px !important;
+    }
+
+    .page-wrap header {
+        margin-left: -25px !important;
+        width: 110% !important;
+    }
+
+    .accordion h3 .check-img-mobile {
+        display: block !important;
+    }
+
+    .accordion h3 a {
+        width: 90% !important;
+    }
+
+    #thank-you-why-content {
+        margin-left: 10px !important;
+        width: 95% !important;
+    }
+
+    #thank-you-why {
+        width: 80% !important;
+    }
+
+    .top-wrap .top-list {
+        margin: 0 auto;
+        padding-left: 20px;
+        width: 100% !important;
+    }
+
+    .column, .columns {
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-logo {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 70px;
+    }
+
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve,
+	.thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty, .twentyone, .twentytwo, .twentythree, .twentyfour {
+        width: 100%;
+    }
+
+    #timeline-content {
+        padding-bottom: 20px;
+        margin-top: 0 !important;
+        width: 100% !important;
+        padding-left: 25px !important;
+    }
+
+    .celebrities-wrap {
+        width: 100% !important;
+        border: none !important;
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    .about-list li {
+        float: none !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .support-list {
+        width: 100% !important;
+    }
+
+    #worldmap {
+        display: none !important;
+    }
+
+    .celebrity-map {
+        display: none !important;
+    }
+
+    .celebrity-only {
+        display: block;
+    }
+
+    .number {
+        display: none !important;
+    }
+
+    .ballot-page-vote-wrap {
+        width: 380px !important;
+    }
+
+    .ballot-page-vote-wrap .inner {
+        background-position: center center !important;
+    }
+
+    #thank-you-title {
+        margin-left: 30px !important;
+    }
+
+    #vote-again, #vote-again-link {
+        text-align: left !important;
+    }
+
+    .social-info {
+        padding-left: 0 !important;
+    }
+
+    #thank-you-share-title, .social-title-list, .share-vote, .social-list, #stay-in-touch, #your-email-address {
+        margin-left: 18px !important;
+    }
+
+    #share-btn {
+        margin: -33px 0 0 10px !important;
+        width: 360px !important;
+        text-align: center;
+        display: block;
+    }
+
+    .email-sent {
+        margin-left: 10px;
+    }
+
+    .tooltip {
+        text-align: left !important;
+    }
+
+    .thank-you-why {
+        margin-bottom: 20px !important;
+    }
+
+    .arrow {
+        margin-left: 25px;
+    }
+
+	/* Multilingula fixes */
+    .fr #thank-you-why {
+        padding-top: 10px;
+    }
+
+    .ru #thank-you-why {
+        padding-top: 10px;
+    }
+
+    .kr #thank-you-why {
+        padding-top: 10px;
+    }
+
+    .th #thank-you-why {
+        padding-top: 10px;
+    }
+
+	/* End of Multilingula fixes */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .accordion h3 a {
+        padding-top: 5px !important;
+        width: 80% !important;
+    }
+
+    #thank-you-img {
+        width: 90% !important;
+    }
+
+    .langs-list {
+        float: none !important;
+        margin: 10px auto !important;
+        padding: 0 0 0 10px !important;
+    }
+
+    .langs-list li {
+        margin-left: 5px !important;
+    }
+
+    .logo-wrap {
+        padding-left: 0 !important;
+    }
+
+    .logo-wrap img {
+        padding: 0 !important;
+        width: 220px !important;
+    }
+
+    #submit-btn {
+        padding-left: 70px !important;
+        width: 262px !important;
+        background-image: url('../img/vote.png') !important;
+    }
+
+    .partners-list {
+        margin: 30px auto 0 auto !important;
+        width: 220px !important;
+    }
+
+    .partners-list li {
+        margin: 0 20px 30px 13px !important;
+    }
+
+    #gender-dropdown, #age-dropdown, #countries-dropdown {
+        display: block !important;
+        float: none !important;
+    }
+
+    .mobile-langs {
+        display: block;
+    }
+
+    .mobile-langs ul {
+        margin: 10px auto 0 auto;
+        width: 211px;
+    }
+
+    .mobile-langs li {
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .langs-list {
+        display: none;
+    }
+
+    .accordion article p {
+        padding-right: 10px !important;
+        padding-left: 67px !important;
+    }
+
+    .accordion a {
+        padding-left: 7px !important;
+    }
+
+    #thank-you-why {
+        padding-top: 0 !important;
+        width: 70% !important;
+    }
+
+    .about-logo {
+        display: block;
+        margin: 0 auto 0 auto !important;
+        width: 60px;
+    }
+
+    .top-wrap .top-list {
+        margin: 0 auto;
+        padding-left: 20px;
+        width: 100% !important;
+    }
+
+    .top-wrap .top-list li {
+        float: none !important;
+    }
+
+    .top-wrap .top-list li a {
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .top-small-logo {
+        display: none;
+        margin: 0 auto 0 auto !important;
+        padding: 10px 0 10px 0;
+    }
+
+    #more-btn {
+        float: none !important;
+        margin: 0 auto;
+    }
+
+    .top-social-list {
+        display: none;
+    }
+
+    #timeline-content {
+        padding: 10px 30px 30px 30px !important;
+        margin-top: 0 !important;
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    .page-wrap header {
+        margin-left: -25px !important;
+        width: 120% !important;
+    }
+
+    .page-contact-form input[type="text"], .page-contact-form textarea {
+        width: 100% !important;
+    }
+
+    #about-content-middle {
+        margin-bottom: 10px !important;
+    }
+
+    .support-list {
+        width: 101.8% !important;
+    }
+
+    .support-list li {
+        margin: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .celebrities-wrap {
+        padding-top: 0 !important;
+    }
+
+    #second-logo-label {
+        margin-top: -10px !important;
+    }
+
+    #worldmap {
+        display: none !important;
+    }
+
+    .celebrity-map {
+        display: none !important;
+    }
+
+    .celebrity-only {
+        display: block;
+    }
+
+    .thank-you-join a {
+        height: 85px !important;
+    }
+
+    .thank-you-join span {
+        width: 72% !important;
+    }
+
+    .kr .partners-list li:first-child {
+        margin-left: 60px !important;
+    }
+
+    .ballot-page-vote-wrap {
+        width: 270px !important;
+    }
+
+    .ballot-page-vote-wrap .inner {
+        background-size: cover;
+    }
+
+    .priority-text {
+        width: 80% !important;
+    }
+
+    .tooltip-text, .share-btn {
+        width: 270px !important;
+    }
+
+    #thank-you-title {
+        font-size: 18px !important;
+    }
+
+    #share-btn {
+        margin: -33px 0 0 10px !important;
+        width: 270px !important;
+    }
+}
