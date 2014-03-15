@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.0.8/d3.min.js"></script>
+	<style type="text/css">
+
+body {
+	padding: 0 20px 10px 20px;
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: rgb(37, 109, 201);
+}
+
+table {
+	border: 1px solid #ddd;
+	border-left: none;
+	border-top: none;
+}
+th, td {
+	padding: 2px 4px;
+	border: 1px solid #ddd;
+	border-right: none;
+	border-bottom: none;
+}
+td.graph-cell {
+	padding: 8px 0 0 0;
+}
+th {
+	background: #eee;
+}
+
+.bar rect {
+	fill: rgb(46, 112, 150);
+}
+.bar .label {
+	font-size: 11px;
+	font-weight: bold;
+	display: none;
+}
+.bar:hover .label {
+	display: block;
+}
+.meanMarker {
+	stroke: rgb(255, 131, 61);
+	stroke-width: 3px;
+}
+
+.queries {
+	display: none;
+}
+
+	</style>
+</head>
+<body>
+
+<form>
+	<label><input type="textfield" size="30" placeholder="milliseconds" value="" id="upperbound" /> Upper bound (milliseconds)</label>
+	<input id="submitform" type="button" value="submit" />
+</form>
+
+<script>
+
+var data,
+	timeformat = d3.time.format("[%d/%b/%Y:%H:%M:%S +0000]"); // "[26/Mar/2013:21:50:45 +0000]"
+
+d3.json("logdata.php", function(err, json) {
+	if (err) {
+		alert("data error");
+		console.log(err);
+	}
+	else {
+		process(json);
+	}
+});
+
+d3.select("#submitform").on("click", function() {
+
+	options = {};
+	options.upperbound = parseInt(d3.select("#upperbound").property("value"));
+
+	draw(options);
+
+	return false;
+});
+
+function process(raw) {
+
+	data = {
+		groups: d3.map(),
+		stats: d3.map()
+	};
+
+	raw.forEach(function(d) {
+
+		for (var k in d) {
+			if (k == "time") { 
+				d[k] = timeformat.parse(d[k]); 
+				d[k].setHours(d[k].getHours()-4);
+			}
+			else if (k == "responseStatus") { }
+			else if (k == "path" || k == "queryString") { } 
+			else { d[k] = parseInt(d[k]); }
+		}
+
+		// transform response time
+		d.responseTime = d.responseTime / 1000;
+
+		if (!data.groups.has(d.path)) data.groups.set(d.path, { path: d.path, items: [] });
+		data.groups.get(d.path).items.push(d);
+
+	});
+
+	data.groups.values().forEach(function(g) {
+
+		g.numRequests = g.items.length;
+		g.percentRequests = Math.round((g.items.length / raw.length) * 100) + "%";		
+		g.meanResponseTime = Math.round(d3.mean(g.items, function(d) { return d.responseTime; }));
+		g.extent = d3.extent(g.items, function(d) { return d.responseTime; });
+
+		g.abortedConnections = 0;
+		g.items.forEach(function(gi) {
+			if (gi.responseStatus == "X") g.abortedConnections++;
+		});
+
+		// group by querystring
+		g.queries = d3.map();
+		g.items.forEach(function(i) {
+			var qs = (i.queryString.length > 0) ? i.queryString : "none";
+			if (!g.queries.has(qs)) g.queries.set(qs, { q: qs, count: 0, total: 0, min: null, max: null, mean: null });
+			var qsd = g.queries.get(qs);
+			qsd.count ++;
+			qsd.total += i.responseTime;
+			if (!qsd.min || qsd.min > i.responseTime) qsd.min = i.responseTime;
+			if (!qsd.max || qsd.max < i.responseTime) qsd.max = i.responseTime;			
+		});
+		g.queries.values().forEach(function(q) {
+			q.mean = Math.round(q.total / q.count);
+		});
+
+	});
+
+	data.stats.set("totalCount", raw.length);
+	data.stats.set("responseTimeExtent", d3.extent(raw, function(d) { return d.responseTime; }));
+	data.stats.set("timeExtent", d3.extent(raw, function(d) { return d.time; }));
+
+	draw({ });
+
+}
+
+function draw(options) {
+
+	console.log(data);
+
+	if (!options.upperbound) options.upperbound = data.stats.get("responseTimeExtent")[1];
+
+	var w = 800,
+		h = 50,
+		scales = {
+			x: d3.scale.linear().domain([ 0, options.upperbound ]).range([ 5, w-5 ]),
+			y: d3.scale.linear().range([ 0, h ])
+		};
+
+	d3.select("#draw").remove();
+
+	var container = d3.select("body").append("div").attr("id", "draw");
+
+	container.append("div").text("Total: " + data.stats.get("totalCount"));
+	container.append("div").text("From: " + data.stats.get("timeExtent")[0]);
+	container.append("div").text("To: " + data.stats.get("timeExtent")[1]);
+
+	var table = container.append("table")
+		.attr("id", "datatable")
+		.attr("border", 0)
+		.attr("cellspacing", 0)
+		.attr("cellpadding", 0);
+
+	table.append("tr").each(function() {
+			d3.select(this).append("th").text("path");
+			d3.select(this).append("th").text("#");
+			d3.select(this).append("th").text("abort");
+			d3.select(this).append("th").text("%");
+			d3.select(this).append("th").text("Mean response");
+			d3.select(this).append("th").text("Responses");
+		});
+
+	var groups = table.selectAll(".group")
+		.data(data.groups.values().sort(function(a,b) { return b.meanResponseTime - a.meanResponseTime; }))
+		.enter()
+			.append("tr")
+				.attr("class", "group")
+				.each(function(d) { 
+
+					d3.select(this).append("td").text(d.path);
+					d3.select(this).append("td").text(d.numRequests);
+					d3.select(this).append("td").text(function() { return (d.abortedConnections > 0) ? d.abortedConnections : null; });
+					d3.select(this).append("td").text(d.percentRequests);
+					d3.select(this).append("td").text(d.meanResponseTime);
+
+					var graphContainer = d3.select(this).append("td")
+						.attr("class", "graph-cell");
+
+					var graph = graphContainer.append("svg").attr("class", "graph").attr("width", w).attr("height", h+15);
+
+					var histogram = d3.layout.histogram()
+						.bins(scales.x.ticks(100))
+						.value(function(d) { return d.responseTime; })
+						(d.items);
+
+					scales.y.domain([0, d3.max(histogram, function(d) { return d.y; }) ]);
+
+					var bars = graph.selectAll(".bar")
+									.data(histogram)
+									.enter()
+									.append("g")
+										.attr("class", "bar")
+										.attr("transform", function(d) {
+											return "translate(" + scales.x(d.x) + "," + (h - scales.y(d.y) - 1) + ")"; 
+										});
+
+					bars.append("rect")
+						.attr("x", 1)
+						.attr("width", scales.x(histogram[0].dx) - 1)
+						.attr("height", function(d) { return (d.y > 0) ? scales.y(d.y)+1 : 0; });
+
+					bars.append("text")
+						.attr("class", "label")
+						.attr("x", 1)
+						.attr("y", function(d) { return scales.y(d.y) + 12; })
+						.text(function(d) { return (d.y > 0) ? d.y : null; });
+
+					graph.append("line")
+						.attr("x1", scales.x(d.meanResponseTime))
+						.attr("x2", scales.x(d.meanResponseTime))
+						.attr("y1", 0)
+						.attr("y2", h)
+						.attr("class", "meanMarker");
+
+					if (d.queries.values().length > 1) {						
+						var sorted = d.queries.values().sort(function(a,b) { return b.mean - a.mean; });
+						$(graphContainer[0]).append("<br /><a href='#'>"+d.queries.values().length+" queries</a>")
+							.click(function() { $(this).parent().find(".queries").toggle(); return false; });
+						$(graphContainer[0]).append(drawTable(sorted, ["q", "mean", "count"], "queries"));
+					}
+
+				});
+
+}
+
+function drawTable(arr, headers, cls) {
+
+	var table = $("<table class='"+cls+"' cellspacing='0' cellpadding='0' border='0'></table>");
+
+	if (!headers) {
+		headers = ["#"];
+		for(k in arr[0]) {
+			headers.push(k);
+		}
+	}
+
+
+	var tr = $("<tr></tr>");
+	for (h in headers) {
+		tr.append("<th>"+headers[h]+"</th>");
+	}
+	table.append(tr);
+
+	for(i in arr) {
+		var row = arr[i];
+		var tr = $("<tr></tr>");
+		for (h in headers) {
+			var val = row[headers[h]];
+			tr.append("<td>"+val+"</td>");
+		}
+		table.append(tr);
+	}
+
+	return table;
+
+}
+
+</script>
+</body>
+</html>

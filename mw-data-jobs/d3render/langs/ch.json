@@ -1,0 +1,1229 @@
+{
+	"html_values"    : {
+		"timeline-content"         : "联合国及其合作伙伴希望听到你的心声！”我的世界”是一个全球性的调查，请您选择使世界更美好的优先事项。调查结果将提供给世界各国领袖人，供制定未来全球发展议程时参考。请把你想要的世界告诉我们，因为你心声很重要。",
+		"about-item"               : "关于‘我的世界’ ",
+		"who-we-are-item"          : "我们是谁",
+		"how-it-works-item"        : "运作方式",
+		"faq-item"                 : "常见问题",
+		"see-results-item"         : "查看结果",
+		"partners-item"            : "合作单位",
+		"blog-item"                : "新闻和博客",
+		"about-btn"                : "关于",
+		"contact-item"             : "联络我们",
+		"methodology-item"         : "方法",
+		"teaser-content"           : "选出最能改善 <br> 世界的改变",
+		"teaser-content-b"         : "选出最能改善 世界的改变",
+		"logo-teaser"              : "你来选择。你的世界。",
+		"vote-header"              : "这里哪些对你和你的家人是最重要的?&nbsp;&nbsp;<span style='font-weight:bold'>选出六项</span>",
+		"section-one-date"         : "2000",
+		"section-one-title"        : "千年发展目标",
+		"section-one-content"      : "世界领袖同意消除极度贫困的八项目标，这些目标将于2015年到期。我们已经取得重大进展，但是仍然任重而道远。",
+		"section-two-date"         : "现在",
+		"section-two-title"        : "现在投票： 提出你的意见",
+		"section-two-content"      : "从现在起到2015年，你可以把希望看到的改变告诉我们，帮助制定未来一整套全球目标。",
+		"section-three-date"       : "2015",
+		"section-three-title"      : "2015年我们想要的世界",
+		"section-three-content"    : "我们共同携手制定建立我们想要的2015年后世界的路线图。这一路线图集中处理最能够改变我们生活的问题。 ",
+		"celebrities-title"        : "看还有谁投了票",
+		"celebrities-title-small"  : "看还有谁投了票",
+		"priority-item-title"      : "提议优先目标 (可选)",
+		"side-title"               : "我的优先目标",
+		"side-count-more"          : "再选 <span id='side-count-more-id'>6</span> 项",
+		"dropdowns-title"          : "最后，请简单自我介绍",
+		"dropdowns-content"        : "投票是匿名的，但是这些基本个人资料可以帮助我们更了解你。",
+		"dropdowns-oath"           : "通过填写这个表格，我承诺这是我对我的世界全球调查的唯一投票。<br/> 我不会投票超过一次。",
+		"dropdowns-gender-label"   : "我是",
+		"dropdowns-age-label"      : ", 年龄",
+		"dropdowns-country-label"  : ", 居住于",
+		"dropdowns-education-label": "我的教育水平是",
+		"about-title"              : "关于 “我的世界”",
+		"about-content"            : "“我的世界”是联合国对各国人民的全球性调查。我们与各合作伙伴合作，希望能够捕捉到人们的心声，优先事项和意见，以提供世界各国领导人开始制定未来消消除贫困的一整套全球目标进程时作为参考。",
+		"about-content-middle"     : "欲加入全球对话和2015 年后的讨论，请到：",
+		"partners-title"           : "“我的世界”的制作单位：",
+		"thank-you-title"          : "祝贺你您告诉了我们您所<strong>关注</strong>的事情！",
+		"thank-you-share"          : "分享",
+		"thank-you-share-text"     : "个人定做的理想世界图。<br/>与朋友分享，协助创造理想世界的愿景。",
+		"thank-you-why"            : "请解释你的投票原因 （可选）",
+		"thank-you-join"           : "到 worldwewant2015.org 网站参加对话",
+		"validation-message"       : "选择六项优先事项并请您在投票前提供您的性别、年龄、国家和受教育水平。",
+		"thank-you-vote"           : "谢谢你提供选投原因。",
+		"more-btn"                 : "全球合作伙伴的支持",
+		"first-logo-label"         : "联合国",
+		"second-logo-label"        : "海外发展 <br> 研究所",
+		"third-logo-label"         : "万维网 <br> 基金会",
+		"fourth-logo-label": "Ipsos Mori",
+		"captcha-info"             : "本问题将测试访客是否为人类，防止自动发送的垃圾邮件。",
+		"contact-validation-msg"   : "请填写所有必填项目。",
+		"captcha-error-msg"        : "验证码无效。",
+		"worldmap-title"           : "目前为止投票数 <ul class='horizontal'><li>国家</li><li id='cnumber-small'>载入中</li></ul>",
+		"worldmap-update"          : "地图每 <span class='minutes'>2</span> 分钟更新。",
+		"worldmap-title-thanku"    : "<ul class='horizontal'><li>国家</li><li id='cnumber'>载入中</li></ul>",
+		"worldmap-update-thanku"   : "地图每 <span class='minutes'>2</span> 分钟更新。",
+		"check-to-vote-text"       : "打勾投票",
+        "click-for-details-text"   : "点击查看详情",
+        "langs-wrap-label"         : "语言：",
+        "people-from"              : "人们来自",
+        "countries-vote"           : "投票的国家"
+	},
+	"accordion_items": {
+		"1" : {
+			"prefix"      : "first",
+			"item-color"  : "#E8168B",
+			"item-title"  : "更好的工作机会",
+			"item-content": "这意味着政府和私营企业都应该更加努力确保人人都能找到工资合宜的工作，能够有所贡献，感觉作为有用的社会一员而受到重视。"
+		},
+		"2" : {
+			"prefix"      : "second",
+			"item-color"  : "#47C0BE",
+			"item-title"  : "良好的教育",
+			"item-content": "这意味着所有儿童都应该拥有高质量的小学和中学教育，以使他们具备就业和美好生活的技能。各国政府和私营企业应共同努力，为成年人提供终身学习和技能发展的机会。"
+		},
+		"3" : {
+			"prefix"      : "third",
+			"item-color"  : "#CA3A28",
+			"item-title"  : "更好的医疗服务",
+			"item-content": "这意味着在需要接受治疗时，人人都能获得品质优良的医疗服务 。我们应努力减少传染病和其他慢性疾病的影响。医疗系统的资金和组织应适合国家及其人民的需求。"
+		},
+		"4" : {
+			"prefix"      : "fourth",
+			"item-color"  : "#B0D256",
+			"item-title"  : "经济实惠并富有营养的食物",
+			"item-content": "这意味着每个人都能获得他们所需要的食物。世界上不应有任何人长期挨饿或营养不良，尤其是孕妇和低于两岁的儿童。"
+		},
+		"5" : {
+			"prefix"      : "fifth",
+			"item-color"  : "#233884",
+			"item-title"  : "救济无力工作人士",
+			"item-content": "这意味着每个人都应该能通过就业或政府救济而有足够的生活资金。当人无法工作，或受到其他如自然灾害或经济危机的影响，各国政府应确保他们和他们的家人不会挨饿，孩子们不会辍学，他们可以获得所需的医疗保健和其他不可或缺的服务。"
+		},
+		"6" : {
+			"prefix"      : "sixth",
+			"item-color"  : "#7CB5D6",
+			"item-title"  : "获取电话和互联网",
+			"item-content": "这意味着政府和私营企业应确保每个人都有机会使用最低水平的通信技术，以获取在线信息和参与社交网络。"
+		},
+		"7" : {
+			"prefix"      : "seventh",
+			"item-color"  : "#97D3C9",
+			"item-title"  : "获取干净的水和卫生设施",
+			"item-content": "这意味着每个人都应该可以获取安全的水，用来饮用、烹饪和洗涤，并可获取卫生设施。"
+		},
+		"8" : {
+			"prefix"      : "eighth",
+			"item-color"  : "#A01C40",
+			"item-title"  : "家用的可靠能源",
+			"item-content": "这意味着所有的家庭成员都应在家获得可靠并且负担得起的电力或其他能源，以供照明、取暖和烹饪。更多的能量应以可持续性方式生产。"
+		},
+		"9" : {
+			"prefix"      : "nineth",
+			"item-color"  : "#71BE45",
+			"item-title"  : "森林、河川和海洋的保护",
+			"item-content": "这意味着自然资源应受到照顾，因为人类依赖大自然获取食物、燃料和其他资源。各国政府应达成共识，计划减少海洋河川的污染，垦殖新森林并维护现有森林，迈向可持续性的农业和粮食系统。全球性协议应保护生物多样性和脆弱的生态系统。"
+		},
+		"10": {
+			"prefix"      : "tenth",
+			"item-color"  : "#FCB749",
+			"item-title"  : "对气候变化采取的行动",
+			"item-content": "这意味着各国政府应接受有约束力的承诺，降低二氧化碳的排放量，以保持全球气温上升低于摄氏两度的水平，并投资于特别是涉及弱势群体的适应措施。"
+		},
+		"11": {
+			"prefix"      : "eleventh",
+			"item-color"  : "#2DA9E1",
+			"item-title"  : "诚实并应对灵活的政府",
+			"item-content": "这意味着政府应该有效率、透明、负责而不腐败。人民应该对政府的首要任务有发言权，并且有信心政府有能力胜任落实这些优先事项。各国政府应同意并实施标准，将公共开支的信息提供给所有人民。"
+		},
+		"12": {
+			"prefix"      : "twelveth",
+			"item-color"  : "#723390",
+			"item-title"  : "政治自由",
+			"item-content": "这意味着每个人都应该能通过投票、成立政党或加入政党的方式在本国的政治进程中发挥作用。人民应该能够行使言论自由，包括通过自由的媒体。人民应该能够加入和参加工会和民间社会的所有层面，包括各种形式的公民参与和志愿行动。"
+		},
+		"13": {
+			"prefix"      : "thirteenth",
+			"item-color"  : "#387195",
+			"item-title"  : "防范犯罪和暴力",
+			"item-content": "这意味着所有的人都应该期盼所生活的社区能保护他们免于犯罪和暴力的威胁。这应该包括防治对妇女和女童的家庭暴力和性侵犯。每个受害人都应该能够通过法院或其他系统讨回公道。"
+		},
+		"14": {
+			"prefix"      : "fourteenth",
+			"item-color"  : "#C84699",
+			"item-title"  : "男女平等",
+			"item-content": "这意味着男女应该有相同的权利和机会。男孩和女孩应该享有平等的入学机会和质量同等的教育；男女应该具有相等的机会入选国会，参与政治和社会生活的机会相等，并且在工作​​场所享有相同的机会和奖励。"
+		},
+		"15": {
+			"prefix"      : "fifteenth",
+			"item-color"  : "#DEC0CA",
+			"item-title"  : "免于歧视和迫害",
+			"item-content": "这意味着世界上不应该有任何人会因为其种族、民族、宗教、残疾、性取向或因任何其他原因而受到经济、社会和政治机会的限制。任何人都不应该因为以上的原因而担心他们的人身安全。"
+		},
+		"16": {
+			"prefix"      : "sixteenth",
+			"item-color"  : "#FBE792",
+			"item-title"  : "更好的交通和道路",
+			"item-content": "这意味着运输和道路应加以改善，使人们可以自由移动，能够轻松地探访他们的朋友和家人，寻找新的经济机会，并使用他们所需要的服务。"
+		}
+	},
+	"celebrities"    : {
+		"1": {
+			"image_src": "Diana.png",
+			"content"  : "<span style='font-weight: bold;'>Diana</span><br><span>女, 22</span><br><span>古巴</span>",
+			"globe_src": "Globe_diana.png",
+			"supports" : [
+				"tenth",
+				"nineth",
+				"second",
+				"twelveth",
+				"first",
+				"fourteenth"
+			]
+		},
+		"2": {
+			"image_src": "myworld_arda.png",
+			"content"  : "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>女, 32</span><br><span>哈萨克斯坦</span>",
+			"globe_src": "Globe_arda.png",
+			"supports" : [
+				"third",
+				"nineth",
+				"fourth",
+				"second",
+				"eleventh",
+				"fourteenth"
+			]
+		},
+		"3": {
+			"image_src": "myworld_anjana.png",
+			"content"  : "<span style='font-weight: bold;'>Anjana</span><br><span>女, 25</span><br><span>尼泊尔</span>",
+			"globe_src": "Globe_anjana.png",
+			"supports" : [
+				"third",
+				"second",
+				"seventh",
+				"thirteenth",
+				"first",
+				"fourteenth"
+
+			]
+		},
+		"4": {
+			"image_src": "Sonal.png",
+			"content"  : "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>女, 25</span><br><span>坦桑尼亚</span>",
+			"globe_src": "Globe_sonal.png",
+			"supports" : [
+				"third",
+				"tenth",
+				"nineth",
+				"fourth",
+				"second",
+				"seventh"
+			]
+		},
+		"5": {
+			"image_src": "Uma.png",
+			"content"  : "<span style='font-weight: bold;'>Uma</span><br><span>女, 23</span><br><span>澳大利亚</span>",
+			"globe_src": "Globe_uma.png",
+			"supports" : [
+				"third",
+				"second",
+				"thirteenth",
+				"eleventh",
+				"twelveth",
+				"fourteenth"
+			]
+		},
+		"6": {
+			"image_src": "Sebastian.png",
+			"content"  : "<span style='font-weight: bold;'>Sebastian</span><br><span>男, 28</span><br><span>奥地利</span>",
+			"globe_src": "Globe_sebastian.png",
+			"supports" : [
+				"nineth",
+				"fourth",
+				"second",
+				"thirteenth",
+				"sixth",
+				"eleventh"
+
+			]
+		},
+		"7": {
+			"image_src": "myworld_juanita.png",
+			"content"  : "<span style='font-weight: bold;'>Juanita</span><br><span>女, 29</span><br><span>加拿大</span>",
+			"globe_src": "Globe_juanita.png",
+			"supports" : [
+				"third",
+				"second",
+				"seventh",
+				"thirteenth",
+				"first",
+				"fourteenth"
+			]
+		},
+		"8": {
+			"image_src": "robert.png",
+			"content"  : "<span style='font-weight: bold;'>Robert</span><br><span>男, 21</span><br><span>美国</span>",
+			"globe_src": "robert_globe.png",
+			"supports" : [
+				"tenth",
+				"sixteenth",
+				"fourth",
+				"second",
+				"first",
+				"fourteenth"
+			]
+		}
+	},
+	"fields_values"  : {
+		"education":
+			[
+				{
+					"id"  : "",
+					"name": "教育"
+				},
+				{
+					"id"  : "1",
+					"name": "一些小学教育"
+				},
+				{
+					"id"  : "2",
+					"name": "小学毕业"
+				},
+				{
+					"id"  : "3",
+					"name": "中学毕业"
+				},
+				{
+					"id"  : "4",
+					"name": "中学教育以上"
+				}
+			],
+		"gender"   : [
+			{
+				"id"  			: "",
+				"name"			: "性别",
+				"ballot_gender"	: "性别"
+			},
+			{
+				"id"  			: "1",
+				"name"			: "男",
+				"ballot_gender"	: "男"
+			},
+			{
+				"id"  			: "2",
+				"name"			: "女",
+				"ballot_gender"	: "女"
+			}
+		],
+		"age"      : [
+			{
+				"id"  : "",
+				"name": "年龄"
+			}
+		],
+		"countries": [
+			{
+				"id"  : "",
+				"name": "国籍"
+			},
+			{
+				"id"  : "1",
+				"name": "阿富汗"
+			},
+			{
+				"id"  : "2",
+				"name": "阿尔巴尼亚"
+			},
+			{
+				"id"  : "3",
+				"name": "阿尔及利亚"
+			},
+			{
+				"id"  : "4",
+				"name": "安道尔"
+			},
+			{
+				"id"  : "5",
+				"name": "安哥拉"
+			},
+			{
+				"id"  : "6",
+				"name": "安提瓜和巴布达"
+			},
+			{
+				"id"  : "7",
+				"name": "阿根廷"
+			},
+			{
+				"id"  : "8",
+				"name": "亚美尼亚"
+			},
+			{
+				"id"  : "9",
+				"name": "澳大利亚"
+			},
+			{
+				"id"  : "10",
+				"name": "奥地利"
+			},
+			{
+				"id"  : "11",
+				"name": "阿塞拜疆"
+			},
+			{
+				"id"  : "12",
+				"name": "巴哈马"
+			},
+			{
+				"id"  : "13",
+				"name": "巴林"
+			},
+			{
+				"id"  : "14",
+				"name": "孟加拉国"
+			},
+			{
+				"id"  : "15",
+				"name": "巴巴多斯"
+			},
+			{
+				"id"  : "16",
+				"name": "白俄罗斯"
+			},
+			{
+				"id"  : "17",
+				"name": "比利时"
+			},
+			{
+				"id"  : "18",
+				"name": "伯利兹"
+			},
+			{
+				"id"  : "19",
+				"name": "贝宁"
+			},
+			{
+				"id"  : "20",
+				"name": "不丹"
+			},
+			{
+				"id"  : "21",
+				"name": "玻利维亚"
+			},
+			{
+				"id"  : "22",
+				"name": "波斯尼亚和黑塞哥维那"
+			},
+			{
+				"id"  : "23",
+				"name": "博茨瓦纳"
+			},
+			{
+				"id"  : "24",
+				"name": "巴西"
+			},
+			{
+				"id"  : "25",
+				"name": "文莱达鲁萨兰国"
+			},
+			{
+				"id"  : "26",
+				"name": "保加利亚"
+			},
+			{
+				"id"  : "27",
+				"name": "布基纳法索"
+			},
+			{
+				"id"  : "28",
+				"name": "布隆迪"
+			},
+			{
+				"id"  : "29",
+				"name": "柬埔寨"
+			},
+			{
+				"id"  : "30",
+				"name": "喀麦隆"
+			},
+			{
+				"id"  : "31",
+				"name": "加拿大"
+			},
+			{
+				"id"  : "32",
+				"name": "佛得角"
+			},
+			{
+				"id"  : "33",
+				"name": "中非共和国"
+			},
+			{
+				"id"  : "34",
+				"name": "乍得"
+			},
+			{
+				"id"  : "35",
+				"name": "智利"
+			},
+			{
+				"id"  : "36",
+				"name": "中国"
+			},
+			{
+				"id"  : "37",
+				"name": "哥伦比亚"
+			},
+			{
+				"id"  : "38",
+				"name": "科摩罗"
+			},
+			{
+				"id"  : "39",
+				"name": "刚果"
+			},
+			{
+				"id"  : "40",
+				"name": "哥斯达黎加"
+			},
+			{
+				"id"  : "41",
+				"name": "科特迪瓦"
+			},
+			{
+				"id"  : "42",
+				"name": "克罗地亚"
+			},
+			{
+				"id"  : "43",
+				"name": "古巴"
+			},
+			{
+				"id"  : "44",
+				"name": "塞浦路斯"
+			},
+			{
+				"id"  : "45",
+				"name": "捷克共和国"
+			},
+			{
+				"id"  : "46",
+				"name": "朝鲜民主主义人民共和国"
+			},
+			{
+				"id"  : "47",
+				"name": "刚果民主共和国"
+			},
+			{
+				"id"  : "48",
+				"name": "丹麦"
+			},
+			{
+				"id"  : "49",
+				"name": "吉布提"
+			},
+			{
+				"id"  : "50",
+				"name": "多米尼克"
+			},
+			{
+				"id"  : "51",
+				"name": "多米尼加共和国"
+			},
+			{
+				"id"  : "52",
+				"name": "厄瓜多尔"
+			},
+			{
+				"id"  : "53",
+				"name": "埃及"
+			},
+			{
+				"id"  : "54",
+				"name": "萨尔瓦多"
+			},
+			{
+				"id"  : "55",
+				"name": "赤道几内亚"
+			},
+			{
+				"id"  : "56",
+				"name": "厄立特里亚"
+			},
+			{
+				"id"  : "57",
+				"name": "爱沙尼亚"
+			},
+			{
+				"id"  : "58",
+				"name": "埃塞俄比亚"
+			},
+			{
+				"id"  : "59",
+				"name": "斐济"
+			},
+			{
+				"id"  : "60",
+				"name": "芬兰"
+			},
+			{
+				"id"  : "61",
+				"name": "法国"
+			},
+			{
+				"id"  : "62",
+				"name": "加蓬"
+			},
+			{
+				"id"  : "63",
+				"name": "冈比亚"
+			},
+			{
+				"id"  : "64",
+				"name": "格鲁吉亚"
+			},
+			{
+				"id"  : "65",
+				"name": "德国"
+			},
+			{
+				"id"  : "66",
+				"name": "加纳"
+			},
+			{
+				"id"  : "67",
+				"name": "希腊"
+			},
+			{
+				"id"  : "68",
+				"name": "格林纳达"
+			},
+			{
+				"id"  : "69",
+				"name": "危地马拉"
+			},
+			{
+				"id"  : "70",
+				"name": "几内亚"
+			},
+			{
+				"id"  : "71",
+				"name": "几内亚比绍"
+			},
+			{
+				"id"  : "72",
+				"name": "圭亚那"
+			},
+			{
+				"id"  : "73",
+				"name": "海地"
+			},
+			{
+				"id"  : "74",
+				"name": "洪都拉斯"
+			},
+			{
+				"id"  : "75",
+				"name": "匈牙利"
+			},
+			{
+				"id"  : "76",
+				"name": "冰岛"
+			},
+			{
+				"id"  : "77",
+				"name": "印度"
+			},
+			{
+				"id"  : "78",
+				"name": "印度尼西亚"
+			},
+			{
+				"id"  : "79",
+				"name": "伊朗伊斯兰共和国"
+			},
+			{
+				"id"  : "80",
+				"name": "伊拉克"
+			},
+			{
+				"id"  : "81",
+				"name": "爱尔兰"
+			},
+			{
+				"id"  : "82",
+				"name": "以色列"
+			},
+			{
+				"id"  : "83",
+				"name": "意大利"
+			},
+			{
+				"id"  : "84",
+				"name": "牙买加"
+			},
+			{
+				"id"  : "85",
+				"name": "日本"
+			},
+			{
+				"id"  : "86",
+				"name": "约旦"
+			},
+			{
+				"id"  : "87",
+				"name": "哈萨克斯坦"
+			},
+			{
+				"id"  : "88",
+				"name": "肯尼亚"
+			},
+			{
+				"id"  : "89",
+				"name": "基里巴斯共和国"
+			},
+			{
+				"id"  : "90",
+				"name": "科威特"
+			},
+			{
+				"id"  : "91",
+				"name": "吉尔吉斯斯坦"
+			},
+			{
+				"id"  : "92",
+				"name": "老挝人民民主共和国"
+			},
+			{
+				"id"  : "93",
+				"name": "拉脱维亚"
+			},
+			{
+				"id"  : "94",
+				"name": "黎巴嫩"
+			},
+			{
+				"id"  : "95",
+				"name": "莱索托"
+			},
+			{
+				"id"  : "96",
+				"name": "利比里亚"
+			},
+			{
+				"id"  : "97",
+				"name": "利比亚"
+			},
+			{
+				"id"  : "98",
+				"name": "列支敦士登"
+			},
+			{
+				"id"  : "99",
+				"name": "立陶宛"
+			},
+			{
+				"id"  : "100",
+				"name": "卢森堡"
+			},
+			{
+				"id"  : "101",
+				"name": "马达加斯加"
+			},
+			{
+				"id"  : "102",
+				"name": "马拉维"
+			},
+			{
+				"id"  : "103",
+				"name": "马来西亚"
+			},
+			{
+				"id"  : "104",
+				"name": "马尔代夫"
+			},
+			{
+				"id"  : "105",
+				"name": "马里"
+			},
+			{
+				"id"  : "106",
+				"name": "马耳他"
+			},
+			{
+				"id"  : "107",
+				"name": "马绍尔群岛"
+			},
+			{
+				"id"  : "108",
+				"name": "毛里塔尼亚"
+			},
+			{
+				"id"  : "109",
+				"name": "毛里求斯"
+			},
+			{
+				"id"  : "110",
+				"name": "墨西哥"
+			},
+			{
+				"id"  : "111",
+				"name": "密克罗尼西亚联邦"
+			},
+			{
+				"id"  : "112",
+				"name": "摩纳哥"
+			},
+			{
+				"id"  : "113",
+				"name": "蒙古"
+			},
+			{
+				"id"  : "114",
+				"name": "黑山共和国"
+			},
+			{
+				"id"  : "115",
+				"name": "摩洛哥"
+			},
+			{
+				"id"  : "116",
+				"name": "莫桑比克"
+			},
+			{
+				"id"  : "117",
+				"name": "缅甸"
+			},
+			{
+				"id"  : "118",
+				"name": "纳米比亚"
+			},
+			{
+				"id"  : "119",
+				"name": "瑙鲁"
+			},
+			{
+				"id"  : "120",
+				"name": "尼泊尔"
+			},
+			{
+				"id"  : "121",
+				"name": "荷兰"
+			},
+			{
+				"id"  : "122",
+				"name": "新西兰"
+			},
+			{
+				"id"  : "123",
+				"name": "尼加拉瓜"
+			},
+			{
+				"id"  : "124",
+				"name": "尼日尔"
+			},
+			{
+				"id"  : "125",
+				"name": "尼日利亚"
+			},
+			{
+				"id"  : "126",
+				"name": "挪威"
+			},
+			{
+				"id"  : "127",
+				"name": "阿曼"
+			},
+			{
+				"id"  : "128",
+				"name": "巴基斯坦"
+			},
+            {
+                "id": "194",
+                "name": "Palestine (State of)"
+            },			
+			{
+				"id"  : "129",
+				"name": "帕劳"
+			},
+			{
+				"id"  : "130",
+				"name": "巴拿马"
+			},
+			{
+				"id"  : "131",
+				"name": "巴布亚新几内亚"
+			},
+			{
+				"id"  : "132",
+				"name": "巴拉圭"
+			},
+			{
+				"id"  : "133",
+				"name": "秘鲁"
+			},
+			{
+				"id"  : "134",
+				"name": "菲律宾"
+			},
+			{
+				"id"  : "135",
+				"name": "波兰"
+			},
+			{
+				"id"  : "136",
+				"name": "葡萄牙"
+			},
+			{
+				"id"  : "137",
+				"name": "卡塔尔"
+			},
+			{
+				"id"  : "138",
+				"name": "大韩民国"
+			},
+			{
+				"id"  : "139",
+				"name": "摩尔多瓦共和国"
+			},
+			{
+				"id"  : "140",
+				"name": "罗马尼亚"
+			},
+			{
+				"id"  : "141",
+				"name": "俄罗斯联邦"
+			},
+			{
+				"id"  : "142",
+				"name": "卢旺达"
+			},
+			{
+				"id"  : "143",
+				"name": "圣基茨和尼维斯"
+			},
+			{
+				"id"  : "144",
+				"name": "圣卢西亚"
+			},
+			{
+				"id"  : "145",
+				"name": "圣文森特和格林纳丁斯"
+			},
+			{
+				"id"  : "146",
+				"name": "萨摩亚"
+			},
+			{
+				"id"  : "147",
+				"name": "圣马力诺"
+			},
+			{
+				"id"  : "148",
+				"name": "圣多美和普林西比"
+			},
+			{
+				"id"  : "149",
+				"name": "沙特阿拉伯"
+			},
+			{
+				"id"  : "150",
+				"name": "塞内加尔"
+			},
+			{
+				"id"  : "151",
+				"name": "塞尔维亚共和国"
+			},
+			{
+				"id"  : "152",
+				"name": "塞舌尔"
+			},
+			{
+				"id"  : "153",
+				"name": "塞拉利昂"
+			},
+			{
+				"id"  : "154",
+				"name": "新加坡"
+			},
+			{
+				"id"  : "155",
+				"name": "斯洛伐克"
+			},
+			{
+				"id"  : "156",
+				"name": "斯洛文尼亚"
+			},
+			{
+				"id"  : "157",
+				"name": "所罗门群岛"
+			},
+			{
+				"id"  : "158",
+				"name": "索马里"
+			},
+			{
+				"id"  : "159",
+				"name": "南非"
+			},
+			{
+				"id"  : "160",
+				"name": "南苏丹"
+			},
+			{
+				"id"  : "161",
+				"name": "西班牙"
+			},
+			{
+				"id"  : "162",
+				"name": "斯里兰卡"
+			},
+			{
+				"id"  : "163",
+				"name": "苏丹"
+			},
+			{
+				"id"  : "164",
+				"name": "苏里南"
+			},
+			{
+				"id"  : "165",
+				"name": "斯威士兰"
+			},
+			{
+				"id"  : "166",
+				"name": "瑞典"
+			},
+			{
+				"id"  : "167",
+				"name": "瑞士"
+			},
+			{
+				"id"  : "168",
+				"name": "阿拉伯叙利亚共和国"
+			},
+			{
+				"id"  : "169",
+				"name": "塔吉克斯坦"
+			},
+			{
+				"id"  : "170",
+				"name": "泰国"
+			},
+			{
+				"id"  : "171",
+				"name": "前南斯拉夫的马其顿共和国"
+			},
+			{
+				"id"  : "172",
+				"name": "东帝汶"
+			},
+			{
+				"id"  : "173",
+				"name": "多哥"
+			},
+			{
+				"id"  : "174",
+				"name": "汤加"
+			},
+			{
+				"id"  : "175",
+				"name": "特立尼达和多巴哥"
+			},
+			{
+				"id"  : "176",
+				"name": "突尼斯"
+			},
+			{
+				"id"  : "177",
+				"name": "土耳其"
+			},
+			{
+				"id"  : "178",
+				"name": "土库曼斯坦"
+			},
+			{
+				"id"  : "179",
+				"name": "图瓦卢"
+			},
+			{
+				"id"  : "180",
+				"name": "乌干达"
+			},
+			{
+				"id"  : "181",
+				"name": "乌克兰"
+			},
+			{
+				"id"  : "182",
+				"name": "阿拉伯联合酋长国"
+			},
+			{
+				"id"  : "183",
+				"name": "大不列颠及北爱尔兰联合王国"
+			},
+			{
+				"id"  : "184",
+				"name": "坦桑尼亚联合共和国"
+			},
+			{
+				"id"  : "185",
+				"name": "美利坚合众国"
+			},
+			{
+				"id"  : "186",
+				"name": "乌拉圭"
+			},
+			{
+				"id"  : "187",
+				"name": "乌兹别克斯坦"
+			},
+			{
+				"id"  : "188",
+				"name": "瓦努阿图"
+			},
+			{
+				"id"  : "189",
+				"name": "委内瑞拉"
+			},
+			{
+				"id"  : "190",
+				"name": "越南"
+			},
+			{
+				"id"  : "191",
+				"name": "也门"
+			},
+			{
+				"id"  : "192",
+				"name": "赞比亚"
+			},
+			{
+				"id"  : "193",
+				"name": "津巴布韦"
+			}
+		]
+	},
+	"various_values" : {
+		"priority-item-content": "在此打字",
+		"submit-label"         : "投票",
+		"send-label"           : "发送",
+		"contact-us-submit"    : "提交",
+		"ballot-in"            : "在",
+		"ballot-vote-for"      : "投票给：",
+		"ballot-vote-id"       : "Vote:",
+		"ballot-your-turn"     : "Now it's your turn...",
+		"ballot-name"          : "输入您的名字",
+		"social-title"         : "我们需要您帮助我们做两件简单的事情，以促成您所倡导的改变",
+		"social-title-one"     : "把您的名字添加到您的选票上",
+		"social-title-two"     : "分享您的投票并鼓励您的朋友们投票",
+		"social-share"         : "分享您的投票",
+		"vote-again"           : "您所在地区是否有其他人想要参与？",
+		"vote-again-link"      : "用本台电脑再次投票",
+		"stay-in-touch"        : "我们想保持联系",
+		"your-email-address"   : "您的电子邮件地址",
+		"sign-me-up"           : "我要报名参加",
+		"facebook-btn"         : "在Facebook上分享",
+		"facebook-text"        : "联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1",
+		"twitter-btn"          : "在Twitter上分享",
+		"twitter-text"         : "联合国希望听到您的心声！我刚刚告诉他们我认为的创造更美好世界的优先事项。 http://www.myworld2015.org/?ballot=-1 @MyWorld2015",
+		"sina-btn"             : "在微博上分享",
+		"sina-text"            : "联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1",
+		"orkut-btn"            : "在Orkut上分享",
+		"orkut-text"           : "联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1",
+		"googleplus-btn"       : "在Google+上分享",
+		"googleplus-text"      : "The United Nations wants to hear from you. I have just told them my priorities for creating a better world. Join me and vote!",
+		"sharethis-btn"        : "在Sharethis上分享",
+		"sharethis-text"       : "联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1",
+		"map-header-text"	   : "查看世界各地人们的投票",
+        "email-sent"           : "谢谢！"
+	},
+	"pages"          : {
+		"methodology-title"               : "方法",
+		"methodology-content"             : "<h2 class='methodology-main-header'>基本一般性问题的解答</h2><br/><br/><h2 class='methodology-header'>背景：2015年后的全球发展议程</h2><br/><ul class='list-extra-pages'><li>千年发展目标（MDGs）已经对数十亿人的生活产生了巨大的影响，但在解决极端贫困，疾病和环境危机等问题上依然任重而道远。</li><li>2015年后的全球发展议程以千年发展目标已经取得的进展为基础，同时处理持久不平等现象以及人类和地球面临的新挑战。</li><li><span class='highlight-extra-pages'>新的发展议程必须来自于一个真正开放和包容性的进程，这一进程应该让世界各地及社会各阶层人士参与进来。</li><li><span class='highlight-extra-pages'>联合国和秘书长2015年后高级别小组希望直接听取全世界各地人士有关对于他们而言是重要事务的心声，进而可以在这个全球性的对话中考虑他们的意见 。作为达成此一目标的工具，“我的世界”应运而生。</li></ul><h2 class='methodology-header'>“我的世界”是什么？</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>联合国和及其合作伙伴们协力设计制作了一项创新的全球性问卷调查，称为“我的世界”。人们可以借此参加2015年后的进程，告诉我们最能改善他们生活的一些转变。</span></li><li>这是一份选项调查。它通过创新的在线和离线方式，让世界各地的人士，把他们希望2015年后议程处理的最重要的议题告诉联合国和全球领导人士、特别是联合国秘书长的高级别小组 。</li><li>“我的世界”询问参与者他们认为在16个可能议题中哪6个将对他们的生活产生最大的变化。这 16个问题来源于贫困人口在现有研究和民意调查中所表达的优先项目，以及有关未来目标的持续进行的技术性和政治性讨论 。这些问题涵盖了现有的千年发展目标，再加上可持续发展、安全、治理和透明度等议题。</li></ul><h2 class='methodology-header'>“我的世界”如何运作？</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>本项调查在网站 www.myworld2015.org</span> 上提供联合国六种官方语文版本。从2013年1月起，民众也可以通过移动技术，如SMS （手机短信）和IVR（免费电话号码）等参与本项调查。</li><li>本次调查也将离线使用纸张问卷形式，通过基层组织、以信仰为基础的社区、青年团体、私营部门组织和非政府组织伙伴网络在世界各地散发。对于直接进入社区以及吸引无法上网、文盲和最贫穷社区参与这一全球辩论而言，这些组织的支持是不可或缺的。</li><li>我们将询问参与者的性别、年龄和国籍，以便进行数据分类，并为决策者提供准确、全球范围的民意情况。</li></ul><h2 class='methodology-header'>“我的世界”在何时何地进行？</h2><br/><ul class='list-extra-pages'><li>从现在起到2015年，我们希望尽可能多的国家中尽可能多的人士参与进来。他们应该包括所有年龄、性别和背景的人士，特别是世界各地的贫困和边缘化社区的民众。</li><li>“我的世界”将于2012年12月上旬推出，举办全国性磋商的国家可以考虑这一因素。然而，“我的世界”则定于2013年1月下旬在全球推出（届时将提供全面性的通信工具给所有人使用）。</li></ul><h2 class='methodology-header'>十六个选项有哪些？</h2><br/><ul class='list-extra-pages'><li> 更好的工作机会</li><li> 救济无力工作人士</li><li> 良好的教育</li><li> 更好的医疗服务</li><li> 经济实惠且富有营养的食物</li><li> 获取电话和互联网</li><li> 更好的交通和道路</li><li> 获取干净的水和卫生设施</li><li> 家用的可靠能源</li><li> 对气候变化采取的应对措施</li><li> 森林、河川和海洋的保护</li><li> 男女平等</li><li> 保护免受犯罪和暴力</li><li> 政治自由</li><li> 诚实和应对灵活的政府</li><li> 免于歧视和迫害</li></ul><h2 class='methodology-header'>调查结果如何使用？</h2><br/><ul class='list-extra-pages'><li>不断整合从手机，网站和离线调查中所得的数据，公布在“我的世界”网站。</li><li>调查结果将于2013年6月向联合国秘书长提交最后报告之前，呈交给秘书长2015年后发展议程的高级别小组 。“我的世界”将继续收集人民的心声，其结果将提供给秘书长和全球各国领导人，作为他们准备2015年下一步发展议程的参考。</li></ul><br/><br/><h2 class='methodology-main-header'>基本方法问题解答</h2><br/><br/><br/><h2 class='methodology-header'>这项调查的目的是什么？</h2><br/>“我的世界”是聆听世人所期冀的有关发展问题的新的全球协议的一种方式。这将补充其他行动措施，将各国人民的心声带入2015年后辩论中，例如由发展研究所和2015年后民间社会组织联盟所合办的 <span class='pages-italics'>“参与”</span> 项目。该项目对世人的优先事项进行定性研究，以及由联合国在世界各地举办的大量的全国性和专题性协商 。<br/><br/>“我的世界”通过提供有关优先事项的量化数据来补充以上行动。问卷刻意采用宽泛的方式提出选项，例如 <span class='pages-italics'>“更好的医疗服务”</span> 或 <span class='pages-italics'>“男女平等”，</span> 使一般人都能理解这些问题。其他的咨询将是互补的，并提供额外的信息，让决策者了解民众在每一条大标题下的意见和优先事项，并考虑是否以及如何将这些内容转化为目的、具体目标和指标。<br/><br/>“我的世界”为其他协商进程以及政治进程之间搭起了一座桥梁。这一政治进程努力优化来建立易于管理的全球议程。“我的世界”把大众的意见纳入了这一进程。<br/><br/>我们的意图并非明确回答世界优先事项应该是哪些，而是向全球决策者提供信息，以确保2015年后进程的结果容纳尽可能多民众意见。<br/><br/><br/><h2 class='methodology-header'>为什么要这16个选项？</h2><br/>为像这样的提案选择选项清单是一项非常艰巨的任务。我们选择这16个选项经历了以下过程：<br/><ol class='ordered-list-extra-pages'><li>基于目前千年发展目标的议题、民间社会和其他对2015年后提议的审查、各种可持续发展目标的提案以及参与研究和民意调查的现有数据，我们制定了最初24个头条选项和解释性段落。所选择的选项是这些资料来源中明确的主题，亦是可能的全球性议题</li><li>接着，我们将此清单发送到众多国家和地区的非政府组织、决策者、学者和联合国工作人员等处请教咨询。获得反馈后，我们决定将清单压缩到15题，使调查更简单方便。这份清单然后再送达至包括位于非洲的民意调查公司的较小团体，进行第二轮磋商。<li>在本轮磋商后，我们决定把问题增加到16个，以便容纳新一轮评述。</li><li>我们在乌干达以手机短信的方式进行最后测试调查。我们询问一个开放性的问题，并将回答纪录编码标记回16个选项。当被问及对于个人及其家人最重要的问题时，低于4％的答复不属于这16个选项类别。</li></ol>我们坚信，这套选项平衡兼顾，反映出世界各地人们所关心的问题以及围绕着这些问题可以确定哪些新的目标。这不包括所有对世人重要的议题，但是包含了目标可以处理的议题范围，而且我们相信这些议题对于世人、各组织和各国政府都相当重要。问卷调查的在线和离线导言都将强调所有这些选项都是重要的，然而我们正在努力确定最为重要的，提供最终选择几个全球目标作为参考。<br/><br/><br/><h2 class='methodology-header'>如果我想要选择不同的选项呢？</h2><br/>这项调查通过第17 题的自我选项提供了一个机会，让参与者填写自己的优先议题。所提供答案会经过仔细分析，看看是否有遗缺的主题或是有获得支持的新观点。这些自由形式选项的分析将公布于众。<br/><br/><br/><h2 class='methodology-header'>为什选项采用这样的措辞？</h2><br/>选项必须让世界各地的人都能皆理解，而不限于发展问题专家。我们与位于非洲的一家民意调查公司和三个组织的沟通专家合作修改语言以确保浅显易懂，并尽可能避免术语或文化上特定的参照。<br/><br/><br/><h2 class='methodology-header'>你们为什么要问“对于你和家人最重要的事情是什么”？</h2><br/>虽然2015年后的协议将是全球性的，其最终的目的仍是为了要让人们生活更美好。因此，询问什么事情对人们重要似乎是一个更好、更清晰的出发点，而非要大家去想象一个遥不可及的全球协议及其包含的内容。本次调查着重于个人的优先选项，但我们认识到，对许多人来说，他们的个人利益及选择和他们的家人密不可分（比如说，父母在回答问题的时候可能心里想着对其子女的期望）。因此，我们想要表达这样一个观点，那就是，在询问重要个人议题的同时，我们也意识到个人的幸福与他人息息相关。<br/><br/>此外，问题采用这样的措辞意味着受调查者对问题进行不同解释的余地较小。如果我们问了关于全球治理的广泛问题，或有关国家及社区的优先事项，就存在受调查者会有不同解释的风险。<br/><br/><br/><h2 class='methodology-header'>为什么要限制于16个选项，而不问开放性的问题呢？</h2><br/>“我的世界”是2015年后发展议程中全球性协商工作的一部分，而所有其他的部分都采用开放性问题。人们提出自己的观点有很多方式，这些不同的方法可以互补。“我的世界”的作用是揭示众人的优先事项，所以必须预先决定选项清单。如上所述，我们竭力确保这些优先选项足以代表众人所表达的重要议题。<br/><br/>此外，询问封闭式问题还有两个技术和方法的理由：<br/><ul class='list-extra-pages'><li>由于调查将使用多国语言，并通过不同的媒介来进行（网络，手机短信和离线），目前的技术还无法用现有的软件将对开放性的问题回答进行一致和可信的分类，以供分析之用。如果按照我们希望的那样对这一项目中的几百万份回答进行人工编码，那么，本计划将会过于昂贵及费时。</li><li>主要的民意调查合作伙伴分享了他们的经验，也就是，采用开放式问题的民意调查的参与率会大幅度降低。这并不足为奇，因为这种民意调查要求参与者花费更多的思考和努力。因此，为了使得参与提高到最高水平并且使调查尽可能地平易近人，提供封闭式的选项是更好的解决方案。</li></ul><br/><h2 class='methodology-header'>但你不能通过某些单一议题清单真正解决贫困问题，因为万事都息息相关。</h2><br/>我们同意。这就是为什么必须给人们大量的选择，并允许他们多重选项。在16题中选出6个要项将使人考虑什么样的措施组合会产生最好的效果。这也将让人用不同的方式来解决同样的问题。比如说，关心女儿应该得到良好的教育的家长可能会选择“男女平等”和“良好的教育”来表达他们希望看到的改变的不同方面。<br/><br/>我们用3个试点小组来测试这一民意测验，来看看如果要求人们选择3个、5个或7个选项是否会有所差别。我们询问被调查者该民意调查是否变得更难或更简单。结果并没有发现明显的差异。<br/><br/><br/><h2 class='methodology-header'>如何知道回答调查的人是否代表整体人口或其中的不同内部群体？</h2><br/>我们将会尽可能地了解接受调查的人，以便尽可能多地说明他们的情况。但是，我们将开诚布公地说明内容和数据的局限性，极为谨慎避免过度宣称我们所了解的情况。此外，我们也听从一个全球性专业民意调查公司有关 如何分析和呈现数据的建议 。信息的等级如下所示：<br/><ul class='list-extra-pages'><li> 性别：所有接受调查的人都被问及自己的性别，所以此项适用于所有数据</li><li> 年龄：仍然包括所有接受调查的人</li><li> 国籍：所有接受调查的人</li><li>回答方式：我们将能够根据接受调查的人参与的方式分析数据。这将会确定三组之间广泛的差异。</li><li> 回答的日期和时间：评估任何营销活动的影响，并找出任何可能操纵结果的自动化程序， 。</li><li> 教育程度：所有离线和手机短信参与者都将会被询问这一问题。此外，这也是所有在线参与者的可选问题（这样做的目的是尽量减少退出调查率）。</li><li> 次国家区域：我们将会从移动运营商那里了解有关手机短信参与者的信息，以及从调查机构那里了解有关离线参与者的信息。在线参与者将再度被询问这一可选问题，以尽量减少退出率。</li></ul>我们所收集信息的详细度将类似于盖洛普世界调查 （Gallup World Survey) 和其他有代表性的全球样本。虽然我们不会采用盖洛普随机抽样的方式，但是我们将使用我们所收集的社会和人口数据来说明各国样本如何反映其整体的人口，并且当我们公布数据时也会予以说明。<br/><br/><br/><h2 class='methodology-header'>数据将如何呈现？</h2><br/>网络调查的数据可以实时阅读，手机短信和离线调查的数据也将尽速添加进来，以确保结果是最新数据。<br/><br/>此外，从接受调查的人收集的额外信息将被用于解析数据，以说明不同国家、人口和社会经济群体之间的优先事项差异。我们将单独报告不同群体和国家的优先事项。<br/><br/>我们也将汇总国家、地区和全球的结果数据。如此，我们将使用从接受调查的人收集到的个人信息来分析答案，以便在汇总数据时提供全体人口尽可能代表性的说明。分析的选项包括：<br/><ul class='list-extra-pages'><li> <span class='highlight-extra-pages'>人口因素：</span> 按照人口规模、男性，女性和不同年龄组对回答进行分析，以反映人口的平衡。</li><li> <span class='highlight-extra-pages'>社会经济因素和次国家地区人口统计数据：</span> 我们预计，我们将会获得全体接受调查者足够大次组的教育水平和次国家地区居住地等信息。一旦数字够大，就足以用来数据分析，反映各国社会经济以及人口组成。</li><li> <span class='highlight-extra-pages'>收入代表：</span> 在某种程度上，三种回答方式代表不同收入群体。最富有的人最可能获取互联网，而最贫穷的人最可能离线参与。由于离线抽样调查的重点是进行调查的不同国家最为贫穷的地区，所以情况更是如此。我们将尝试如何根据不同调查进行的方式来分析回答，以反映各国家内部的区域人口模式和不同收入群体分布。</li></ul><br/><h2 class='methodology-header'>如果2015年后的议程是消除贫困，为什么我们关心非穷人的优先事项呢？</h2><br/>我们已经非常谨慎地制定出一套方法，以确保在本次调查中能捕捉到最贫困人口的优先事项，并且确保可以单独地来分析他们的回答。我们使用了家庭调查数据，以确认该国家内最贫困人口的居住地区。我们将把离线调查工作集中在这些地区，以确保调查涵盖了最贫穷的社区。此外，我们正计划与一些非政府组织合作。这些非政府组织可以建议我们如何调查特别难以触及的具体群体，如儿童、老年人和残疾人。许多这些非政府组织将对他们服务的社区进行本项调查。因此，如果这是我们的重点，我们将有可能使用这些数据，只专注用于极端贫困群体的调查研究。当数据的汇集达到全球层面，我们可以使用加权方法，以确保穷人的回答能符合他们的人数在整个人口中的比例，而不是淹没在高收入国家大量的网络回答中。<br/><br/>但是本调查的设计是全球性的，因为每个人都有愿望，都在他们的生活中面临着问题。往往不同群体的优先选项可能比我们所预期的更相似。了解每一个国家的人如何看待他们的生活和他们想要改变的事情将会更容易建立推动新协议的政治组织。架构越能反映出对政策的全球性共识，就越容易建立能够实现目标的政治环境。<br/><br/><br/><h2 class='methodology-header'>对于新的框架而言，难道没有比仅仅筛选世人的重要议题更为重要的工作吗？</h2><br/>“我的世界”意见调查只是一系列的协商和政治进程的一部分，有助于成立新的协议。了解不同群体的优先事项将对于塑造那些政策意义重大。<br/><br/>我们在制定16个选项时非常清楚，这个进程是设计全球性的目标，这样，所有这些选项就可以代表可以通过国际行动切实有效地应对处理的问题。我们排除了一些事情，例如宗教。纵然我们知道这些事情对人非常重要，但不大适合作为新的全球目标的研究对象。",
+		"contact-title"                   : "联络我们",
+		"contact-content"                 : "即将推出。",
+		"policy-title"                    : "隐私政策",
+		"policy-content"                  : "本隐私政策规定“我的世界”如何使用以及保护你在使用本网页时提供给“我的世界”的任何信息。<br/><br/>“我的世界”承诺确保你的隐私。如果我们要求你提供某些身份识别信息，那么你尽可以放心，信息的使用会完全符合本隐私声明中的规定。<br/><br/>“我的世界”在更新本网站时可能会不定期更改隐私政策，你应该不时造访本网页，以确保你对所有更改感到满意。<br/><br/>/><span class='highlight-extra-pages'>询问信息</span><br/>我们可能会询问以下信息：<br/><br/><ul class='list-extra-pages'><li>你所选择的六项优先选项</li><li>你所提议的其他优先条件</li><li>你的性别，年龄和国籍</li></ul> <span class='highlight-extra-pages'>我们如何处理所收集到的资料？</span><br/><br/>“我的世界”不会出售或与第三方广告商或销售商共用您的调查答复。<br/><br/>从网站、手机和离线调查所得的结果，将于2013年在蒙罗维亚（二月）、巴厘岛（3月）和纽约（五月）举行会议之前，提交给秘书长的2015年后计划高级别小组。<br/><br/><span class='highlight-extra-pages'>安全性</span><br/>我们承诺确保您的信息安全。为了防止未经授权的使用或披露，我们已采取适当的物理、电子和管理程序来保障和保护我们在网上收集的信息。<br/><br/><span class='highlight-extra-pages'>我们如何使用cookies </ SPAN> <br/> Cookie是一个小文档，它会要求放置在您的计算机上的硬盘驱动器中。一旦你同意，该文件就会被添加，並且Cookie可以帮助分析网络流量，或者让你知道你所访问的特定网站。 Cookie允许网络应用程序对你单独个人化处理。网络应用程序可以依照您的需求和好恶，通过收集和记忆有关您喜好的信息调整其运作方式。<br/><br/>我们使用流量日志Cookies来识别正在使用的网页。这可以帮助我们分析网页流量的数据，以改善我们的网站更符合客户的需求。我们只使用这些信息来进行统计分析，然后便将数据从系统中删除。<br/><br/>Cookies使我们能够监视哪些页面你觉得有用，哪些你觉得没有用，以帮助我们为您提供一个更好的网站。除了您选择与我们分享的数据之外，cookie 决不会让我们进入您的计算机或任何有关您的信息。<br/><br/>您可以选择接受或拒绝cookies。大多数网络浏览器会自动接受 Cookie， 但您通常可以依照喜好修改浏览器的设置为拒绝cookie。 这可能会使您无法充分利用网站。<br/><br/><span class='highlight-extra-pages'>链接到其他网站</ SPAN> <br/>我们的网站可能包含一些链接，使您能够轻松造访其他感兴趣的网站。请注意，一旦你使用这些链接离开我们的网站，我们对于其他网站没有任何控制权。因此，我们不能负责在你造访其他网站时提供的任何信息的保护和隐私。这些网站并不受本隐私声明的管理。您应该谨慎行事，查看适用该网站的隐私声明。<br/><br/><span class='highlight-extra-pages'><br/>控制您的个人信息</ span> <br/>提供调查的答复是自愿行为。请记住，对任何问卷上的问题你都可以选择不回答（特别是那些询问你个人信息或数据的问题）。然而，这会阻碍您完成调查。<br/><br/>如果你认为你在我们这里的任何信息不正确或不完整，请尽快写信或发送电子邮件我们到：info@worldwewant2015.org。我们将及时纠正任何不实的信息。",
+		"copyright-title"                 : "版权",
+		"copyright-content"               : "版权所有，盗用必究。<br/><br/>“我的世界”网站的任何部分，除非另外作为单独材料，若未经事先作者的书面同意，任何内容不得复制，拷贝，修改或调整。<br/><br/>您可以利用下列任何方式分享本网站：<br/>１. 使用任何在每一页上的标识; <br/>2. 提供你想传播的内容链接或URL 地址<br/> 3. 你可以引用网站中的段落, 但须标明出处。 <ahref='http://www.myworld2015.org/' target='_blank'的class='links-extra-pages'> www.myworld2015.org </a><br/><br/>若无作者明确的事先书面同意，不得将本站内容作为商业用途，或分发本网站的内容。",
+		"about-my-world-title"            : "关于“我的世界”",
+		"about-my-world-content"          : "<span class='highlight-extra-pages'>我的世界 是一项由联合国及其合作伙伴发起的对全球公民的民意调查。</span>它旨在收集人们的意见、优先事项和观点并提供给全球领导者，让他们在确定新的世界发展议程时进行参考。<br/><br/>通过创新的线上和线下方式，<span class='highlight-extra-pages'>我的世界 将让被调查者从给出的十六个可能的议题当中选择六个</span>他们认为会给自己的生活带来最大改变的议题。这十六个议题来自于在已有的调查和民意测验中贫困人口表示最为关注的问题，并包括千年发展目标以及可持续发展、安全、治理和透明度问题。<br/><br/><span class='highlight-extra-pages'>从现在起到 2015 年，我们希望尽可能多的国家和地区的尽可能多的民众广泛参与 我的世界：</span> 公民不论年龄、性别和背景都可以参与，特别是贫穷和边缘化社区的公民。<br/><br/>调查结果将提交给联合国秘书长的 <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'> 2015 年后高级别小组，</a> 并在该小组的蒙罗维亚、巴厘岛和纽约会议之前提交，以便纳入其 2013 年5月关于新发展框架的最终报告和建议当中。<br/><br/>此后一直到 2015 年之前，我的世界 将继续收集人们的意见，其结果将与联合国秘书长和全球领导人分享，以便他们在 2015 年前制定出下一个发展议程。",
+		"who-we-are-title"                : "我们是谁",
+		"who-we-are-content"              : "<span class=' highlight-extra-pages'>联合国开发计划署、联合国千年运动、海外开发研究所和万维网基金会</span> 共同开发了 我的世界。该活动已广泛征求意见，并取得了来自众多组织的支持，包括非政府组织、宗教团体和青年运动。<br/><br/><span class=' highlight-extra-pages'>联合国新闻部和联合国志愿人员 (UNV) 方案也将在 我的世界 中发挥领导作用。</span><br/><br/><span class='highlight-extra-pages'><a href='#'>查看更多重要合作伙伴</a></span><br/><br/><ul class='list-extra-pages'><li><span class=' highlight-extra-pages'>关于 <a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>UNDP</a></span> 联合国开发计划署是联合国的全球开发网络，倡导改变并将知识、经验和资源引入各个国家和地区，帮助人们创造更加美好的生活。其网络遍及 177 个国家和地区。</li><li><span class='highlight-extra-pages'>关于 <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>联合国千年运动</a> </span> 2002 年联合国秘书长发起这一运动。该运动支持并鼓励世界各地的人们采取行动，努力在 2015 年前完成千年发展目标，同时在 2015 年后的发展议程中促进民间团体的参与。</li> <li><span class='highlight-extra-pages' >关于 <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>ODI</a> </span> 海外发展研究所 (ODI) 是英国的一家研究国际发展和人道主义议题的首屈一指的独立智囊机构，其目标是促进相关政策和措施的制定，以期在发展中国家和地区减少贫困、减轻痛苦并实现可持续生存。</li><li><span class='highlight-extra-pages'>关于 <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>万维网基金会</a> </span> 万维网基金会是由万维网发明者蒂姆·伯纳斯·李 (Tim Berners-Lee) 创建的一个非营利性组织。它致力于让全球每一个人都能够使用互联网进行自由的交流、合作与创新，搭建跨越威胁我们共同未来的鸿沟的桥梁。</li></ul>",
+		"faq-title"                       : "常见问题",
+		"faq-content"                     : "<h2 class='faq-header'>我的世界 是什么？</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>它是一个选择题形式的调查，</span> 通过创造性的线上和线下方式，让世界各地的人们告诉联合国、特别是联合国秘书长的高级别小组，哪些问题是他们希望 2015 年后议程解决的最重要的问题。</li><li><span class='highlight-extra-pages'>我的世界 将让被调查者从给出的十六个可能议题当中选择六个</span> 他们认为会给自己的生活带来最大改变的议题。这十六个议题有的来自于已有调查和民意测验中贫困人口表示关注的议题，有的来自于持续进行的有关未来目标的技术和政策讨论。它们涵盖已有的千年发展目标 (MDG)，以及可持续发展、安全、治理和透明度问题。</li></ul><h2 class='faq-header'>它将如何开展？</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>从 2012 年十二月起，调查将在 <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a>展开，</span> 提供六种联合国官方语言的版本。<span class='highlight-extra-pages'>从 2013 年1月起，</span> 公民还能通过移动技术如手机短信和互动式语音应答（免费电话号码）参与此项调查。</li><li>调查还将<span class='highlight-extra-pages'>以书面形式在线下</span>进行。世界各地的基层组织、宗教团体、青年组织、私营部门机构以及非政府组织伙伴分发书面调查问卷。这些组织的支持 <span class='highlight-extra-pages'>对直接深入社区进行调查至关重要。</span> 他们将把尚未联网、受教育程度低的以及最贫穷的社区纳入到这一全球讨论当中。</li><li>参与者将被要求提供性别、年龄和国籍，以便归类数据并在民意方面为决策者提供一个清晰的全球视野。 </li></ul><h2 class='faq-header'>调查将于何时、何地展开？</h2><br/><ul class='list-extra-pages'><li>从现在起到 2015 年前，我们希望来自尽可能多国家和地区的尽可能多的民众广泛参与进来。公民不论年龄、性别和背景都可以参与，特别是贫穷和边缘化社区的公民。</li></ul><h2 class='faq-header'>调查结果将如何处理？</h2><br/><ul class='list-extra-pages'><li>来自手机、网站和线下调查的数据将不断整理并在 我的世界 网站上提供。 </li><li>调查结果将在高级别小组的蒙罗维亚、巴厘岛和纽约会议之前提交，以便他们参考这些结果制定最终报告并呈交给联合国秘书长，提供他们对 2015 年后发展议程的看法。此后将继续收集人们的意见，并与联合国秘书长及全球领导人分享调查结果，以便他们在 2015 年前制定出下一个发展议程。 </li></ul><h2 class='faq-header'>为何要现在开展此项调查？</h2> <br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>千年发展目标 (MDG) 已经对数十亿人的生活产生了巨大的影响，</span> 但是解决极端贫穷、疾病和环境危机依然任重而道远。 </li><li>2015 年后的全球发展议程将 <span class='highlight-extra-pages'>建立在 MDG 既有成果的基础之上，</span> 同时解决长期存在的不平等问题以及人类与地球面临的新的挑战。 </li><li><span class='highlight-extra-pages'>新发展议程必须来自于一个真正开放和包容的进程，</span> 这一进程必须得到来自世界各地以及社会各个领域的人士的参与。 </li><li><span class='highlight-extra-pages'>联合国及联合国秘书长的 2015 年后议程的高级别小组希望直接听到来自世界各地人民的声音，</span> 了解对他们而言最为重要的议题，以便将他们的观点纳入到此次全球对话当中。我的世界 就是为达到这一目的所使用的工具。 </li></ul><h2 class='faq-header'>您如何参与 我的世界？ </h2><br/>如果您代表个人： <br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>请帮助我们宣传！</span> 将本次调查及您的选择告诉您的朋友和家人，并鼓励他们参与此项重要调查。 </li><li><span class='highlight-extra-pages'>将新鲜事发给我们！</span> 收集 我的世界 参与者的图片、视频和故事，并在您的社交媒体帐户上分享。</li><li><span class='highlight-extra-pages'>给我们留下您的详细信息，</span> 这样我们就能随时通知您最新的调查结果，以及您可以参与全球消除贫困行动的各种方式。</li></ul>如果您代表一个组织：<br/><br/>在 2013 年一月正式开展全球调查之前，将会在<a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a>  上为外展合作伙伴提供一个专门的工具包。从总体上说，如果某个组织有意支持 我的世界，可以：<br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>开展线下调查，</span> 在当地社区分发投票卡、收集结果并将数据发送给我们在国家或地区范围内设立的集中站。 </li><li><span class='highlight-extra-pages'>联系已有的合作伙伴、地方组织和成员</span> 并鼓励他们参与。 </li><li>通过外部网络和交流平台（网站、新闻公告牌和社交媒体活动），<span class='highlight-extra-pages'>促使人们访问 </span> <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a></li><li><span class='highlight-extra-pages'>让其他潜在的合作伙伴参与进来</span> （例如手机供应商、私营部门机构和媒体），以便宣传 我的世界 并扩大其影响。</li><li><span class='highlight-extra-pages'>将新鲜事发给我们！</span> 收集 我的世界 参与者的图片、视频和故事。 </li></ul><h2 class='faq-header'>我的世界 与 The World We Want 2015（2015 年我们想要的世界）有何联系？</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>现在，全球公民都有一个前所未有的绝佳机会。他们能够在这一进程的最初阶段行动起来，共同为实现消除贫困和创造可持续环境的新目标而努力。</span> </li><li>线上门户 <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a>使世界各地的人们能够参与到 2015 年后分享意见和参与讨论的进程当中。我的世界完全融入这一全球性活动，并且是唯一一个为丰富这一全球性对话而收集公民意见的方式。 <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> 可以链接到 <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a> 并邀请公民提交投票后继续关注这一对话。</li></ul><h2 class='faq-header'>如何在进程中纳入可持续发展的目标</h2><br/><ul class='list-extra-pages'><li>按照在“里约+20”峰会上所达成的一致意见，开放性工作组将于2013年9月前设计出一套可持续发展目标，并报告给联合国大会。高级别小组将配合开放性工作组的工作，并将提案递交给秘书长办公室。</li></ul><h2 class='faq-header'>关于联合国秘书长的 2015 年后发展议程高级别小组</h2><br/><ul class='list-extra-pages'><li><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>联合国秘书长的高级别小组</a>  是联合国秘书长潘基文 2015 年后倡议的组成部分，其创立的宗旨是就 2015 年（实现消除贫穷目标即千年发展目标 (MDG) 的期限）后全球发展议程向联合国秘书长提供建议。</li><li>高级别小组的工作将反映新的发展挑战，同时汲取在落实 MDG 过程中所获得的经验。它们既可以是取得的成果，也可以是有待改进的领域。高级别小组有望在 2013 年上半年将调查结果提交给联合国秘书长，使他能够参考这些结果来撰写将于 2013 年九月的联合国大会上发给各联合国成员国的报告。<br/><br/><a href='http://www.post2015hlp.org/the-panel' target='_blank' class='links-extra-pages-normal'>查看高级别小组的成员</a> </li></ul><h2 class='faq-header'>我的世界 的协调者是谁？</h2><br/><span class='highlight-extra-pages'><a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>联合国开发计划署、</a><a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>联合国千年运动、</a><a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>海外开发研究所</a> 和 <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>万维网基金会</a></span> 共同开发了 我的世界。该活动已广泛征求意见，并取得了来自众多组织的支持，包括非政府组织、宗教团体和青年运动。<br/><br/><span class='highlight-extra-pages'>联合国新闻部和联合国志愿人员 (UNV) 方案也将在 我的世界 中发挥领导作用。</span><br/><br/><span class='highlight-extra-pages'><a id='faq-see-more-partners' href='#' target='_blank' class='links-extra-pages-normal'>查看更多合作伙伴</a></span>",
+		"how-it-works-title"              : "运作方式",
+		"how-it-works-content"            : "我的世界 将让被调查者从给出的十六个可能议题当中选择六个他们认为会给自己的生活带来最大改变的议题。这十六个议题是在 <span class='highlight-extra-pages'>征求了广泛意见并进行全面分析之后遴选出来的：</span><br/><br/><ul class='list-extra-pages'><li>调查设计为 <span class='highlight-extra-pages'>选择题形式，</span>, 而不是“开放式问题”的形式，因为在联合国关于 2015 年后发展议程的更广泛的全球意见征求行动的框架内，我的世界 的目的就是<span class='highlight-extra-pages'>深入了解人们最关注的议题。</span> </li> <li><span class='highlight-extra-pages'>最初的清单从各种重要来源选取了二十四个问题，</span>这些来源包括参与性研究、民意测验、民间团体的意见、千年发展目标以及为实现可持续发展目标的计划。然后，通过与非政府组织、决策者、学者、联合国工作人员以及专业意见调查公司的 <span class='highlight-extra-pages'>多番讨论，</span>这些选项被精简到十六个。  调查还通过了 <span class='highlight-extra-pages'>试点测试，</span>并在乌干达展开了手机短信调查，以确保这十六个选项全面且恰当。</li> <li>为收集可能遗漏的、反复出现的议题，参与者也可以通过“添加您自己的选项”输入自己关注的议题。 </li><li>我的世界 调查不可能覆盖每一个对公民而言很重要的议题，因为并非所有的问题都能通过全球目标来解决。但是，调查已囊括全球目标可以解决的、以及就我们所知对人们很重要的一系列议题。</li> </ul>    <span class='highlight-extra-pages'>我的世界 调查可以通过三种主要渠道来访问：</span><br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>线上：</span> 通过 <span class='highlight-extra-pages'><a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span> 提供六种联合国官方语言版本，还可通过社交媒体；</li><li><span class='highlight-extra-pages'>移动电话技术 <span class='highlight-underline-extra-pages'> （从 2013 年1月起启用）</span>:</span> 通过免费的短信和互动式语音应答 (IVR)；以及</li><li><span class='highlight-extra-pages'>线下 <span class='highlight-underline-extra-pages'>（从 2012 年12月起启用）:</span></span> 以书面投票的方式，由世界各地的基层组织、宗教团体、青年团体、私营机构和非政府组织合作伙伴分发书面调查问卷。 </li></ul>   调查以匿名的方式进行。参与者只需要提供性别、年龄和国籍信息，以便进行有意义的数据分析，使我们能够在民意方面为决策者提供一个 <span class='highlight-extra-pages'>清晰的全球视野。</span><br/><br/>来自手机、网站和线下调查的数据将不断整理并在 我的世界 网站上提供。<br/><br/>来自网站、手机和线下调查的结果将 <span class='highlight-extra-pages'>提交给联合国秘书长的 2015 年后发展议程高级别小组</span> 并在该小组 2013 年的蒙罗维亚（2月）、巴厘岛（3月）和纽约（5月）会议之前提交。",
+		"contact-us-title"                : "联络我们",
+		"contact-us-title-small"          : "填写本表格，惠赐反馈意见",
+		"contact-us-name"                 : "姓名: <span class='required'>*</span>",
+		"contact-us-email"                : "电子邮件: <span class='required'>*</span>",
+		"contact-us-organization"         : "所属单位",
+		"contact-us-description"          : "意见: <span class='required'>*</span>",
+		"page-contact-us-thankyou-title"  : "联络我们",
+		"page-contact-us-thankyou-content": "谢谢你的信息。我们会尽快跟你联络。",
+		"page-partners-title"             : "合作单位",
+		"page-partners-content"           : "以下是与我们忠诚合作伙伴的名单，将“我的世界”意见调查带到他们的社区:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Beyond 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Major Group for Children and Youth (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>World Association of Girl Guides and Girl Scouts (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>The World Organization of the Scout Movement</a><br/><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>The World YWCA</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>World Alliance of YMCAs </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Youth for Habitat International Network /  Habitat Center for Development and Governanc</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Rural Voices of Youth<br/>Organisation of African Youth<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>The International Federation of Medical Students' Associations</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>International Young Catholic Students (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://www.childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/>AIESEC Local Committee Setif<br/><a href='http://www.axios.org.mx' class='links-partner-page-normal' target='_blank'>AXIOS MISION-MUJER</a><br/><a href='http://www.thecommonwealth.org/subhomepage/152816/' class='links-partner-page-normal' target='_blank'>Commonwealth Youth Programme</a><br/><a href='http://www.dayofprayerandaction.org' class='links-partner-page-normal' target='_blank'>Day of Prayer and Action for Children</a><br/><a href='http://www.girlsnotbrides.org' class='links-partner-page-normal' target='_blank'>Girls Not Brides: The Global Partnership to End Child Marriage</a><br/><a href='http://www.gadef.org' class='links-partner-page-normal' target='_blank'>Global Alliance for Development Foundation</a><br/><a href='http://impactwithdanny.wordpress.com/author/impactwithdanny/' class='links-partner-page-normal' target='_blank'>Impactwithdanny</a><br/><a href='http://www.interaction.org' class='links-partner-page-normal' target='_blank'>InterAction</a><br/><a href='http://www.one.org/international' class='links-partner-page-normal' target='_blank'>ONE Campaign</a><br/><a href='http://plan-international.org' class='links-partner-page-normal' target='_blank'>Plan International</a><br/>Prefuturo Institute<br/><a href='http://www.progressio.org.uk' class='links-partner-page-normal' target='_blank'>Progressio</a><br/><a href='http://rhealsolutions.blogspot.com.es' class='links-partner-page-normal' target='_blank'>Rheal Solutions</a><br/><a href='http://seedmediagroup.com' class='links-partner-page-normal' target='_blank'>Seed Media Group</a><br/><a href='http://www.ipsos-mori.com' class='links-partner-page-normal' target='_blank'>Social Research Institute, Ipsos MORI</a><br/><a href='http://www.unfoundation.org' class='links-partner-page-normal' target='_blank'>UN Foundation</a><br/><a href='http://www.un.org.au' class='links-partner-page-normal' target='_blank'>United Nations Information Centre Canberra</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation</a><br/><a href='http://www.youthaward.org' class='links-partner-page-normal' target='_blank'>World Summit Youth Award</a><br/><a href='http://www.youthdividend.org' class='links-partner-page-normal' target='_blank'>Youth Dividend</a><br/><a href='http://orgs.tigweb.org/youth-impact-organization-of-nigeria' class='links-partner-page-normal' target='_blank'>Youth Impact Organization of Nigeria</a><br/><br/>如果您是一个组织并希望注册成为我的世界服务伙伴，请访问：<a href='http://partner.myworld2015.org' class='links-partner-page-normal' target='_blank'> http://partner.myworld2015.org</a><br/>青少年外展服务部联络人：Ravi Karkara <a href='mailto:karkara@un.org'>karkara@un.org</a>",
+		"page-coming-soon-title"          : "即将推出",
+		"page-coming-soon-content"        : "",
+		"page-results-title"              : "查看结果",
+        "page-results-content"            : ""
+	},
+	"social_media" : {
+		"facebook"			: "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=联合国愿听取您的建议。&caption=我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+		"facebook_thankyou"	: "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=联合国愿听取您的建议。&caption=我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+		"twitter"			: "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=联合国希望听到您的心声！我刚刚告诉他们我认为的创造更美好世界的优先事项。&via=MyWorld2015",
+		"og_title"			: "联合国愿听取您的建议。",
+		"og_description"	: "我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！",
+		"weibo"			    : "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！&pic=http://www.myworld2015.org/assets/img/logo.png",
+		"weibo_thankyou"    : "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=联合国愿听取您的建议。 我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！&pic=http://www.myworld2015.org/image_path",
+		"orkut"			    : "http://promote.orkut.com/preview?nt=orkut.com&tt=联合国愿听取您的建议。&du=http:/www.myworld2015.org&cn=我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+		"orkut_thankyou"    : "http://promote.orkut.com/preview?nt=orkut.com&tt=联合国愿听取您的建议。&du=http:/www.myworld2015.org&cn=我刚刚告诉他们对于创造更美好世界我最关注的优先事项。和我一起投票吧！http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+
+
+	},
+    "viz": {
+        "viz1_title": "全球投票状况",
+        "viz1_subtitle": "优先考虑问题的排行(到目前为止）",
+        "viz2_title": "跟你一样的投票",
+        "viz2_title_results": "查看其他投票者",
+        "viz2_subtitle": "近期，和你至少四个一样选择的投票者",
+        "priorities": "优先考虑的问题",
+        "your_priorities": "你的优先考虑",
+        "other_priorities": "其他人的",
+        "tip1_results": "滑动每个优先考虑问题，查看投票状况",
+        "tip1": "滑动选择，查看其他人如何投票",
+        "tip2": "和你一样的人们",
+        "tip3": "人口发展指数是一个综合衡量指标。它衡量一个国家在人口发展的三个基本方面的平均成效：寿命和健康的生活（健康），知识普及度（教育）和一个相称的生活水准（收入）。",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "低级",
+        "hdi2": "中级",
+        "hdi3": "高级",
+        "hdi4": "特级",
+        "world": "全球",
+        "location": "地区",
+        "gender": "性别",
+        "age_groups": "年龄",
+        "hdi": "人口发展指数",
+        "region_or_country": "地区或国家",
+        "all": "全部",
+        "customize": "自定义",
+        "customize_this_segment": "自定义",
+        "change": "更改",
+        "submit": "提交",
+        "hide_markers": "隐藏标记",
+        "votes": "投票",
+        "total_votes": "全部投票",
+        "none": "没有",
+        "country_totals": "各国家总访问量检索 ",
+        "custom_dropdown_values": ["低级人口发展指数国家",
+                            "中级 人口发展指数国家",
+                            "高级人口发展指数国际",
+                            "特级人口发展指数国家",
+                            "非洲",
+                            "美洲",
+                            "亚洲",
+                            "欧洲",
+                            "大洋洲"]
+	}
+}

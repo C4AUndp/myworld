@@ -1,0 +1,60 @@
+Bottle v0.11.6 server starting up (using WSGIRefServer())...
+Listening on http://localhost:1339/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [09/Apr/2013 21:29:54] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:29:56] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:29:58] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:29:59] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:29:59] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:30:18] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:30:19] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [09/Apr/2013 21:30:19] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [10/Apr/2013 13:31:19] "GET /ping HTTP/1.1" 200 14
+127.0.0.1 - - [10/Apr/2013 14:52:50] "GET /ping HTTP/1.1" 200 14
+/home/ubuntu/importCSV/csv_validator.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  columns_not_accepted = [ c for c in df.columns if not c in COLUMNS_TO_ACCEPT ]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 764, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 1625, in wrapper
+    rv = callback(*a, **ka)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 1578, in wrapper
+    json_response = dumps(rv)
+  File "/usr/lib/python2.7/json/__init__.py", line 233, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 203, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 266, in iterencode
+    return _iterencode(o, 0)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd0 in position 30: invalid continuation byte
+127.0.0.1 - - [10/Apr/2013 15:25:51] "POST / HTTP/1.1" 500 766
+127.0.0.1 - - [10/Apr/2013 15:27:19] "POST / HTTP/1.1" 200 537617
+127.0.0.1 - - [10/Apr/2013 15:41:13] "POST / HTTP/1.1" 200 324466
+127.0.0.1 - - [10/Apr/2013 15:45:22] "POST / HTTP/1.1" 200 115399
+127.0.0.1 - - [10/Apr/2013 15:45:57] "POST / HTTP/1.1" 200 115472
+127.0.0.1 - - [15/Apr/2013 18:25:45] "POST / HTTP/1.1" 200 627
+127.0.0.1 - - [15/Apr/2013 18:27:07] "POST / HTTP/1.1" 200 980177
+127.0.0.1 - - [15/Apr/2013 18:28:46] "POST / HTTP/1.1" 200 741
+127.0.0.1 - - [15/Apr/2013 18:29:14] "POST / HTTP/1.1" 200 1149
+127.0.0.1 - - [15/Apr/2013 18:29:23] "POST / HTTP/1.1" 200 1221
+127.0.0.1 - - [15/Apr/2013 18:30:04] "POST / HTTP/1.1" 200 2945
+127.0.0.1 - - [15/Apr/2013 18:30:20] "POST / HTTP/1.1" 200 3017
+127.0.0.1 - - [15/Apr/2013 18:30:24] "POST / HTTP/1.1" 200 2945
+127.0.0.1 - - [15/Apr/2013 18:30:27] "POST / HTTP/1.1" 200 3017
+127.0.0.1 - - [15/Apr/2013 18:31:12] "POST / HTTP/1.1" 200 1655
+127.0.0.1 - - [15/Apr/2013 18:31:16] "POST / HTTP/1.1" 200 1727
+127.0.0.1 - - [15/Apr/2013 18:32:19] "POST / HTTP/1.1" 200 2597
+127.0.0.1 - - [15/Apr/2013 18:32:25] "POST / HTTP/1.1" 200 2669
+127.0.0.1 - - [15/Apr/2013 18:32:57] "POST / HTTP/1.1" 200 218279
+127.0.0.1 - - [15/Apr/2013 18:33:14] "POST / HTTP/1.1" 200 218351
+127.0.0.1 - - [15/Apr/2013 18:33:39] "POST / HTTP/1.1" 200 1656
+127.0.0.1 - - [15/Apr/2013 18:33:46] "POST / HTTP/1.1" 200 1727
+127.0.0.1 - - [15/Apr/2013 18:54:46] "POST / HTTP/1.1" 200 204182
+127.0.0.1 - - [15/Apr/2013 18:55:53] "POST / HTTP/1.1" 200 204255
+127.0.0.1 - - [15/Apr/2013 19:03:36] "POST / HTTP/1.1" 200 9071
+127.0.0.1 - - [15/Apr/2013 19:05:41] "POST / HTTP/1.1" 200 9071
+127.0.0.1 - - [15/Apr/2013 19:13:15] "POST / HTTP/1.1" 200 9071
+127.0.0.1 - - [15/Apr/2013 19:13:21] "POST / HTTP/1.1" 200 9142
+127.0.0.1 - - [16/Apr/2013 17:37:08] "POST / HTTP/1.1" 200 43791
+127.0.0.1 - - [16/Apr/2013 17:40:11] "POST / HTTP/1.1" 200 43791

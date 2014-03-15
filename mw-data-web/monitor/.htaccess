@@ -1,0 +1,4 @@
+AuthUserFile /etc/apache2/passwords/admin
+AuthName "Please Log In"
+AuthType Basic
+require valid-user

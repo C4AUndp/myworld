@@ -1,0 +1,1323 @@
+{
+    "html_values": {
+        "tap-for-details": "Shtyp per detaje",
+        "timeline-content": "Kombet e Bashkuara dhe partnerët duan t'JU dëgjojnë! MY World është një anketë globale që ju kërkon të zgjidhni prioritetet tuaja për një botë më të mirë. Rezultatet do të ndahen me liderët botërorë gjatë përcaktimit të axhendës së ardhshme globale të zhvillimit. Na tregoni për botën që dëshironi, sepse zëri juaj ka rëndësi.",
+        "timeline-content-mobile": "Kombet e Bashkuara dhe partnerët duan t'JU dëgjojnë! MY World është një anketë globale që ju kërkon të zgjidhni prioritetet tuaja për një botë më të mirë. Rezultatet do të ndahen me liderët botërorë gjatë përcaktimit të axhendës së ardhshme globale të zhvillimit. Na tregoni për botën që dëshironi, sepse zëri juaj ka rëndësi.",
+        "about-item": "Rreth MY World",
+        "who-we-are-item": "Kush jemi",
+        "how-it-works-item": "Si funksionon",
+        "faq-item": "Pyetjet më të shpeshta",
+        "see-results-item": "Shih Rezultatet",
+        "partners-item": "Partnerët",
+        "blog-item": "Lajme dhe Blog",
+        "about-btn": "Rreth ",
+        "contact-item": "Na Kontaktoni",
+        "methodology-item": "Metodologjia",
+        "teaser-content": "Votoni për ndryshimet që do të bënin ndryshimin<br>më të madh në botën tuaj",
+        "teaser-content-b": "Votoni për prioritetet që do të bënin ndryshimin më të madh në botën tuaj",
+        "logo-teaser": "Ju zgjidhni. Bota juaj.",
+        "vote-header": "Cilat nga këto prioritete janë më të rëndësishme për ju dhe familjen tuaj?&nbsp;&nbsp;&nbsp;<span style='font-weight:bold'>Zgjidh 6</span>",
+        "section-one-date": "2000",
+        "section-one-title": "Objektivat e Zhvillimit të Mijëvjeçarit",
+        "section-one-content": "Liderët botërore bien dakord për 8 objektiva për zhdukjen e varfërisë ekstreme, të cilat skadojnë në vitin 2015. Është arritur progres i rëndësishëm, por mbetet ende shumë për të bërë.",
+        "section-two-date": "Tani",
+        "section-two-title": "Votoni tani: Ngrini zërin tuaj",
+        "section-two-content": "Duke filluar që tani e deri në vitin 2015, ju mund të ndihmoni në përcaktimin e grupit të ardhshëm të objektivave globale duke na treguar ndryshimet që do të dëshironit të shihnit në botë.",
+        "section-three-date": "2015",
+        "section-three-title": "Bota që duam 2015",
+        "section-three-content": "Së bashku do të kemi krijuar një plan të detajuar udhëzues për të krijuar botën që dëshirojmë pas vitit 2015, i cili do të fokusohet në çështje që do të sjellin ndryshimet më të mëdha në jetët tona.",
+        "celebrities-title": "Shih kush tjetër ka votuar",
+        "celebrities-title-small": "Shih kush tjetër ka votuar",
+        "priority-item-title": "Sugjero një prioritet (fakultative)",
+        "side-title": "Prioritetet e mia",
+        "side-count-more": "Select <span id='side-count-more-id'>6</span> more",
+        "dropdowns-title": "Në fund, ju lutemi na tregoni pak për veten tuaj.",
+        "dropdowns-content": "Votat tuaja do të mbeten anonime, por këto të dhëna themelore do të na ndihmojnë t'ju kuptojmë më mirë.",
+        "dropdowns-oath": "Duke plotësuar këtë, unë zotohem se kjo është vota ime e vetme në anketën globale MY World. Nuk do të votoj më tepër se një herë.",
+        "dropdowns-gender-label": "Unë jam",
+        "dropdowns-age-label": ", mosha",
+        "dropdowns-country-label": ", dhe jetoj në",
+        "dropdowns-education-label": "Niveli im arsimor është",
+        "about-title": "Rreth MY World",
+        "about-content": "MY World është një anketë globale e Kombeve të Bashkuara për qytetarët. Duke punuar me partnerët, ne synojmë të mbledhim zërat, prioritetet dhe këndvështrimet e njerëzve, në mënyrë që liderët botërorë të jenë të informuar kur të fillojnë procesin e përcaktimit të grupit të ardhshëm të objektivave globale për t'i dhënë fund varfërisë.",
+        "about-content-middle": "Për t'u bërë pjesë e bisedës globale dhe e debatit 'Pas 2015', shkoni tek:",
+        "partners-title": "KJO NISME ESHTE HARTUAR NGA:",
+        "thank-you-title": "Faleminderit qe na tregove<b>prioritetet<b> e tua!",
+        "thank-you-share": "ndaj",
+        "thank-you-share-text": "Kjo është një pamje e personalizuar e botës që dëshironi.<br/>Ndajeni atë tani me miqtë tuaj dhe ndihmoni në krijimin e një vizioni për një botë më të mirë.",
+        "thank-you-why": "Na tregoni përse votuat kështu (fakultative)",
+        "thank-you-join": "Bëhuni pjesë e bisedës në worldwewant2015.org",
+        "validation-message": "Zgjidh 6 prioritete dhe te lutem vendos gjinine, moshen, shtetin, dhe nivelin arsimor para se te votosh.",
+        "thank-you-vote": "Faleminderit që na treguat përse votuat",
+        "more-btn": "Me mbështetjen e partnerëve në të gjithë botën",
+        "first-logo-label": "Kombet e <br/> Bashkuara",
+        "second-logo-label": "Overseas Development <br> Institute",
+        "third-logo-label": "World Wide <br> Web Foundation",
+        "fourth-logo-label": "Ipsos Mori",
+        "captcha-info": "Kjo pyetje bëhet për të testuar nëse jeni vizitor njerëzor dhe për të parandaluar dorëzimet automatike të padëshiruara.",
+        "contact-validation-msg": "Ju lutemi plotësoni gjithë fushat e kërkuara.",
+        "captcha-error-msg": "U dorëzua kod i pavlefshëm sigurie.",
+        "worldmap-title": "Votat deri tani <ul class='horizontal'><li>Shtetet</li><li id='cnumber-small'>Duke ngarkuar...</li></ul>",
+        "worldmap-update": "Harta përditësohet çdo <span class='minutes'>2</span> minuta",
+        "worldmap-title-thanku": "<ul class='horizontal'><li>Countries</li><li id='cnumber'>Loading...</li></ul>",
+        "worldmap-update-thanku": "Harta përditësohet çdo <span class='minutes'>2</span> minuta",
+        "check-to-vote-text": "sheno voten",
+        "click-for-details-text": "kliko per detaje",
+        "langs-wrap-label": "Gjuhë",
+        "people-from": "njerëz nga",
+        "countries-vote": "shtete kane votuar. <strong>Tani eshte radha jote…</strong>",
+        "iframe-link": "Vizito te gjithe faqen per me shume informacion",
+        "back-to-voting": "Kthehu tek Votimi"
+    },
+    "accordion_items": {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Mundësi më të mira për punësim",
+            "item-content": "Kjo do të thotë që qeveritë dhe kompanitë e sektorit privat duhet të bëjnë më tepër për t'u siguruar që çdokush të mund të gjejë një punë ku të fitojë një rrogë të denjë dhe ku mund të kontribuojë e të ndihet i vlerësuar si anëtar produktiv i shoqërisë."
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "Arsimi cilësor",
+            "item-content": "Kjo do të thotë se të gjithë fëmijët duhet të kenë një arsim fillor e të mesëm të cilësisë së lartë që i pajis ata me njohuri për punësim dhe një jetë të kënaqshme.  Qeveritë dhe sektori privat duhet të punojnë së bashku për të siguruar mundësi për të mësuarin gjatë gjithë jetës dhe zhvillimin e aftësive për të rriturit."
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Kujdesi më i mirë shëndetësor",
+            "item-content": "Kjo do të thotë se shërbimet shëndetësore me cilësi të mirë duhet t'i ofrohen gjithkujt që ka nevojë për trajtim.  Duhen bërë përpjekje për të reduktuar ndikimin e infeksioneve dhe sëmundjeve të tjera kronike. Si financimi, ashtu edhe organizimi i sistemeve shëndetësore duhet t'u përshtatet nevojave të vendit dhe qytetarëve të tij."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Ushqimet ekonomikisht të përballueshme dhe me vlera ushqyese",
+            "item-content": "Kjo do të thotë se të gjithë duhet të marrin ushqimin që u nevojitet.  Asnjë person në botë nuk duhet të jetë vazhdimisht i uritur dhe asnjë person nuk duhet të jetë i kequshqyer, veçanërisht gratë shtatzëna dhe fëmijët më të vegjël se dy vjeç."
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Mbështetje për personat e paaftë për punë",
+            "item-content": "Kjo do të thotë se çdo person duhet të ketë mjaftueshëm para për të jetuar, nga punësimi apo nga ndihma e qeverisë. Kur njerëzit nuk mund të punojnë apo preken nga raste të tilla, si katastrofa natyrore apo kriza ekonomike, qeveritë duhet të sigurojnë që ata dhe familjet e tyre nuk do të jenë të uritur, që fëmijët nuk do ta braktisin shkollën dhe që ata do të mund të marrin shërbimin shëndetësor dhe shërbime të tjera thelbësore për të cilat kanë nevojë."
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Akses në internet dhe shërbimin e telefonisë",
+            "item-content": "Kjo do të thotë se qeveritë dhe sektori privat duhet të sigurojnë që të gjithë të kenë akses në nivelin minimal të teknologjive të komunikimit për të marrë informacion nga interneti dhe për të marrë pjesë në rrjetet sociale."
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Akses për ujë të pijshëm dhe rrjet kanalizimesh",
+            "item-content": "Kjo do të thotë se çdo person duhet të ketë akses në ujë që është i sigurt për t'u pirë, për të gatuar e për të larë, dhe akses në rrjetin e kanalizimeve."
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Energjia e sigurt në shtëpi",
+            "item-content": "Kjo do të thotë që të gjithë anëtarët e familjes duhet të kenë energji elektrike të sigurt dhe të përballueshme apo burime të tjera energjie në shtëpi për ndriçim, ngrohje dhe gatim. Një pjesë më e madhe e kësaj energjie duhet të gjenerohet në mënyrë të qëndrueshme."
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Mbrojtja e pyjeve, lumenjve dhe oqeaneve",
+            "item-content": "Kjo do të thotë se duhet treguar kujdes për burimet natyrore, sepse njerëzit varet prej tyre për ushqim, karburant dhe burime të tjera.  Qeveritë duhet të bien dakord për plane për reduktimin e ndotjes në oqeane dhe lumenj, të mbjellin pyje të rinj dhe të ruajnë ata ekzistues, si dhe të lëvizin drejt sistemeve bujqësore e ushqimore të qëndrueshme. Marrëveshjet globale duhet të mbrojnë biodiversitetin dhe ekosistemet delikate."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "Masa ndaj ndryshimeve klimatike",
+            "item-content": "Kjo do të thotë se qeveritë duhet të marrin angazhime detyruese për të reduktuar emetimet e karbonit në nivele që e mbajnë rritjen e temperaturës globale nën 2 gradë dhe të investojnë në masa adaptimi që kanë të bëjnë veçanërisht me komunitetet vulnerabël."
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Qeveri e ndershme dhe e përgjegjëshme",
+            "item-content": "Kjo do të thotë se qeveritë duhet të jenë efektive, transparente, të përgjegjshme dhe jo të korruptuara. Njerëzit duhet të japin mendimin e tyre mbi ato që duhet të jenë prioritetet e qeverisë dhe duhet të kenë besim që kjo e fundit do t'i zbatojë këto prioritete me kompetencë. Qeveritë duhet të bien dakord dhe të zbatojnë standarde për vënien në dispozicion të të gjithë qytetarëve të informacionit për mënyrën e shpenzimit të parave publike."
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Liritë politike",
+            "item-content": "Kjo do të thotë se çdo person duhet të jetë në gjendje të luajë një rol në proceset politike të vendit tij, përfshi nëpërmjet votimit apo formimit apo bashkimit në partitë politike. Njerëzit duhet të jenë në gjendje të ushtrojnë lirinë e fjalës, përfshirë atë përmes medias së lirë. Njerëzit duhet të jenë në gjendje të bashkohen dhe të marrin pjesë në sindikata dhe në të gjitha aspektet e shoqërisë civile, përfshirë format e ndryshme të angazhimit civil dhe aksionit vullnetar."
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Mbrojtja nga krimi dhe dhuna",
+            "item-content": "Kjo do të thotë se të gjithë njerëzit duhet të presin të jetojnë në një komunitet që i mbron nga kërcënimi i krimit dhe i dhunës. Kjo duhet të përfshijë dhunën në familje dhe sulmin seksual ndaj grave dhe vajzave. Çdo person duhet të jetë në gjendje të marrë drejtësi nëpërmjet një gjyqi apo sistemi tjetër nëse është viktimë e një krimi."
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Barazia ndërmjet burrave dhe grave",
+            "item-content": "Kjo do të thotë se burrat dhe gratë duhet të kenë të njëjtat të drejta dhe mundësi. Djemtë dhe vajzat duhet të kenë akses të njëjtë në shkollë dhe të njëjtën cilësi arsimi; burrat dhe gratë duhet të kenë të njëjtat shanse për t'u zgjedhur në parlament, të kenë të njëjtat shanse për t'u përfshirë në jetën politike dhe shoqërore dhe të provojnë të njëjtat mundësi dhe shpërblime në vendin e punës."
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Liria nga diskriminimi dhe persekutimi",
+            "item-content": "Kjo do të thotë se asnjë personi në botë nuk duhet t'i kufizohen mundësitë e tij ekonomike, shoqërore apo politike për shkak të racës, etnisë, fesë, aftësive të kufizuara, preferencave seksuale apo për çdo arsye tjetër dhe që asnjë person nuk duhet të ketë frikë për sigurinë e tij personale po për këto arsye."
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Transport dhe rrugë më të mira",
+            "item-content": "Kjo do të thotë se transporti dhe rrugët duhet të përmirësohen në mënyrë që njerëzit të mund të lëvizin lirisht dhe me lehtësi për të vizituar miqtë dhe familjet e tyre, për të gjetur mundësi të reja ekonomike dhe për të përdorur shërbimet për të cilat kanë nevojë."
+        }
+    },
+    "celebrities": {
+        "1": {
+            "image_src": "Diana.png",
+            "content": "<span style='font-weight: bold;'>Diana</span><br><span>Femër, 22</span><br><span>Cuba</span>",
+            "globe_src": "Globe_diana.png",
+            "supports": [
+                "tenth",
+                "nineth",
+                "second",
+                "twelveth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "2": {
+            "image_src": "myworld_arda.png",
+            "content": "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Femër, 32</span><br><span>Kazakhstan</span>",
+            "globe_src": "Globe_arda.png",
+            "supports": [
+                "third",
+                "nineth",
+                "fourth",
+                "second",
+                "eleventh",
+                "fourteenth"
+            ]
+        },
+        "3": {
+            "image_src": "myworld_anjana.png",
+            "content": "<span style='font-weight: bold;'>Anjana</span><br><span>Femër, 25</span><br><span>Nepal</span>",
+            "globe_src": "Globe_anjana.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "4": {
+            "image_src": "Sonal.png",
+            "content": "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Femër, 25</span><br><span>Tanzania</span>",
+            "globe_src": "Globe_sonal.png",
+            "supports": [
+                "third",
+                "tenth",
+                "nineth",
+                "fourth",
+                "second",
+                "seventh"
+            ]
+        },
+        "5": {
+            "image_src": "Uma.png",
+            "content": "<span style='font-weight: bold;'>Uma</span><br><span>Femër, 23</span><br><span>Australia</span>",
+            "globe_src": "Globe_uma.png",
+            "supports": [
+                "third",
+                "second",
+                "thirteenth",
+                "eleventh",
+                "twelveth",
+                "fourteenth"
+            ]
+        },
+        "6": {
+            "image_src": "Sebastian.png",
+            "content": "<span style='font-weight: bold;'>Sebastian</span><br><span>Mashkull, 28</span><br><span>Austria</span>",
+            "globe_src": "Globe_sebastian.png",
+            "supports": [
+                "nineth",
+                "fourth",
+                "second",
+                "thirteenth",
+                "sixth",
+                "eleventh"
+            ]
+        },
+        "7": {
+            "image_src": "myworld_juanita.png",
+            "content": "<span style='font-weight: bold;'>Juanita</span><br><span>Femër, 29</span><br><span>Canada</span>",
+            "globe_src": "Globe_juanita.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "8": {
+            "image_src": "robert.png",
+            "content": "<span style='font-weight: bold;'>Robert</span><br><span>Mashkull, 21</span><br><span>USA</span>",
+            "globe_src": "robert_globe.png",
+            "supports": [
+                "tenth",
+                "sixteenth",
+                "fourth",
+                "second",
+                "first",
+                "fourteenth"
+            ]
+        }
+    },
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "ARSIMI"
+            },
+            {
+                "id": "1",
+                "name": "Pak arsim fillor"
+            },
+            {
+                "id": "2",
+                "name": "Arsimi fillor i përfunduar"
+            },
+            {
+                "id": "3",
+                "name": "Arsimi i mesëm i përfunduar"
+            },
+            {
+                "id": "4",
+                "name": "Më shumë se arsim i mesëm"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "gjinia",
+                "ballot_gender": "gjinia"
+            },
+            {
+                "id": "1",
+                "name": "Mashkull",
+                "ballot_gender": "Mashkull"
+            },
+            {
+                "id": "2",
+                "name": "Femër",
+                "ballot_gender": "Femër"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "mosha"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "shteti"
+            },
+            {
+                "id": "1",
+                "name": "Afganistan"
+            },
+            {
+                "id": "2",
+                "name": "Shqipëri"
+            },
+            {
+                "id": "3",
+                "name": "Algjeri"
+            },
+            {
+                "id": "4",
+                "name": "Andorrë"
+            },
+            {
+                "id": "5",
+                "name": "Angolë"
+            },
+            {
+                "id": "6",
+                "name": "Antigua-e-Barbudë"
+            },
+            {
+                "id": "7",
+                "name": "Argjentinë"
+            },
+            {
+                "id": "8",
+                "name": "Armeni"
+            },
+            {
+                "id": "9",
+                "name": "Australi"
+            },
+            {
+                "id": "10",
+                "name": "Austri"
+            },
+            {
+                "id": "11",
+                "name": "Azerbajxhan"
+            },
+            {
+                "id": "12",
+                "name": "Bahame"
+            },
+            {
+                "id": "13",
+                "name": "Bahrejn"
+            },
+            {
+                "id": "14",
+                "name": "Bangladesh"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "16",
+                "name": "Bjellorusi"
+            },
+            {
+                "id": "17",
+                "name": "Belgjikë"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benin"
+            },
+            {
+                "id": "20",
+                "name": "Butan"
+            },
+            {
+                "id": "21",
+                "name": "Bolivi (Shteti Shumëkombësh i)"
+            },
+            {
+                "id": "22",
+                "name": "Bosnjë-Hercegovinë"
+            },
+            {
+                "id": "23",
+                "name": "Botsvanë"
+            },
+            {
+                "id": "24",
+                "name": "Brazil"
+            },
+            {
+                "id": "25",
+                "name": "Brunei Darussalam"
+            },
+            {
+                "id": "26",
+                "name": "Bullgari"
+            },
+            {
+                "id": "27",
+                "name": "Burkina-Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "29",
+                "name": "Kamboxhia"
+            },
+            {
+                "id": "30",
+                "name": "Kamerun"
+            },
+            {
+                "id": "31",
+                "name": "Kanada"
+            },
+            {
+                "id": "32",
+                "name": "Kepi i Gjelbër"
+            },
+            {
+                "id": "33",
+                "name": "Republika e Afrikës Qendrore"
+            },
+            {
+                "id": "34",
+                "name": "Çad"
+            },
+            {
+                "id": "35",
+                "name": "Kili"
+            },
+            {
+                "id": "36",
+                "name": "Kinë"
+            },
+            {
+                "id": "37",
+                "name": "Kolumbi"
+            },
+            {
+                "id": "38",
+                "name": "Komoros"
+            },
+            {
+                "id": "39",
+                "name": "Kongo"
+            },
+            {
+                "id": "40",
+                "name": "Kosta-Rikë"
+            },
+            {
+                "id": "41",
+                "name": "Bregu i Fildishtë"
+            },
+            {
+                "id": "42",
+                "name": "Kroaci"
+            },
+            {
+                "id": "43",
+                "name": "Kubë"
+            },
+            {
+                "id": "44",
+                "name": "Qipro"
+            },
+            {
+                "id": "45",
+                "name": "Republika Çeke"
+            },
+            {
+                "id": "46",
+                "name": "Republika Demokratike Popullore e Koresë"
+            },
+            {
+                "id": "47",
+                "name": "Republika Demokratike e Kongos"
+            },
+            {
+                "id": "48",
+                "name": "Danimarkë"
+            },
+            {
+                "id": "49",
+                "name": "Xhibuti"
+            },
+            {
+                "id": "50",
+                "name": "Dominikë"
+            },
+            {
+                "id": "51",
+                "name": "Republika Dominikane"
+            },
+            {
+                "id": "52",
+                "name": "Ekuador"
+            },
+            {
+                "id": "53",
+                "name": "Egjipt"
+            },
+            {
+                "id": "54",
+                "name": "Salvador"
+            },
+            {
+                "id": "55",
+                "name": "Guine Ekuatoriale"
+            },
+            {
+                "id": "56",
+                "name": "Eritre"
+            },
+            {
+                "id": "57",
+                "name": "Estoni"
+            },
+            {
+                "id": "58",
+                "name": "Etiopi"
+            },
+            {
+                "id": "59",
+                "name": "Fixhi"
+            },
+            {
+                "id": "60",
+                "name": "Finlandë"
+            },
+            {
+                "id": "61",
+                "name": "Francë"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gambia"
+            },
+            {
+                "id": "64",
+                "name": "Gjeorgji"
+            },
+            {
+                "id": "65",
+                "name": "Gjermani"
+            },
+            {
+                "id": "66",
+                "name": "Ganë"
+            },
+            {
+                "id": "67",
+                "name": "Greqi"
+            },
+            {
+                "id": "68",
+                "name": "Grenadë"
+            },
+            {
+                "id": "69",
+                "name": "Guatemalë"
+            },
+            {
+                "id": "70",
+                "name": "Guine"
+            },
+            {
+                "id": "71",
+                "name": "Guinea-Bisau"
+            },
+            {
+                "id": "72",
+                "name": "Gujanë"
+            },
+            {
+                "id": "73",
+                "name": "Haiti"
+            },
+            {
+                "id": "74",
+                "name": "Honduras"
+            },
+            {
+                "id": "75",
+                "name": "Hungari"
+            },
+            {
+                "id": "76",
+                "name": "Islandë"
+            },
+            {
+                "id": "77",
+                "name": "Indi"
+            },
+            {
+                "id": "78",
+                "name": "Indonezi"
+            },
+            {
+                "id": "79",
+                "name": "Iran (Republika Islamike e)"
+            },
+            {
+                "id": "80",
+                "name": "Irak"
+            },
+            {
+                "id": "81",
+                "name": "Irlandë"
+            },
+            {
+                "id": "82",
+                "name": "Izrael"
+            },
+            {
+                "id": "83",
+                "name": "Itali"
+            },
+            {
+                "id": "84",
+                "name": "Xhamajkë"
+            },
+            {
+                "id": "85",
+                "name": "Japoni"
+            },
+            {
+                "id": "86",
+                "name": "Jordani"
+            },
+            {
+                "id": "87",
+                "name": "Kazakistan"
+            },
+            {
+                "id": "88",
+                "name": "Kenia"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id": "90",
+                "name": "Kuvajt"
+            },
+            {
+                "id": "91",
+                "name": "Kirgizstan"
+            },
+            {
+                "id": "92",
+                "name": "Republika Popullore Demokratike e Laos"
+            },
+            {
+                "id": "93",
+                "name": "Letoni"
+            },
+            {
+                "id": "94",
+                "name": "Liban"
+            },
+            {
+                "id": "95",
+                "name": "Lezoto"
+            },
+            {
+                "id": "96",
+                "name": "Liberi"
+            },
+            {
+                "id": "97",
+                "name": "Libi"
+            },
+            {
+                "id": "98",
+                "name": "Lihtenshtajn"
+            },
+            {
+                "id": "99",
+                "name": "Lituani"
+            },
+            {
+                "id": "100",
+                "name": "Luksemburg"
+            },
+            {
+                "id": "101",
+                "name": "Madagaskar"
+            },
+            {
+                "id": "102",
+                "name": "Malavi"
+            },
+            {
+                "id": "103",
+                "name": "Malajzi"
+            },
+            {
+                "id": "104",
+                "name": "Maldive"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Maltë"
+            },
+            {
+                "id": "107",
+                "name": "Ishujt Marshall"
+            },
+            {
+                "id": "108",
+                "name": "Mauritani"
+            },
+            {
+                "id": "109",
+                "name": "Mauritius"
+            },
+            {
+                "id": "110",
+                "name": "Meksikë"
+            },
+            {
+                "id": "111",
+                "name": "Mikronezi (Shtetet Federale të)"
+            },
+            {
+                "id": "112",
+                "name": "Monako"
+            },
+            {
+                "id": "113",
+                "name": "Mongoli"
+            },
+            {
+                "id": "114",
+                "name": "Mal i Zi"
+            },
+            {
+                "id": "115",
+                "name": "Marok"
+            },
+            {
+                "id": "116",
+                "name": "Mozambik"
+            },
+            {
+                "id": "117",
+                "name": "Mianmar"
+            },
+            {
+                "id": "118",
+                "name": "Namibi"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "121",
+                "name": "Holandë"
+            },
+            {
+                "id": "122",
+                "name": "Zelandë e Re"
+            },
+            {
+                "id": "123",
+                "name": "Nikaragua"
+            },
+            {
+                "id": "124",
+                "name": "Niger"
+            },
+            {
+                "id": "125",
+                "name": "Nigeri"
+            },
+            {
+                "id": "126",
+                "name": "Norvegji"
+            },
+            {
+                "id": "127",
+                "name": "Oman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Palestina (Shteti i)"
+            },      
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panama"
+            },
+            {
+                "id": "131",
+                "name": "Guinea e Re Papua"
+            },
+            {
+                "id": "132",
+                "name": "Paraguaj"
+            },
+            {
+                "id": "133",
+                "name": "Peru"
+            },
+            {
+                "id": "134",
+                "name": "Filipine"
+            },
+            {
+                "id": "135",
+                "name": "Poloni"
+            },
+            {
+                "id": "136",
+                "name": "Portugali"
+            },
+            {
+                "id": "137",
+                "name": "Katar"
+            },
+            {
+                "id": "138",
+                "name": "Republika e Koresë"
+            },
+            {
+                "id": "139",
+                "name": "Republika e Moldavisë"
+            },
+            {
+                "id": "140",
+                "name": "Rumani"
+            },
+            {
+                "id": "141",
+                "name": "Federata Ruse"
+            },
+            {
+                "id": "142",
+                "name": "Ruandë"
+            },
+            {
+                "id": "143",
+                "name": "Sent-Kits dhe Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Santa-Luçia"
+            },
+            {
+                "id": "145",
+                "name": "Sent-Vinsent dhe Grenadine"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San-Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao-Tome dhe Principe"
+            },
+            {
+                "id": "149",
+                "name": "Arabi Saudite"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Serbi"
+            },
+            {
+                "id": "152",
+                "name": "Sejshelle"
+            },
+            {
+                "id": "153",
+                "name": "Sierra-Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapor"
+            },
+            {
+                "id": "155",
+                "name": "Sllovaki"
+            },
+            {
+                "id": "156",
+                "name": "Slloveni"
+            },
+            {
+                "id": "157",
+                "name": "Ishujt Solomon"
+            },
+            {
+                "id": "158",
+                "name": "Somali"
+            },
+            {
+                "id": "159",
+                "name": "Afrikë e Jugut"
+            },
+            {
+                "id": "160",
+                "name": "Sudan i Jugut"
+            },
+            {
+                "id": "161",
+                "name": "Spanjë"
+            },
+            {
+                "id": "162",
+                "name": "Sri-Lankë"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "164",
+                "name": "Surinam"
+            },
+            {
+                "id": "165",
+                "name": "Svaziland"
+            },
+            {
+                "id": "166",
+                "name": "Suedi"
+            },
+            {
+                "id": "167",
+                "name": "Zvicër"
+            },
+            {
+                "id": "168",
+                "name": "Republika Arabe e Sirisë"
+            },
+            {
+                "id": "169",
+                "name": "Taxhikistan"
+            },
+            {
+                "id": "170",
+                "name": "Tajlandë"
+            },
+            {
+                "id": "171",
+                "name": "Ish-Republika Jugosllave e Maqedonisë"
+            },
+            {
+                "id": "172",
+                "name": "Timori Lindor"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tongë"
+            },
+            {
+                "id": "175",
+                "name": "Trinidad-e-Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunizi"
+            },
+            {
+                "id": "177",
+                "name": "Turqi"
+            },
+            {
+                "id": "178",
+                "name": "Turkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Ugandë"
+            },
+            {
+                "id": "181",
+                "name": "Ukrainë"
+            },
+            {
+                "id": "182",
+                "name": "Emiratet e Bashkuara Arabe"
+            },
+            {
+                "id": "183",
+                "name": "Mbretëria e Bashkuar e Britanisë së Madhe dhe e Irlandës së Veriut"
+            },
+            {
+                "id": "184",
+                "name": "Republika e Bashkuar e Tanzanisë"
+            },
+            {
+                "id": "185",
+                "name": "Shtetet e Bashkuara të Amerikës"
+            },
+            {
+                "id": "186",
+                "name": "Uruguai"
+            },
+            {
+                "id": "187",
+                "name": "Uzbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Venezuelë (Republika Bolivariane e)"
+            },
+            {
+                "id": "190",
+                "name": "Vietnam"
+            },
+            {
+                "id": "191",
+                "name": "Jemen"
+            },
+            {
+                "id": "192",
+                "name": "Zambia"
+            },
+            {
+                "id": "193",
+                "name": "Zimbabve"
+            },
+            
+            {
+            	"id":"194",
+            	"name":"Kosovo"
+            }
+            
+            
+			
+        ]
+    },
+    "various_values": {
+        "priority-item-content": "Shkruaj këtu",
+        "submit-label": "voto",
+        "send-label": "dërgo",
+        "contact-us-submit": "Dërgo",
+        "ballot-in": "in",
+        "ballot-vote-for": "Votuan për:",
+        "ballot-vote-id": "Voto:",
+        "ballot-your-turn": "Tani eshte radha jote...",
+        "ballot-name": "Vendos emrin tend",
+        "social-title": "Na duhet ndihma jote per te bere dy gjera te thjeshta si zeri I ndryshimit",
+        "social-title-one": "Vendos emrin TEND ne vote",
+        "social-title-two": "Tregoji te tjerëve dhe nxit miqtë e tu të votojnë",
+        "social-share": "Nxit të tjerët të votojnë",
+        "vote-again": "Deshiron dikush tjeter te marre pjese?",
+        "vote-again-link": "Voto perseri duke perdoru kete kompjuter",
+        "stay-in-touch": "Do te donim te mbeteshim ne kontakt...",
+        "your-email-address": "Adresa e email-it",
+        "sign-me-up": "Hyr",
+        "facebook-btn": "SHPERNDAJE NE FACEBOOK",
+        "facebook-text": "Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org/?ballot=-1",
+        "twitter-btn": "NDAJE NE TWITTER",
+        "twitter-text": "#Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. http://myworld2015.org/?ballot=-1 @MyWorld2015",
+        "sina-btn": "NDAJE NE WEIBO",
+        "sina-text": "#Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org/?ballot=-1",
+        "orkut-btn": "NDAJE NE ORKUT",
+        "orkut-text": "#Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org/?ballot=-1",
+        "googleplus-btn": "NDAJE NE GOOGLE+",
+        "googleplus-text": "#Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto!",
+        "sharethis-btn": "Share on Sharethis",
+        "sharethis-text": "#Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org/?ballot=-1",
+        "map-header-text": "Shih si ka votuar pjesa tjeter e botes",
+        "email-sent": "Faleminderit!"
+    },
+    "pages": {
+        "methodology-title": "Metodologjia",
+        "methodology-content": "<h2 class='methodology-main-header'>Përgjigjet e pyetjeve të përgjithshme </h2><br/><br/><h2 class='methodology-header'>Historik: axhenda globale e zhvillimit pas vitit 2015</h2><br/><ul class='list-extra-pages'> <li>Objektivat e Zhvillimit të Mijëvjeçarit (OZHM) kanë pasur një ndikim shumë të madh në jetën e miliarda personave, por ende ka shumë punë për t'u bërë për trajtimin e varfërisë ekstreme, të sëmundjeve dhe të krizave mjedisore.</li> <li>Axhenda globale e zhvillimit për periudhën pas vitit 2015 do të mbështetet në progresin e arritur prej OZHM-ve duke u përballur me pabarazitë e vazhdueshme dhe sfidat e reja që hasin njerëzit dhe planeti.</li> <li>Axhenda e re e zhvillimit duhet të jetë rezultat i një procesi tërësisht të hapur dhe gjithëpërfshirës, i cili përfshin njerëz nga të gjitha anët e botës dhe të gjitha shtresat e shoqërisë.</li> <li>OKB-ja dhe Paneli i Nivelit të Lartë i Sekretarit të Përgjithshëm për axhendën pas vitit 2015 dëshirojnë të dëgjojnë direkt zërin e njerëzve në të gjithë botën për atë që është e rëndësishme për ta, në mënyrë që mendimet e tyre të mund të merren në konsideratë në këtë diskutim global. MY World është perceptuar si një mjet për arritjen e këtij qëllimi.</li></ul><h2 class='methodology-header'>Çfarë është MY World? </h2><br/><ul class='list-extra-pages'> <li>Kombet e Bashkuara dhe partnerët janë bashkuar për të krijuar një anketë globale novatore, të njohur si MY World, në mënyrë që njerëzit të mund të marrin pjesë në procesin e hartimit te axhendës të pas vitit 2015, duke na treguar ndryshimet që do të ndikonin më shumë në jetën e tyre.</li> <li>Është një anketë me opsione, e cila, përmes metodave kreative online dhe offline u mundëson personave në të gjithë botën të vënë në dijeni Kombet e Bashkuara, liderët botërorë dhe në veçanti Panelin e Nivelit të Lartë të Sekretarit të Përgjithshëm, për problemet më të rëndësishme që ata dëshirojnë të trajtohen në axhendën e pas vitit 2015.</li> <li>MY World u kërkon individëve të zgjedhin gjashtë nga gjashtëmbëdhjetë çështje të mundshme që ata mendojnë se do të ndryshonin më shumë jetën e tyre. Gjashtëmbëdhjetë problemet janë nxjerrë nga prioritetet e shprehura nga të varfrit në praktika ekzistuese kërkimore dhe anketuese dhe nga diskutimet e vazhdueshme teknike dhe politike rreth objektivave të mundshme të ardhshme. Ato mbulojnë OZHM-të ekzistuese, si dhe problemet e qëndrueshmërisë, sigurisë, qeverisjes dhe transparencës.</li></ul><h2 class='methodology-header'>Si funksionon? </h2><br/><ul class='list-extra-pages'> <li>Anketa mund të gjendet në internet në adresën www.myworld2015.org në gjashtë gjuhët zyrtare të OKB-së. Qytetarët gjithashtu do të kenë mundësi të marrin pjesë në këtë anketë përmes teknologjive të telefonisë celulare si SMS dhe IVR (numra pa pagesë) nga janari 2013.</li> <li>Anketa do të jetë e disponueshme edhe offline në version të printuar në letër - ajo do të shpërndahet përmes një rrjeti organizatash lokale, komuniteteve fetare, grupeve rinore, organeve të sektorit privat dhe OJQ-ve partnere në të gjithë botën. Mbështetja e këtyre organizatave është shumë e rëndësishme për të ndikuar direkt në komunitete dhe për të përfshirë në debatin mbarë botëror komunitetet pa lidhje dixhitale, komunitetet e pashkolluara dhe më të varfra.</li> <li>Pjesëmarrësit do të pyeten për gjininë e tyre, moshën dhe shtetin, në mënyrë që të dhënat të mund të ndahen hollësisht dhe që vendimmarrësve t'u paraqitet një imazh i saktë global i mendimit të qytetarëve.</li></ul><h2 class='methodology-header'>Kur dhe ku do të ndodhë kjo? </h2><br/><ul class='list-extra-pages'> <li>Që nga ky moment deri në vitin 2015, ne dëshirojmë të përfshijmë sa më shumë njerëz në sa më shumë shtete që të jetë e mundur: qytetarë të të gjitha moshave, gjinive dhe prejardhjeve, veçanërisht në komunitetet e varfra dhe të margjinalizuara të botës.</li> <li>MY World do të jetë i disponueshëm nga fillimi i dhjetorit 2012, kështu që vendet që organizojnë konsultime kombëtare mund ta marrin në konsideratë. Sidoqoftë, prezantimi në nivel global i MY World është parashikuar të bëhet në fund të janarit 2013 (deri atëherë paketa e plotë e komunikimit do të jetë e disponueshme për të gjithë).</li></ul><h2 class='methodology-header'>Cilat janë gjashtëmbëdhjetë opsionet? </h2><br/><ul class='list-extra-pages'> <li>Mundësi më të mira punësimi</li> <li>Mbështetje ndaj personave te paafte për punë</li> <li>Arsim cilësor</li> <li>Kujdes më i mirë shëndetësor</li> <li>Ushqime ekonomikisht të përballueshme dhe me vlera ushqyese</li> <li>Akses në internet dhe shërbimin e telefonisë</li> <li>Transport dhe rrugë më të mira</li> <li>Akses për ujë të pijshëm dhe kanalizime</li> <li>Energji e sigurt në shtëpi</li> <li>Masa kundër ndryshimeve klimatike</li> <li>Mbrojtje e pyjeve, lumenjve dhe deteve</li> <li>Barazi ndërmjet burrave dhe grave</li> <li>Mbrojtje nga krimi dhe dhuna</li> <li>Liria politike</li> <li>Qeveri e ndershme dhe e përgjegjëshme </li> <li>Liri nga diskriminimi dhe persekutimi</li></ul><h2 class='methodology-header'>Çfarë do të ndodhë me rezultatet e anketës? </h2><br/><ul class='list-extra-pages'> <li>Të dhënat nga anketat në celular, në faqen e internetit dhe offline do të mblidhen vazhdimisht dhe do të jenë të disponueshme në faqen e internetit të MY World.</li> <li>Rezultatet do t'i dorëzohen Panelit të Nivelit të Lartë të Sekretarit të Përgjithshëm për axhendën e zhvillimit pas vitit 2015 përpara se ata t'ia paraqesin raportin e tyre final Sekretarit të Përgjithshëm të Kombeve të Bashkuara në qershor të vitit 2013. MY World do të vazhdojë të mbledhë zërat e njerëzve dhe rezultatet do t'i jepen Sekretarit të Përgjithshëm dhe liderëve të shteteve të ndryshme teksa përgatisin axhendën e ardhshme të zhvillimit në afrim të vitit 2015.</li></ul><br/><br/><h2 class='methodology-main-header'>Përgjigjet e pyetjeve themelore rreth metodologjisë </h2><br/><br/><br/><h2 class='methodology-header'>Për çfarë shërben anketa? </h2><br/>MY World është një mënyrë për të dëgjuar mendimin e qytetarëve sesi duhet të jetë marrëveshja e re globale e zhvillimit. Ajo do të plotësojë nisma të tjera që sjellin zërat e qytetarëve në debatin për të ardhmen pas vitit 2015, si p.sh. projekti &quot;Merr pjesë&quot; që drejtohet nga Instituti i Studimeve të Zhvillimit dhe koalicioni &quot;Përtej vitit 2015&quot; i organizatave të shoqërisë civile, i cili po kryen kërkime cilësore të thelluara për prioritetet e njerëzve, si dhe numri i madh i konsultimeve kombëtare dhe tematike të organizuara nga Kombet e Bashkuara në të gjithë botën.<br/><br/>Platforma MY World i plotëson këto nisma duke ofruar të dhëna sasiore për prioritetet. Mundesite e zgjedhjes në anketë janë strukturuar qëllimisht në mënyrë të përgjithshme: për shembull, &quot;Kujdes më i mirë shëndetësor&quot; ose &quot;Barazi ndërmjet burrave dhe grave&quot;, për t'i bërë këto çështje të kuptueshme nga qytetari i thjeshtë. Konsultimet e tjera do të jenë plotësuese dhe do të ofrojnë informacione shtesë që politikëbërësit të mund të kuptojnë mendimet dhe prioritetet e njerëzve brenda secilit prej këtyre titujve të përgjithshëm dhe të marrin në konsideratë mënyrën nëse këto mund të përkthehen në objektiva, synime dhe tregues dhe mënyrën si mund të arrihet diçka e tillë.<br/><br/>MY World siguron një urë lidhëse ndërmjet proceseve të tjera të konsultimit dhe procesit politik, duke u fokusuar në mënyrën e përcaktimit të prioriteteve për të krijuar një axhendë globale zhvillimi. MY World do të lejojë përfshirjen e mendimeve të qytetarëve në të.<br/><br/>Nuk synohet të krijohet një &quot;përgjigje&quot; përfundimtare se cilat do të jenë prioritetet e botës, por për t'u dhënë vendimmarrësve globalë informacione dhe për të qenë të sigurt se ajo çfarë rezulton në fund të procesit te hartimit te axhendes pas vitit 2015, është e bazuar në mendimet e sa më shumë njerëzve të jetë e mundur.<br/><br/><br/><h2 class='methodology-header'>Përse këto 16 opsione? </h2><br/>Zgjedhja e një liste opsionesh për një propozim të tillë është detyrë shumë e vështirë. Ky është procesi nëpër të cilin kaluam për të zgjedhur 16 opsionet:<br/><ul class='list-extra-pages'> <li>Fillimisht u hartua një listë fillestare me 24 opsionet më të mira dhe paragrafët shpjegues mbështetur në çështjet aktuale të Objektivave të Zhvillimit të Mijëvjeçarit, në analizën e shoqërisë civile dhe propozimet e tjera për &quot;pas vitit 2015&quot;, propozimet e ndryshme për Objektivat e Zhvillimit të Qëndrueshëm dhe të dhënat ekzistuese nga kërkimet dhe anketat me pjesëmarrje. Opsionet e zgjedhura ishin ato që dolën si tema të qarta nga këto burime dhe të cilat mund të përbënin çështje globale.</li> <li>Më pas, lista u shpërnda për konsultime te një grup individësh nga OJQ-të, politikëbërësit, akademikët dhe stafi i OKB-së në shumë vende dhe rajone. Pas marrjes së komenteve u vendos që lista të reduktohej në 15 opsione, me qëllim që anketa të bëhej më e thjeshtë dhe më e aksesueshme. Më pas kjo listë u shpërnda për një raund të dytë konsultimesh te një grup më i vogël, duke përfshirë një kompani anketimi për opinionet në Afrikë.</li> <li>Pas këtij konsultimi, u vendos që numri të rritej në 16 opsione për të përfshirë raundin e ri të komenteve.</li> <li>U krye një test përfundimtar nëpërmjet një ankete me SMS në Uganda, ku u bë një pyetje e hapur dhe përgjigjet u koduan në 16 opsione. Kur njerëzit u pyetën për çështjet më me rëndësi për ta dhe familjet e tyre, më pak se katër për qind e përgjigjeve nuk lidheshin fare me kategoritë me 16 opsione.</li></ul>Ne kemi besimin se kemi një grup të balancuar opsionesh, i cili pasqyron gamën e çështjeve për të cilat njerëzit në të gjithë botën janë të shqetësuar dhe rreth të cilave mund të zhvillohen objektiva të reja. Ai nuk përfshin çdo gjë që ka rëndësi për njerëzit, por përfshin një gamë çështjesh që objektivat mund t'i adresojnë dhe të cilat ne e dimë se janë të rëndësishme për njerëzit, organizatat dhe qeveritë. Në fillim të anketës, si online dhe offline, theksohet se të gjitha këto opsione janë të rëndësishme, por që ne po përpiqemi të identifikojmë ato që kanë më tepër rëndësi, për të ndihmuar në përzgjedhjen e mundshme të disa objektivave globale.<br/><br/><br/><h2 class='methodology-header'>Çfarë ndodh nëse dua të zgjedh një opsion tjetër? </h2><br/>Anketa u ofron pjesëmarrësve një mundësi për të shtuar prioritetin e tyre nëpërmjet zgjedhjes së 17-të &quot;opsioni juaj&quot;. Përgjigjet që jepen këtu do të analizohen me shumë kujdes për të parë nëse mungon ndonjë temë apo nëse ka ide të reja që po gjejnë mbështetje. Analiza e këtyre opsioneve që nuk janë në formular do të vihet në dispozicion.<br/><br/><br/><h2 class='methodology-header'>Përse opsionet janë formuluar në këtë mënyrë? </h2><br/>Opsionet duhet të jenë të kuptueshme për të gjithë kudo që ndodhen, jo vetëm për ekspertët e zhvillimit. Ne punuam me një kompani anketimi në Afrikë dhe me ekspertë komunikimi në tre organizata për të rishikuar gjuhën për të siguruar që ajo të jetë e kuptueshme dhe me sa më pak zhargon ose referenca specifike kulturore që të jetë e mundur.<br/><br/><h2 class='methodology-header'>Përse pyesni &quot;Çfarë ka më shumë rëndësi për ju dhe familjen tuaj&quot;? </h2><br/>Duke qenë se marrëveshja për pas vitit 2015 do të jetë globale, qëllimi i saj në thelb është të përmirësojë jetën e njerëzve. Kështu që pyetja se çfarë është e rëndësishme për njerëzit duket të jetë një pikënisje më e mirë dhe më e qartë sesa t'i pyesim që të imagjinojnë një marrëveshje globale të ardhshme dhe se çfarë duhet të përfshijë ajo. Anketa është strukturuar rreth prioriteteve individuale, por e dimë që për shumë njerëz interesat dhe zgjedhjet e tyre personale janë të lidhura ngushtë me ato të familjeve të tyre (për shembull, prindërit mund t'i përgjigjen pyetjes duke pasur në mendje planet për fëmijët e tyre). Për këtë arsye jemi përpjekur që të përçojmë idenë se kur pyesim njerëzit se çfarë ka rëndësi për ata si individë, ne e dimë se lumturia e tyre lidhet me atë të të tjerëve.<br/><br/>Përveç kësaj, formulimi i pyetjes në këtë mënyrë do të thotë se ka më pak mundësi që të anketuarit ta interpretojnë ndryshe pyetjen, e cila mund të ndodhë nëse do të bënim një pyetje më të përgjithshme mbi prioritetet për qeverisjen globale ose një pyetje për prioritetet e komunitetit ose të vendit.<br/><br/><br/><h2 class='methodology-header'>Përse i kufizoni njerëzit në 16 opsione …a nuk mund të bënit thjesht një pyetje të hapur? </h2><br/>MY World është vetëm një pjesë e përpjekjeve globale për konsultime për axhenden pas vitit 2015 dhe gjithë të tjerat përfshijnë pyetje të hapura. Ka shumë mënyra që njerëzit të parashtrojnë pikëpamjet e tyre dhe këto metoda të ndryshme mund të plotësojnë njëra-tjetrën. Roli i MY World është të ofrojë një vështrim rreth prioriteteve të njerëzve dhe për këtë arsye ishte e nevojshme që të caktohej paraprakisht lista e opsioneve. Siç përshkruhet më lart, janë bërë përpjekje të mëdha për të garantuar se prioritetet përfaqësojnë ato që njerëzit kanë thënë se janë të rëndësishme.<br/><br/>Gjithashtu, ka edhe dy arsye teknike dhe metodologjike për të bërë pyetje të mbyllura:<br/><br/><ul class='list-extra-pages'> <li>Duke qenë se anketa do të bëhet në shumë gjuhë dhe me mënyra të ndryshme (internet, SMS, offline), teknologjia aktuale nuk është aq e mirë sa përgjigjet e një pyetjeje të hapur t'i grupojë në mënyrë sistematike dhe të besueshme në grupe për t'u analizuar me anë të softuerit në dispozicion. Kodimi manual i disa miliona përgjigjeve që shpresojmë të marrim në këtë projekt do ta bënte projektin të paarritshëm nga pikëpamja monetare dhe kohore.</li> <li>Partnerët kryesorë në fushën e anketimit janë shprehur se sipas eksperiencës së tyre nivelet e pjesëmarrjes janë shumë herë më të ulëta në anketa me pyetje të hapura. Kjo nuk përbën habi duke qenë se ato kërkojnë që pjesëmarrësit të mendohen dhe të përpiqen më shumë. Prandaj, për ta rritur në maksimum pjesëmarrjen dhe për ta bërë anketën sa më të arritshme që të jetë e mundur, ofrimi i opsioneve të përcaktuara është një zgjidhje më e mirë.</li></ul><br/><h2 class='methodology-header'>Por në fakt nuk mund ta trajtoni varfërinë nëpërmjet një liste çështjesh individuale. Çdo gjë është e lidhur. </h2><br/>Jemi dakord. Prandaj është e rëndësishme që njerëzve t'u jepet një numër i madh opsionesh dhe të lejohen të zgjedhin më shumë se një. Zgjedhja e 6 nga 16 opsione do t'i lejojë njerëzit të mendojnë për ato kombinime veprimesh që mund të prodhojnë efektin më të mirë. Gjithashtu, do t'i lejojë njerëzit të zgjedhin opsionet që trajtojnë të njëjtin problem në mënyra të ndryshme: për shembull, një prind i shqetësuar se vajza e tij duhet të marrë një arsimim më të mirë, mund të dojë të zgjedhë edhe opsionin &quot;Barazia ndërmjet burrave dhe grave&quot;, edhe atë &quot;Arsimi më cilësor&quot;, për të përfaqësuar dimensionet e ndryshme të ndryshimeve që dëshirojnë të shohin.<br/><br/>Ne e testuam anketën me tre grupe pilot për të parë nëse përbënte dallim nëse njerëzve do t'u kërkohej të zgjidhnin 3, 5 ose 7 opsione. Të anketuarit u pyetën nëse anketa ishte e vështirë/lehtë dhe pak a shumë e këndshme. Nuk u gjetën dallime të dukshme.<br/><br/><br/><h2 class='methodology-header'>Si do ta kuptoni që njerëzit të cilët i përgjigjen anketës përfaqësojnë popullsinë si një të tërë apo vetëm grupe të ndryshme brenda saj? </h2><br/>Ne do të zbulojmë sa më shumë të jetë e mundur rreth njerëzve që i përgjigjen anketës, me qëllim që të themi sa më shumë të jetë e mundur se kush janë. Por do të jemi shumë të kujdesshëm për të mos pretenduar më shumë seç duhet, duke qenë të hapur dhe transparentë për përmbajtjen dhe kufizimet e të dhënave. Përveç kësaj, po marrim këshilla nga një kompani eksperte globale anketimi për mënyrën se si t'i analizojmë dhe t'i paraqesim të dhënat. Nivelet e informacionit janë si më poshtë:<br/><br/><ul class='list-extra-pages'> <li>Gjinia – të gjithë të anketuarit do të pyeten për gjininë kështu që kjo vlen për të gjitha të dhënat</li> <li>Mosha – përsëri, të gjithë të anketuarit</li> <li>Shteti – të gjithë të anketuarit</li> <li>Metoda e përgjigjes – do të mund t'i analizojmë të dhënat sipas mënyrës me anë të së cilës njerëzit e marrin anketën, e cila do të përcaktojë çdo dallim të madh ndërmjet të tria grupeve.</li> <li>Data dhe koha e përgjigjes – për të vlerësuar impaktin e çdo fushate marketingu dhe për të kapur çdo program të automatizuar që mund të manipulojë rezultatet.</li> <li>Niveli i arsimit – kjo pyetje do t'u bëhet të gjithë pjesëmarrësve offline dhe me SMS. Përveç kësaj, kjo pyetje do t'u bëhet të gjithë pjesëmarrësve online si pyetje shtesë fakultative (kjo për të minimizuar nivelin e braktisjes së shkollës)</li> <li>Rajoni lokal – këtë informacion për pjesëmarrësit me SMS do ta marrim nga operatorët e telefonisë celulare dhe për pjesëmarrësit offline do ta marrim nga anketuesit. Kjo pyetje do t'u bëhet edhe të gjithë pjesëmarrësve online si pyetje shtesë fakultative për të minimizuar nivelet e braktisjes së shkollës.</li></ul>Informacioni që do të mbledhim do të ketë detaje të një niveli të ngjashëm me atë që mblidhen nga Gallup World Survey dhe nga kampionë të tjerë përfaqësues në nivel global. Duke qenë se nuk do të marrim kampionë në mënyrë rastësore siç bën Gallup-i, ne do të përdorim të dhënat sociale dhe demografike që mbledhim për të përcaktuar sesa e pasqyron kampioni ynë popullsinë e tij në secilin shtet dhe do ta bëjmë të qartë kur të publikojmë të dhënat.<br/><br/><br/><h2 class='methodology-header'>Si do t'i paraqisni të dhënat? </h2><br/>Të dhënat nga anketa në internet do të mund të shikohen në kohë reale dhe të dhënat nga anketat me SMS dhe ato offline do të shtohen sa më shpejt të jetë e mundur, për të garantuar që të dhënat të jenë të përditësuara.<br/><br/>Gjithashtu, informacioni shtesë i mbledhur nga njerëzit që kryejnë anketën do të përdoret për t'i ndarë të dhënat për të ofruar një panoramë sesi ndryshojnë prioritetet ndërmjet shteteve, grupeve demografike dhe social-ekonomike. Ne do t'i raportojmë më vete prioritetet e grupeve dhe të shteteve të ndryshme.<br/><br/>Gjithashtu, do t'i mbledhim rezultatet sipas shtetit, rajonit dhe në nivel global. Në këtë mënyrë, ne do ta përdorim informacionin e mbledhur nga pjesëmarrësit për të vlerësuar përgjigjet me qëllim që bashkimi i të dhënave të bëhet në mënyrë të tillë që të ofrojë një panoramë sa më përfaqësuese të jetë e mundur të të gjithë popullsisë. Opsionet për vlerësimin përfshijnë:<br/><br/><ul class='list-extra-pages'> <li>Faktorët demografikë: vlerësimi i përgjigjeve nga secili shtet në përputhje me madhësinë e popullsisë, nga meshkujt dhe femrat dhe grupmoshat e ndryshme për të pasqyruar ekuilibrin në popullsi.</li> <li>Faktorët social-ekonomikë dhe demografia rajonale lokale. Presim që të marrim informacion mbi nivelin e arsimit dhe rajonin lokal të banimit për një nëngrup të konsiderueshëm të të gjithë të anketuarve. Nëse shifrat do të jenë mjaftueshëm të larta, do të jetë e mundur që përgjigjet të vlerësohen në një mënyrë të tillë që pasqyron përbërjen social-ekonomike dhe demografike të shteteve.</li> <li>Përfaqësimet për të ardhurat: deri diku të tre metodat e përgjigjeve përfaqësojnë grupet me të ardhura të ndryshme, ku të pasurit kanë më shumë gjasa të kenë akses në internet dhe të varfrit kanë më shumë gjasa të jenë ndër pjesëmarrësit offline. Kjo është ajo që ndodh, sidomos duke qenë se fokusi për anketën offline do të jetë në rajonet më të varfra në shtetet e ndryshme ku do të zhvillohet. Ne do të eksperimentojmë me mënyra të ndryshme të vlerësimit të përgjigjeve sipas mënyrës me të cilën është kryer anketa, për të pasqyruar modelet e popullsisë rajonale dhe shpërndarjen e kategorive të të ardhurave brenda shtetit.</li></ul><br/><h2 class='methodology-header'>Meqë axhenda pas vitit 2015 bën fjalë për zhdukjen e varfërisë…pse duhet të shqetësohemi për prioritetet e njerëzve që nuk janë të varfër? </h2><br/>Ne jemi kujdesur shumë për zhvillimin e metodologjisë për të garantuar që prioritetet e njerëzve më të varfër të përfshihen në këtë anketë dhe që përgjigjet e tyre do të mund të analizohen veçmas nga pjesa tjetër. Kemi përdorur të dhënat e anketës së banesave për të identifikuar rajonet brenda shteteve ku jetojnë njerëzit më të varfër dhe do t'i fokusojmë në ato rajone përpjekjet për anketën offline, për të garantuar mbulim të komuniteteve më të varfra. Përveç kësaj, po planifikojmë të punojmë me një grup organizatash joqeveritare, të cilat mund të na këshillojnë sesi mund ta bëjmë anketimin me grupet specifike të vështira për t'u arritur, si fëmijët, të moshuarit dhe personat me aftësi të kufizuara dhe shumë nga ato OJQ do të anketojnë komunitetet me të cilat punojnë. Kështu që do të jetë e mundur të përdoren këto të dhëna për t'u fokusuar vetëm te shumë të varfrit, nëse do të jetë ky fokusi. Kur të dhënat të jenë mbledhur në nivel global, mund të përdorim teknikat e vlerësimit për të garantuar që përgjigjet e të varfërve të jenë në proporcion me numrin e tyre në të gjithë popullsinë dhe të mos zbehen nga numri i madh i përgjigjeve nëpërmjet internetit në shtetet me të ardhura të larta.<br/><br/>Por anketa është projektuar të jetë globale, sepse të gjithë kanë aspirata dhe përballen me probleme në jetën e tyre. Dhe shpesh prioritetet e grupeve të ndryshme janë shumë më të ngjashme nga sa mund të presim. Nëse kuptojmë se si njerëzit në çdo shtet e shohin jetën e tyre në të ardhmen dhe njohja me gjërat që ata do të donin të ndryshonin, do ta bëjë më të lehtë ndërtimin e klasës politike për të nxitur marrëveshjen e re. Sa më shumë që një kuadër të pasqyrojë konsensusin global për prioritetet, aq më e lehtë do të jetë për të ndërtuar politikat që e mundësojnë atë.<br/><br/><br/><h2 class='methodology-header'>A nuk përfshihet diçka më shumë në kuadrin e ri sesa vetëm përzgjedhja e çështjeve më të rëndësishme për njerëzit në mbarë botën? </h2><br/>Anketa MY World është vetëm një nga shumë konsultimet dhe proceset politike që do të kontribuojnë për një marrëveshje të re. Njohja e prioriteteve të grupeve të ndryshme do të jetë e rëndësishme në hartimin e atyre politikave.<br/><br/>Gjatë strukturimit të 16 opsioneve ishim të ndërgjegjshëm se ky proces ka të bëjë me hartimin e objektivave globale, kështu që të gjithë opsionet përfaqësojnë çështje që mund të trajtohen në mënyrë të dobishme dhe praktike nëpërmjet veprimit ndërkombëtar. Kemi përjashtuar disa gjëra, si për shembull, besimet fetar, që e dimë se janë shumë të rëndësishme për njerëzit, por që nuk do të ishin të përshtatshme si tema për objektivat e reja globale.",
+        "contact-title": "Kontakti",
+        "contact-content": "Mbërrin së shpejti.",
+        "policy-title": "Rregullorja e privatësisë",
+        "policy-content": "Kjo rregullore privatësie përcakton sesi “My World” përdor dhe mbron çdo informacion që ju i jepni “My World” kur përdorni këtë faqe interneti.<br/><br/>“My World” angazhohet që të sigurojë se privatësia juaj është e mbrojtur. Në rast se ju kërkojmë të jepni informacion nëpërmjet të cilit ju mund të identifikoheni kur përdorni këtë faqe interneti, atëherë të jeni të sigurt se ky informacion do të përdoret vetëm në përputhje me këtë rregullore privatësie.<br/><br/>“My World” mund ta ndryshojë këtë rregullore herë pas here duke përditësuar këtë faqe.  Ju duhet ta kontrolloni këtë faqe rregullisht për t'u siguruar që jeni të kënaqur me ndryshimet. <br/><br/><span class='highlight-extra-pages'>Çfarë mbledhim ne</span><br/>Ne mund të mbledhim informacionin e mëposhtëm: <br/><br/><ul class='list-extra-pages'><li>Gjashtë prioritetet që keni zgjedhur</li><li>Prioritetin fakultativ që keni sugjeruar</li><li>Gjininë, moshën dhe shtetin tuaj</li></ul> <span class='highlight-extra-pages'>Çfarë bëjmë me informacionin që mbledhim</span><br/><br/>“My World” NUK shet apo shpërndan përgjigjet tuaja të anketës me reklamues apo shitës palësh të treta.<br/><br/>Rezultatet nga anketa në faqen e internetit, në telefonin celular apo jashtë linje do t'i dorëzohen Panelit të Nivelit të Lartë të Sekretarit të Përgjithshëm për axhendën 'Pas vitit 2015' përpara takimeve të tyre në Monrovia (shkurt), Bali (mars) dhe Nju Jork (maj) 2013. <br/><br/><span class='highlight-extra-pages'>Siguria</span><br/>Ne angazhohemi t'ju garantojmë se informacioni juaj do të jetë i sigurt. Për të parandaluar aksesin apo publikimin e paautorizuar, ne kemi vendosur procedura të përshtatshme fizike, elektronike dhe administrimi për të ruajtur dhe për të mbrojtur informacionin që mbledhim në internet (online). <br/><br/><span class='highlight-extra-pages'>Si i përdorim 'cookies'</span><br/>'Cookie' është një skedar i vogël që kërkon leje për t'u vendosur në diskun e kompjuterit tuaj. Pasi ju bini dakord, skedari shtohet dhe cookie ndihmon në analizimin e trafikut të rrjetit apo t'ju vërë në dijeni kur vizitoni një faqe specifike. 'Cookie-t' i lejojnë aplikacionet e rrjetit t'ju përgjigjen si individ. Aplikacioni i rrjetit mund t'i përshtatë funksionet e tij sipas nevojave, pëlqimeve dhe mospëlqimeve tuaja duke mbledhur dhe mbajtur mend informacion rreth preferencave tuaja. <br/><br/>Ne i përdorim 'cookie-t' e evidencës së trafikut për të identifikuar se cilat faqe po përdoren. Kjo na ndihmon të analizojmë të dhënat mbi trafikun e faqes së internetit dhe ta përmirësojmë faqen tonë në mënyrë që t'ia përshtatim nevojave të klientit. Ne e përdorim këtë informacion vetëm për qëllime analizash statistikore dhe më pas të dhënat hiqen nga sistemi. <br/><br/>Në përgjithësi, 'cookie-t' na ndihmojnë t'ju ofrojmë një faqe interneti më të mirë, duke na mundësuar të monitorojmë se cilat faqe ju duken të dobishme dhe cilat jo. 'Cookie' nuk na jep akses në kompjuterin tuaj apo ndonjë informacion tjetër rreth jush në asnjë lloj mënyre, përveç të dhënave të cilat ju zgjidhni të ndani me ne. <br/><br/>Ju mund të zgjidhni t'i pranoni apo t'i refuzoni 'cookie-t'. Shumica e shfletuesve të rrjetit i pranojnë 'cookie-t' automatikisht, por ju zakonisht, nëse preferoni, mund ta modifikoni parametrin e shfletuesit tuaj të mos i pranojë ato. Kjo gjë mund t'ju pengojë të përfitoni plotësisht nga faqja e internetit. <br/><br/><span class='highlight-extra-pages'>Lidhje me faqe interneti të tjera</span><br/>Faqja jonë e internetit mund të përmbajë lidhje për t'ju mundësuar të vizitoni lehtësisht faqe interneti të tjera me interes. Megjithatë, pasi t'i përdorni këto lidhje për ta lënë faqen tonë, duhet të keni parasysh se ne nuk kemi kontroll mbi faqen tjetër. Prandaj, ne nuk mund të jemi përgjegjës për mbrojtjen dhe privatësinë e çdo informacioni që ju jepni ndërsa vizitoni këto faqe dhe që ato nuk mbulohen nga kjo rregullore privatësie. Duhet të bëni kujdes dhe të shihni deklaratën e privatësisë që zbatohet për faqen e internetit në fjalë. <br/><br/><span class='highlight-extra-pages'>Kontrolli i informacionit tuaj personal</span><br/>Dhënia e përgjigjeve të anketës është vullnetare. Mos harroni, gjithmonë mund të zgjidhni të mos i përgjigjeni një pyetjeje të caktuar të anketës (në veçanti atyre që ju kërkojnë informacion apo të dhëna personale). Sidoqoftë, kjo do t'ju pengojë të përfundoni anketën. <br/><br/>Nëse besoni se ndonjë informacion që kemi për ju është i pasaktë apo jo i plotë, lutemi na shkruani ose na dërgoni një email sa më shpejt të jetë e mundur, në info@worldwewant2015.org. Ne do të korrigjojmë menjëherë çdo informacion të pasaktë",
+        "copyright-title": "E drejta e autorit",
+        "copyright-content": "Të gjitha të drejtat të rezervuara.<br/><br/>Asnjë pjesë e faqes “My World” apo e përmbajtjes së saj nuk mund të riprodhohet, të kopjohet, të modifikohet apo përshtatet, pa lejen paraprake me shkrim të autorit, me përjashtim të rasteve kur tregohet ndryshe për materiale të veçanta.<br/><br/>Mund ta ndani këtë faqe me ndonjë prej mënyrave të mëposhtme:<br/>1. Duke përdorur secilën nga ikonat e ndarjes në çdo faqe;<br/>2. Duke dhënë një lidhje kthyese të URL-së së përmbajtjes që dëshironi të shpërndani; ose<br/>3. Mund të citoni ekstrakte nga faqja e internetit duke cituar <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a><br/><br/>Përdorimi komercial dhe shpërndarja e përmbajtjes së faqes së internetit nuk lejohen pa shprehjen e pëlqimit paraprak me shkrim të autorit.",
+        "about-my-world-title": "Rreth MY World",
+        "about-my-world-content": "<span class='highlight-extra-pages'>MY World është një anketë globale për qytetarët që drejtohet nga Kombet e Bashkuara dhe partnerët.</span> Ajo ka për qëllim të mbledhë mendimet, prioritetet dhe zërat e njerëzve, në mënyrë që liderët botërorë të jenë të informuar kur të fillojnë procesin e përcaktimit të axhendës së re të zhvillimit për botën.<br/><br/>Me anë të metodave kreative online dhe offline, <span class='highlight-extra-pages'>MY World u kërkon individëve të zgjedhin gjashtë nga gjashtëmbëdhjetë çështje të mundshme</span> që ata mendojnë se do të ndryshonin më shumë jetën e tyre. Gjashtëmbëdhjetë çështjet janë krijuar nga prioritetet e shprehura nga të varfrit në praktika ekzistuese kërkimore dhe anketuese dhe ato mbulojnë Objektivat ekzistuese të Zhvillimit të Mijëvjeçarit, si dhe problemet e qëndrueshmërisë, sigurisë, qeverisjes dhe transparencës.<br/><br/><span class='highlight-extra-pages'>Që nga ky moment deri në vitin 2015, ne dëshirojmë të përfshijmë sa më shumë njerëz në sa më shumë shtete që të jetë e mundur me MY World: </span>qytetarë të të gjitha moshave, gjinive dhe prejardhjeve, veçanërisht në komunitetet e varfra dhe të margjinalizuara të botës.<br/><br/>Rezultatet fillimisht do t'i dorëzohen <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>Panelit të Nivelit të Lartë për &quot;Pas vitit 2015&quot;</a> të Sekretarit të Përgjithshëm përpara takimeve të tyre në Monrovia, Bali dhe Nju Jork dhe do të përfshihen në raportin dhe rekomandimet e tyre përfundimtare për një kuadër të ri zhvillimi në maj të vitit 2013.<br/><br/>Më pas, My World do të vazhdojë të mbledhë zërat e njerëzve deri në vitin 2015 dhe rezultatet do t'i paraqiten Sekretarit të Përgjithshëm dhe liderëve botërorë teksa përgatisin axhendën e ardhshme të zhvillimit në afrim të vitit 2015.<br/><br/>",
+        "who-we-are-title": "Kush jemi",
+        "who-we-are-content": "<span class='highlight-extra-pages'>Programi për Zhvillim i Kombeve të Bashkuara, Fushata e Kombeve të Bashkuara Millennium Campaign, Instituti për Zhvillim Ndërkombëtar Përtejdetit dhe Fondacioni World Wide Web</span> kanë krijuar së bashku My World. Ai i është nënshtruar një procesi të gjerë konsultimi dhe ka mbështetje të gjerë nga një sërë organizatash, përfshirë OJQ-të, grupet fetare dhe lëvizjet rinore.<br/><br/><span class='highlight-extra-pages'>Departamenti i Informimit Publik të Kombeve të Bashkuara dhe Programi i Vullnetarëve të Kombeve të Bashkuara (UNV) gjithashtu do të kenë një rol drejtues në MY World.</span><br/><br/><span class='highlight-extra-pages'><a href='#' id='more-partners-link'>Shihni më shumë partnerë</a></span><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Rreth <a href='http://www.undp.org/' target='_blank'>UNDP</a></span> Programi i Kombeve të Bashkuara për Zhvillim (UNDP) është rrjeti global për zhvillim i Kombeve të Bashkuara, që mbron ndryshimin dhe i lidh vendet me njohurinë, ekspertizën dhe burimet, për t'i ndihmuar njerëzit të ndërtojnë një jetë më të mirë. Ai ndodhet në terren në 177 shtete dhe territore.</li><br/><li><span class='highlight-extra-pages'>Rreth <a href='http://www.endpoverty2015.org/' target='_blank'>Fushatës së Kombeve të Bashkuara Millennium Campaign</a></span> Krijuar në vitin 2002 nga Sekretari i Përgjithshëm i Kombeve të Bashkuara, Fushata mbështet dhe frymëzon njerëzit në mbarë botën të ndërmarrin veprime për arritjen e Objektivave të Zhvillimit të Mijëvjeçarit brenda vitit 2015 dhe lehtëson pjesëmarrjen e shoqërisë civile në axhendën e zhvillimit pas vitit 2015.</li><br/><li><span class='highlight-extra-pages'>Rreth <a href='http://www.odi.org.uk/' target='_blank'>ODI</a></span><a href='http://www.webfoundation.org/' target='_blank'> </a>Instituti për Zhvillim Ndërkombëtar Përtejdetit është instituti studimor lider i Mbretërisë së Bashkuar për zhvillimin ndërkombëtar dhe çështjet humanitare që punon për të frymëzuar dhe informuar politika e praktika që çojnë në reduktimin e varfërisë, lehtësimin e vuajtjeve dhe arritjen e një jetese të qëndrueshme në vendet në zhvillim.</li><br/><li><span class='highlight-extra-pages'>Rreth <a href='http://www.webfoundation.org/' target='_blank'>Fondacionit World Wide Web</a></span> Krijuar nga shpikësi i Web-it, Sir Tim Berners-Lee, Fondacioni World Wide Web është një organizatë jofitimprurëse e përkushtuar për arritjen e një bote, ku të gjithë njerëzit të përdorin Web-in për të komunikuar dhe bashkëpunuar lirisht, si dhe për të sjellë novacione, duke ngritur ura lidhjeje midis ndarjeve që kërcënojnë të ardhmen tonë të përbashkët.</li></ul><br/>",
+        "faq-title": "Pyetjet më të shpeshta",
+        "faq-content": "<h2 class='faq-header'>Çfarë është MY World?</h2><br/><span class='highlight-extra-pages'>Është një anketë me opsione</span>, e cila, përmes metodave kreative në linjë (online) dhe jashtë linje (offline) u mundëson personave në të gjithë botën të vënë në dijeni Kombet e Bashkuara, dhe në veçanti Panelin e Nivelit të Lartë të Sekretarit të Përgjithshëm te OKB-se, për problemet më të rëndësishme që ata dëshirojnë të trajtohen në axhendën nderkombetare  te pas vitit 2015.<br/><br/><span class='highlight-extra-pages'>MY World u kërkon individëve të zgjedhin gjashtë nga gjashtëmbëdhjetë ceshtjeve të mundshme</span> që mendojnë se do të ndryshonin më shumë jetën e tyre. Gjashtëmbëdhjetë ceshtjet janë nxjerrë nga prioritetet e shprehura nga të varfrit në praktika ekzistuese kërkimore dhe anketuese dhe nga diskutimet e vazhdueshme teknike dhe politike rreth objektivave të mundshme të ardhshme. Ato mbulojnë Objektivat ekzistuese të Zhvillimit të Mijëvjeçarit (OZHM) si edhe problemet e qëndrueshmërisë, sigurisë, qeverisjes dhe transparencës.<br/><br/><h2 class='faq-header'>Si funksionon?</h2><br/><span class='highlight-extra-pages'>Nga dhjetori i vitit 2012 anketa mund të gjendet në internet në adresën www.myworld2015.org</span> në gjashtë gjuhët zyrtare të OKB-së. Qytetarët gjithashtu do të kenë mundësi të marrin pjesë në këtë anketë përmes teknologjive të telefonisë celulare si SMS dhe IVR (numra pa pagesë) <span class='highlight-extra-pages'>nga janari 2013.</span><br/><br/>Anketa do të jetë e disponueshme edhe <span class='highlight-extra-pages'>jashtë linje (offline) në letër</span> – ajo do të shpërndahet përmes një rrjeti organizatash lokale, komuniteteve fetare, grupeve rinore, organeve të sektorit privat dhe OJQ-ve partnere në të gjithë botë. Mbështetja e këtyre organizatave është <span class='highlight-extra-pages'>shumë e rëndësishme për të ndikuar direkt në komunitete</span> dhe për të përfshirë në debatin mbarëbotëror komunitetet pa lidhje dixhitale, komunitetet analfabete dhe më të varfra.<br/><br/>Pjesëmarrësit do të pyeten për gjininë e tyre, moshën dhe shtetin, në mënyrë që të dhënat të mund të ndahen hollësisht dhe që vendimmarrësve t'u paraqitet një imazh i saktë global i mendimit të qytetarëve.<br/><br/><h2 class='faq-header'>Kur dhe ku do të ndodhë kjo?</h2><br/>Që nga ky moment, ne dëshirojmë të përfshijmë sa më shumë njerëz në sa më shumë shtete që të jetë e mundur: qytetarë të të gjitha moshave, gjinive dhe prejardhjeve, veçanërisht në komunitetet e varfra dhe të margjinalizuara të botës.<br/><br/><h2 class='faq-header'>Çfarë do të ndodhë me rezultatet e anketës?</h2><br/>Të dhënat nga anketat në celular, në faqen e internetit dhe jashtë linje (offline) do të mblidhen vazhdimisht dhe do të jenë të disponueshme në faqen e internetit të MY World.<br/>Rezultatet do t'i dorëzohen Panelit të Nivelit të Lartë përpara takimeve të tyre në Monrovia, Bali dhe Nju Jork, përpara se t'i paraqesin raportin e tyre përfundimtar Sekretarit të Përgjithshëm për ta njoftuar atë rreth vizionit të tyre për axhendën e zhvillimit pas vitit 2015. My World do të vazhdojë të mbledhë zërat e njerëzve dhe rezultatet do t'i jepen Sekretarit të Përgjithshëm dhe liderëve të shteteve të ndryshme teksa përgatisin axhendën e ardhshme të zhvillimit në afrim të vitit 2015.<br/><br/><h2 class='faq-header'>Pse tani?</h2><br/><span class='highlight-extra-pages'>Objektivat e Zhvillimit të Mijëvjeçarit (OZHM) kanë pasur një ndikim shumë të madh në jetën e miliarda personave</span>, por ende ka shumë punë për t'u bërë për trajtimin e varfërisë ekstreme, të sëmundjeve dhe të krizave mjedisore.<br/><br/>Axhenda e zhvillimit global për periudhën pas vitit 2015 do të <span class='highlight-extra-pages'>mbështetet në progresin e arritur prej OZHM-ve</span> duke u përballur ndërkohë me pabarazitë e vazhdueshme dhe sfidat e reja që hasin njerëzit dhe planeti.<br/><br/><span class='highlight-extra-pages'>Axhenda e re e zhvillimit duhet të jetë rezultat i një procesi tërësisht të hapur dhe përfshirës</span>, i cili përfshin njerëz nga të gjitha anët e botës dhe të gjitha shtresat e shoqërisë.<br/><br/><span class='highlight-extra-pages'>OKB-ja dhe Paneli i Nivelit të Lartë i Sekretarit të Përgjithshëm për axhendën pas vitit 2015 dëshirojnë të dëgjojnë direkt zërin e njerëzve në të gjithë botën</span> për atë që është e rëndësishme për ta, në mënyrë që mendimet e tyre të mund të merren në konsideratë në këtë diskutim global. MY World është perceptuar si një mjet për të ndihmuar në arritjen e këtij qëllimi.<br/><br/><h2 class='faq-header'>Si mund të përfshiheni me MY World?</h2><br/>Për individët:<br/><br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Na ndihmoni të përhapim fjalën!</span> Tregojuni miqve dhe familjarëve tuaj për anketën dhe zgjedhjet tuaja dhe nxitini ata të marrin pjesë në këtë anketë të rëndësishme.</li> <li><span class='highlight-extra-pages'>Na dërgoni të rejat!</span> Mblidhni fotografi, video dhe histori të personave që janë përfshirë në MY World dhe ndajini ato në llogaritë e tua në mediat sociale.</li> <li><span class='highlight-extra-pages'>Na lini të dhënat e tua </span>në mënyrë që t'ju informojmë vazhdimisht rreth rezultateve më të fundit të anketës dhe mënyrave të ndryshme me anë të të cilave mund të përfshiheni në luftën kundër varfërisë në botë.</li></ul><br/><br/>Për organizatat:<br/><br/>Në <u>www.myworld2015.org </u>do të gjeni një paketë të dedikuar për partnerët aktivë, përpara lançimit botëror në janar 2013. Gjerësisht, nëse një organizatë është e interesuar që të mbështesë MY World, ajo mund të: <br/><br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Administrojë anketën jashtë linje (offline)</span> në komunitetet lokale duke shpërndarë karta votimi, duke mbledhur rezultatet dhe duke i dërguar të dhënat te pikat tona kombëtare dhe rajonale të kontaktit.</li> <li><span class='highlight-extra-pages'>Komunikojë me partnerët ekzistues, organizatat lokale dhe anëtarët</span> dhe t'i nxisë ata që të marrin pjesë.</li> <li><span class='highlight-extra-pages'>Ndihmojë duke i drejtuar njerëzit te</span> www.myworld2015.org përmes rrjeteve të jashtme dhe platformave të komunikimit (faqe interneti, buletine lajmesh dhe aktivitete të mediave sociale).</li> <li><span class='highlight-extra-pages'>Bashkëpunojë me partnerë të tjerë potencialë</span> (për shembull, ofruesit e telefonave celularë, organe të sektorit privat dhe programet në media) për të lehtësuar shtrirjen dhe ndikimin e MY World.</li> <li><span class='highlight-extra-pages'>Na dërgoni të rejat! </span>Mblidhni fotografi, video dhe histori të atyre që janë përfshirë në MY World.</li></ul><br/><br/><h2 class='faq-header'>Si lidhet My World me Bota që Duam 2015?</h2><br/>Tashmë qytetarët nga e gjithë bota kanë një mundësi interesante, si asnjëherë më parë, që të jenë pjesë e objektivave të reja për t'i dhënë fund varfërisë dhe për të krijuar një mjedis të qëndrueshëm që nga fazat e para të procesit.<br/><br/>Portali në internet <u>www.worldwewant2015.org</u> mundëson që njerëzit anembanë botës të bëhen pjesë e procesit pas vitit 2015 në shkëmbimin e ideve dhe përfshirjen në debat. MY World është integruar plotësisht në këtë përpjekje globale dhe është një mjet i vetëm i cili kap zërat e qytetarëve për të pasuruar këtë diskutim global. <u>www.myworld2015.org</u> lidhet plotësisht me <u>www.worldwewant2015.org</u> dhe i fton qytetarët që ta ndjekin këtë diskutim pasi të kenë dhënë votat e tyre.<br/><br/><h2 class='faq-header'>Si bëhen pjesë e procesit Objektivat e Zhvillimit të Qëndrueshëm?</h2><br/>Siç është pranuar në Rio+20, Grupi i Hapur i Punës do të hartojë një paketë Objektivash të Zhvillimit të Qëndrueshëm deri në shtator të vitit 2013. Paneli i Nivelit të Lartë do të punojë paralelisht me Grupin e Hapur të Punës dhe të dy së bashku do t'i dorëzojnë rekomandimet në zyrën e Sekretarit të Përgjithshëm.<br/><br/><span class='highlight-extra-pages'>Rreth Panelit të Nivelit të Lartë të Sekretarit të Përgjithshëm për pas vitit 2015</span><br/><br/><u>Paneli i Nivelit të Lartë i Sekretarit të Përgjithshëm të OKB-së </u>është pjesë e iniciativës për pas vitit 2015 të Sekretarit të Përgjithshëm Ban Ki-moon dhe është krijuar për ta informuar atë rreth axhendës globale për zhvillim pas vitit 2015, data e synuar për arritjen e objektivave kundër varfërisë të njohur si Objektivat e Zhvillimit të Mijëvjeçarit (OZHM).<br/><br/>Puna e Panelit të Nivelit të Lartë do të pasqyrojë sfidat e reja të zhvillimit, duke u mbështetur gjithashtu në eksperiencën e fituar gjatë zbatimit të OZHM-ve, si për rezultatet e arritura, ashtu dhe për fushat për përmirësim. Paneli i Nivelit të Lartë pritet që t'ia dorëzojë konstatimet e tij Sekretarit të Përgjithshëm të OKB-së në gjysmën e parë të vitit 2013 dhe këto gjetje do të përfshihen në raportin e tij drejtuar Shteteve Anëtare të OKB-së në Asamblenë e Përgjithshme të OKB-së në shtator 2013.<br/><br/><u>Shih anëtarët e Panelit të Nivelit të Lartë</u><br/><br/><h2 class='faq-header'>Kush e koordinon MY World?</h2><br/><span class='highlight-extra-pages'><u>Programi i Kombeve të Bashkuara për Zhvillim</u></span><span class='highlight-extra-pages'>, <u>Fushata e Mijëvjeçarit e OKB-së</u>, <u>Instituti Ndërkombëtar për Zhvillim</u> dhe <u>World Wide Web Foundation</u></span>e kanë zhvilluar MY World bashkërisht. Ai i është nënshtruar një procesi të gjerë konsultimi dhe ka mbështetje të gjerë nga një sërë organizatash, përfshirë OJQ-të, grupe fetare dhe lëvizje rinore.<br/><br/><span class='highlight-extra-pages'>Departamenti i Informimit Publik i OKB-së dhe programi i Vullnetarëve të Kombeve të Bashkuara (UNV) luajnë gjithashtu një rol drejtues në MY World.</span><br/><br/><u>Shih part<a name='_GoBack'></a>nerë të tjerë</u><br/></br>",
+        "how-it-works-title": "Si funksionon",
+        "how-it-works-content": "MY World u kërkon individëve të zgjedhin gjashtë nga gjashtëmbëdhjetë ceshtje të mundshme që ata mendojnë se do të ndryshonin më shumë jetën e tyre. Gjashtëmbëdhjetë ceshtjet janë nxjerrë në vijim të një <span class='highlight-extra-pages'>aktiviteti gjithëpërfshirës analizash dhe konsultimesh:</span><br/><br/><ul class='list-extra-pages'><li>Anketa është hartuar si një <span class='highlight-extra-pages'>anketë me opsione</span> dhe jo si anketë me &quot;pyetje të hapura&quot;, sepse qëllimi specifik i MY World brenda përpjekjes më të gjerë globale të OKB-së rreth programit pas vitit 2015 është të ofrojë një <span class='highlight-extra-pages'>perceptim të prioriteteve të njerëzve</span>.</li><li><span class='highlight-extra-pages'>U krijua një listë fillestare me 24 probleme të marra nga një sërë burimesh të rëndësishme</span>, përfshirë kërkimin pjesëmarrës, votimin, informacionin e shoqërisë civile, Objektivat e Zhvillimit të Mijëvjeçarit dhe planet për Objektivat e Zhvillimit të Qëndrueshëm. Opsionet më pas u përmirësuan në gjashtëmbëdhjetë zgjedhje përmes <span class='highlight-extra-pages'>seancave të shumta të konsultimeve</span> me OJQ-të, politikëbërësit, akademikët, stafin e OKB-së dhe kompanitë eksperte të sondazheve të opinionit. Anketa gjithashtu është <span class='highlight-extra-pages'>testuar në grupe pilot</span> dhe përmes një ankete me SMS në Ugandë, për të garantuar që gjashtëmbëdhjetë opsionet janë gjithëpërfshirëse dhe të përshtatshme.</li><li> Për të futur ndonjë temë të vazhdueshme që mund të mos e kemi përfshirë, pjesëmarrësit gjithashtu mund të japin prioritetin e tyre përmes një zgjedhjeje shtesë &quot;shto opsionin tënd&quot;.</li><li>Anketa MY World nuk mund të mbulojë gjithçka që është e rëndësishme për qytetarët, sepse jo të gjitha problemet mund të trajtohen përmes objektivave globale. Megjithatë, në të është përfshirë tërësia e prioriteteve që mund të trajtohen nga objektivat dhe të cilat ne i dimë që janë të rëndësishme për njerëzit.</li></ul><span class='highlight-extra-pages'>Aksesi në anketën MY World është i mundur përmes TRE kanaleve kryesore:</span><br/><br/><ul class='list-extra-pages'><li> <span class='highlight-extra-pages'>Në internet:</span> në <span class='highlight-extra-pages'><span class='highlight-extra-pages'><a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span></span> në gjashtë gjuhët zyrtare të OKB-së dhe në mediat sociale;</li><li><span class='highlight-extra-pages'>Teknologjitë celulare (e disponueshme nga janari 2013)</span>: me SMS dhe Përgjigje Zanore Interaktive (IVR) përmes numrave pa pagesë; dhe</li><li><span class='highlight-extra-pages'>Jashtë linje (offline) (e disponueshme nga dhjetori 2012):</span> në letër nëpërmjet sondazhit - shpërndarë përmes një rrjeti organizatash lokale, komuniteteve fetare, grupeve rinore, organeve të sektorit privat dhe OJQ-ve partnere në të gjithë botën.</li>Anketa është anonime. Pjesëmarrësve do t'u kërkohet gjinia e tyre, mosha dhe vendi, për të mundësuar një analizë kuptimplotë të të dhënave, në mënyrë që të mund t'u paraqesim vendimmarrësve një <span class='highlight-extra-pages'>imazh të saktë mbarë botëror</span> të mendimit të qytetarëve.</ul>Të dhënat nga anketat në celular, në faqen e internetit dhe jashtë linje (offline) do të mblidhen vazhdimisht dhe do të jenë të disponueshme në faqen e internetit të MY World.<br/><br/> Rezultatet nga anketat në faqen e internetit, celular dhe jashtë linje (offline) <span class='highlight-extra-pages'>do t'i dorëzohen Panelit të Nivelit të Lartë të Sekretarit të Përgjithshëm për “Pas vitit 2015' </span>përpara takimeve të tyre në Monrovia (shkurt), Bali (mars) dhe Nju Jork (maj) 2013.",
+        "contact-us-title": "Kontakti",
+        "contact-us-title-small": "Plotësoni këtë formular dhe na jepni komentet tuaja",
+        "contact-us-name": "Emri: <span class='required'>*</span>",
+        "contact-us-email": "Emaili: <span class='required'>*</span>",
+        "contact-us-organization": "Organizata",
+        "contact-us-description": "Mesazhi: <span class='required'>*</span>",
+        "page-contact-us-thankyou-title": "Kontakti",
+        "page-contact-us-thankyou-content": "Faleminderit për mesazhin tuaj! Do t'ju përgjigjemi së shpejti.",
+        "page-partners-title": "Partnerët",
+        "page-partners-content": "Më poshtë është një listë e partnerëve të përkushtuar që po punojnë me ne për ta çuar anketën MY World në komunitetet e tyre:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Pas 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Rrjeti i Organizatave të Shoqërisë Civile për Zhvillim</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>Organizata Ndërkombëtare e Punës</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>Konfederata Ndërkombëtare e Sindikatave</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>Këshilli Rinor Ndërkombëtar- Kenia</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>Shkolla e Mamive Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>Qytetet e Bashkuara dhe Qeveritë Lokale</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>Federata Botërore e Shoqatave të Kombeve të Bashkuara</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>Programi Vullnetarët e Kombeve të Bashkuara (UNV)</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Grupi i Madh i Fëmijëve dhe të Rinjve (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>Shoqata Botërore e Udhërrëfyeseve dhe Skautisteve Vajza (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>Organizata Botërore e Lëvizjes Skautiste</a><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Turma për Ndryshim</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>YWCA Botërore</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>Aleanca Botërore e YMCA </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Rrjeti Ndërkombëtar Rinia për Habitatet /  Qendra e Habitatit për Zhvillim dhe Qeverisje</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Zhvillim pa prehje</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Të gjelbrit e Rinj Globalë</a><br/>Pax Romana<br/>Zërat Ruralë Rinorë<br/>Organizata e Rinisë Afrikane<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>Federata Ndërkombëtare e Shoqatave të Studentëve të Mjekësisë</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>Federata Botërore e Studentëve Kristianë, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>Studentët e Rinj Katolikë Ndërkombëtarë (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Forumi i Grupeve të Interesit</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Thirrja Globale për Veprim kundër Varfërisë</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://https://childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/><br/>Nëse jeni organizatë dhe dëshironi t'i bashkoheni përpjekjeve në terren për MY World, lutemi na shkruani në <a href='mailto:xavier.longan@undp.org'>xavier.longan@undp.org</a>",
+        "page-coming-soon-title": "Së shpejti",
+        "page-coming-soon-content": ""
+    },
+    "social_media": {
+      "facebook": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=Kombet%20e%20Bashkuara%20duan%20t'ju%20dëgjojnë.&caption=Sapo%20ju%20tregova%20prioritetet%20e%20mia%20për%20krijimin%20e%20një%20bote%20më%20të%20mirë.%20Bashkohu%20me%20mua%20dhe%20voto!&description=&redirect_uri=http://www.myworld2015.org",
+       "facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=Kombet%20e%20Bashkuara%20duan%20t'ju%20dëgjojnë.&caption=Sapo%20ju%20tregova%20prioritetet%20e%20mia%20për%20krijimin%20e%20një%20bote%20më%20të%20mirë.%20Bashkohu%20me%20mua%20dhe%20voto!%20http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+        "twitter": "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë..&via=MyWorld2015",
+        "og_title": "Kombet e Bashkuara duan t'ju dëgjojnë.",
+        "og_description": "Sapo ju tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto!",
+        "weibo": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto!&pic=http://www.myworld2015.org/assets/img/logo.png",
+        "weibo_thankyou": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=%23Kombet e Bashkuara duan t'ju dëgjojnë. Sapo u tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto!&pic=http://www.myworld2015.org/image_path",
+        "orkut": "http://promote.orkut.com/preview?nt=orkut.com&tt=Kombet e Bashkuara duan t'ju dëgjojnë.&du=http:/www.myworld2015.org&cn=Sapo ju tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+        "orkut_thankyou": "http://promote.orkut.com/preview?nt=orkut.com&tt=Kombet e Bashkuara duan t'ju dëgjojnë.&du=http:/www.myworld2015.org&cn=Sapo ju tregova prioritetet e mia për krijimin e një bote më të mirë. Bashkohu me mua dhe voto! http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+    },
+    "viz": {
+        "viz1_title": "Si ka Votuar Bota",
+        "viz1_subtitle": "Renditja e prioriteteve (deri tani)",
+        "viz2_title": "Njerez qe kane votuar si ti",
+        "viz2_title_results": "Shih kush ka votuar tjeter",
+        "viz2_subtitle": "Votuesit e fundit qe zgjodhen te pakten 4 nga prioritetet e tua",
+        "priorities": "Prioritetet",
+        "your_priorities": "Prioritetet e tua",
+        "other_priorities": "Prioritete te tjera",
+        "tip1_results": "Shih secilin prioritet per te pare si kane votuar te tjeret",
+        "tip1": "Shko poshte zgjedhjeve qe ke bere per te pare se si ka votuar bota",
+        "tip2": "Njerez si ti",
+        "tip3": "Treguesi i Zhvillimit Njerezor (TZHNJ) eshte nje mase permbledhese per vleresimin e zhvillimit njerezor. TZHNJ mat progresin mesatar te nje vendi në tre dimensionet bazë të zhvillimit njerëzor: një jetë e gjatë dhe e shëndetshme (shendetesia), aksesi në njohuri (arsimi) dhe një standard i denjë jetese (te ardhurat)",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "E Ulet",
+        "hdi2": "Mesatare",
+        "hdi3": "E Larte",
+        "hdi4": "Shume e Larte",
+        "world": "Bota",
+        "location": "Vendndodhja",
+        "gender": "Gjinia",
+        "age_groups": "Grupmoshat",
+        "hdi": "TZHNJ",
+        "region_or_country": "Rajoni ose Shteti",
+        "all": "Te gjitha",
+        "customize": "Personalizo",
+        "customize_this_segment": "Personalizo kete segment",
+        "change": "Ndrysho",
+        "submit": "Prano",
+        "hide_markers": "Fshih shenuesit",
+        "votes": "Votat ",
+        "total_votes": "Votat ne total ",
+        "none": "Asnje",
+        "country_totals": "Totali per çdo vend deri me",
+        "custom_dropdown_values": ["Vendet me TZHNJ te ulet",
+                            "Vendet me TZNJ mesatare",
+                            "Vendet me TZHNJ te larte",
+                            "Vendet me TZHNJ shume te larte",
+                            "Afrika",
+                            "Amerika",
+                            "Azia",
+                            "Europa",
+                            "Oqeania"]
+    },
+    
+    "header_html":{
+    	"get-involved-btn":"Behu pjese",
+    	"resources-item":"Burimet",
+    	"campus-item":"Programi i Kampusit",
+    	"existing-partners-item":"Partneret ekzistues",
+    	"ballot-widget-item":"widget votimit",
+    	"data-set-item":"Të dhënat e vendosur",
+    	"register-item":"Regjistrohu si partner"
+   },
+   
+   "page_title":{
+    "campus-program":"Campus Program",
+    "resources":"Resources",
+    "partners":"Partners",
+    "widget-creator":"MY World Ballot Widget"
+    
+    },
+    "campus_program":{
+	    "thanks-for-support":"Thank you for your interest in supporting <span class='highlight-extra-pages'>MY World - the United Nations global survey for a better world.</span> ",
+	    "what-we-want":"From now until 2015, we want as many people in as many countries as possible to be involved with MY World: ",
+	    "profile":"citizens of all ages, genders and backgrounds.",
+	    "vital-support":"The support of a variety of <span class='highlight-extra-pages'>groups and individuals</span> is vital in reaching out directly into communities and drawing the digitally disconnected, illiterate and poorest communities into the global debate. ",
+	    "watch-this-space":"We're currently working on a special partnership program for schools and universities - watch this space!",
+	    "resource-part1":"In the meantime, you can use the tools available on the",
+	    "resource-word":"'Resources'",
+	    "resource-part2":"page to get started."
+     
+    },
+    "partners":{
+    	"partner-intro":"Below is a list of committed partners who are working with us to take the MY World survey out into their communities:",
+    	"un-agencies":"UN Agencies",
+    	"civil-society":"Civil Society",
+    	"private-sector":"Private Sector"
+    
+    },
+    "resources":{
+    	"thanks-for-interest":"Thank you for your interest in supporting <span class='highlight-extra-pages'>MY World - the United Nations global survey for a better world.</span>",
+    	"we-want-people":"From now until 2015, we want as many people in as many countries as possible to be involved with MY World:<span class='highlight-extra-pages'> citizens of all ages, genders and backgrounds.</span>",
+    	"find-resources":"Here you can find resources (below) to help you spread the word about MY World and directly <span class='highlight-extra-pages'>engage people from your community.</span>",
+    	"support":"The support of a variety of <span class='highlight-extra-pages'>groups and individuals</span> is vital in reaching out directly into communities and drawing the digitally disconnected, illiterate and poorest communities into the global debate.",
+    	"organizations":"Organizations",
+    	"how-get-involved":"How can you get involved with MY World?",
+    	"toolkit":"Make use of the <span class='highlight-extra-pages'>communications toolkit!</span> For access to videos, posters, adverts and radio pitches visit: <a href='http://myworldcommunicationstoolkit.101.es/'  target='_blank' class='highlighted-link'>http://myworldcommunicationstoolkit.101.es/</a>",
+    	"partnerid":"To use these resources you will need to be a registered partner. If you haven’t received the password, please contact <a href='mailto:support@myworld.org' target='_blank' class='highlighted-link'> support@myworld.org </a> giving your partnerID and contact.",
+    	"spread":"<span class='highlight-extra-pages'>Spread the word online</span> by using our online engagement guide, to help you tweet, email, post and blog about MY World.For resources, see below.",
+    	"embed":"<span class='highlight-extra-pages'>Embed the MY World ballot</span> on your website using the mini ballot. Everything you need, including how to embed the ballot, can be found here: <a href='http://partner.myworld2015.org/widget.html' class='highlighted-link' target='_blank'>http://partner.myworld2015.org/widget.html</a>",
+    	"administer":"<span class='highlight-extra-pages'>Administer the survey offline</span> in local communities by distributing ballot cards, gathering results and uploading the data.This can be organized through a school, a community group, faith group or work place. For resources, see below.",
+    	"download":"<span class='highlight-extra-pages'>Download the MY World Android App</span> and use it to collect votes without the need for printing or data entry.Search <a href='https://play.google.com/store/search?q=MYWorld2015' class='highlighted-link' target='_blank'>Google Play</a> for myworld2015 and use your partner ID to start collecting votes.",
+    	"include":"<span class='highlight-extra-pages'>Include MY World </span> at your events by distributing ballot papers among the participants,inviting them to take the survey online, and discussing the sixteen options.",
+    	"reach":"<span class='highlight-extra-pages'>Reach out to your partners, local organizations and members</span> and encourage them to participate. MY World is open to all.",
+    	"engage":"<span class='highlight-extra-pages'>Engage with other potential partners</span> for example, mobile phone providers and media outlets, to facilitate the reach and impact of MY World.",
+    	"help":"<span class='highlight-extra-pages'>Help drive traffic </span> to <a href='http://www.myworld2015.org' class='highlighted-link' target='_blank'>www.myworld2015.org </a>through external networks and communications platforms (websites, news bulletins and social media activities).",
+    	"send":"<span class='highlight-extra-pages'>Send news!</span> Collect photos, videos and stories of those engaging in MY World; re-tweet @myworld2015 hashtag #post2015 and share on <a href='https://www.facebook.com/myworld2015?fref=ts' target='_blank' class='highlighted-link' > Facebook </a> at <a href='http://www.myworld2015.org' class='highlighted-link' target='_blank'>MYWorld2015</a> to join the conversation on social media ",
+    	"students":"Students",
+    	"set-up":"Set up a MY World Campus chapter to organize your school or campus to vote and take MY World to communities near you.",
+    	"check-out-part1":"Check out the MY Campus program",
+    	"here-word":"here",
+    	"check-out-part2":"to get started",
+    	"individuals":"Individuals",
+    	"ten-ways":"Ten Ways to Mark a Difference and help CREATE change.",
+    	"organize":"<span class='highlight-extra-pages'>Organize an event.</span> Events are a great ways to educate yourself and others about the next development goals and get your friends and family to vote on the world they want.",
+    	"donate":"<span class='highlight-extra-pages'>Donate your social media status</span> to informing friends about the survey.",
+    	"bring":"<span class='highlight-extra-pages'>Bring the survey to work or to your club </span>and get your colleagues / friends involved!",
+    	"watch":"<span class='highlight-extra-pages'>Watch and share the <a href='http://goo.gl/eSRpF' class='highlighted-link' target='_blank'>MY World video</a> </span>and help explain to people why they should get involved.",
+    	"android":"Download the <a href='https://play.google.com/store/search?q=myworld2015' class='highlighted-link' target='_blank'>Android app </a><span class='highlight-extra-pages'>(myworld2015) and take the survey door to door</span> in YOUR community (without having to print any ballots!)",
+    	"friends":"<span class='highlight-extra-pages'>Make friends with us</span> on <a href='https://www.facebook.com/myworld2015?fref=ts' class='highlighted-link' target='_blank'>Facebook</a>,  <a href='https://twitter.com/myworld2015' class='highlighted-link' target='_blank'>Twitter</a> and  <a href='https://plus.google.com/115106670965060117370/posts' class='highlighted-link' target='_blank'>Google+</a><span class='highlight-extra-pages'></span>",
+    	"start-part1":"<span class='highlight-extra-pages'>Start a MY World",
+    	"campus-word":"Campus Chapter",
+    	"start-part2":"</span>at your school or campus to bring your classmates on board",
+    	"newsletter":"Subscribe to our newsletter and <span class='highlight-extra-pages'>send us YOUR stories and pictures!</span>",
+    	"communities":"<span class='highlight-extra-pages'>Reach out to new communities </span> and educate the public.",
+    	"write":"<span class='highlight-extra-pages'>Write about MY World</span>. Join fellow MY World champions and write about MY World in your school paper, blogs, forums, church magazine or local newspapers."
+    	
+    },
+    "widget":{
+    	"embed-ballot":"Embed the MY World ballot on your web site",
+    	"what":"What is this?",
+    	"presentation":"The MY World ballot can easily be embedded as a widget on your own web site.This will allow visitors to your site to vote on MY World priorities without leaving your page.",
+    	"how":"How does it work?",
+    	"how-to":"To easily embed the widget on your page, use this Widget Creator to generate a simple &lt;iframe&gt; tag.",
+    	"field-widget-height-label":"Height:",
+    	"dropdowns-widget-language-label":"Language:",
+    	"dropdowns-widget-partnerID-label":"Partner ID:",
+    	"generate":"Generate",
+    	"px":"pixels"
+    	
+    
+    }
+}

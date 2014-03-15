@@ -1,0 +1,2028 @@
+{
+    "segment_keys": {
+        "choices": {
+            "options": 16,
+            "default": 0,
+            "field_name": "choices"
+        },
+        "age_group": {
+            "options": 3,
+            "default": 0,
+            "field_name": "age"
+        },
+        "hdi": {
+            "options": 4,
+            "default": 0,
+            "field_name": "country"
+        },
+        "gender": {
+            "options": 2,
+            "default": 0,
+            "field_name": "gender"
+        },
+        "education": {
+            "options": 4,
+            "default": 0,
+            "field_name": "education"
+        },
+        "country": {
+            "options": 193,
+            "default": 0,
+            "field_name": "country"
+        },
+        "continent": {
+            "options": 5,
+            "default": 0,
+            "field_name": "country"
+        },
+        "age_lb": {
+            "options": 200,
+            "default": 0,
+            "field_name": "age"
+        },
+        "age_ub": {
+            "options": 200,
+            "default": 200,
+            "field_name": "age"
+        },
+        "sourceMethod": {
+            "options": 2,
+            "default": 0,
+            "field_name": "sourceMethod"
+        },
+        "partner": {
+            "options": 1000,
+            "default": 0,
+            "field_name": "partner"
+        },
+        "region": {
+            "options": 22,
+            "default": 0,
+            "field_name": "country"
+        }
+    },
+    "source_method": {
+        "1": "website",
+        "2": "offline",
+        "3": "phone",
+        "4": "sms"
+    },
+    "gender": {
+        "1": "Male",
+        "2": "Female"
+    },
+    "education": {
+        "1": "Some primary",
+        "2": "Finished primary",
+        "3": "Finished secondary",
+        "4": "Beyond secondary"
+    },
+    "continent_indices": {
+        "Africa": 1,
+        "Americas": 2,
+        "Asia": 3,
+        "Europe": 4,
+        "Oceania": 5
+    },
+    "age_indices": {
+        "group1": {
+            "low": 0,
+            "high": 34
+        },
+        "group2": {
+            "low": 35,
+            "high": 54
+        },
+        "group3": {
+            "low": 55,
+            "high": 150
+        }
+    },
+    "region_indices": {
+        "Australia and New Zealand": 1,
+        "Caribbean": 2,
+        "Central America": 3,
+        "Central Asia": 4,
+        "Eastern Africa": 5,
+        "Eastern Asia": 6,
+        "Eastern Europe": 7,
+        "Melanesia": 8,
+        "Micronesia": 9,
+        "Middle Africa": 10,
+        "Northern Africa": 11,
+        "Northern America": 12,
+        "Northern Europe": 13,
+        "Polynesia": 14,
+        "South America": 15,
+        "South-Eastern Asia": 16,
+        "Southern Africa": 17,
+        "Southern Asia": 18,
+        "Southern Europe": 19,
+        "Western Africa": 20,
+        "Western Asia": 21,
+        "Western Europe": 22
+    },
+    "region_country": {
+        "1": [
+            122,
+            9
+        ],
+        "2": [
+            51,
+            50,
+            84,
+            68,
+            175,
+            6,
+            12,
+            15,
+            43,
+            144,
+            145,
+            143,
+            73
+        ],
+        "3": [
+            130,
+            123,
+            54,
+            110,
+            69,
+            18,
+            40,
+            74
+        ],
+        "4": [
+            178,
+            87,
+            187,
+            169,
+            91
+        ],
+        "5": [
+            28,
+            58,
+            56,
+            193,
+            192,
+            88,
+            109,
+            102,
+            101,
+            38,
+            180,
+            184,
+            116,
+            152,
+            158,
+            49,
+            142
+        ],
+        "6": [
+            138,
+            113,
+            85,
+            36,
+            46
+        ],
+        "7": [
+            135,
+            139,
+            26,
+            181,
+            16,
+            155,
+            45,
+            140,
+            141,
+            75
+        ],
+        "8": [
+            131,
+            59,
+            188,
+            157
+        ],
+        "9": [
+            119,
+            129,
+            89,
+            111,
+            107
+        ],
+        "10": [
+            55,
+            39,
+            33,
+            30,
+            34,
+            62,
+            47,
+            5,
+            148
+        ],
+        "11": [
+            160,
+            163,
+            53,
+            115,
+            3,
+            176,
+            97
+        ],
+        "12": [
+            31,
+            185
+        ],
+        "13": [
+            166,
+            126,
+            57,
+            81,
+            60,
+            183,
+            99,
+            93,
+            48,
+            76
+        ],
+        "14": [
+            179,
+            174,
+            146
+        ],
+        "15": [
+            133,
+            132,
+            24,
+            21,
+            52,
+            164,
+            7,
+            37,
+            35,
+            186,
+            189,
+            72
+        ],
+        "16": [
+            134,
+            25,
+            29,
+            190,
+            103,
+            172,
+            170,
+            92,
+            117,
+            154,
+            78
+        ],
+        "17": [
+            165,
+            23,
+            118,
+            95,
+            159
+        ],
+        "18": [
+            20,
+            120,
+            128,
+            104,
+            162,
+            14,
+            1,
+            77,
+            79
+        ],
+        "19": [
+            136,
+            22,
+            161,
+            4,
+            114,
+            83,
+            106,
+            67,
+            171,
+            2,
+            151,
+            156,
+            42,
+            147
+        ],
+        "20": [
+            27,
+            124,
+            125,
+            108,
+            105,
+            32,
+            63,
+            66,
+            173,
+            96,
+            19,
+            150,
+            153,
+            41,
+            71,
+            70
+        ],
+        "21": [
+            137,
+            8,
+            127,
+            191,
+            82,
+            80,
+            86,
+            177,
+            64,
+            182,
+            168,
+            90,
+            94,
+            11,
+            13,
+            44,
+            149
+        ],
+        "22": [
+            121,
+            167,
+            112,
+            100,
+            61,
+            65,
+            98,
+            10,
+            17
+        ]
+    },
+    "hdi_indices": {
+        "LOW HUMAN DEVELOPMENT": 1,
+        "MEDIUM HUMAN DEVELOPMENT": 2,
+        "HIGH HUMAN DEVELOPMENT": 3,
+        "VERY HIGH HUMAN DEVELOPMENT": 4
+    },
+    "hdi_country": {
+        "1": [
+            1,
+            5,
+            14,
+            19,
+            27,
+            28,
+            30,
+            33,
+            34,
+            38,
+            41,
+            47,
+            49,
+            56,
+            58,
+            63,
+            70,
+            71,
+            73,
+            88,
+            95,
+            96,
+            101,
+            102,
+            105,
+            108,
+            116,
+            117,
+            120,
+            124,
+            125,
+            128,
+            131,
+            142,
+            148,
+            150,
+            153,
+            157,
+            163,
+            172,
+            173,
+            180,
+            184,
+            191,
+            192,
+            193
+        ],
+        "2": [
+            3,
+            20,
+            21,
+            23,
+            29,
+            32,
+            36,
+            39,
+            51,
+            53,
+            54,
+            55,
+            59,
+            62,
+            66,
+            69,
+            72,
+            74,
+            77,
+            78,
+            80,
+            86,
+            89,
+            91,
+            92,
+            104,
+            111,
+            113,
+            115,
+            118,
+            123,
+            132,
+            134,
+            139,
+            146,
+            159,
+            162,
+            164,
+            165,
+            168,
+            169,
+            170,
+            178,
+            187,
+            188,
+            190
+        ],
+        "3": [
+            2,
+            6,
+            8,
+            11,
+            12,
+            16,
+            18,
+            22,
+            24,
+            26,
+            37,
+            40,
+            43,
+            50,
+            52,
+            64,
+            68,
+            79,
+            84,
+            87,
+            90,
+            94,
+            97,
+            103,
+            109,
+            110,
+            114,
+            127,
+            129,
+            130,
+            133,
+            140,
+            141,
+            143,
+            144,
+            145,
+            149,
+            151,
+            152,
+            171,
+            174,
+            175,
+            176,
+            177,
+            181,
+            186,
+            189
+        ],
+        "4": [
+            4,
+            7,
+            9,
+            10,
+            13,
+            15,
+            17,
+            25,
+            31,
+            35,
+            42,
+            44,
+            45,
+            48,
+            57,
+            60,
+            61,
+            65,
+            67,
+            75,
+            76,
+            81,
+            82,
+            83,
+            85,
+            93,
+            98,
+            99,
+            100,
+            106,
+            121,
+            122,
+            126,
+            135,
+            136,
+            137,
+            138,
+            154,
+            155,
+            156,
+            161,
+            166,
+            167,
+            182,
+            183,
+            185
+        ]
+    },
+    "country_metadata": {
+        "1": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Afghanistan",
+            "region": "Southern Asia"
+        },
+        "2": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Albania",
+            "region": "Southern Europe"
+        },
+        "3": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Algeria",
+            "region": "Northern Africa"
+        },
+        "4": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Andorra",
+            "region": "Southern Europe"
+        },
+        "5": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Angola",
+            "region": "Middle Africa"
+        },
+        "6": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Antigua and Barbuda",
+            "region": "Caribbean"
+        },
+        "7": {
+            "continent": "Americas",
+            "hdi_index": 4,
+            "name": "Argentina",
+            "region": "South America"
+        },
+        "8": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Armenia",
+            "region": "Western Asia"
+        },
+        "9": {
+            "continent": "Oceania",
+            "hdi_index": 4,
+            "name": "Australia",
+            "region": "Australia and New Zealand"
+        },
+        "10": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Austria",
+            "region": "Western Europe"
+        },
+        "11": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Azerbaijan",
+            "region": "Western Asia"
+        },
+        "12": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Bahamas",
+            "region": "Caribbean"
+        },
+        "13": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Bahrain",
+            "region": "Western Asia"
+        },
+        "14": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Bangladesh",
+            "region": "Southern Asia"
+        },
+        "15": {
+            "continent": "Americas",
+            "hdi_index": 4,
+            "name": "Barbados",
+            "region": "Caribbean"
+        },
+        "16": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Belarus",
+            "region": "Eastern Europe"
+        },
+        "17": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Belgium",
+            "region": "Western Europe"
+        },
+        "18": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Belize",
+            "region": "Central America"
+        },
+        "19": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Benin",
+            "region": "Western Africa"
+        },
+        "20": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Bhutan",
+            "region": "Southern Asia"
+        },
+        "21": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Bolivia (Plurinational State of)",
+            "region": "South America"
+        },
+        "22": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Bosnia and Herzegovina",
+            "region": "Southern Europe"
+        },
+        "23": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Botswana",
+            "region": "Southern Africa"
+        },
+        "24": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Brazil",
+            "region": "South America"
+        },
+        "25": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Brunei Darussalam",
+            "region": "South-Eastern Asia"
+        },
+        "26": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Bulgaria",
+            "region": "Eastern Europe"
+        },
+        "27": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Burkina Faso",
+            "region": "Western Africa"
+        },
+        "28": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Burundi",
+            "region": "Eastern Africa"
+        },
+        "29": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Cambodia",
+            "region": "South-Eastern Asia"
+        },
+        "30": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Cameroon",
+            "region": "Middle Africa"
+        },
+        "31": {
+            "continent": "Americas",
+            "hdi_index": 4,
+            "name": "Canada",
+            "region": "Northern America"
+        },
+        "32": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Cape Verde",
+            "region": "Western Africa"
+        },
+        "33": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Central African Republic",
+            "region": "Middle Africa"
+        },
+        "34": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Chad",
+            "region": "Middle Africa"
+        },
+        "35": {
+            "continent": "Americas",
+            "hdi_index": 4,
+            "name": "Chile",
+            "region": "South America"
+        },
+        "36": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "China",
+            "region": "Eastern Asia"
+        },
+        "37": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Colombia",
+            "region": "South America"
+        },
+        "38": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Comoros",
+            "region": "Eastern Africa"
+        },
+        "39": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Congo",
+            "region": "Middle Africa"
+        },
+        "40": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Costa Rica",
+            "region": "Central America"
+        },
+        "41": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Cote d'Ivoire",
+            "region": "Western Africa"
+        },
+        "42": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Croatia",
+            "region": "Southern Europe"
+        },
+        "43": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Cuba",
+            "region": "Caribbean"
+        },
+        "44": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Cyprus",
+            "region": "Western Asia"
+        },
+        "45": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Czech Republic",
+            "region": "Eastern Europe"
+        },
+        "46": {
+            "continent": "Asia",
+            "hdi_index": "NA",
+            "name": "Democratic People's Republic of Korea",
+            "region": "Eastern Asia"
+        },
+        "47": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Democratic Republic of the Congo",
+            "region": "Middle Africa"
+        },
+        "48": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Denmark",
+            "region": "Northern Europe"
+        },
+        "49": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Djibouti",
+            "region": "Eastern Africa"
+        },
+        "50": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Dominica",
+            "region": "Caribbean"
+        },
+        "51": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Dominican Republic",
+            "region": "Caribbean"
+        },
+        "52": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Ecuador",
+            "region": "South America"
+        },
+        "53": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Egypt",
+            "region": "Northern Africa"
+        },
+        "54": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "El Salvador",
+            "region": "Central America"
+        },
+        "55": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Equatorial Guinea",
+            "region": "Middle Africa"
+        },
+        "56": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Eritrea",
+            "region": "Eastern Africa"
+        },
+        "57": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Estonia",
+            "region": "Northern Europe"
+        },
+        "58": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Ethiopia",
+            "region": "Eastern Africa"
+        },
+        "59": {
+            "continent": "Oceania",
+            "hdi_index": 2,
+            "name": "Fiji",
+            "region": "Melanesia"
+        },
+        "60": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Finland",
+            "region": "Northern Europe"
+        },
+        "61": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "France",
+            "region": "Western Europe"
+        },
+        "62": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Gabon",
+            "region": "Middle Africa"
+        },
+        "63": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Gambia",
+            "region": "Western Africa"
+        },
+        "64": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Georgia",
+            "region": "Western Asia"
+        },
+        "65": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Germany",
+            "region": "Western Europe"
+        },
+        "66": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Ghana",
+            "region": "Western Africa"
+        },
+        "67": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Greece",
+            "region": "Southern Europe"
+        },
+        "68": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Grenada",
+            "region": "Caribbean"
+        },
+        "69": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Guatemala",
+            "region": "Central America"
+        },
+        "70": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Guinea",
+            "region": "Western Africa"
+        },
+        "71": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Guinea-Bissau",
+            "region": "Western Africa"
+        },
+        "72": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Guyana",
+            "region": "South America"
+        },
+        "73": {
+            "continent": "Americas",
+            "hdi_index": 1,
+            "name": "Haiti",
+            "region": "Caribbean"
+        },
+        "74": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Honduras",
+            "region": "Central America"
+        },
+        "75": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Hungary",
+            "region": "Eastern Europe"
+        },
+        "76": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Iceland",
+            "region": "Northern Europe"
+        },
+        "77": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "India",
+            "region": "Southern Asia"
+        },
+        "78": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Indonesia",
+            "region": "South-Eastern Asia"
+        },
+        "79": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Iran (Islamic Republic of)",
+            "region": "Southern Asia"
+        },
+        "80": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Iraq",
+            "region": "Western Asia"
+        },
+        "81": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Ireland",
+            "region": "Northern Europe"
+        },
+        "82": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Israel",
+            "region": "Western Asia"
+        },
+        "83": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Italy",
+            "region": "Southern Europe"
+        },
+        "84": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Jamaica",
+            "region": "Caribbean"
+        },
+        "85": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Japan",
+            "region": "Eastern Asia"
+        },
+        "86": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Jordan",
+            "region": "Western Asia"
+        },
+        "87": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Kazakhstan",
+            "region": "Central Asia"
+        },
+        "88": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Kenya",
+            "region": "Eastern Africa"
+        },
+        "89": {
+            "continent": "Oceania",
+            "hdi_index": 2,
+            "name": "Kiribati",
+            "region": "Micronesia"
+        },
+        "90": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Kuwait",
+            "region": "Western Asia"
+        },
+        "91": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Kyrgyzstan",
+            "region": "Central Asia"
+        },
+        "92": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Lao People's Democratic Republic",
+            "region": "South-Eastern Asia"
+        },
+        "93": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Latvia",
+            "region": "Northern Europe"
+        },
+        "94": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Lebanon",
+            "region": "Western Asia"
+        },
+        "95": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Lesotho",
+            "region": "Southern Africa"
+        },
+        "96": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Liberia",
+            "region": "Western Africa"
+        },
+        "97": {
+            "continent": "Africa",
+            "hdi_index": 3,
+            "name": "Libya",
+            "region": "Northern Africa"
+        },
+        "98": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Liechtenstein",
+            "region": "Western Europe"
+        },
+        "99": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Lithuania",
+            "region": "Northern Europe"
+        },
+        "100": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Luxembourg",
+            "region": "Western Europe"
+        },
+        "101": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Madagascar",
+            "region": "Eastern Africa"
+        },
+        "102": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Malawi",
+            "region": "Eastern Africa"
+        },
+        "103": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Malaysia",
+            "region": "South-Eastern Asia"
+        },
+        "104": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Maldives",
+            "region": "Southern Asia"
+        },
+        "105": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Mali",
+            "region": "Western Africa"
+        },
+        "106": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Malta",
+            "region": "Southern Europe"
+        },
+        "107": {
+            "continent": "Oceania",
+            "hdi_index": "NA",
+            "name": "Marshall Islands",
+            "region": "Micronesia"
+        },
+        "108": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Mauritania",
+            "region": "Western Africa"
+        },
+        "109": {
+            "continent": "Africa",
+            "hdi_index": 3,
+            "name": "Mauritius",
+            "region": "Eastern Africa"
+        },
+        "110": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Mexico",
+            "region": "Central America"
+        },
+        "111": {
+            "continent": "Oceania",
+            "hdi_index": 2,
+            "name": "Micronesia (Federated States of)",
+            "region": "Micronesia"
+        },
+        "112": {
+            "continent": "Europe",
+            "hdi_index": "NA",
+            "name": "Monaco",
+            "region": "Western Europe"
+        },
+        "113": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Mongolia",
+            "region": "Eastern Asia"
+        },
+        "114": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Montenegro",
+            "region": "Southern Europe"
+        },
+        "115": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Morocco",
+            "region": "Northern Africa"
+        },
+        "116": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Mozambique",
+            "region": "Eastern Africa"
+        },
+        "117": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Myanmar",
+            "region": "South-Eastern Asia"
+        },
+        "118": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Namibia",
+            "region": "Southern Africa"
+        },
+        "119": {
+            "continent": "Oceania",
+            "hdi_index": "NA",
+            "name": "Nauru",
+            "region": "Micronesia"
+        },
+        "120": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Nepal",
+            "region": "Southern Asia"
+        },
+        "121": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Netherlands",
+            "region": "Western Europe"
+        },
+        "122": {
+            "continent": "Oceania",
+            "hdi_index": 4,
+            "name": "New Zealand",
+            "region": "Australia and New Zealand"
+        },
+        "123": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Nicaragua",
+            "region": "Central America"
+        },
+        "124": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Niger",
+            "region": "Western Africa"
+        },
+        "125": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Nigeria",
+            "region": "Western Africa"
+        },
+        "126": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Norway",
+            "region": "Northern Europe"
+        },
+        "127": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Oman",
+            "region": "Western Asia"
+        },
+        "128": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Pakistan",
+            "region": "Southern Asia"
+        },
+        "129": {
+            "continent": "Oceania",
+            "hdi_index": 3,
+            "name": "Palau",
+            "region": "Micronesia"
+        },
+        "130": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Panama",
+            "region": "Central America"
+        },
+        "131": {
+            "continent": "Oceania",
+            "hdi_index": 1,
+            "name": "Papua New Guinea",
+            "region": "Melanesia"
+        },
+        "132": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Paraguay",
+            "region": "South America"
+        },
+        "133": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Peru",
+            "region": "South America"
+        },
+        "134": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Philippines",
+            "region": "South-Eastern Asia"
+        },
+        "135": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Poland",
+            "region": "Eastern Europe"
+        },
+        "136": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Portugal",
+            "region": "Southern Europe"
+        },
+        "137": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Qatar",
+            "region": "Western Asia"
+        },
+        "138": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Republic of Korea",
+            "region": "Eastern Asia"
+        },
+        "139": {
+            "continent": "Europe",
+            "hdi_index": 2,
+            "name": "Republic of Moldova",
+            "region": "Eastern Europe"
+        },
+        "140": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Romania",
+            "region": "Eastern Europe"
+        },
+        "141": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Russian Federation",
+            "region": "Eastern Europe"
+        },
+        "142": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Rwanda",
+            "region": "Eastern Africa"
+        },
+        "143": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Saint Kitts and Nevis",
+            "region": "Caribbean"
+        },
+        "144": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Saint Lucia",
+            "region": "Caribbean"
+        },
+        "145": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Saint Vincent and the Grenadines",
+            "region": "Caribbean"
+        },
+        "146": {
+            "continent": "Oceania",
+            "hdi_index": 2,
+            "name": "Samoa",
+            "region": "Polynesia"
+        },
+        "147": {
+            "continent": "Europe",
+            "hdi_index": "NA",
+            "name": "San Marino",
+            "region": "Southern Europe"
+        },
+        "148": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Sao Tome and Principe",
+            "region": "Middle Africa"
+        },
+        "149": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Saudi Arabia",
+            "region": "Western Asia"
+        },
+        "150": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Senegal",
+            "region": "Western Africa"
+        },
+        "151": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Serbia",
+            "region": "Southern Europe"
+        },
+        "152": {
+            "continent": "Africa",
+            "hdi_index": 3,
+            "name": "Seychelles",
+            "region": "Eastern Africa"
+        },
+        "153": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Sierra Leone",
+            "region": "Western Africa"
+        },
+        "154": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "Singapore",
+            "region": "South-Eastern Asia"
+        },
+        "155": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Slovakia",
+            "region": "Eastern Europe"
+        },
+        "156": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Slovenia",
+            "region": "Southern Europe"
+        },
+        "157": {
+            "continent": "Oceania",
+            "hdi_index": 1,
+            "name": "Solomon Islands",
+            "region": "Melanesia"
+        },
+        "158": {
+            "continent": "Africa",
+            "hdi_index": "NA",
+            "name": "Somalia",
+            "region": "Eastern Africa"
+        },
+        "159": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "South Africa",
+            "region": "Southern Africa"
+        },
+        "160": {
+            "continent": "Africa",
+            "hdi_index": "NA",
+            "name": "South Sudan",
+            "region": "Northern Africa"
+        },
+        "161": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Spain",
+            "region": "Southern Europe"
+        },
+        "162": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Sri Lanka",
+            "region": "Southern Asia"
+        },
+        "163": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Sudan",
+            "region": "Northern Africa"
+        },
+        "164": {
+            "continent": "Americas",
+            "hdi_index": 2,
+            "name": "Suriname",
+            "region": "South America"
+        },
+        "165": {
+            "continent": "Africa",
+            "hdi_index": 2,
+            "name": "Swaziland",
+            "region": "Southern Africa"
+        },
+        "166": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Sweden",
+            "region": "Northern Europe"
+        },
+        "167": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "Switzerland",
+            "region": "Western Europe"
+        },
+        "168": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Syrian Arab Republic",
+            "region": "Western Asia"
+        },
+        "169": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Tajikistan",
+            "region": "Central Asia"
+        },
+        "170": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Thailand",
+            "region": "South-Eastern Asia"
+        },
+        "171": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "The former Yugoslav Republic of Macedonia",
+            "region": "Southern Europe"
+        },
+        "172": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Timor-Leste",
+            "region": "South-Eastern Asia"
+        },
+        "173": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Togo",
+            "region": "Western Africa"
+        },
+        "174": {
+            "continent": "Oceania",
+            "hdi_index": 3,
+            "name": "Tonga",
+            "region": "Polynesia"
+        },
+        "175": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Trinidad and Tobago",
+            "region": "Caribbean"
+        },
+        "176": {
+            "continent": "Africa",
+            "hdi_index": 3,
+            "name": "Tunisia",
+            "region": "Northern Africa"
+        },
+        "177": {
+            "continent": "Asia",
+            "hdi_index": 3,
+            "name": "Turkey",
+            "region": "Western Asia"
+        },
+        "178": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Turkmenistan",
+            "region": "Central Asia"
+        },
+        "179": {
+            "continent": "Oceania",
+            "hdi_index": "NA",
+            "name": "Tuvalu",
+            "region": "Polynesia"
+        },
+        "180": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Uganda",
+            "region": "Eastern Africa"
+        },
+        "181": {
+            "continent": "Europe",
+            "hdi_index": 3,
+            "name": "Ukraine",
+            "region": "Eastern Europe"
+        },
+        "182": {
+            "continent": "Asia",
+            "hdi_index": 4,
+            "name": "United Arab Emirates",
+            "region": "Western Asia"
+        },
+        "183": {
+            "continent": "Europe",
+            "hdi_index": 4,
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "region": "Northern Europe"
+        },
+        "184": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "United Republic of Tanzania",
+            "region": "Eastern Africa"
+        },
+        "185": {
+            "continent": "Americas",
+            "hdi_index": 4,
+            "name": "United States of America",
+            "region": "Northern America"
+        },
+        "186": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Uruguay",
+            "region": "South America"
+        },
+        "187": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Uzbekistan",
+            "region": "Central Asia"
+        },
+        "188": {
+            "continent": "Oceania",
+            "hdi_index": 2,
+            "name": "Vanuatu",
+            "region": "Melanesia"
+        },
+        "189": {
+            "continent": "Americas",
+            "hdi_index": 3,
+            "name": "Venezuela (Bolivarian Republic of)",
+            "region": "South America"
+        },
+        "190": {
+            "continent": "Asia",
+            "hdi_index": 2,
+            "name": "Viet Nam",
+            "region": "South-Eastern Asia"
+        },
+        "191": {
+            "continent": "Asia",
+            "hdi_index": 1,
+            "name": "Yemen",
+            "region": "Western Asia"
+        },
+        "192": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Zambia",
+            "region": "Eastern Africa"
+        },
+        "193": {
+            "continent": "Africa",
+            "hdi_index": 1,
+            "name": "Zimbabwe",
+            "region": "Eastern Africa"
+        }
+    },
+    "continent_country": {
+        "1": [
+            3,
+            5,
+            19,
+            23,
+            27,
+            28,
+            30,
+            32,
+            33,
+            34,
+            38,
+            39,
+            41,
+            47,
+            49,
+            53,
+            55,
+            56,
+            58,
+            62,
+            63,
+            66,
+            70,
+            71,
+            88,
+            95,
+            96,
+            97,
+            101,
+            102,
+            105,
+            108,
+            109,
+            115,
+            116,
+            118,
+            124,
+            125,
+            142,
+            148,
+            150,
+            152,
+            153,
+            158,
+            159,
+            160,
+            163,
+            165,
+            173,
+            176,
+            180,
+            184,
+            192,
+            193
+        ],
+        "2": [
+            6,
+            7,
+            12,
+            15,
+            18,
+            21,
+            24,
+            31,
+            35,
+            37,
+            40,
+            43,
+            50,
+            51,
+            52,
+            54,
+            68,
+            69,
+            72,
+            73,
+            74,
+            84,
+            110,
+            123,
+            130,
+            132,
+            133,
+            143,
+            144,
+            145,
+            164,
+            175,
+            185,
+            186,
+            189
+        ],
+        "3": [
+            1,
+            8,
+            11,
+            13,
+            14,
+            20,
+            25,
+            29,
+            36,
+            44,
+            46,
+            64,
+            77,
+            78,
+            79,
+            80,
+            82,
+            85,
+            86,
+            87,
+            90,
+            91,
+            92,
+            94,
+            103,
+            104,
+            113,
+            117,
+            120,
+            127,
+            128,
+            134,
+            137,
+            138,
+            149,
+            154,
+            162,
+            168,
+            169,
+            170,
+            172,
+            177,
+            178,
+            182,
+            187,
+            190,
+            191
+        ],
+        "4": [
+            2,
+            4,
+            10,
+            16,
+            17,
+            22,
+            26,
+            42,
+            45,
+            48,
+            57,
+            60,
+            61,
+            65,
+            67,
+            75,
+            76,
+            81,
+            83,
+            93,
+            98,
+            99,
+            100,
+            106,
+            112,
+            114,
+            121,
+            126,
+            135,
+            136,
+            139,
+            140,
+            141,
+            147,
+            151,
+            155,
+            156,
+            161,
+            166,
+            167,
+            171,
+            181,
+            183
+        ],
+        "5": [
+            9,
+            59,
+            89,
+            107,
+            111,
+            119,
+            122,
+            129,
+            131,
+            146,
+            157,
+            174,
+            179,
+            188
+        ]
+    },
+    "priorities": {
+		"1" : {
+			"prefix"      : "first",
+			"item-color"  : "#E8168B",
+			"item-title"  : "Better job opportunities",
+			"item-content": "This means that governments and private sector companies should do more to make sure that everyone can find a job where they earn a decent wage, and can contribute and feel valued as a productive member of society"
+		},
+		"2" : {
+			"prefix"      : "second",
+			"item-color"  : "#47C0BE",
+			"item-title"  : "A good education",
+			"item-content": "This means that all children should have a high quality primary and secondary education that equips them for employment and an enjoyable life.  Governments and the private sector should work together to provide opportunities for lifelong learning and skills development for adults "
+		},
+		"3" : {
+			"prefix"      : "third",
+			"item-color"  : "#CA3A28",
+			"item-title"  : "Better healthcare",
+			"item-content": "This means that good quality health services should be available to everyone when they need treatment.  Efforts should be made to reduce the impact of infectious and other chronic diseases. Both the funding and the organization of health systems should suit the needs of the country and its citizens"
+		},
+		"4" : {
+			"prefix"      : "fourth",
+			"item-color"  : "#B0D256",
+			"item-title"  : "Affordable and nutritious food",
+			"item-content": "This means that everyone should get the food they need.  No person in the world should be constantly hungry, and no person should become malnourished, especially pregnant women and children aged less than two"
+		},
+		"5" : {
+			"prefix"      : "fifth",
+			"item-color"  : "#233884",
+			"item-title"  : "Support for people who can't work",
+			"item-content": "This means that every person should have enough money to live on, either through employment or government help. When people can’t work, or are affected by events like natural disasters or economic crises, governments should make sure that they and their families won’t go hungry, children won’t drop out of school, and they can get the healthcare and other essential services they need"
+		},
+		"6" : {
+			"prefix"      : "sixth",
+			"item-color"  : "#7CB5D6",
+			"item-title"  : "Phone and internet access",
+			"item-content": "This means that governments and the private sector should make sure that everyone has access to a minimum level of communications technology to get online information and participate in social networks"
+		},
+		"7" : {
+			"prefix"      : "seventh",
+			"item-color"  : "#97D3C9",
+			"item-title"  : "Access to clean water and sanitation",
+			"item-content": "This means that every person should have access to safe water for drinking, cooking and washing, and access to sanitation"
+		},
+		"8" : {
+			"prefix"      : "eighth",
+			"item-color"  : "#A01C40",
+			"item-title"  : "Reliable energy at home",
+			"item-content": "This means that all family members should have reliable and affordable electricity or other sources of energy at home for lighting, heating and cooking.  More of that energy should be sustainably generated"
+		},
+		"9" : {
+			"prefix"      : "nineth",
+			"item-color"  : "#71BE45",
+			"item-title"  : "Protecting forests, rivers and oceans",
+			"item-content": "This means that natural resources should be looked after, because people depend on them for food, fuel and other resources.  Governments should agree on plans to reduce pollution in oceans and rivers, plant new forests and preserve existing ones, and move towards sustainable agriculture and food systems. Global agreements should protect biodiversity and fragile ecosystems"
+		},
+		"10": {
+			"prefix"      : "tenth",
+			"item-color"  : "#FCB749",
+			"item-title"  : "Action taken on climate change",
+			"item-content": "This means that governments should take on binding commitments to reduce carbon emissions to levels which can keep the global temperature rise below 2 degrees, and invest in adaptation measures particularly involving vulnerable communities"
+		},
+		"11": {
+			"prefix"      : "eleventh",
+			"item-color"  : "#2DA9E1",
+			"item-title"  : "An honest and responsive government",
+			"item-content": "This means that governments should be effective, transparent, accountable and not corrupt.  People should have a say on what the government’s priorities should be, and confidence that they will implement those priorities competently.  Governments should agree and implement standards for making information available to all people on how public money is spent"
+		},
+		"12": {
+			"prefix"      : "twelveth",
+			"item-color"  : "#723390",
+			"item-title"  : "Political freedoms",
+			"item-content": "This means that every person should be able to play a part in political processes in their own country, including through voting and forming or joining political parties. People should be able to exercise freedom of expression including through free media.  People should be able to join and participate in trade unions and all aspects of civil society including diverse forms of civic engagement and voluntary action"
+		},
+		"13": {
+			"prefix"      : "thirteenth",
+			"item-color"  : "#387195",
+			"item-title"  : "Protection against crime and violence",
+			"item-content": "This means that all people should expect to live in a community that protects them from the threat of crime and violence.  This should include domestic violence and sexual assault against women and girls.   Every person should be able to get justice through a court or other system if they are victims of a crime"
+		},
+		"14": {
+			"prefix"      : "fourteenth",
+			"item-color"  : "#C84699",
+			"item-title"  : "Equality between men and women",
+			"item-content": "This means that men and women should have the same rights and opportunities.  Boys and girls should have equal access to school and the same quality of education; men and women should stand the same chance of getting elected to parliaments, have the same chances to be involved in political and social life, and experience the same opportunities and rewards in the workplace"
+		},
+		"15": {
+			"prefix"      : "fifteenth",
+			"item-color"  : "#DEC0CA",
+			"item-title"  : "Freedom from discrimination and persecution",
+			"item-content": "This means that no person in the world should have their economic, social or political opportunities limited because of their race, ethnicity, religion, disability, sexual preference, or for any other reason, and that no person should fear for their personal safety for the same reasons"
+		},
+		"16": {
+			"prefix"      : "sixteenth",
+			"item-color"  : "#FBE792",
+			"item-title"  : "Better transport and roads",
+			"item-content": "This means that transport and roads should be improved so that people can move freely and easily to visit their friends and families, find new economic opportunities and use the services they need"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "country": "country",
+    "education_level": "education",
+    "partnerID": "partner",
+    "priority1": "choices",
+    "priority2": "choices",
+    "priority3": "choices",
+    "priority4": "choices",
+    "priority5": "choices",
+    "priority6": "choices",
+    "region_state": "region",
+    "suggested_priority": "suggested_priority",
+    "voter_gender": "gender",
+    "voter_year_of_birth": "age"
+}

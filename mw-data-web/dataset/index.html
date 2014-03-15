@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+<title>MY World Data Repository</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" href="http://www.myworld2015.org/assets/icons/favicon_16.png">
+<link rel="apple-touch-icon" href="http://www.myworld2015.org/assets/icons/favicon_24.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.myworld2015.org/assets/icons/favicon_72.png">
+<link rel="apple-touch-icon" sizes="32x32" href="http://www.myworld2015.org/assets/icons/favicon_32.png">
+<link rel="apple-touch-icon" sizes="64x64" href="http://www.myworld2015.org/assets/icons/favicon_64.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.myworld2015.org/assets/icons/favicon_128.png">
+
+<style type="text/css">
+body {
+	background: url("http://www.myworld2015.org/assets/img/bg.png") repeat #FAFAFA;
+	margin: 25px;
+	font-family: Lato;
+}
+.crop {
+	overflow: auto;
+}
+.container h3 {
+	margin-top: 30px;
+}
+.btn,
+.hero-unit 
+{
+	font-weight: 500;
+	line-height: 1.3em;
+}
+
+.license {
+	margin-top: 25px;
+}
+.license img {
+	float: left;
+}
+.license .desc {
+	width: 200px;
+	margin-left: 105px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.banner {
+	padding: 20px;
+	margin: 40px 0 20px 0;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-box-shadow: 0 2px 10px #999999;
+	-moz-box-shadow: 0 2px 10px #999999;
+	box-shadow: 0 2px 10px #999999;
+
+	text-align: left;
+	background-color: #4a4a4a;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.hero-unit
+{
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.hero-unit small {
+	font-size: 13px;
+}
+.hero-unit .btn {
+	padding: 12px 20px;
+}
+
+.table tr,
+.accordion-heading
+{
+	background-color: #e7e7e7;
+}
+.table td,
+.accordion-body
+{
+	background-color: #fff;
+}
+
+hr { 
+	margin: 20px 0; 
+	border: none;
+	border-top: 1px solid #bbb;
+}
+
+#titleLogo {
+	float: right;
+	margin-top: 87px;
+}
+#titleLogo h1 {
+	font-size: 2em;
+}
+.accordion-group {
+	margin-bottom: 15px;
+}
+.accordion-heading {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.accordion-body {
+	max-height: 500px;
+	overflow-y: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+	<!-- ****************************************************************** header -->
+
+	<br />
+
+	<div class="row">
+		<div class="span12">
+
+			<a href="http://www.myworld2015.org/"><img src="http://www.myworld2015.org/assets/img/plan-b/logo.png" alt="MY World Logo" /></a>
+
+			<div class="banner">Data Repository</div>
+
+		</div>
+
+	</div>
+	
+	<!-- ****************************************************************** row 1 -->
+
+	<div class="row">
+
+		<!-- ****************************************************************** about -->
+
+		<div class="span5">
+
+			<h3>Overview</h3>
+
+			<p>
+				MY World is a global survey for citizens led by the United Nations and partners. It aims to capture people's voices, priorities and views, so that global leaders can be informed as they begin the process of defining the new development agenda for the world. <a href="http://www.myworld2015.org/index.html?page=about-my-world">Lean more about MY World</a>.
+			</p>
+
+			<p>
+				See summary statistics and visualizations on our <a href="http://www.myworld2015.org/?page=results">Results Page</a>.
+			</p>
+
+			<p>
+				The votes collected through MY World are being made available as open data sets for public use on an ongoing basis.
+			</p>
+
+			<h3>Frequency of Updates</h3>
+			<p>
+				The MY World project will be collecting votes until 2015, so this data set is very much a work in progress. The data files here will be output on a regular basis, but will not be considered complete until the project has ended.
+			</p>
+			<p>
+				<strong><span class="label label-info">Note</span> The data set is updated every night.</strong>
+			</p>
+
+		</div>
+
+		<!-- ****************************************************************** download -->
+
+		<div class="span6 offset1">
+
+			<h3>Get the Data</h3>
+
+			<div class="hero-unit">
+				
+				<a class="btn btn-primary" href="data/MYWorld_votes_all.csv.tar.bz2"><strong>Download</strong> &mdash; MYWorld_votes_all.csv.tar.bz2</a>
+
+				<br />
+				<br />
+				<p><small>CSV file; 3-4 MB compressed; 20-30 MB uncompressed</small></p>
+
+				<div class="license">
+					<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons BY-NC-SA License Logo" /></a>
+					<div class="desc">Data set published under a Creative Commons BY-NC-SA license</div>
+				</div>
+
+			</div>
+
+			<h3>Privacy</h3>
+			<p>
+				No personal information is included in these data sets, except what voters have elected to include in their "Suggested Priority" and "Reason I Voted" responses.
+			</p>
+
+		</div>
+
+	</div> <!-- end row -->
+
+
+	<!-- ****************************************************************** row 2 -->
+
+	<div class="row">
+
+		<!-- ****************************************************************** privacy -->
+
+		<div class="span6">
+		</div>
+
+		<!-- ****************************************************************** updates -->
+
+		<div class="span6">
+		</div>
+
+	</div>
+
+
+	<!-- ****************************************************************** row 2 -->
+
+	<div class="row">
+
+		<!-- ****************************************************************** examples -->
+
+		<div class="span12">
+
+			<h3>Example Rows</h3>
+
+			<div class="crop">
+
+				<table class="table table-bordered">
+
+					<tr>
+						<th>timestamp</th>
+						<th>source</th>
+						<th>partner_code</th>
+						<th>country</th>
+						<th>age</th>
+						<th>gender</th>
+						<th>education</th>
+						<th>priority1</th>
+						<th>priority2</th>
+						<th>priority3</th>
+						<th>priority4</th>
+						<th>priority5</th>
+						<th>priority6</th>
+						<th>suggested_priority</th>
+						<th>vote_reason</th>
+						<th>data_note</th>
+					</tr>
+
+					<tr>
+						<td>2013-03-09 15:48:50.389000</td>
+						<td>website</td>
+						<td></td>
+						<td>130</td>
+						<td>66</td>
+						<td>1</td>
+						<td>4</td>
+						<td>104</td>
+						<td>109</td>
+						<td>110</td>
+						<td>112</td>
+						<td>113</td>
+						<td>114</td>
+						<td>Religious freedom and tolerance</td>
+						<td></td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>2013-03-09 15:50:19.248000</td>
+						<td>website</td>
+						<td></td>
+						<td>19</td>
+						<td>35</td>
+						<td>2</td>
+						<td>4</td>
+						<td>100</td>
+						<td>101</td>
+						<td>103</td>
+						<td>106</td>
+						<td>108</td>
+						<td>109</td>
+						<td></td>
+						<td>I focused on environmental issues</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>2013-03-09 15:54:50.389000</td>
+						<td>offline</td>
+						<td>UNAIDS</td>
+						<td>183</td>
+						<td>24</td>
+						<td>2</td>
+						<td>3</td>
+						<td>100</td>
+						<td>101</td>
+						<td>103</td>
+						<td>105</td>
+						<td>110</td>
+						<td>115</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+
+				</table>
+
+			</div>
+
+		</div>
+
+	</div> <!-- end row -->
+
+	<!-- ****************************************************************** row 3 -->
+
+	<div class="row">
+
+		<!-- ****************************************************************** about -->
+
+		<div class="span12">
+
+			<h3>Column Summary</h3>
+
+			<p>See below the table for details and codes. See the <a href="http://www.myworld2015.org/">online ballot</a> for an example of the context in which votes are submitted.</p>
+
+			<div class="crop">
+
+				<table class="table table-bordered">
+
+					<tr>
+						<th>column name</th>
+						<th>description</th>
+						<th>type of value</th>
+					</tr>
+
+					<tr>
+						<td>timestamp</td>
+						<td>Date and time the vote was submitted (website) or uploaded (offline)</td>
+						<td>date string</td>
+					</tr>
+
+					<tr>
+						<td>source</td>
+						<td>Method by which this vote was collected</td>
+						<td>string</td>
+					</tr>
+
+					<tr>
+						<td>partner_code</td>
+						<td>ID of the partner organization</td>
+						<td>string</td>
+					</tr>
+
+					<tr>
+						<td>country</td>
+						<td>Voter's self-identified country of origin or residence</td>
+						<td>integer code</td>
+					</tr>
+
+					<tr>
+						<td>age</td>
+						<td>Voter's age (in years)</td>
+						<td>integer</td>
+					</tr>
+
+					<tr>
+						<td>gender</td>
+						<td>Voter's gender (1 = male, 2 = female)</td>
+						<td>integer code</td>
+					</tr>
+
+					<tr>
+						<td>education</td>
+						<td>Voter's education level</td>
+						<td>integer code</td>
+					</tr>
+
+					<tr>
+						<td>priority1 - priority6</td>
+						<td>Voter's priority choices (in no meaningful order)</td>
+						<td>integer codes</td>
+					</tr>
+
+					<tr>
+						<td>suggested_priority</td>
+						<td>Voter's suggested priority (optional text submission)</td>
+						<td>string</td>
+					</tr>
+
+					<tr>
+						<td>vote_reason</td>
+						<td>Voter's reason given for their choices (optional text submission)</td>
+						<td>string</td>
+					</tr>
+
+					<tr>
+						<td>data_note</td>
+						<td>Administrative note about this row</td>
+						<td>string</td>
+					</tr>
+
+				</table>
+
+			</div>
+
+		</div>
+
+	</div> <!-- end row -->
+
+
+	<!-- ****************************************************************** row 4 -->
+
+	<div class="row">
+
+		<!-- ****************************************************************** details menu -->
+
+		<div class="span12">
+
+			<h3>
+				<a style="float:right" class="btn btn-primary" href="MYWorld_fields.json">Download JSON mapping</a>
+				Column Details
+			</h3>
+				
+			<div class="accordion" id="fields">
+
+				<!-- **************************************** source -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-source">
+							source
+						</a>
+					</div>
+					<div id="field-source" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Values</h4>
+								<ul>
+									<li><strong>website</strong> = web or mobile ballot</li>
+									<li><strong>offline</strong> = paper ballot</li>
+									<li><strong>sms</strong> = SMS or phone survey</li>
+									<li><strong>apps</strong> = app or external site via API</li>
+								</ul>
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								MY World votes are being collected in a variety of ways, including web and mobile ballots, SMS and phone surveys, and paper ballots distributed and collected by UN representatives in the field.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- **************************************** partner -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-partner">
+							partner_code
+						</a>
+					</div>
+					<div id="field-partner" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Values</h4>
+								<p>List not yet available.</p>
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								All organizations partnering with MY World are given an identifier code. When linking to MY World or embedding the ballot on their site, they include this code in the URL. If the user submits the ballot, the partner code is then stored with the vote.
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<!-- **************************************** country -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-country">
+							country
+						</a>
+					</div>
+					<div id="field-country" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Values</h4>
+								<ul>
+									<li>1 = Afghanistan</li>
+									<li>2 = Albania</li>
+									<li>3 = Algeria</li>
+									<li>4 = Andorra</li>
+									<li>5 = Angola</li>
+									<li>6 = Antigua and Barbuda</li>
+									<li>7 = Argentina</li>
+									<li>8 = Armenia</li>
+									<li>9 = Australia</li>
+									<li>10 = Austria</li>
+									<li>11 = Azerbaijan</li>
+									<li>12 = Bahamas</li>
+									<li>13 = Bahrain</li>
+									<li>14 = Bangladesh</li>
+									<li>15 = Barbados</li>
+									<li>16 = Belarus</li>
+									<li>17 = Belgium</li>
+									<li>18 = Belize</li>
+									<li>19 = Benin</li>
+									<li>20 = Bhutan</li>
+									<li>21 = Bolivia (Plurinational State of)</li>
+									<li>22 = Bosnia and Herzegovina</li>
+									<li>23 = Botswana</li>
+									<li>24 = Brazil</li>
+									<li>25 = Brunei Darussalam</li>
+									<li>26 = Bulgaria</li>
+									<li>27 = Burkina Faso</li>
+									<li>28 = Burundi</li>
+									<li>29 = Cambodia</li>
+									<li>30 = Cameroon</li>
+									<li>31 = Canada</li>
+									<li>32 = Cape Verde</li>
+									<li>33 = Central African Republic</li>
+									<li>34 = Chad</li>
+									<li>35 = Chile</li>
+									<li>36 = China</li>
+									<li>37 = Colombia</li>
+									<li>38 = Comoros</li>
+									<li>39 = Congo</li>
+									<li>40 = Costa Rica</li>
+									<li>41 = Cote d'Ivoire</li>
+									<li>42 = Croatia</li>
+									<li>43 = Cuba</li>
+									<li>44 = Cyprus</li>
+									<li>45 = Czech Republic</li>
+									<li>46 = Democratic People's Republic of Korea</li>
+									<li>47 = Democratic Republic of the Congo</li>
+									<li>48 = Denmark</li>
+									<li>49 = Djibouti</li>
+									<li>50 = Dominica</li>
+									<li>51 = Dominican Republic</li>
+									<li>52 = Ecuador</li>
+									<li>53 = Egypt</li>
+									<li>54 = El Salvador</li>
+									<li>55 = Equatorial Guinea</li>
+									<li>56 = Eritrea</li>
+									<li>57 = Estonia</li>
+									<li>58 = Ethiopia</li>
+									<li>59 = Fiji</li>
+									<li>60 = Finland</li>
+									<li>61 = France</li>
+									<li>62 = Gabon</li>
+									<li>63 = Gambia</li>
+									<li>64 = Georgia</li>
+									<li>65 = Germany</li>
+									<li>66 = Ghana</li>
+									<li>67 = Greece</li>
+									<li>68 = Grenada</li>
+									<li>69 = Guatemala</li>
+									<li>70 = Guinea</li>
+									<li>71 = Guinea-Bissau</li>
+									<li>72 = Guyana</li>
+									<li>73 = Haiti</li>
+									<li>74 = Honduras</li>
+									<li>75 = Hungary</li>
+									<li>76 = Iceland</li>
+									<li>77 = India</li>
+									<li>78 = Indonesia</li>
+									<li>79 = Iran (Islamic Republic of)</li>
+									<li>80 = Iraq</li>
+									<li>81 = Ireland</li>
+									<li>82 = Israel</li>
+									<li>83 = Italy</li>
+									<li>84 = Jamaica</li>
+									<li>85 = Japan</li>
+									<li>86 = Jordan</li>
+									<li>87 = Kazakhstan</li>
+									<li>88 = Kenya</li>
+									<li>89 = Kiribati</li>
+									<li>90 = Kuwait</li>
+									<li>91 = Kyrgyzstan</li>
+									<li>92 = Lao People's Democratic Republic</li>
+									<li>93 = Latvia</li>
+									<li>94 = Lebanon</li>
+									<li>95 = Lesotho</li>
+									<li>96 = Liberia</li>
+									<li>97 = Libya</li>
+									<li>98 = Liechtenstein</li>
+									<li>99 = Lithuania</li>
+									<li>100 = Luxembourg</li>
+									<li>101 = Madagascar</li>
+									<li>102 = Malawi</li>
+									<li>103 = Malaysia</li>
+									<li>104 = Maldives</li>
+									<li>105 = Mali</li>
+									<li>106 = Malta</li>
+									<li>107 = Marshall Islands</li>
+									<li>108 = Mauritania</li>
+									<li>109 = Mauritius</li>
+									<li>110 = Mexico</li>
+									<li>111 = Micronesia (Federated States of)</li>
+									<li>112 = Monaco</li>
+									<li>113 = Mongolia</li>
+									<li>114 = Montenegro</li>
+									<li>115 = Morocco</li>
+									<li>116 = Mozambique</li>
+									<li>117 = Myanmar</li>
+									<li>118 = Namibia</li>
+									<li>119 = Nauru</li>
+									<li>120 = Nepal</li>
+									<li>121 = Netherlands</li>
+									<li>122 = New Zealand</li>
+									<li>123 = Nicaragua</li>
+									<li>124 = Niger</li>
+									<li>125 = Nigeria</li>
+									<li>126 = Norway</li>
+									<li>127 = Oman</li>
+									<li>128 = Pakistan</li>
+									<li>129 = Palau</li>
+									<li>130 = Panama</li>
+									<li>131 = Papua New Guinea</li>
+									<li>132 = Paraguay</li>
+									<li>133 = Peru</li>
+									<li>134 = Philippines</li>
+									<li>135 = Poland</li>
+									<li>136 = Portugal</li>
+									<li>137 = Qatar</li>
+									<li>138 = Republic of Korea</li>
+									<li>139 = Republic of Moldova</li>
+									<li>140 = Romania</li>
+									<li>141 = Russian Federation</li>
+									<li>142 = Rwanda</li>
+									<li>143 = Saint Kitts and Nevis</li>
+									<li>144 = Saint Lucia</li>
+									<li>145 = Saint Vincent and the Grenadines</li>
+									<li>146 = Samoa</li>
+									<li>147 = San Marino</li>
+									<li>148 = Sao Tome and Principe</li>
+									<li>149 = Saudi Arabia</li>
+									<li>150 = Senegal</li>
+									<li>151 = Serbia</li>
+									<li>152 = Seychelles</li>
+									<li>153 = Sierra Leone</li>
+									<li>154 = Singapore</li>
+									<li>155 = Slovakia</li>
+									<li>156 = Slovenia</li>
+									<li>157 = Solomon Islands</li>
+									<li>158 = Somalia</li>
+									<li>159 = South Africa</li>
+									<li>160 = South Sudan</li>
+									<li>161 = Spain</li>
+									<li>162 = Sri Lanka</li>
+									<li>163 = Sudan</li>
+									<li>164 = Suriname</li>
+									<li>165 = Swaziland</li>
+									<li>166 = Sweden</li>
+									<li>167 = Switzerland</li>
+									<li>168 = Syrian Arab Republic</li>
+									<li>169 = Tajikistan</li>
+									<li>170 = Thailand</li>
+									<li>171 = The former Yugoslav Republic of Macedonia</li>
+									<li>172 = Timor-Leste</li>
+									<li>173 = Togo</li>
+									<li>174 = Tonga</li>
+									<li>175 = Trinidad and Tobago</li>
+									<li>176 = Tunisia</li>
+									<li>177 = Turkey</li>
+									<li>178 = Turkmenistan</li>
+									<li>179 = Tuvalu</li>
+									<li>180 = Uganda</li>
+									<li>181 = Ukraine</li>
+									<li>182 = United Arab Emirates</li>
+									<li>183 = United Kingdom of Great Britain and Northern Ireland</li>
+									<li>184 = United Republic of Tanzania</li>
+									<li>185 = United States of America</li>
+									<li>186 = Uruguay</li>
+									<li>187 = Uzbekistan</li>
+									<li>188 = Vanuatu</li>
+									<li>189 = Venezuela (Bolivarian Republic of)</li>
+									<li>190 = Viet Nam</li>
+									<li>191 = Yemen</li>
+									<li>192 = Zambia</li>
+									<li>193 = Zimbabwe</li>
+									<li>194 = Palestine (State of)</li>
+								</ul>
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								When voting on the web site, the user must choose their country from a drop down list in order to submit. Votes from other sources are not required to have a value for the voter's country, though almost all of them do.
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<!-- **************************************** education -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-education">
+							education
+						</a>
+					</div>
+					<div id="field-education" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Values</h4>
+								<ul>
+									<li><strong>1</strong> = "Some primary"</li>
+									<li><strong>2</strong> = "Finished primary"</li>
+									<li><strong>3</strong> = "Some secondary"</li>
+									<li><strong>4</strong> = "Finished secondary"</li>
+								</ul>							
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								When voting on the web site, the user must choose their education level from a drop down list in order to submit. Votes from other sources are not required to have a value for the voter's education.
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<!-- **************************************** priorities -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-priorities">
+							priority1 - priority6
+						</a>
+					</div>
+					<div id="field-priorities" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Values</h4>
+								<ul>
+									<li><strong>100</strong> = "Action taken on climate change" </li>
+									<li><strong>101</strong> = "Better transport and roads"</li>
+									<li><strong>102</strong> = "Support for people who can't work" </li>
+									<li><strong>103</strong> = "Access to clean water and sanitation" </li>
+									<li><strong>104</strong> = "Better healthcare" </li>
+									<li><strong>105</strong> = "A good education" </li>
+									<li><strong>106</strong> = "A responsive government we can trust" </li>
+									<li><strong>107</strong> = "Phone and internet access" </li>
+									<li><strong>108</strong> = "Reliable energy at home" </li>
+									<li><strong>109</strong> = "Affordable and nutritious food" </li>
+									<li><strong>110</strong> = "Protecting forests, rivers and oceans" </li>
+									<li><strong>112</strong> = "Political freedoms" </li>
+									<li><strong>111</strong> = "Protection against crime and violence" </li>
+									<li><strong>113</strong> = "Freedom from discrimination and persecution" </li>
+									<li><strong>114</strong> = "Equality between men and women" </li>
+									<li><strong>115</strong> = "Better job opportunities" </li>
+								</ul>	
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								<p>Each voter chooses 6 priorities from the list of 16. <strong>There is no ranking or ordering among the six.</strong></p>
+								<p><span class="label label-important">Important</span> Votes from the web site are required to have 6 priority choices, but votes from other sources are not. Many paper ballots, for instance, include choices for only 4 or 5 priorities. <em>You should take this into account when performing statistical analysis on the votes data.</em></p>
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<!-- **************************************** data_note -->
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#fields" href="#field-datanote">
+							data_note
+						</a>
+					</div>
+					<div id="field-datanote" class="accordion-body collapse">
+						<div class="accordion-inner row">
+							<div class="span6">
+								<h4>Examples</h4>
+								<ul>
+									<li>"One or more fields may be missing" = One or more non-required fields are empty.</li>
+								</ul>	
+							</div>
+							<div class="span5">
+								<h4>Description</h4>
+								<p>
+									This data has been monitored for errors and cleaned for presentation. Some of this monitoring results in records being discarded &mdash; if they do not contain any priority choices at all, for instance. However, there are some mild abnormalities that do not disqualify a vote. For instance, a missing age value or the selection of only 5 priorities. Such things will be noted in the data_note column of the row.
+								</p>
+							</div>							
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div> <!-- end row -->
+
+
+	<!-- ****************************************************************** row 4 -->
+
+	<div class="row">
+		<div class="span12">
+			<hr />
+			<div style="float: right">
+				<a href="http://seedscientific.com/"><img src="imgs/Data-and-vis-by-seed.png" alt="Seed Scientific logo" /></a>
+			</div>
+			<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons BY-NC-SA License Logo" /></a>
+		</div>
+	</div>
+
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+$(".collapse").collapse();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10576069-13']);
+  _gaq.push(['_setDomainName', 'myworld2015.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>

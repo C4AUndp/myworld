@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="monitor.js"></script>
+	<style type="text/css">
+
+body {
+	padding: 0 20px 10px 20px;
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: rgb(37, 109, 201);
+}
+
+table {
+	border: 1px solid #ddd;
+	border-left: none;
+	border-top: none;
+}
+th, td {
+	padding: 2px 4px;
+	border: 1px solid #ddd;
+	border-right: none;
+	border-bottom: none;
+}
+th {
+	background: #eee;
+}
+
+#controls {
+	margin: 5px 0;
+}
+#message {
+	background: rgb(240, 240, 240);
+	padding: 7px;
+	margin: 10px 0;
+}
+
+label { padding: 2px 4px; }
+.error { background-color: rgb(255, 239, 239); }
+.quality-1 { background-color: #D8DE90; }
+.quality-2 { background-color: #FDDC6C; }
+.quality-3 { background-color: #F99827; }
+.quality-4 { background-color: rgb(206, 182, 255); }
+.quality-5 { background-color: rgb(255, 124, 239); }
+.quality-6 { background-color: #EB5E45; }
+
+#stats {
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	padding: 5px;
+}
+#stats .segment {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+	</style>
+</head>
+<body>
+
+<h2>MY World Data Monitoring</h2>
+
+<div id="controls">
+
+	<strong>Data Quality:</strong>
+	<label><input type="checkbox" class="data-quality" value="1" /> Valid Ballot</label>
+	<label class="quality-1"><input type="checkbox" class="data-quality" value="-1" checked="checked" /> Partner Mismatch (-1)</label>
+	<label class="quality-2"><input type="checkbox" class="data-quality" value="-2" checked="checked" /> Choices incomplete (-2)</label>
+	<label class="quality-3"><input type="checkbox" class="data-quality" value="-3" checked="checked" /> Field missing (-3)</label>
+	<label class="quality-4"><input type="checkbox" class="data-quality" value="-4" checked="checked" /> Duplicate (-4)</label>
+	<label class="quality-5"><input type="checkbox" class="data-quality" value="-5" checked="checked" /> Spam / Test (-5)</label>
+	<label class="quality-6"><input type="checkbox" class="data-quality" value="-6" checked="checked" /> Incomplete Ballot (-6)</label>
+	<br />
+	<strong>Source Method:</strong>
+	<label><input type="checkbox" class="source-method" checked="checked" value="website" /> website</label>
+	<label><input type="checkbox" class="source-method" checked="checked" value="apps" /> apps</label>
+	<label><input type="checkbox" class="source-method" checked="checked" value="offline" /> offline</label>
+	<label><input type="checkbox" class="source-method" checked="checked" value="sms" /> sms</label>
+
+	<br />
+	<strong>Since date:</strong>
+	<input id="since-date" type="textfield" size="20" placeholder="YYYY-MM-DD" /> YYYY-MM-DD
+
+	<br />
+	<input type="button" id="search" value="Search" />
+
+</div>
+
+<div id="message"></div>
+
+<div id="stats">
+	<input type="button" value="Get Stats" id="getStats" />
+	<div id="countAll" class="segment">Total: <span class="val"></span></div>
+	<div id="countQual0" class="segment">None: <span class="val"></span></div>
+	<div id="countQual1" class="segment">Valid: <span class="val"></span></div>
+	<div id="countQual-1" class="segment quality-1">Partner: <span class="val"></span></div>
+	<div id="countQual-2" class="segment quality-2">Choices Incomplete: <span class="val"></span></div>
+	<div id="countQual-3" class="segment quality-3">Field Missing: <span class="val"></span></div>
+	<div id="countQual-4" class="segment quality-4">Duplicate: <span class="val"></span></div>
+	<div id="countQual-5" class="segment quality-5">Spam: <span class="val"></span></div>
+	<div id="countQual-6" class="segment quality-6">Incomplete: <span class="val"></span></div>
+</div>
+
+<div id="page">
+	Page: <span id="pager"></span> &nbsp;&nbsp;&nbsp;&nbsp; <a id="prev" href="#">&lt; Previous</a> &nbsp;&nbsp; <a id="next" href="#">Next &gt;</a>
+</div>
+
+<div id="results"></div>
+
+</body>
+</html>

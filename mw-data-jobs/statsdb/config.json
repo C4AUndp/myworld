@@ -1,0 +1,74 @@
+{
+
+	"db": {
+		"host": "localhost"
+	},
+
+	"dbs": {
+		"dev": {
+			"host": "localhost",
+			"port": 6380,
+			"pass": "vW/T7E3AoRaY/:$6(22x*@1u+WVP)Ha+daY;V<g|Das7sv-:wE"
+		},
+		"production": {
+			"host": "localhost",
+			"port": 6379,
+			"pass": "t_8n6J77Ie4la57L634^10mF87u232grOaC814066|3*-C388C"
+		}
+	},
+
+	"objects": {
+
+		"vote": {
+			"id": "vote",
+			"storageType": "hash",
+			"incrementType": "hash",
+			"outputFormat": "int",
+			"dimensions": [
+
+				{
+					"key": "sourceMethod",
+					"type": "str",
+					"track-values": 1,
+					"case-sensitive": 0
+				},
+
+				{
+					"key": "gender",
+					"type": "int",
+					"valid": { "type": "range", "min": 1, "max": 2 }
+				},
+
+				{
+					"key": "age",
+					"type": "int",
+					"op": "sequential",
+					"bins": [ 15, 30, 45, 60, 140 ]
+				},
+
+				{
+					"key": "country",
+					"type": "int",
+					"valid": { "type": "range", "min": 1, "max": 200 }
+				},
+
+				{
+					"key": "education",
+					"type": "int",
+					"valid": { "type": "range", "min": 1, "max": 4 }
+				},
+
+				{
+					"key": "partner",
+					"type": "str",
+					"track-values": 1,
+					"case-sensitive": 0
+				}
+
+			]
+
+		}
+
+	}
+
+}

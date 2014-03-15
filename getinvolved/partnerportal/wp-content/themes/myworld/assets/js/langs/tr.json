@@ -1,0 +1,958 @@
+{
+    "html_values": {
+
+    	   "vote-header": "Hangileri siz ve aileniz için en büyük önemi taşımaktadır?&nbsp;&nbsp;<span style='font-weight:bold' > Altı seçenek belirleyin</span>",
+    	   "priority-item-title": "Bir öncelik önerin (isteğe bağlıdır)",
+    	   "dropdowns-title": "Son olarak bize biraz kendinizden bahsedin.",
+    	   "dropdowns-content": "Oylarınızla ilgili verdiğiniz bilgiler gizli kalacaktır, ancak bu temel veriler sizi daha iyi anlamamıza yardımcı olur.",
+    	   "dropdowns-gender-label": "Adım",
+           "dropdowns-oath": "Bu seçeneği işaretleyerek MY World küresel anketinde yalnızca bir oy kullandığımı taahhüt ediyorum. <br/> Birden fazla oy vermeyeceğim. ",
+           "thank-you-title": "Sizin için nelerin <strong>önemli</strong> olduğunu <br> bizimle paylaştığınız için teşekkürler!",
+           "validation-message": "Oy vermeden önce 6 öncelik seçin; cinsiyetinizi, yaşınızı, ülkenizi ve eğitim düzeyinizi girin.",
+           "side-count-more": "Select <span id='side-count-more-id'>6</span> more"
+
+
+    },
+
+    "accordion_items" : {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Daha iyi iş olanakları",
+            "item-content": "Hükümetler ve özel sektör firmaları herkesin adil bir ücret alabileceği işler bulması, topluma katkıda bulunabilmesi ve kendisine değer verildiğini hissetmesi için daha fazla çalışmalıdır."
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "İyi bir eğitim",
+            "item-content": "Tüm çocuklar onları iyi bir hayata ve işe hazırlayan yüksek kaliteli ilköğretim ve lise eğitimi almalıdır. Hükümetler ve özel sektör birlikte çalışmalı, yetişkinlere hayat boyu öğrenme ve yetenek geliştirme fırsatları sağlamalıdır."
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Daha iyi sağlık hizmetleri",
+            "item-content": "Tedaviye ihtiyaç duyan herkes kaliteli sağlık hizmetlerinden yararlanabilmelidir. Bulaşıcı ve diğer kronik hastalıkların olumsuz etkisini azaltmak için çalışmalar yapılmalıdır. Sağlık sistemlerinin bütçesi ve organizasyonu ülkenin ve vatandaşların ihtiyaçlarına uygun olmalıdır."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Uygun fiyatlı ve sağlıklı beslenme olanakları",
+            "item-content": "Herkes ihtiyaç duyduğu beslenme olanaklarına sahip olmalıdır. Dünyadaki hiç kimse sürekli aç kalmamalı, özellikle hamile kadınlar ve iki yaşından küçük çocuklar olmak üzere hiç kimse yetersiz beslenmemelidir."
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Çalışamayan kişilere destek",
+            "item-content": "Herkes gerek çalışarak gerek devlet yardımı alarak geçinebilmelidir. Çalışamayan, doğal afetler veya ekonomik krizlerden etkilenen insanlar ve aileleri aç kalmamalı, ihtiyaçları olan sağlık hizmetlerini ve diğer temel hizmetleri alabilmeli, çocukların okullarını bırakması gerekmemelidir."
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Telefon ve internet erişimi",
+            "item-content": "Hükümetler ve özel sektör herkesin çevrimiçi bilgi alması ve sosyal ağlara katılması için gereken asgari iletişim teknolojisi olanaklarını sağlamalıdır."
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Temiz suya erişim ve kanalizasyon sistemleri",
+            "item-content": "Herkes içme, yemek yapma ve temizlik amaçları için güvenilir, temiz suya ve kanalizasyon sistemlerine erişebilmelidir."
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Evde güvenilir enerji",
+            "item-content": "Tüm aile bireyleri aydınlatma, ısınma ve yemek yapma gibi gereksinimleri için güvenli ve uygun fiyatlı elektriğe veya diğer enerji kaynaklarına erişebilmelidir. Bu enerjinin daha büyük bir oranı sürdürülebilir kaynaklardan elde edilmelidir."
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Ormanlar, nehirler ve okyanusların korunması",
+            "item-content": "Herkesin yiyecek, yakıt ve diğer kaynaklar için ihtiyaç duyduğu doğal kaynaklar korunmalıdır. Hükümetler okyanus ve nehirlerde kirliliği azaltacak, yeni ormanların oluşturulmasını ve var olan ormanların korunmasını sağlayacak planlar oluşturmalı, sürdürülebilir tarım ve gıda sistemlerine geçmelidir. Küresel sözleşmeler biyoçeşitliliği ve hassas ekosistemleri korumalıdır."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "İklim değişikliği için harekete geçilmesi",
+            "item-content": "Hükümetler karbon emisyonlarını küresel sıcaklık artışını 2 derecenin altında tutacak şekilde azaltmak için bağlayıcı kararlar almalı, özellikle savunmasız topluluklar için uyum önlemleri almalıdır."
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Dürüst ve duyarlı bir hükümet",
+            "item-content": "Hükümetler etkin, açık ve hesap verebilir olmalı, yolsuzluk olmamalıdır. Hükümetin öncelikleri belirlenirken halkın sözü dinlenmeli, bu önceliklerin yetkin bir şekilde hayata geçirileceği bilinmelidir. Hükümetler kamu bütçesinin nereye harcandığını herkesin bilmesini sağlayacak standartlar kararlaştırmalı ve bu standartlara bağlı kalmalıdır."
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Siyaset özgürlüğü",
+            "item-content": "Herkes oy vererek veya siyasi partilere üye olarak ülkesindeki siyasete dahil olabilmeli, özgür medya aracılığıyla ifade özgürlüğünü kullanabilmelidir. Herkes sendikalara üye olabilmeli, sivil toplum çalışmaları ve gönüllü etkinlikler de dahil olmak üzere her açıdan sivil hayata katılabilmelidir."
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Suç ve şiddete karşı koruma sağlanması",
+            "item-content": "Toplumdaki herkes, kadınlara yönelik şiddet ve cinsel istismar da dahil olmak üzere suç ve şiddete karşı korunmalıdır. Kendisine karşı suç işlenen herkes mahkeme veya başka sistemler aracılığıyla hukuktan yararlanabilmelidir."
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Kadın erkek eşitliği",
+            "item-content": "Hem erkekler hem de kadınlar aynı hak ve fırsatlara sahip olmalıdır. Farklı cinsiyetlerdeki çocukların öğrenim olanakları eşit olmalı, aldıkları eğitimin kalitesi aynı olmalıdır. Erkek ve kadınların seçilme hakkı eşit, siyasi ve sosyal hayata dahil olma şansı aynı olmalı; iş hayatında sağlanan fırsatlar ve ücretler aynı olmalıdır."
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Ayrımcılık ve zulmün son bulması",
+            "item-content": "Dünyadaki kimsenin ekonomik, sosyal veya siyasi hakları ırk, etnik farklılıklar, din, özürlülük durumu, cinsel tercih veya herhangi başka bir nedenle kısıtlanmamalı, kimsenin bu nedenlerle kişisel güvenliğinden endişe etmek zorunda kalmamalıdır."
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Daha iyi ulaşım olanakları ve yollar",
+            "item-content": "Yollar ve ulaşım olanakları herkesin arkadaşlarını ve ailelerini görmek, yeni iş fırsatları bulmak ve ihtiyaç duydukları hizmetlere ulaşmak için özgürce seyahat etmesini sağlayacak şekilde iyileştirilmelidir."
+        }
+    },
+
+    "various_values": {
+        "priority-item-content": "Buraya yazın"
+    },
+
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "eğitim"
+            },
+            {
+                "id": "1",
+                "name": "Biraz ilköğretim"
+            },
+            {
+                "id": "2",
+                "name": "İlköğretim mezunu"
+            },
+            {
+                "id": "3",
+                "name": "Lise mezunu"
+            },
+            {
+                "id": "4",
+                "name": "Önlisans ve üstü"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "cinsiyet",
+                "ballot_gender": "cinsiyet"
+            },
+            {
+                "id": "1",
+                "name": "Erkek",
+                "ballot_gender": "Erkek"
+            },
+            {
+                "id": "2",
+                "name": "Kadın",
+                "ballot_gender": "Kadın"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "yaş"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "ülke"
+            },
+            {
+                "id": "1",
+                "name": "Afganistan"
+            },
+            {
+                "id": "2",
+                "name": "Arnavutluk"
+            },
+            {
+                "id": "3",
+                "name": "Cezayir"
+            },
+            {
+                "id": "4",
+                "name": "Andorra"
+            },
+            {
+                "id": "5",
+                "name": "Angola"
+            },
+            {
+                "id": "6",
+                "name": "Antigua ve Barbuda"
+            },
+            {
+                "id": "7",
+                "name": "Arjantin"
+            },
+            {
+                "id": "8",
+                "name": "Ermenistan"
+            },
+            {
+                "id": "9",
+                "name": "Avustralya"
+            },
+            {
+                "id": "10",
+                "name": "Avusturya"
+            },
+            {
+                "id": "11",
+                "name": "Azerbaycan"
+            },
+            {
+                "id": "12",
+                "name": "Bahamalar"
+            },
+            {
+                "id": "13",
+                "name": "Bahreyn"
+            },
+            {
+                "id": "14",
+                "name": "Bangladeş"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "16",
+                "name": "Beyaz Rusya"
+            },
+            {
+                "id": "17",
+                "name": "Belçika"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benin"
+            },
+            {
+                "id": "20",
+                "name": "Bhutan"
+            },
+            {
+                "id": "21",
+                "name": "Bolivya"
+            },
+            {
+                "id": "22",
+                "name": "Bosna Hersek"
+            },
+            {
+                "id": "23",
+                "name": "Botsvana"
+            },
+            {
+                "id": "24",
+                "name": "Brezilya"
+            },
+            {
+                "id": "25",
+                "name": "Brunei Sultanlığı"
+            },
+            {
+                "id": "26",
+                "name": "Bulgaristan"
+            },
+            {
+                "id": "27",
+                "name": "Burkina Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "29",
+                "name": "Kamboçya"
+            },
+            {
+                "id": "30",
+                "name": "Kamerun"
+            },
+            {
+                "id": "31",
+                "name": "Kanada"
+            },
+            {
+                "id": "32",
+                "name": "Yeşil Burun Adaları"
+            },
+            {
+                "id": "33",
+                "name": "Orta Afrika Cumhuriyeti"
+            },
+            {
+                "id": "34",
+                "name": "Çad"
+            },
+            {
+                "id": "35",
+                "name": "Şili"
+            },
+            {
+                "id": "36",
+                "name": "Çin"
+            },
+            {
+                "id": "37",
+                "name": "Kolombiya"
+            },
+            {
+                "id": "38",
+                "name": "Komorlar"
+            },
+            {
+                "id": "39",
+                "name": "Kongo"
+            },
+            {
+                "id": "40",
+                "name": "Kosta Rika"
+            },
+            {
+                "id": "41",
+                "name": "Fildişi Sahili"
+            },
+            {
+                "id": "42",
+                "name": "Hırvatistan"
+            },
+            {
+                "id": "43",
+                "name": "Küba"
+            },
+            {
+                "id": "44",
+                "name": "Kıbrıs"
+            },
+            {
+                "id": "45",
+                "name": "Çek Cumhuriyeti"
+            },
+            {
+                "id": "46",
+                "name": "Kore Demokratik Halk Cumhuriyeti"
+            },
+            {
+                "id": "47",
+                "name": "Demokratik Kongo Cumhuriyeti"
+            },
+            {
+                "id": "48",
+                "name": "Danimarka"
+            },
+            {
+                "id": "49",
+                "name": "Cibuti"
+            },
+            {
+                "id": "50",
+                "name": "Dominika"
+            },
+            {
+                "id": "51",
+                "name": "Dominik Cumhuriyeti"
+            },
+            {
+                "id": "52",
+                "name": "Ekvador"
+            },
+            {
+                "id": "53",
+                "name": "Mısır"
+            },
+            {
+                "id": "54",
+                "name": "El Salvador"
+            },
+            {
+                "id": "55",
+                "name": "Ekvator Ginesi"
+            },
+            {
+                "id": "56",
+                "name": "Eritre"
+            },
+            {
+                "id": "57",
+                "name": "Estonya"
+            },
+            {
+                "id": "58",
+                "name": "Etiyopya"
+            },
+            {
+                "id": "59",
+                "name": "Fiji"
+            },
+            {
+                "id": "60",
+                "name": "Finlandiya"
+            },
+            {
+                "id": "61",
+                "name": "Fransa"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gambiya"
+            },
+            {
+                "id": "64",
+                "name": "Gürcistan"
+            },
+            {
+                "id": "65",
+                "name": "Almanya"
+            },
+            {
+                "id": "66",
+                "name": "Gana"
+            },
+            {
+                "id": "67",
+                "name": "Yunanistan"
+            },
+            {
+                "id": "68",
+                "name": "Grenada"
+            },
+            {
+                "id": "69",
+                "name": "Guatemala"
+            },
+            {
+                "id": "70",
+                "name": "Gine"
+            },
+            {
+                "id": "71",
+                "name": "Gine-Bissau"
+            },
+            {
+                "id": "72",
+                "name": "Guyana"
+            },
+            {
+                "id": "73",
+                "name": "Haiti"
+            },
+            {
+                "id": "74",
+                "name": "Honduras"
+            },
+            {
+                "id": "75",
+                "name": "Macaristan"
+            },
+            {
+                "id": "76",
+                "name": "İzlanda"
+            },
+            {
+                "id": "77",
+                "name": "Hindistan"
+            },
+            {
+                "id": "78",
+                "name": "Endonezya"
+            },
+            {
+                "id": "79",
+                "name": "İran (İslam Cumhuriyeti)"
+            },
+            {
+                "id": "80",
+                "name": "Irak"
+            },
+            {
+                "id": "81",
+                "name": "İrlanda"
+            },
+            {
+                "id": "82",
+                "name": "İsrail"
+            },
+            {
+                "id": "83",
+                "name": "İtalya"
+            },
+            {
+                "id": "84",
+                "name": "Jamaika"
+            },
+            {
+                "id": "85",
+                "name": "Japonya"
+            },
+            {
+                "id": "86",
+                "name": "Ürdün"
+            },
+            {
+                "id": "87",
+                "name": "Kazakistan"
+            },
+            {
+                "id": "88",
+                "name": "Kenya"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id": "90",
+                "name": "Kuveyt"
+            },
+            {
+                "id": "91",
+                "name": "Kırgızistan"
+            },
+            {
+                "id": "92",
+                "name": "Laos"
+            },
+            {
+                "id": "93",
+                "name": "Letonya"
+            },
+            {
+                "id": "94",
+                "name": "Lübnan"
+            },
+            {
+                "id": "95",
+                "name": "Lesotho"
+            },
+            {
+                "id": "96",
+                "name": "Liberya"
+            },
+            {
+                "id": "97",
+                "name": "Libya"
+            },
+            {
+                "id": "98",
+                "name": "Lihtenştayn"
+            },
+            {
+                "id": "99",
+                "name": "Litvanya"
+            },
+            {
+                "id": "100",
+                "name": "Lüksemburg"
+            },
+            {
+                "id": "101",
+                "name": "Madagaskar"
+            },
+            {
+                "id": "102",
+                "name": "Malavi"
+            },
+            {
+                "id": "103",
+                "name": "Malezya"
+            },
+            {
+                "id": "104",
+                "name": "Maldivler"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Malta"
+            },
+            {
+                "id": "107",
+                "name": "Marshall Adaları"
+            },
+            {
+                "id": "108",
+                "name": "Moritanya"
+            },
+            {
+                "id": "109",
+                "name": "Mauritius"
+            },
+            {
+                "id": "110",
+                "name": "Meksika"
+            },
+            {
+                "id": "111",
+                "name": "Mikronezya (Federal Devletleri)"
+            },
+            {
+                "id": "112",
+                "name": "Monako"
+            },
+            {
+                "id": "113",
+                "name": "Moğolistan"
+            },
+            {
+                "id": "114",
+                "name": "Karadağ"
+            },
+            {
+                "id": "115",
+                "name": "Fas"
+            },
+            {
+                "id": "116",
+                "name": "Mozambik"
+            },
+            {
+                "id": "117",
+                "name": "Myanmar"
+            },
+            {
+                "id": "118",
+                "name": "Namibya"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "121",
+                "name": "Hollanda"
+            },
+            {
+                "id": "122",
+                "name": "Yeni Zelanda"
+            },
+            {
+                "id": "123",
+                "name": "Nikaragua"
+            },
+            {
+                "id": "124",
+                "name": "Nijer"
+            },
+            {
+                "id": "125",
+                "name": "Nijerya"
+            },
+            {
+                "id": "126",
+                "name": "Norveç"
+            },
+            {
+                "id": "127",
+                "name": "Umman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Filistin (Devleti)"
+            },
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panama"
+            },
+            {
+                "id": "131",
+                "name": "Papua Yeni Gine"
+            },
+            {
+                "id": "132",
+                "name": "Paraguay"
+            },
+            {
+                "id": "133",
+                "name": "Peru"
+            },
+            {
+                "id": "134",
+                "name": "Filipinler"
+            },
+            {
+                "id": "135",
+                "name": "Polonya"
+            },
+            {
+                "id": "136",
+                "name": "Portekiz"
+            },
+            {
+                "id": "137",
+                "name": "Katar"
+            },
+            {
+                "id": "138",
+                "name": "Kore Cumhuriyeti"
+            },
+            {
+                "id": "139",
+                "name": "Moldova Cumhuriyeti"
+            },
+            {
+                "id": "140",
+                "name": "Romanya"
+            },
+            {
+                "id": "141",
+                "name": "Rusya Federasyonu"
+            },
+            {
+                "id": "142",
+                "name": "Ruanda"
+            },
+            {
+                "id": "143",
+                "name": "Saint Kitts ve Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Saint Lucia"
+            },
+            {
+                "id": "145",
+                "name": "Saint Vincent ve Grenadinler"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao Tome ve Principe"
+            },
+            {
+                "id": "149",
+                "name": "Suudi Arabistan"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Sırbistan"
+            },
+            {
+                "id": "152",
+                "name": "Seyşeller"
+            },
+            {
+                "id": "153",
+                "name": "Sierra Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapur"
+            },
+            {
+                "id": "155",
+                "name": "Slovakya"
+            },
+            {
+                "id": "156",
+                "name": "Slovenya"
+            },
+            {
+                "id": "157",
+                "name": "Solomon Adaları"
+            },
+            {
+                "id": "158",
+                "name": "Somali"
+            },
+            {
+                "id": "159",
+                "name": "Güney Afrika"
+            },
+            {
+                "id": "160",
+                "name": "Güney Sudan"
+            },
+            {
+                "id": "161",
+                "name": "İspanya"
+            },
+            {
+                "id": "162",
+                "name": "Sri Lanka"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "164",
+                "name": "Surinam"
+            },
+            {
+                "id": "165",
+                "name": "Svaziland"
+            },
+            {
+                "id": "166",
+                "name": "İsveç"
+            },
+            {
+                "id": "167",
+                "name": "İsviçre"
+            },
+            {
+                "id": "168",
+                "name": "Suriye Arap Cumhuriyeti"
+            },
+            {
+                "id": "169",
+                "name": "Tacikistan"
+            },
+            {
+                "id": "170",
+                "name": "Tayland"
+            },
+            {
+                "id": "171",
+                "name": "Makedonya Cumhuriyeti"
+            },
+            {
+                "id": "172",
+                "name": "Doğu Timor"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tonga"
+            },
+            {
+                "id": "175",
+                "name": "Trinidad ve Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunus"
+            },
+            {
+                "id": "177",
+                "name": "Türkiye"
+            },
+            {
+                "id": "178",
+                "name": "Türkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Uganda"
+            },
+            {
+                "id": "181",
+                "name": "Ukrayna"
+            },
+            {
+                "id": "182",
+                "name": "Birleşik Arap Emirlikleri"
+            },
+            {
+                "id": "183",
+                "name": "Birleşik Krallık"
+            },
+            {
+                "id": "184",
+                "name": "Tanzanya Birleşik Cumhuriyeti"
+            },
+            {
+                "id": "185",
+                "name": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "186",
+                "name": "Uruguay"
+            },
+            {
+                "id": "187",
+                "name": "Özbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Venezuela (Bolivarcı Cumhuriyet)"
+            },
+            {
+                "id": "190",
+                "name": "Vietnam"
+            },
+            {
+                "id": "191",
+                "name": "Yemen"
+            },
+            {
+                "id": "192",
+                "name": "Zambiya"
+            },
+            {
+                "id": "193",
+                "name": "Zimbabve"
+            },
+            
+            {
+            	"id":"194",
+            	"name":"Kosova"
+            }
+            
+            
+        ]
+    }
+
+
+}
