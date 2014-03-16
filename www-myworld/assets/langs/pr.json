@@ -1,0 +1,1248 @@
+{
+	"html_values"    : {
+		"tap-for-details"          : "Toque para ver mais detalhes",
+		"timeline-content"         : "As Nações Unidas e seus parceiros querem ouvir VOCÊ! MEU Mundo é uma pequisa global que quer sua ajuda na escolha das prioridades para um mundo melhor. Os resultados serão compartilhados com líderes mundiais na definição da próxima agenda de desenvolvimento global. Conte-nos sobre o mundo que você quer. Levante sua voz!",
+		"timeline-content-mobile"  : "As Nações Unidas e seus parceiros querem ouvir VOCÊ! MEU Mundo é uma pequisa global que quer sua ajuda na escolha das prioridades para um mundo melhor. Os resultados serão compartilhados com líderes mundiais na definição da próxima agenda de desenvolvimento global. Conte-nos sobre o mundo que você quer. Levante sua voz!",
+		"about-item"               : "Sobre Meu Mundo",
+		"who-we-are-item"          : "Quem Somos",
+		"how-it-works-item"        : "Como Funciona",
+		"faq-item"                 : "Perguntas Frequentes",
+		"see-results-item"         : "Ver os resultados",
+		"partners-item"            : "Parceiros",
+		"blog-item"                : "Notícas e Blog",
+		"about-btn"                : "Sobre",
+		"contact-item"             : "Fale Conosco",
+		"methodology-item"         : "Metodologia",
+		"teaser-content"           : "Vote pelas mudanças que podem <br/> fazer o seu mundo melhor",
+		"teaser-content-b"         : "Vote pelas mudanças que podem <br/> fazer o seu mundo melhor",
+		"logo-teaser"              : "Sua Escolha. Seu Mundo.",
+		"vote-header"              : "Quais dos itens abaixo são mais importante para você e sua família?&nbsp;&nbsp;<span style='font-weight:bold'>Escolha apenas 6</span>",
+		"section-one-date"         : "2000",
+		"section-one-title"        : "Objetivos de Desenvolvimento do Milênio",
+		"section-one-content"      : "Líderes mundiais concordam sobre 8 objetivos para erradicar a pobreza extrema, que vão expirar em 2015. Muitas metas já foram alcançadas, mas ainda há muito a ser feito.",
+		"section-two-date"         : "Agora",
+		"section-two-title"        : "Vote Agora: <br/>Levante Sua Voz",
+		"section-two-content"      : "De agora e até 2015, você pode ajudar a definir o próximo conjunto de metas globais votando nas mudanças você gostaria de ver no mundo.",
+		"section-three-date"       : "2015",
+		"section-three-title"      : "O Mundo que nós <br/>Queremos",
+		"section-three-content"    : "Vamos criar juntos o caminho que gostaríamos de percorrer a partir de 2015 para termos o mundo que nós queremos, centrado nos temas que farão mais diferença em nossas vidas.",
+		"celebrities-title"        : "Veja também quem já votou",
+		"celebrities-title-small"  : "Veja também quem já votou",
+		"priority-item-title"      : "Sugira uma prioridade (opcional)",
+		"side-title"               : "Minhas Prioridades",
+		"side-count-more"          : "Selecione mais <span id='side-count-more-id'>6</span>",
+		"dropdowns-title"          : "Por fim, por favor, conte-nos um pouco mais sobre você.",
+		"dropdowns-content"        : "Seus votos permanecem anônimos, mas estes dados básicos vão nos ajudar a conhecer você.",
+		"dropdowns-oath"           : "Ao preencher este formulário, me comprometo a votar apenas uma vez na pesquisa global MEU Mundo. Eu não vou votar mais de uma vez.",
+		"dropdowns-gender-label"   : "Eu sou",
+		"dropdowns-age-label"      : ", tenho",
+		"dropdowns-country-label"  : ", ano(s) e moro em",
+		"dropdowns-education-label": "Meu nível de educação é",
+		"about-title"              : "Sobre MEU Mundo",
+		"about-content"            : "MEU Mundo é uma pesquisa global das Nações Unidas feita com os cidadãos de todo o mundo. Trabalhando com nossos parceiros, queremos obter a opinião das pessoas, suas prioridades e pontos de vista, para que os líderes globais escutem suas vozes quando iniciarem o processo de definição da nova agenda de desenvolvimento global para acabar com a pobreza.",
+		"about-content-middle"     : "Para participar da conversa global e debate sobre o período pós-2015, vá para:",
+		"partners-title"           : "“Meu Mundo” foi desenvolvido por:",
+		"thank-you-title"          : "Obrigado por nos informar o que é <strong>importante</strong> para VOCÊ!",
+		"thank-you-share"          : "compartilhar",
+		"thank-you-share-text"     : "Aqui está uma imagem personalizada do mundo que você quer.<br/>Compartilhe agora com seus amigos e ajude a criar uma visão por um mundo melhor.",
+		"thank-you-why"            : "Diga-nos porque você votou assim (opcional)",
+		"thank-you-join"           : "Participe da conversa no worldwewant2015.org",
+		"validation-message"       : "Escolha 6 prioridades e, antes de votar, por favor, informe seus dados pessoais: sexo, idade, país e nível educacional.",
+		"thank-you-vote"           : "Obrigado por nos dizer por que você votou",
+		"more-btn"                 : "Com o apoio de parceiros do mundo inteiro",
+		"first-logo-label"         : "Nações Unidas",
+		"second-logo-label"        : "Instituto de Desenvolvimento <br> Internacional",
+		"third-logo-label"         : "Fundação World <br> Wide Web",
+		"fourth-logo-label"        : "Ipsos Mori",
+		"captcha-info"             : "Esta questão é para verificar se você é uma pessoa e para prevenir envios automáticos de spam.",
+		"contact-validation-msg"   : "Por favor, preencha todos os campos obrigatórios.",
+		"captcha-error-msg"        : "Código inválido submetido.",
+		"worldmap-title"           : "Votos até agora <ul class='horizontal'><li>Países</li><li id='cnumber-small'>Carregando...</li></ul>",
+		"worldmap-update"          : "Essa mapa se atualiza a cada <span class='minutes'>2</span> minutos",
+		"worldmap-title-thanku"    : "<ul class='horizontal'><li>Países</li><li id='cnumber'>Carregando...</li></ul>",
+		"worldmap-update-thanku"   : "Essa mapa se atualiza a cada <span class='minutes'>2</span> minutos",
+		"check-to-vote-text"       : "Clique para votar",
+        "click-for-details-text"   : "clique aqui para mais informações",
+        "langs-wrap-label"         : "Idioma:",
+        "people-from"              : "pessoas dos",
+        "countries-vote"           : "países que votaram. <strong>Agora é a sua vez...</strong>",
+        "iframe-link"              : "Visite o site completo para mais informações",
+		"back-to-voting"           : "Retornar à votacão"
+	},
+	"accordion_items": {
+		"1" : {
+			"prefix"      : "first",
+			"item-color"  : "#E8168B",
+			"item-title"  : "Melhores oportunidades de trabalho",
+			"item-content": "Os governos e as empresas do setor privado devem se esforçar para garantir que todos tenham um trabalho bem remunerado, com o qual possam contribuir e sentir-se valorizados como membros produtivos da sociedade."
+		},
+		"2" : {
+			"prefix"      : "second",
+			"item-color"  : "#47C0BE",
+			"item-title"  : "Educação de qualidade",
+			"item-content": "Todas as crianças devem ter uma educação de alta qualidade nos ensinos fundamental e médio, que as preparem para o emprego e uma vida plena. Os governos e o setor privado devem trabalhar em conjunto para oferecer oportunidades de formação técnica e contínua aos adultos. "
+		},
+		"3" : {
+			"prefix"      : "third",
+			"item-color"  : "#CA3A28",
+			"item-title"  : "Melhoria dos serviços de saúde",
+			"item-content": "Todas as pessoas que necessitam de tratamento devem ter fácil acesso a serviços de saúde de qualidade. Esforços devem ser feitos para reduzir a transmissão e o impacto das doenças infectocontagiosas e outras doenças crônicas. Tanto o financiamento como a organização dos sistemas de saúde devem se adequar às necessidades do país e dos seus cidadãos."
+		},
+		"4" : {
+			"prefix"      : "fourth",
+			"item-color"  : "#B0D256",
+			"item-title"  : "Acesso à alimentos de qualidade",
+			"item-content": "Todos devem ter acesso à comida que precisam e obter os nutrientes que necessitam. Nenhuma pessoa no mundo deve passar fome, ou ficar desnutrida, especialmente mulheres grávidas e crianças com menos de dois anos."
+		},
+		"5" : {
+			"prefix"      : "fifth",
+			"item-color"  : "#233884",
+			"item-title"  : "Apoio às pessoas que não podem trabalhar",
+			"item-content": "Cada pessoa deve ter dinheiro suficiente para viver, através do seu emprego ou da ajuda do governo. Quando as pessoas não podem trabalhar, ou são afetadas por desastres naturais ou crises econômicas, os governos devem garantir que elas e suas famílias não passem fome, as crianças não abandonem a escola, e que tenham os cuidados de saúde e outros serviços essenciais que precisam."
+		},
+		"6" : {
+			"prefix"      : "sixth",
+			"item-color"  : "#7CB5D6",
+			"item-title"  : "Acesso ao telefone e à internet",
+			"item-content": "Os governos e o setor privado devem garantir que todos tenham acesso a um nível mínimo de tecnologia de comunicação para obter informações online e participar de redes sociais."
+		},
+		"7" : {
+			"prefix"      : "seventh",
+			"item-color"  : "#97D3C9",
+			"item-title"  : "Acesso à água potável e ao saneamento",
+			"item-content": "Todos devem ter acesso à água potável para beber, cozinhar e lavar, e (acesso ao) saneamento básico em suas casas."
+		},
+		"8" : {
+			"prefix"      : "eighth",
+			"item-color"  : "#A01C40",
+			"item-title"  : "Acesso à energia em sua casa",
+			"item-content": "Todos os membros de uma família devem ter acesso  em sua casa à energia elétrica, ou outras fontes de energia segura e econômica para a iluminação, aquecimento e para cozinhar. É importante que uma quantidade cada vez maior desta energia seja gerada de forma sustentável."
+		},
+		"9" : {
+			"prefix"      : "nineth",
+			"item-color"  : "#71BE45",
+			"item-title"  : "Proteção a florestas, rios e oceanos",
+			"item-content": "Devemos proteger os recursos naturais porque dependemos deles para obter alimentos, combustíveis e outros bens. Os governos devem negociar acordos para reduzir a poluição nos oceanos e rios, preservar e plantar florestas e desenvolver a agricultura sustentável . Acordos globais devem proteger a biodiversidade e os ecossistemas frágeis."
+		},
+		"10": {
+			"prefix"      : "tenth",
+			"item-color"  : "#FCB749",
+			"item-title"  : "Combater as mudanças climáticas",
+			"item-content": "Os governos devem assumir compromissos formais para reduzir as emissões de carbono para que o aumento da temperatura global não seja superior a 2 graus, e investir em medidas que envolvam especialmente comunidades vulneráveis."
+		},
+		"11": {
+			"prefix"      : "eleventh",
+			"item-color"  : "#2DA9E1",
+			"item-title"  : "Governo honesto e atuante",
+			"item-content": "Os governos devem ser atuantes, transparentes, confiáveis e sem corrupção. As pessoas devem ser ouvidas sobre as prioridades do governo e se sentirem seguras de que o governo implementará essas prioridades com competência. Os governos devem disponibilizar informações para todas as pessoas sobre como o dinheiro público é gasto."
+		},
+		"12": {
+			"prefix"      : "twelveth",
+			"item-color"  : "#723390",
+			"item-title"  : "Liberdades políticas",
+			"item-content": "Todos podem desempenhar um papel nos processos políticos em seu país através do voto e da criação ou participação em partidos políticos. As pessoas devem exercer a liberdade de expressão, inclusive através de meios de comunicação livres. As pessoas devem poder participar de sindicatos e todos os aspectos da sociedade civil, incluindo as diversas formas de participação cívica e de ação voluntária."
+		},
+		"13": {
+			"prefix"      : "thirteenth",
+			"item-color"  : "#387195",
+			"item-title"  : "Proteção contra o crime e a violência",
+			"item-content": "Todas as pessoas devem sentir-se protegidas da ameaça de crimes e todas as formas de violência, inclusive a violência doméstica e sexual contra mulheres e meninas. Todas as pessoas devem ter acesso à justiça através de um tribunal ou outro sistema quando são vítimas de um crime."
+		},
+		"14": {
+			"prefix"      : "fourteenth",
+			"item-color"  : "#C84699",
+			"item-title"  : "Igualdade entre homens e mulheres",
+			"item-content": "Homens e mulheres devem ter os mesmos direitos e oportunidades. Meninos e meninas devem ter igualdade de acesso à escola e à mesma qualidade de educação. Homens e mulheres devem ter a mesma chance de serem eleitos para cargos públicos, de se envolver na vida política e social, e vivenciar as mesmas oportunidades e benefícios no trabalho."
+		},
+		"15": {
+			"prefix"      : "fifteenth",
+			"item-color"  : "#DEC0CA",
+			"item-title"  : "Eliminação do preconceito e da discriminação",
+			"item-content": "Nenhuma pessoa no mundo deve ter suas oportunidades econômicas, sociais ou políticas limitadas devido à sua raça, etnia, religião, deficiência, orientação sexual, ou por qualquer outro motivo. Nenhuma pessoa deve temer por sua segurança pessoal pelas mesmas razões."
+		},
+		"16": {
+			"prefix"      : "sixteenth",
+			"item-color"  : "#FBE792",
+			"item-title"  : "Melhoria nos transportes e estradas",
+			"item-content": "O transporte e as estradas devem melhorar para que as pessoas possam circular livremente e com facilidade, para visitar seus familiares e amigos, encontrar novas oportunidades econômicas e utilizar os serviços que precisam."
+		}
+	},
+	"celebrities"    : {
+		"1": {
+			"image_src": "Diana.png",
+			"content"  : "<span style='font-weight: bold;'>Diana</span><br><span>Feminino, 22</span><br><span>Cuba</span>",
+			"globe_src": "Globe_diana.png",
+			"supports" :
+				[
+					"tenth",
+					"nineth",
+					"second",
+					"twelveth",
+					"first",
+					"fourteenth"
+				]
+		},
+		"2": {
+			"image_src": "myworld_arda.png",
+			"content"  : "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Feminino, 32</span><br><span>Cazaquistão</span>",
+			"globe_src": "Globe_arda.png",
+			"supports" :
+				[
+					"third",
+					"nineth",
+					"fourth",
+					"second",
+					"eleventh",
+					"fourteenth"
+				]
+		},
+		"3": {
+			"image_src": "myworld_anjana.png",
+			"content"  : "<span style='font-weight: bold;'>Anjana</span><br><span>Feminino, 25</span><br><span>Nepal</span>",
+			"globe_src": "Globe_anjana.png",
+			"supports" :
+				[
+					"third",
+					"second",
+					"seventh",
+					"thirteenth",
+					"first",
+					"fourteenth"
+
+				]
+		},
+		"4": {
+			"image_src": "Sonal.png",
+			"content"  : "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Feminino, 25</span><br><span>República Unida...</span>",
+			"globe_src": "Globe_sonal.png",
+			"supports" :
+				[
+					"third",
+					"tenth",
+					"nineth",
+					"fourth",
+					"second",
+					"seventh"
+				]
+		},
+		"5": {
+			"image_src": "Uma.png",
+			"content"  : "<span style='font-weight: bold;'>Uma</span><br><span>Feminino, 23</span><br><span>Austrália</span>",
+			"globe_src": "Globe_uma.png",
+			"supports" :
+				[
+					"third",
+					"second",
+					"thirteenth",
+					"eleventh",
+					"twelveth",
+					"fourteenth"
+				]
+		},
+		"6": {
+			"image_src": "Sebastian.png",
+			"content"  : "<span style='font-weight: bold;'>Sebastian</span><br><span>Masculino, 28</span><br><span>Áustria</span>",
+			"globe_src": "Globe_sebastian.png",
+			"supports" :
+				[
+					"nineth",
+					"fourth",
+					"second",
+					"thirteenth",
+					"sixth",
+					"eleventh"
+
+				]
+		},
+		"7": {
+			"image_src": "myworld_juanita.png",
+			"content"  : "<span style='font-weight: bold;'>Juanita</span><br><span>Feminino, 29</span><br><span>Canadá</span>",
+			"globe_src": "Globe_juanita.png",
+			"supports" :
+				[
+					"third",
+					"second",
+					"seventh",
+					"thirteenth",
+					"first",
+					"fourteenth"
+				]
+		},
+		"8": {
+			"image_src": "robert.png",
+			"content"  : "<span style='font-weight: bold;'>Robert</span><br><span>Masculino, 21</span><br><span>Estados Unidos...</span>",
+			"globe_src": "robert_globe.png",
+			"supports" :
+				[
+					"tenth",
+					"sixteenth",
+					"fourth",
+					"second",
+					"first",
+					"fourteenth"
+				]
+		}
+	},
+	"fields_values"  : {
+		"education":
+			[
+				{
+					"id"  : "",
+					"name": "EDUCAÇÃO"
+				},
+				{
+					"id"  : "1",
+					"name": "Ensino básico incompleto"
+				},
+				{
+					"id"  : "2",
+					"name": "Ensino básico concluído"
+				},
+				{
+					"id"  : "3",
+					"name": "Ensino médio concluído"
+				},
+				{
+					"id"  : "4",
+					"name": "Mais que ensino médio"
+				}
+			],
+		"gender"   :
+			[
+				{
+					"id"  : "",
+					"name": "Hom/Mul",
+					"ballot_gender"	: "Hom/Mul"
+				},
+				{
+					"id"  : "1",
+					"name": "Homem",
+					"ballot_gender"	: "Homem"
+				},
+				{
+					"id"  : "2",
+					"name": "Mulher",
+					"ballot_gender"	: "Mulher"
+				}
+			],
+		"age"      :
+			[
+				{
+					"id"  : "",
+					"name": "idade"
+				}
+			],
+		"countries":
+			[
+				{
+					"id"  : "",
+					"name": "país"
+				},
+				{
+					"id"  : "1",
+					"name": "Afeganistão"
+				},
+				{
+					"id"  : "159",
+					"name": "África do Sul"
+				},
+				{
+					"id"  : "2",
+					"name": "Albânia"
+				},
+				{
+					"id"  : "65",
+					"name": "Alemanha"
+				},
+				{
+					"id"  : "4",
+					"name": "Andorra"
+				},
+				{
+					"id"  : "5",
+					"name": "Angola"
+				},
+				{
+					"id"  : "6",
+					"name": "Antígua e Barbuda"
+				},
+				{
+					"id"  : "149",
+					"name": "Arábia Saudita"
+				},
+				{
+					"id"  : "3",
+					"name": "Argélia"
+				},
+				{
+					"id"  : "7",
+					"name": "Argentina"
+				},
+				{
+					"id"  : "8",
+					"name": "Armênia"
+				},
+				{
+					"id"  : "9",
+					"name": "Austrália"
+				},
+				{
+					"id"  : "10",
+					"name": "Áustria"
+				},
+				{
+					"id"  : "11",
+					"name": "Azerbaijão"
+				},
+				{
+					"id"  : "12",
+					"name": "Bahamas"
+				},
+				{
+					"id"  : "14",
+					"name": "Bangladesh"
+				},
+				{
+					"id"  : "15",
+					"name": "Barbados"
+				},
+				{
+					"id"  : "13",
+					"name": "Barein"
+				},
+				{
+					"id"  : "16",
+					"name": "Belarus"
+				},
+				{
+					"id"  : "17",
+					"name": "Bélgica"
+				},
+				{
+					"id"  : "18",
+					"name": "Belize"
+				},
+				{
+					"id"  : "19",
+					"name": "Benin"
+				},
+				{
+					"id"  : "21",
+					"name": "Bolívia (Estado Plurinacional da)"
+				},
+				{
+					"id"  : "22",
+					"name": "Bósnia e Herzegóvina"
+				},
+				{
+					"id"  : "23",
+					"name": "Botsuana"
+				},
+				{
+					"id"  : "24",
+					"name": "Brasil"
+				},
+				{
+					"id"  : "25",
+					"name": "Brunei"
+				},
+				{
+					"id"  : "26",
+					"name": "Bulgária"
+				},
+				{
+					"id"  : "27",
+					"name": "Burkina Fasso"
+				},
+				{
+					"id"  : "28",
+					"name": "Burundi"
+				},
+				{
+					"id"  : "20",
+					"name": "Butão"
+				},
+				{
+					"id"  : "32",
+					"name": "Cabo Verde"
+				},
+				{
+					"id"  : "30",
+					"name": "Camarões"
+				},
+				{
+					"id"  : "29",
+					"name": "Camboja"
+				},
+				{
+					"id"  : "31",
+					"name": "Canadá"
+				},
+				{
+					"id"  : "137",
+					"name": "Catar"
+				},
+				{
+					"id"  : "87",
+					"name": "Cazaquistão"
+				},
+				{
+					"id"  : "34",
+					"name": "Chade"
+				},
+				{
+					"id"  : "35",
+					"name": "Chile"
+				},
+				{
+					"id"  : "36",
+					"name": "China"
+				},
+				{
+					"id"  : "44",
+					"name": "Chipre"
+				},
+				{
+					"id"  : "154",
+					"name": "Cingapura"
+				},
+				{
+					"id"  : "37",
+					"name": "Colômbia"
+				},
+				{
+					"id"  : "38",
+					"name": "Comores"
+				},
+				{
+					"id"  : "39",
+					"name": "Congo"
+				},
+				{
+					"id"  : "46",
+					"name": "Coreia do Norte (República Popular Democrática da Coreia)"
+				},
+				{
+					"id"  : "138",
+					"name": "Coreia do Sul (República da Coreia)"
+				},
+				{
+					"id"  : "41",
+					"name": "Costa do Marfim"
+				},
+				{
+					"id"  : "40",
+					"name": "Costa Rica"
+				},
+				{
+					"id"  : "42",
+					"name": "Croácia"
+				},
+				{
+					"id"  : "43",
+					"name": "Cuba"
+				},
+				{
+					"id"  : "48",
+					"name": "Dinamarca"
+				},
+				{
+					"id"  : "49",
+					"name": "Djibuti"
+				},
+				{
+					"id"  : "50",
+					"name": "Dominica"
+				},
+				{
+					"id"  : "53",
+					"name": "Egito"
+				},
+				{
+					"id"  : "54",
+					"name": "El Salvador"
+				},
+				{
+					"id"  : "182",
+					"name": "Emirados Árabes Unidos"
+				},
+				{
+					"id"  : "52",
+					"name": "Equador"
+				},
+				{
+					"id"  : "56",
+					"name": "Eritreia"
+				},
+				{
+					"id"  : "155",
+					"name": "Eslováquia"
+				},
+				{
+					"id"  : "156",
+					"name": "Eslovénia"
+				},
+				{
+					"id"  : "161",
+					"name": "Espanha"
+				},
+				{
+					"id"  : "185",
+					"name": "Estados Unidos"
+				},
+				{
+					"id"  : "57",
+					"name": "Estônia"
+				},
+				{
+					"id"  : "58",
+					"name": "Etiópia"
+				},
+				{
+					"id"  : "141",
+					"name": "Federação Russa"
+				},
+				{
+					"id"  : "59",
+					"name": "Fiji"
+				},
+				{
+					"id"  : "134",
+					"name": "Filipinas"
+				},
+				{
+					"id"  : "60",
+					"name": "Finlândia"
+				},
+				{
+					"id"  : "61",
+					"name": "França"
+				},
+				{
+					"id"  : "62",
+					"name": "Gabão"
+				},
+				{
+					"id"  : "63",
+					"name": "Gâmbia"
+				},
+				{
+					"id"  : "66",
+					"name": "Gana"
+				},
+				{
+					"id"  : "64",
+					"name": "Geórgia"
+				},
+				{
+					"id"  : "68",
+					"name": "Granada"
+				},
+				{
+					"id"  : "67",
+					"name": "Grécia"
+				},
+				{
+					"id"  : "69",
+					"name": "Guatemala"
+				},
+				{
+					"id"  : "72",
+					"name": "Guiana"
+				},
+				{
+					"id"  : "70",
+					"name": "Guiné"
+				},
+				{
+					"id"  : "71",
+					"name": "Guiné-Bissau"
+				},
+				{
+					"id"  : "55",
+					"name": "Guiné-Equatorial"
+				},
+				{
+					"id"  : "73",
+					"name": "Haiti"
+				},
+				{
+					"id"  : "121",
+					"name": "Holanda - Países Baixos"
+				},
+				{
+					"id"  : "74",
+					"name": "Honduras"
+				},
+				{
+					"id"  : "75",
+					"name": "Hungria"
+				},
+				{
+					"id"  : "191",
+					"name": "Iêmen"
+				},
+				{
+					"id"  : "107",
+					"name": "Ilhas Marshall"
+				},
+				{
+					"id"  : "157",
+					"name": "Ilhas Salomão"
+				},
+				{
+					"id"  : "77",
+					"name": "Índia"
+				},
+				{
+					"id"  : "78",
+					"name": "Indonésia"
+				},
+				{
+					"id"  : "79",
+					"name": "Irã"
+				},
+				{
+					"id"  : "80",
+					"name": "Iraque"
+				},
+				{
+					"id"  : "81",
+					"name": "Irlanda"
+				},
+				{
+					"id"  : "76",
+					"name": "Islândia"
+				},
+				{
+					"id"  : "82",
+					"name": "Israel"
+				},
+				{
+					"id"  : "83",
+					"name": "Itália"
+				},
+				{
+					"id"  : "84",
+					"name": "Jamaica"
+				},
+				{
+					"id"  : "85",
+					"name": "Japão"
+				},
+				{
+					"id"  : "86",
+					"name": "Jordânia"
+				},
+				{
+					"id"  : "89",
+					"name": "Kiribáti"
+				},
+				{
+					"id"  : "195",
+					"name": "Kosovo"
+				},
+				{
+					"id"  : "90",
+					"name": "Kuweit"
+				},
+				{
+					"id"  : "92",
+					"name": "Laos"
+				},
+				{
+					"id"  : "95",
+					"name": "Lesoto"
+				},
+				{
+					"id"  : "93",
+					"name": "Letônia"
+				},
+				{
+					"id"  : "94",
+					"name": "Líbano"
+				},
+				{
+					"id"  : "96",
+					"name": "Libéria"
+				},
+				{
+					"id"  : "97",
+					"name": "Líbia"
+				},
+				{
+					"id"  : "98",
+					"name": "Liechtenstein"
+				},
+				{
+					"id"  : "99",
+					"name": "Lituânia"
+				},
+				{
+					"id"  : "100",
+					"name": "Luxemburgo"
+				},
+				{
+					"id"  : "171",
+					"name": "Macedônia"
+				},
+				{
+					"id"  : "101",
+					"name": "Madagáscar"
+				},
+				{
+					"id"  : "103",
+					"name": "Malásia"
+				},
+				{
+					"id"  : "102",
+					"name": "Malauí"
+				},
+				{
+					"id"  : "104",
+					"name": "Maldivas"
+				},
+				{
+					"id"  : "105",
+					"name": "Mali"
+				},
+				{
+					"id"  : "106",
+					"name": "Malta"
+				},
+				{
+					"id"  : "115",
+					"name": "Marrocos"
+				},
+				{
+					"id"  : "109",
+					"name": "Maurício"
+				},
+				{
+					"id"  : "108",
+					"name": "Mauritânia"
+				},
+				{
+					"id"  : "110",
+					"name": "México"
+				},
+				{
+					"id"  : "117",
+					"name": "Mianmar"
+				},
+				{
+					"id"  : "111",
+					"name": "Micronésia (Estados Federados da)"
+				},
+				{
+					"id"  : "116",
+					"name": "Moçambique"
+				},
+				{
+					"id"  : "139",
+					"name": "Moldávia"
+				},
+				{
+					"id"  : "112",
+					"name": "Mônaco"
+				},
+				{
+					"id"  : "113",
+					"name": "Mongólia"
+				},
+				{
+					"id"  : "114",
+					"name": "Montenegro"
+				},
+				{
+					"id"  : "118",
+					"name": "Namíbia"
+				},
+				{
+					"id"  : "119",
+					"name": "Nauru"
+				},
+				{
+					"id"  : "120",
+					"name": "Nepal"
+				},
+				{
+					"id"  : "123",
+					"name": "Nicarágua"
+				},
+				{
+					"id"  : "124",
+					"name": "Níger"
+				},
+				{
+					"id"  : "125",
+					"name": "Nigéria"
+				},
+				{
+					"id"  : "126",
+					"name": "Noruega"
+				},
+				{
+					"id"  : "122",
+					"name": "Nova Zelândia"
+				},
+				{
+					"id"  : "127",
+					"name": "Omã"
+				},
+				{
+					"id"  : "129",
+					"name": "Palau"
+				},
+                {
+                    "id": "194",
+                    "name": "Palestina ( Estado da )"
+                },				
+				{
+					"id"  : "130",
+					"name": "Panamá"
+				},
+				{
+					"id"  : "131",
+					"name": "Papua Nova Guiné"
+				},
+				{
+					"id"  : "128",
+					"name": "Paquistão"
+				},
+				{
+					"id"  : "132",
+					"name": "Paraguai"
+				},
+				{
+					"id"  : "133",
+					"name": "Peru"
+				},
+				{
+					"id"  : "135",
+					"name": "Polônia"
+				},
+				{
+					"id"  : "136",
+					"name": "Portugal"
+				},
+				{
+					"id"  : "88",
+					"name": "Quênia"
+				},
+				{
+					"id"  : "91",
+					"name": "Quirguistão"
+				},
+				{
+					"id"  : "183",
+					"name": "Reino Unido"
+				},
+				{
+					"id"  : "33",
+					"name": "República Centro-Africana"
+				},
+				{
+					"id"  : "47",
+					"name": "República Democrática do Congo"
+				},
+				{
+					"id"  : "51",
+					"name": "República Dominicana"
+				},
+				{
+					"id"  : "45",
+					"name": "República Tcheca"
+				},
+				{
+					"id"  : "140",
+					"name": "Roménia"
+				},
+				{
+					"id"  : "142",
+					"name": "Ruanda"
+				},
+				{
+					"id"  : "146",
+					"name": "Samoa"
+				},
+				{
+					"id"  : "147",
+					"name": "San Marino"
+				},
+				{
+					"id"  : "144",
+					"name": "Santa Lúcia"
+				},
+				{
+					"id"  : "143",
+					"name": "São Cristóvão e Neves"
+				},
+				{
+					"id"  : "148",
+					"name": "São Tomé e Príncipe"
+				},
+				{
+					"id"  : "145",
+					"name": "São Vicente e Granadinas"
+				},
+				{
+					"id"  : "150",
+					"name": "Senegal"
+				},
+				{
+					"id"  : "153",
+					"name": "Serra Leoa"
+				},
+				{
+					"id"  : "151",
+					"name": "Sérvia"
+				},
+				{
+					"id"  : "152",
+					"name": "Seicheles"
+				},
+				{
+					"id"  : "168",
+					"name": "Síria"
+				},
+				{
+					"id"  : "158",
+					"name": "Somália"
+				},
+				{
+					"id"  : "162",
+					"name": "Sri Lanka"
+				},
+				{
+					"id"  : "165",
+					"name": "Suazilândia"
+				},
+				{
+					"id"  : "163",
+					"name": "Sudão"
+				},
+				{
+					"id"  : "160",
+					"name": "Sudão do Sul"
+				},
+				{
+					"id"  : "166",
+					"name": "Suécia"
+				},
+				{
+					"id"  : "167",
+					"name": "Suíça"
+				},
+				{
+					"id"  : "164",
+					"name": "Suriname"
+				},
+				{
+					"id"  : "169",
+					"name": "Tadjiquistão"
+				},
+				{
+					"id"  : "170",
+					"name": "Tailândia"
+				},
+				{
+					"id"  : "184",
+					"name": "Tanzânia"
+				},
+				{
+					"id"  : "172",
+					"name": "Timor Leste"
+				},
+				{
+					"id"  : "173",
+					"name": "Togo"
+				},
+				{
+					"id"  : "174",
+					"name": "Tonga"
+				},
+				{
+					"id"  : "175",
+					"name": "Trindad e Tobago"
+				},
+				{
+					"id"  : "176",
+					"name": "Tunísia"
+				},
+				{
+					"id"  : "177",
+					"name": "Turquia"
+				},
+				{
+					"id"  : "178",
+					"name": "Turcomenistão"
+				},
+				{
+					"id"  : "179",
+					"name": "Tuvalu"
+				},
+				{
+					"id"  : "181",
+					"name": "Ucrânia"
+				},
+				{
+					"id"  : "180",
+					"name": "Uganda"
+				},
+				{
+					"id"  : "186",
+					"name": "Uruguai"
+				},
+				{
+					"id"  : "187",
+					"name": "Uzbequistão"
+				},
+				{
+					"id"  : "188",
+					"name": "Vanuatu"
+				},
+				{
+					"id"  : "189",
+					"name": "Venezuela"
+				},
+				{
+					"id"  : "190",
+					"name": "Vietnã"
+				},
+				{
+					"id"  : "192",
+					"name": "Zâmbia"
+				},
+				{
+					"id"  : "193",
+					"name": "Zimbábue"
+				}
+			]
+	},
+	"various_values" : {
+		"priority-item-content": "Digite Aqui",
+		"submit-label"         : "votar",
+		"send-label"           : "enviar",
+		"contact-us-submit"    : "Enviar",
+		"ballot-in"            : "in",
+		"ballot-vote-for"      : "votado por:",
+		"ballot-vote-id"       : "Vote:",
+		"ballot-your-turn"     : "Now it's your turn...",
+		"ballot-name"          : "Informe seu nome",
+		"social-title"         : "Para conseguir essas mudanças, precisamos que nos ajude fazendo mais duas coisas simples",
+		"social-title-one"     : "Informe o SEU nome em teu voto",
+		"social-title-two"     : "Compartilhe SEU voto e convide seus amigos a votar",
+		"social-share"         : "Compartilhe seu voto",
+		"vote-again"           : "Há alguém perto de você que também queira participar?",
+		"vote-again-link"      : "Vote novamente usando o mesmo computador.",
+		"stay-in-touch"        : "Gostaríamos de manter contato...",
+		"your-email-address"   : "Informe seu email",
+		"sign-me-up"           : "GOSTARIA DE ME INSCREVER",
+		"facebook-btn"         : "COMPARTILHAR NO FACEBOOK",
+		"facebook-text"        : "A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1",
+		"twitter-btn"          : "COMPARTILHAR NO TWITTER",
+		"twitter-text"         : "As Nações Unidas querem saber a SUA opinião! Eu acabei de informar quais as minhas prioridades para criar um mundo melhor. http://www.myworld2015.org/?ballot=-1 @MyWorld2015",
+		"sina-btn"             : "COMPARTILHAR NO WEIBO",
+		"sina-text"            : "A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1",
+		"orkut-btn"            : "COMPARTILHAR NO ORKUT",
+		"orkut-text"           : "A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1",
+		"googleplus-btn"       : "COMPARTILHAR NO GOOGLE+",
+		"googleplus-text"      : "The United Nations wants to hear from you. I have just told them my priorities for creating a better world. Join me and vote!",
+		"sharethis-btn"        : "COMPARTILHAR NO Sharethis",
+		"sharethis-text"       : "A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1",
+		"map-header-text"	   : "Veja os votos do resto do mundo",
+        "email-sent"           : "Obrigado!"
+	},
+	"pages"          : {
+		"methodology-title"               : "Metodologia",
+		"methodology-content"             : "<h2 class='methodology-main-header'>Respostas às perguntas gerais</h2><br/><br/><h2 class='methodology-header'>Histórico: Agenda do Desenvolvimento Global Pós-2015</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Os Objetivos de Desenvolvimento do Milênio (ODM) tiveram um grande impacto na vida de bilhões de pessoas,</span> mas ainda há muito a ser feito para combater a pobreza extrema, os desastres e as crises ambientais.</li><li>A agenda do desenvolvimento global para o período pós-2015 <span class='highlight-extra-pages'>vai ampliar os resultados dos Objetivos de Desenvolvimento do Milênio</span> e enfrentar as desigualdades que ainda persistem e os novos desafios que afetam as pessoas e o planeta.</li><li><span class='highlight-extra-pages'>A nova agenda do desenvolvimento deve resultar de um processo realmente aberto e inclusivo,</span> que envolva pessoas de todas as partes do mundo e de todos os grupos sociais.</li><li><span class='highlight-extra-pages'>Para compor a agenda pós-2015, a ONU e o Painel de Alto Nível do Secretário Geral querem ouvir a opinião de todos</span> sobre o que consideram importante. “Meu Mundo” foi concebido como uma ferramenta para incluir a voz de todos neste diálogo global.</li></ul><h2 class='methodology-header'>O que é “Meu Mundo”?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>As Nações Unidas e seus parceiros se uniram para colocar em prática uma pesquisa inovadora, conhecida como “Meu Mundo”, para que, assim, as pessoas possam participar do processo pós-2015 dizendo qual a mudança que faria mais diferença em sua vida.</span></li><li><span class='highlight-extra-pages'>Esta é uma pesquisa de múltipla escolha</span> que, por meio de métodos online e off-line, permite que as pessoas de todo o mundo digam às Nações Unidas, líderes globais – e, em particular, o Painel de Alto Nível do Secretário Geral, quais seriam os principais assuntos a serem tratados pela agenda pós-2015.</li><li><span class='highlight-extra-pages'>“Meu Mundo” pergunta a cada pessoa quais são os seis de um total de 16 temas</span> que consideram mais importantes em sua vida. Esses 16 itens foram escolhidos por meio de consulta às pessoas menos favorecidas e por meio de discussões técnicas e políticas sobre possíveis metas futuras. Eles incluem os Objetivos de Desenvolvimento do Milênio, além de assuntos ligados à sustentabilidade, segurança, governança e transparência.</li></ul><h2 class='methodology-header'>Como funciona?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>A pesquisa está disponível online em www.myworld2015.org</span> nos seis idiomas oficiais da ONU. Os cidadãos também podem participar da pesquisa por meio da tecnologia móvel, como SMS ou IVR (números de ligação gratuita) <span class='highlight-extra-pages'>a partir de Janeiro de 2013.</span></li><li>A pesquisa também estará disponível <span class='highlight-extra-pages'>em versão off-line.</span> O formulário será distribuído entre organizações de base comunitária, grupos de jovens, instituições do setor privado e ONGs parceiras. O apoio dessas organizações é fundamental para garantir a participação das pessoas que não têm acesso a meios digitais, que não são alfabetizadas e que vivem em comunidades populares.</li><li>Os participantes devem informar seus dados pessoais como sexo, idade e país e autorizar a desagregação dos dados para que os tomadores de decisão tenham uma visão geral do que pensam os cidadãos.</li></ul><h2 class='methodology-header'>Onde e quando acontece tudo isso?</h2><br/><ul class='list-extra-pages'><li>De agora até 2015, queremos o máximo de pessoas e países envolvidos: cidadãos de todas as idades, gêneros e origens, particularmente das comunidades mais pobres e marginalizadas.</li><li>“Meu Mundo” estará disponível a partir do início de dezembro de 2012. Então, os países que sediarão as consultas nacionais podem levar isso em consideração. Entretanto, o lançamento global do “Meu Mundo” está previsto para o final de janeiro de 2013 (nesse período será publicado um material de comunicação sobre a iniciativa).</li></ul><h2 class='methodology-header'>Quais as 16 opções?</h2><br/><ul class='list-extra-pages'><li> Melhores oportunidades de trabalho</li><li> Apoio às pessoas que não podem trabalhar</li><li> Educação de qualidade</li><li> Melhoria dos serviços de saúde</li><li> Acesso à alimentos de qualidade</li><li> Acesso ao telefone e à internet</li><li> Melhoria nos transportes e estradas</li><li> Acesso à água potável e ao saneamento</li><li> Acesso à energia em sua casa</li><li> Combater as mudanças climáticas</li><li> Proteção a florestas, rios e oceanos</li><li> Igualdade entre homens e mulheres</li><li> Proteção contra o crime e a violência</li><li> Liberdades políticas</li><li> Governo honesto e atuante</li><li> Eliminação do preconceito e da discriminação</li></ul><h2 class='methodology-header'>O que acontece com os resultados da pesquisa?</h2><br/><ul class='list-extra-pages'><li>Os dados coletados online e off-line serão consolidados e disponibilizados no website “Meu Mundo”.</li><li>Os resultados serão submetidos ao Painel de Alto Nível do Secretário Geral como parte da agenda de desenvolvimento pós-2015, antes que eles apresentem seu relatório final ao Secretário Geral das Nações Unidas, em junho de 2013. “Meu Mundo” continuará coletando a opinião das pessoas e os resultados serão compartilhados com o Secretário Geral e líderes globais enquanto eles preparam a próxima agenda de desenvolvimento no decorrer de 2015.</li></ul><br/><br/><h2 class='methodology-main-header'>Explicações sobre a metodologia</h2><br/><br/><br/><h2 class='methodology-header'>Para que serve esta pesquisa?</h2><br/>“Meu Mundo” é uma forma de saber como as pessoas acham que deveria ser um novo acordo sobre desenvolvimento. Esta iniciativa será complementada por outras ações com o objetivo é trazer a voz dos cidadãos para o debate sobre pós-2015. Esse é o caso, por exemplo do projeto <span class='pages-italics'>“Participação”</span> desenvolvido pelo Instituto de Estudos do Desenvolvimento; da iniciativa “Para além de 2015”, conduzida por uma coalizão de organizações da sociedade civil responsável por uma pesquisa qualitativa em profundidade sobre as prioridades das pessoas; e por um grande número de consultas temáticas nacionais realizadas pelas Nações Unidas em diversos países.<br/><br/>“Meu Mundo” complementa tais iniciativas por meio da coleta de dados quantitativos sobre as prioridades. As opções na pesquisa são deliberadamente colocadas de maneira genérica: <span class='pages-italics'>“melhoria nos serviços de saúde”</span>, por exemplo, ou <span class='pages-italics'>“equidade entre homens e mulheres”</span> são assim descritas para que sejam compreendidas por todos os cidadãos. As outras consultas fornecerão informações adicionais de maneira a permitir que os gestores de políticas públicas compreendam a visão e as prioridades das pessoas e procurem traduzi-las em objetivos, metas e indicadores.<br/><br/>“Meu Mundo” procura conectar os processos de consulta com os processos políticos, a fim de definir prioridades e criar uma agenda global gerenciável. “Meu Mundo” permitirá que a visão dos cidadãos faça parte desses processos.<br/><br/>O objetivo desta iniciativa não é criar uma resposta definitiva sobre o que seriam as prioridades do mundo, mas garantir que os tomadores de decisão considerem a opinião do maior número de pessoas sobre a agenda pós-2015.<br/><br/><br/><h2 class='methodology-header'>Por que essas 16 opções?</h2><br/>Definir a lista de opções para uma proposta como esta é uma tarefa muito difícil. Para chegar às 16 opções, passamos pelo seguinte processo:<br/><ol class='ordered-list-extra-pages'><li>Foi feita uma lista inicial com 24 opções seguidas de parágrafos explicativos com base nos atuais Objetivos de Desenvolvimento do Milênio, em uma revisão de propostas da sociedade civil para o período de 2015 e em dados oriundos de pesquisas participativas. Foram selecionadas as opções que tinham interesse global.</li><li>Essa lista foi, então, examinada por um grupo de representantes de ONGs, gestores de políticas públicas, acadêmicos e funcionários da ONU de um grande número de países e regiões. O grupo sugeriu que a lista fosse reduzida a 15 opções para tornar a pesquisa mais simples e acessível. A lista passou por uma segunda rodada de consulta por um grupo menor, incluindo uma empresa de pesquisa de opinião de origem africana.<li>Depois dessa consulta, ficou decidido que ficariam 16 opções para poder acomodar a nova rodada de comentários.</li><li>Um teste final foi conduzido por meio de uma pesquisa via SMS na Uganda, onde uma pergunta aberta foi feita. As repostas foram organizadas em 16 opções. Quando perguntados sobre assuntos da maior importância para indivíduos e suas famílias, menos de 4% das respostas não caiu dentro das 16 categorias.</li></ol>Nós acreditamos firmemente que temos uma lista equilibrada de opções, que reflete o leque de temas de interesse das pessoas ao redor do mundo. São esses os assuntos sobre os quais novos objetivos devem ser desenvolvidos. A lista não inclui tudo o que é importante para as pessoas, mas uma variedade de assuntos que podem ser trabalhados e que sabemos que são importantes para as pessoas, organizações e governos. A introdução da pesquisa online e off-line vai enfatizar que todas essas opções são importantes, mas que estamos tentando identificar as que são mais essenciais, para que essa informação sirva para a seleção de objetivos globais.<br/><br/><br/><h2 class='methodology-header'>Mas e se eu quiser escolher outro tema?</h2><br/>As pesquisas dão a oportunidade aos participantes para que dêem a sua sugestão de prioridade. Essa é a 17ª opção. As respostas serão analisadas cuidadosamente para ver se há temas ou ideias a serem incluídos. A análise desses formulários de resposta livre serão disponibilizadas para o público posteriormente.<br/><br/><br/><h2 class='methodology-header'>Por que as opções são escritas dessa maneira?</h2><br/>As opções devem ser compreendidas por todas as pessoas de todos os lugares, não só por especialistas em desenvolvimento. Trabalhamos com uma empresa de pesquisa de opinião de origem africana e com especialistas em comunicação de três organizações para revisar a linguagem e garantir que ela esteja acessível e o mais livre possível de jargões ou referências culturais específicas.<br/><br/><br/><h2 class='methodology-header'>Por que a pergunta “O que mais importa para você e sua família?”</h2><br/>O acordo pós-2015 tem um escopo global, mas sua finalidade é melhorar a vida das pessoas. Por isso, perguntar o que é importante para as pessoas parece ser uma estratégia melhor do que pedir para que imaginem o que deveria entrar em um acordo internacional. A pesquisa foi desenhada em torno de prioridades individuais, mas sabemos que para muitas pessoas, seus interesses pessoais e escolhas estão intrinsecamente ligados aos de suas famílias (os pais, por exemplo, podem responder a pergunta sobre seus desejos pensando em seus filhos). Portanto, por trás da pergunta sobre o que importa para as pessoas como indivíduos, está o reconhecimento de que sua felicidade está vinculada à dos outros.<br/><br/>Além disso, a elaboração da pergunta dessa forma diminui a margem de que as questões sejam interpretadas de outra maneira. Isso seria um risco se fizéssemos a pergunta de forma mais aberta sobre quais seriam as prioridades para a governança global, para o país ou para a comunidade.<br/><br/><br/><h2 class='methodology-header'>Por que limitar a 16 opções… não seria melhor fazer uma pergunta aberta?</h2><br/>“Meu Mundo” é apenas uma parte de uma consulta global sobre o período pós-2015. Todas as outras iniciativas complementares incluem questões abertas. Existem muitas maneiras de coletar a opinião das pessoas e esses métodos diferentes podem atuar de maneira complementar. O papel do “Meu Mundo” é oferecer insights sobre as prioridades das pessoas e, para isso, foi preciso predeterminar a lista de opções. Conforme descrito acima, foi feito um grande esforço para que as prioridades sejam representativas das coisas que as pessoas consideraram importantes.<br/><br/>Além disso, há duas razões técnicas e metodológicas para fazer perguntas fechadas:<br/><ul class='list-extra-pages'><li>Considerando que a pesquisa será conduzida em muitos idiomas e por diferentes meios (internet, SMS e off-line), a tecnologia atual dos programas disponíveis não é suficiente para que as respostas a questões abertas sejam agrupadas de maneira consistente e precisa. Codificar manualmente os milhões de respostas que esperamos conseguir elevaria de forma proibitiva o preço e o tempo dispendidos nesse projeto.</li><li>A maioria das instituições de pesquisa que atuam em parceria nesta iniciativa confirma que as taxas de adesão são significativamente menores em pesquisas com perguntas abertas. Isso não surpreende já que elas requerem que os participantes pensem por mais tempo. Portanto, para aumentar a participação e tornar a pesquisa acessível, fazer perguntas fechadas foi a melhor solução.</li></ul><br/><h2 class='methodology-header'>Mas não é possível enfrentar a pobreza com uma simples lista de assuntos – tudo está conectado.</h2><br/>Concordamos. Por isso, foi tão importante oferecer às pessoas um grande número de opções e permitir que possam escolher mais de uma. Ao escolher seis de uma lista de 16 itens, as pessoas poderão pensar sobre combinações de que, juntas, podem ter maior impacto. Elas também poderão escolher temas que procuram solucionar o mesmo problema de diferentes maneiras: um pai preocupado com a educação de sua filha, por exemplo, pode escolher tanto “Igualdade entre homens e mulheres” como “Educação de qualidade” para representar as diferentes dimensões das mudanças que gostaríamos de ver.<br/><br/>Testamos a pesquisa com três grupos para verificar se haveria diferença se as pessoas pudessem escolher três, cinco ou sete opções. Depois, perguntamos qual dessas possibilidades tornava a pesquisa mais fácil e agradável. Não houve diferença considerável.<br/><br/><br/><h2 class='methodology-header'>Como saber se os participantes representam a população como um todo ou diferentes grupos?</h2><br/>Vamos coletar o máximo de informações sobre os participantes para sabermos quem são eles. Mas teremos o cuidado de não pedir demais e seremos abertos e transparentes sobre o conteúdo e limitações de dados. Também decidimos adotar a sugestão de uma empresa de pesquisa de opinião internacional sobre como analisar e apresentar os dados. Os níveis de informação são os seguintes:<br/><ul class='list-extra-pages'><li> Sexo – todos os participantes serão perguntados sobre seu sexo (masculino ou feminino). Isso se aplica a todos os dados.</li><li> Idade – também para todos os participantes.</li><li> País – todos os participantes.</li><li> Método de resposta – vamos analisar as respostas de acordo com a forma como as pessoas participam da pesquisa e, assim, estabelecer possíveis diferenças entre os três grupos.</li><li> Data e tempo de resposta – para avaliar o impacto de campanhas de marketing e para coletar programas de automação que ajudem na análise dos resultados.</li><li> Nível educacional – todos os que participarem em formulários off-line e por SMS serão perguntados sobre esta questão. Os candidatos que responderem online poderão responder a esta pergunta, mas de forma opcional (para diminuir as desistências).</li><li> Região sub-nacional – As operadoras de celular fornecerão este dado no caso de participantes via SMS. Para os participantes online, este será um dado opcional para minimizar as desistências.</li></ul>As informações que vamos coletar terão um nível de detalhe semelhante aos dados coletados pela Pesquisa Internacional Gallup e outros estudos globais. Não vamos trabalhar com amostras representativas aleatórias, como faz o Gallup, mas vamos usar dados sociais e demográficos para verificar o quanto nossas amostras representam a população de cada país. Deixaremos isso claro ao publicamos os dados.<br/><br/><br/><h2 class='methodology-header'>Como os dados serão apresentados?</h2><br/>Será possível ver os dados da pesquisa online em tempo real. E os dados da pesquisa feita via SMS e off-line serão disponibilizados o mais rapidamente possível para assegurar que os resultados estejam sempre atualizados.<br/><br/>Além disso, as informações extras coletadas dos participantes serão usadas para desagregar os dados e oferecer um retrato de como as prioridades diferem entre os países e grupos demográficos e socioeconômicos. Faremos relatórios sobre as prioridades dos diferentes grupos e países separadamente.<br/><br/>Também vamos agregar os resultados por país, região e globalmente. Dessa forma, utilizaremos as informações coletadas dos participantes para medir as respostas de forma que, quando os dados forem agregados, seja possível apresentar um retrato mais representativo da população como um todo. As opções para fazer essa mensuração incluem:<br/><ul class='list-extra-pages'><li> <span class='highlight-extra-pages'>Fatores demográficos:</span> medindo as respostas de cada país de forma alinhada com o tamanho da população em termos de homens e mulheres e diferentes grupos de idade para refletir o equilíbrio na população.</li><li> <span class='highlight-extra-pages'>Fatores socioeconômicos e demográficos das regiões sub-nacionais.</span> Esperamos obter informação sobre o nível educacional e sobre a região sub-nacional de residência de um número considerável do total de respondentes. Assim que tivermos grandes números, será possível medir as respostas de forma que elas reflitam as composições demográficas e socioeconômicas dos países.</li><li> <span class='highlight-extra-pages'>Proxies de renda:</span> até certo ponto, os três métodos de resposta são proxies para diferentes grupos de renda, com os mais ricos possivelmente com mais acesso à internet e os mais pobres participando off-line. Este é particularmente o caso se considerarmos que a pesquisa offine será conduzida nas áreas mais pobres em diferentes países. Vamos experimentar diferentes maneiras de medir as respostas de acordo com a forma com que a pesquisa foi conduzida, para refletir padrões regionais populacionais e grupos de distribuição de renda dentro dos países.</li></ul><br/><h2 class='methodology-header'>Se a agenda pós-2015 é sobre erradicação da pobreza… por que devemos nos preocupar com as prioridades das pessoas que não estão em situação de pobreza?</h2><br/>Tomamos muito cuidado ao desenvolver a metodologia para assegurar que as prioridades dos mais pobres fossem capturadas por esta pesquisa e para que pudéssemos fazer uma análise de suas respostas separadamente. Utilizamos dados de pesquisa de domicílio para identificar as regiões onde as pessoas mais empobrecidas vivem em cada país. Nesses lugares, vamos utilizar a metodologia off-line. Além disso, estamos planejando trabalhar com um grupo de ONGs que pode nos orientar sobre como conduzir a pesquisa junto a grupos de difícil acesso como crianças, idosos e pessoas com deficiência. Muitas dessas ONGs farão a pesquisa nas comunidades onde já trabalham. Dessa forma, será possível utilizar esses dados para focar apenas nos grupos extremamente pobres. Quando os dados forem desagregados no nível global, podemos utilizar pesos para assegurar que as respostas das pessoas pobres sejam contadas de maneira proporcional ao seu número na população em geral e que não sejam abafadas por um grande número de respostas online advindo de países ricos.<br/><br/>Mas a pesquisa foi elaborada para ser global. Afinal, todos têm desejos e encaram problemas em suas vidas. Muito frequentemente, as prioridades de diferentes grupos são mais parecidas do que podemos supor. Compreender como o povo de cada país enxerga suas vidas e as coisas que querem mudar facilitará o processo de construção de círculos políticos capazes de estimular um novo acordo. Quanto mais a nova estrutura refletir um consenso global sobre prioridades, mais fácil será construir a estrutura política capaz de trabalhar essas prioridades na prática, tornando-as realidade.<br/><br/><br/><h2 class='methodology-header'>A nova estrutura não deveria ter algo mais do que apenas selecionar os assuntos mais importantes para as pessoas no mundo?</h2><br/>A pesquisa “Meu Mundo” é apenas uma iniciativa de uma série de consultas e processos políticos que vão contribuir para o novo acordo. Saber as prioridades de diferentes grupos será importante para formatar essas políticas.<br/><br/>Ao definir as 16 opções, estamos cientes de que esse processo é sobre a elaboração de objetivos globais, por isso as opções representam assuntos que podem ser tratados por meio de ações internacionais. Nós excluímos algumas coisas, como, por exemplo, religião, que sabemos ser muito importante para as pessoas, mas que seria inapropriado ser trabalhada como parte de novos objetivos globais.",
+		"contact-title"                   : "Fale Conosco",
+		"contact-content"                 : "Em breve.",
+		"policy-title"                    : "Política de Privacidade",
+		"policy-content"                  : "Esta política de privacidade estabelece a forma como “Meu Mundo” usa e protege todas as informações que você dá quando usa este site.<br/><br/>Estamos empenhados em garantir que sua privacidade esteja protegida. Como estamos pedindo que você forneça certas informações pelas quais você pode ser identificado quando usa este site, queremos que você tenha certeza que elas só serão utilizadas de acordo com esta declaração de privacidade.<br/><br/>“Meu Mundo” pode alterar esta política de tempos em tempos, atualizando esta página. Você deve verificar esta página regularmente para garantir que você está de acordo com as mudanças.<br/><br/><span class='highlight-extra-pages'>O que nós coletamos?</span><br/>Nós podemos coletar as seguintes informações: <br/><br/><ul class='list-extra-pages'><li>As seis prioridades selecionadas</li><li>A prioridade opcional que você sugeriu</li><li>Sua idade, Sexo e País</li></ul> <span class='highlight-extra-pages'>O que fazemos com as informações que coletamos?</span><br/>“Meu Mundo” NÃO vende ou compartilha suas respostas à pesquisa para terceiros anunciantes ou comerciantes.<br/><br/>Os resultados do site, pesquisas de telefonia móvel e off-line serão submetidos ao Painel do Secretário-Geral de Alto Nível sobre o pós-2015 antes de suas reuniões em Monrovia (fevereiro), Bali (março) e Nova York ( de Maio) de 2013. <br/><br/><span class='highlight-extra-pages'>Segurança</span><br/>Estamos empenhados em garantir que suas informações estão seguras. A fim de evitar o acesso não autorizado ou divulgação do que temos, adotamos procedimentos físicos, eletrônicos e administrativos para salvaguardar e proteger as informações que coletamos online. <br/><br/><span class='highlight-extra-pages'>Como usamos cookies?</span><br/>Um cookie é um pequeno arquivo que pede permissão para ser colocado no disco rígido do seu computador. Uma vez que você concordar, o arquivo é adicionado e o cookie ajuda a analisar o tráfego web ou deixa você saber quando você visita um determinado site. Cookies permitem aplicações na web para reconhecer você como um indivíduo. O aplicativo da Web pode adaptar suas operações às suas necessidades, gostos ou temas não desejados por recolher e registar informações sobre suas preferências. <br/><br/>Nós usamos cookies log de tráfego para identificar quais páginas estão sendo usadas. Isso nos ajuda a analisar os dados sobre o tráfego da página web e melhorar o nosso site, a fim de adequá-lo às necessidades dos clientes. Nós só usamos esta informação para fins de análise estatística e, em seguida, os dados são retirados do sistema. <br/><br/>Em geral, os cookies nos ajudam a fornecer-lhe um melhor site, pois nos permite monitorar as páginas que você acha útil ou não. Um cookie não nos dá acesso ao seu computador ou qualquer informação sobre você, além dos dados que você escolher para compartilhar conosco. <br/><br/>Você pode optar por aceitar ou recusar cookies. A maioria dos browsers automaticamente aceita cookies, mas você pode modificar a configuração do navegador para recusar cookies, se você preferir. Isto pode impedi-lo de aproveitar plenamente o site. <br/><br/><span class='highlight-extra-pages'>Links para outros sites</span><br/>Nosso site pode conter links para que você possa visitar outros sites de interesse facilmente. No entanto, depois de ter usado esses links para sair do nosso site, você deve observar que não temos nenhum controle sobre esse outro site. Portanto, não podemos ser responsáveis ​​pela proteção e privacidade de qualquer informação que você fornecer enquanto visita tais sites e esses sites não são regidos por esta declaração de privacidade. Você deve ter cuidado e olhar para a declaração de privacidade aplicável ao site em questão. <br/><br/><span class='highlight-extra-pages'>Controle de suas informações pessoais</span><br/>Responder a esta pesquisa é um ato voluntário. Lembre-se, você sempre pode optar por não fornecer uma resposta para qualquer pergunta da pesquisa (especialmente aquelas solicitando seus dados pessoais). No entanto, isso irá impedir a conclusão de nosso estudo. <br/><br/>Se você acredita que qualquer informação que temos sobre você está incorreta ou incompleta, por favor, escreva ou mande e-mail o mais rápido possível, para <a href='mailto:info@worldwewant2015.org'>info@worldwewant2015.org</a>. Vamos corrigir prontamente qualquer informação considerada incorreta.",
+		"copyright-title"                 : "Copyright",
+		"copyright-content"               : "Todos os direitos reservados.<br/><br/>Nenhuma parte do site “My World” (MEU Mundo) ou qualquer dos seus conteúdos podem ser reproduzidos, copiados, modificados ou adaptados, sem o consentimento prévio e por escrito do autor, salvo indicação em contrário presente nos materiais.<br/><br/>Você pode compartilhar este site por qualquer dos seguintes meios:<br/>1. O uso de qualquer um dos ícones de partes em cada página;<br/>2. Fornecer um link de acesso ou a URL do conteúdo que você deseja divulgar; e<br/>3. Você pode citar trechos do site creditando <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>http://www.myworld2015.org</a><br/><br/>Não é permitido nenhum uso comercial e distribuição do conteúdo do site sem o expresso consentimento prévio e por escrito do autor.",
+		"about-my-world-title"            : "SOBRE O MEU MUNDO",
+		"about-my-world-content"          : "<span class='highlight-extra-pages'>O MEU Mundo é uma pesquisa global, liderada pelas Nações Unidas e seus parceiros.</span> Tem como objetivo capturar as opiniões dos indivíduos, prioridades e pontos de vista, para que os líderes globais possam ser informados de suas opiniões no processo de construção  da nova agenda de desenvolvimento global.<br/><br/>Através de métodos criativos online e off-line, <span class='highlight-extra-pages'>o MEU Mundo pergunta aos indivíduos quais das seis, entre as dezesseis questões possíveis,</span> eles acham que podem fazer uma maior diferença em suas vidas. As dezesseis questões foram criadas a partir de prioridades expressas por pessoas de  baixa renda, em pesquisas sobre os Objetivos de Desenvolvimento do Milênio, com questões relacionadas à sustentabilidade, segurança, governança e transparência. <br/><br/><span class='highlight-extra-pages'>A partir de agora até o ano de 2015, queremos envolver o maior número de pessoas e países possíveis com o MEU Mundo: </span> cidadãos de todas as idades, gêneros, origens, e particularmente, pessoas de baixa renda e comunidades marginalizadas do mundo.<br/><br/>Os resultados serão submetidos, primeiramente, ao <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'> Painel de Alto Nível para  o pós 2015</a> do Secretário-Geral, antes de seus encontros em Monróvia, Bali, Nova York e serão integrados ao relatório final com recomendações para um novo quadro de desenvolvimento em maio de 2013.<br/><br/>Enquanto isso, o MEU Mundo continuará coletando as opiniões das pessoas até 2015. Os resultados serão compartilhados com o Secretário-Geral e líderes globais à medida que eles preparam  a próxima agenda de desenvolvimento para o ano de 2015.",
+		"who-we-are-title"                : "Quem Somos",
+		"who-we-are-content"              : "<span class=' highlight-extra-pages'>O Programa das Nações Unidas para o Desenvolvimento (PNUD), a Campanha do Milênio da ONU e a Fundação World Wide Web</span> desenvolveram conjuntamente o MEU Mundo, que tem sido objeto de um amplo processo de consulta, e conta com o apoio de uma série de organizações, incluindo ONGs, grupos religiosos e movimentos de jovens.<br/><br/><span class=' highlight-extra-pages'>O Departamento de Informação Pública das Nações Unidas e o programa de Voluntários das Nações Unidas também desempenham um papel de liderança no MEU Mundo.</span><br/><br/><span class='highlight-extra-pages'><a href='#' id='more-partners-link'>Sobre nossos parceiros</a></span><br/><br/><ul class='list-extra-pages'><li><span class=' highlight-extra-pages'>Sobre o <a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>PNUD</a> </span>O Programa das Nações Unidas para o Desenvolvimento (PNUD) é a rede da ONU para o desenvolvimento global. Ele promove mudanças e conecta países com conhecimentos, experiências e recursos para ajudar as pessoas a ter uma melhor qualidade de vida. Está presente em 177 países e territórios.</li><li><span class='highlight-extra-pages'>Sobre a <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>Campanha do Milênio da ONU</a> </span> A campanha foi estabelecida em 2002 pelo Secretário-Geral das Nações Unidas. Ela apoia e inspira pessoas de todo o mundo a tomarem medidas para a implementação dos Objetivos de Desenvolvimento do Milênio, e facilita a participação da sociedade civil na agenda de desenvolvimento pós 2015. </li> <li><span class='highlight-extra-pages' >Sobre o <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>Instituto de Desenvolvimento Overseas</a> </span> É o líder, no Reino Unido, dos grupos de reflexão sobre desenvolvimento internacional e questões humanitárias.Trabalham para inspirar e informar sobre as políticas e práticas que levam à redução da pobreza, o alívio do sofrimento e a realização de meios de vida sustentáveis em países em desenvolvimento. </li><li><span class='highlight-extra-pages'>Sobre a <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>Fundação World Wide Web</a> </span> Estabelecida pelo criador da WEB, Sir Tim Berners-Lee, a Fundação World Wide Web é uma organização sem fins lucrativos, dedicada a promover o uso da internet para uma melhor comunicação, colaboração e livre inovação entre todas as pessoas, construindo pontes entre as divisões que ameaçam nosso futuro comum.</li></ul>",
+		"faq-title"                       : "Perguntas Frequentes",
+		"faq-content"                     : "<h2 class='faq-header'>O que é MEU Mundo?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>É uma pesquisa de múltipla escolha</span> que, através de métodos criativos online e off-line, permite às pessoas em todo o mundo, sugerir para as Nações Unidas e particularmente para o Painel de Alto Nível do Secretário Geral, as questões mais importantes que a agenda pós-2015 deve abordar.</li><li><span class='highlight-extra-pages'>O MEU Mundo pergunta às pessoas quais as seis, entre as dezesseis possíveis questões</span> eles acham que podem fazer uma maior diferença em suas vidas. As dezesseis questões foram criadas a partir de prioridades expressas por pessoas pobres em pesquisas existentes e através de exercícios de votação, bem como de discussões técnicas e políticas que estão ocorrendo sobre possíveis metas futuras. Elas cobrem os já existentes Objetivos de Desenvolvimento do Milênio (ODM), com questões relacionadas à sustentabilidade, segurança, governança e transparência.</li></ul><h2 class='faq-header'>Como vai funcionar?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>A partir de dezembro 2012, a pesquisa está disponível em <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span> nas seis línguas oficiais da ONU. Os cidadãos também poderão participar desta pesquisa através de tecnologias móveis, como SMS e números de telefone gratuito <span class='highlight-extra-pages'>a partir de janeiro 2013.</span></li><li>A pesquisa também estará disponível <span class='highlight-extra-pages'>off-line em versão impressa</span> – que será distribuída por uma rede de organizações de base, comunidades religiosas, grupos de jovens, entidades do setor privado e nossos parceiros de ONGs no mundo. O apoio destas organizações é vital para chegar diretamente às comunidades que estão sem acesso à internet ou mais excluídos em função do analfabetismo ou de sua situação de pobreza.</li><li>Os participantes serão convidados a fornecer sobre gênero, idade e país para permitir a desagregação dos dados e para apresentar quadro mais preciso do pensamento dos cidadãos que respondem à pesquisa, aos tomadores de decisão. </li></ul><h2 class='faq-header'>Quando e onde todo isso vai acontecer? </h2><br/><ul class='list-extra-pages'><li>A partir de agora até o ano de 2015, nós queremos que o maior número de pessoas e países possíveis estejam envolvidos com o MEU Mundo: cidadãos de todas as idades, sexo, origem, e particularmente as pessoas mais pobres e de comunidades marginalizadas do mundo. </li></ul><h2 class='faq-header'>O que acontecerá com os resultados da pesquisa? </h2><br/><ul class='list-extra-pages'><li>Dados de telefones celulares, sites e pesquisas off-line serão continuamente consolidados e disponibilizados no site do MEU Mundo. </li><li>Os resultados serão submetidos ao Painel de Alto Nível antes de suas reuniões em Monrovia, Bali e Nova York, antes de apresentar o seu relatório final ao Secretário Geral para aconselhá-lo sobre a sua visão do pós-2015. O MEU Mundo irá continuar coletando as opiniões das pessoas, e os resultados serão compartilhados com o Secretário Geral e líderes globais à medida que eles se preparam para a próxima agenda de desenvolvimento na corrida para o ano de 2015. </li></ul><h2 class='faq-header'>Porque agora? </h2> <br/><ul class='list-extra-pages'><li> <span class='highlight-extra-pages'>Os Objetivos de Desenvolvimento do Milênio (ODM) têm feito um enorme impacto na vida de bilhões de pessoas</span>, mas ainda há muito mais a ser feito para combater a pobreza extrema, doenças e crises ambientais. </li><li>A agenda de desenvolvimento global para o período pós 2015 será construída sobre os <span class='highlight-extra-pages'>avanços dos ODM</span>, enfrentando as desigualdades persistentes e os novos desafios a serem enfrentados pelas pessoas e pelo planeta. </li><li><span class='highlight-extra-pages'>A nova agenda de desenvolvimento deve resultar de um processo realmente aberto e inclusivo</span> que envolve pessoas de todas as partes do mundo e todos os segmentos da sociedade. </li><li><span class='highlight-extra-pages'>A ONU e o Painel de Alto Nível para a agenda pós 2015 do Secretário Geral querem saber diretamente das pessoas em todo o mundo</span>, sobre o que é importante para eles, para que as opiniões deles possam ser levadas em conta neste diálogo global. O MEU Mundo foi criado como um instrumento para ajudar a proporcionar isso. </li></ul><h2 class='faq-header'>Como você pode se envolver com o MEU Mundo? </h2><br/>Se você é uma pessoa: <br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Ajude-nos com a divulgação desta iniciativa!</span> Compartilhe a pesquisa e suas escolhas com seus amigos e família, e incentiva-os a participar. </li><li><span class='highlight-extra-pages'>Envie notícias!</span> Colete fotos, vídeos e histórias de quem se envolve em MY World e compartilhe em seus espaços de mídia social. </li><li><span class='highlight-extra-pages'>Deixe-nos suas informações</span> para que possamos mantê-lo informado sobre os resultados mais recentes da pesquisa e das várias maneiras que você poderá usar para se engajar na luta contra a pobreza global. </li></ul>Se você é uma organização:<br/><br/>Um kit de ferramentas estará disponível aos parceiros no site <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a>  antes do lançamento global, em janeiro 2013. Em geral, se uma organização estiver interessada em apoiar o MEU Mundo, ela pode: <br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Administrar a pesquisa off-line</span> em comunidades locais através da distribuição de cédulas, reunindo resultados e enviando os dados para os nossos contatos nacionais e regionais. </li><li><span class='highlight-extra-pages'>Divulgar aos parceiros existentes, organizações locais e membros</span> para incentivá-los a participar. </li><li><span class='highlight-extra-pages'>Ajudar a levar as pessoas ao site</span> <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> através de redes externas e plataformas de comunicação (sites, boletins de notícias e atividades de mídia social). </li><li><span class='highlight-extra-pages'>Envolver-se com outros parceiros potenciais</span>, por exemplo, provedores de telefonia, entidades do setor privado e meios de comunicação para facilitar o alcance e impacto do MEU Mundo.</li><li><span class='highlight-extra-pages'>Envie-nos notícias!</span> Colete fotos, vídeos e histórias de quem se envolve em MEU Mundo.</li></ul><h2 class='faq-header'>Como o MEU Mundo está relacionado com O Mundo que nós Queremos em 2015? </h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Agora os cidadãos de todo o mundo têm uma grande oportunidade como nunca antes, para fazer parte das novas metas, para acabar com a pobreza e criar, desde as primeiras fases do processo, um ambiente sustentável.</span> </li><li>O portal online de <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a> permite que as pessoas em todas as partes do mundo possam participar no processo pós-2015 e juntar-se ao debate. O MEU Mundo é totalmente integrado neste esforço global e é uma peça única que captura as vozes dos cidadãos para enriquecer essa conversa global. O site <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> está completamente ligado à <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a> e convida os cidadãos a acompanhar essa conversa depois de terem apresentado os seus votos. </li></ul><h2 class='faq-header'>Onde os Objetivos de Desenvolvimento Sustentável se encaixam nesse processo? </h2><br/><ul class='list-extra-pages'><li>Tal como acordado no Rio+20, nas reuniões abertas do Grupo de Trabalho, ele projetará um conjunto de Objetivos de Desenvolvimento Sustentável até setembro de 2013. O Painel de Alto Nível irá trabalhar em paralelo com o Grupo de Trabalho e ambos irão apresentar as suas recomendações ao Gabinete do Secretário Geral.</li></ul><h2 class='faq-header'>Sobre o Painel de Alto Nível para pós-2015 do Secretário Geral</h2><br/><ul class='list-extra-pages'><li>O <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>Painel de Alto Nível do Secretário Geral da ONU</a>  é parte da iniciativa pós-2015 do Secretário Geral Ban Ki-moon. A iniciativa foi criada para propor a ele uma agenda do desenvolvimento global, além de 2015, a data prevista para a realização dos objetivos de enfrentamento da pobreza, conhecidos como os Objetivos de Desenvolvimento do Milénio (ODM).</li><li>O trabalho do Painel de Alto Nível refletirá novos desafios de desenvolvimento usando como base a experiência adquirida na aplicação dos ODM, tanto em termos de resultados alcançados e as áreas de melhoramento. O Painel de Alto Nível deverá apresentar os seus resultados ao Secretário Geral do ONU, na primeira parte do ano 2013. Esses resultados vão informar o relatório dele para aos Estados Membros da ONU na Assembleia Geral da ONU em setembro 2013.<br/><br/><a href=' http://www.post2015hlp.org/the-panel ' target='_blank' class='links-extra-pages-normal'>Ver os membros do Painel de Alto Nível</a> </li></ul><h2 class='faq-header'>Quem está coordenando o MEU Mundo?</h2><br/><span class='highlight-extra-pages'>O <a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>Programa das Nações Unidas para o Desenvolvimento</a>, a <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>Campanha do Milênio da ONU</a>, o <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>Instituto de Desenvolvimento Overseas</a> e a <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>Fundação World Wide Web</a></span> desenvolveram conjuntamente o MY World, que tem sido objeto de um amplo processo de consulta, e tem amplo apoio de uma série de organizações, incluindo ONGs, grupos religiosos e movimentos de jovens. <br/><br/><span class='highlight-extra-pages'>O Departamento de Informação Pública das Nações Unidas e o programa Voluntários das Nações Unidas também desempenham um papel de liderança no MY World.</span><br/><br/><span class='highlight-extra-pages'><a id='faq-see-more-partners' href='#' target='_blank' class='links-extra-pages-normal'>Ver mais parceiros</a></span>",
+		"how-it-works-title"              : "COMO FUNCIONA",
+		"how-it-works-content"            : "O “Meu Mundo” é uma iniciativa que pergunta aos indivíduos quais são as seis, entre 16 possíveis questões, que eles acham que podem fazer uma maior diferença em suas vidas. As 16 questões foram criadas na sequência de uma <span class='highlight-extra-pages'>análise extensa e de consultas:</span><br/><br/><ul class='list-extra-pages'><li>A pesquisa foi concebida como uma <span class='highlight-extra-pages'>pesquisa de múltipla escolha</span>, em vez de uma pesquisa com ‘questões abertas’, porque o objetivo do “Meu Mundo” no contexto de consultas globais da ONU para o período pós-2015, é oferecer <span class='highlight-extra-pages'>ideias sobre as prioridades das pessoas.</span> </li><li><span class='highlight-extra-pages'>Uma lista inicial de 24 questões foi elaborada a partir de uma variedade de fontes importantes,</span> incluindo pesquisas participativas, votação, propostas da sociedade civil, os Objetivos de Desenvolvimento do Milênio e os planos para os Objetivos de Desenvolvimento Sustentável. Em seguida, as opções foram refinadas e resumidas em 16 opções através <span class='highlight-extra-pages'>inúmeras rodadas de consultas</span> com ONGs, políticos, acadêmicos, funcionários e empresas especializadasem pesquisa de opinião da ONU. A pesquisa também foi <span class='highlight-extra-pages'>testada em grupos-piloto</span>,  e por meio de uma pesquisa de SMS em Uganda para assegurar que as 16 opções estivessem completas e apropriadas.</li> <li>Para capturar os temas recorrentes que podem ter sido perdidos, os participantes também podem propor sua própria prioridade com a escolha de “adicione sua própria sugestão”.</li>  <li>A pesquisa “Meu Mundo” não pode tratar tudo que é importante para os cidadãos, porque nem todos os problemas podem ser enfrentados por metas globais. No entanto, foi incluído o conjunto de prioridades que as metas podem abordar e que nós sabemos que são importantes para as pessoas. </li> </ul> <span class='highlight-extra-pages'>A pesquisa “Meu Mundo” pode ser acessada de TRÊS maneiras:</span><br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Online:</span> em <span class='highlight-extra-pages'><a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span> nos seis idiomas oficiais da ONU e através de mídia social; </li> <li><span class='highlight-extra-pages'>Tecnologias móveis de telefone <span class='highlight-underline-extra-pages'>(disponível a partir de janeiro 2013):</span></span> SMS e através de número de telefone gratuitos; e </li> <li><span class='highlight-extra-pages'>Off-line <span class='highlight-underline-extra-pages'>(disponível a partir de dezembro 2012):</span></span> uma versão impressa do MEU Mundo  será distribuída através de uma rede de organizações de base, comunidades religiosas, grupos de jovens, entidades do setor privado e parceiros de ONGs no mundo inteiro. </li></ul>  A pesquisa é anônima. Os participantes serão convidados a fornecer somente informações sobre gênero, idade, educação e país para permitir a desagregação dos dados e apresentar aos grupos que tomarão as decisão sobre a agenda pós-2015  <span class='highlight-extra-pages'>um quadro global mais preciso </span> dos pensamentos dos cidadãos que respondem à pesquisa. <br/><br/>Dados de telefones celulares, sites e pesquisas off-line serão continuamente consolidados e disponibilizadas no site de “Meu Mundo”. <br/><br/>Os resultados do site, dos celulares e das pesquisas off-line serão <span class='highlight-extra-pages'>submetidos ao Painel de Alto Nível para o período pós-2015 do Secretário Geral</span> antes de suas reuniões em Monrovia (fevereiro), Bali (março) e Nova York (maio) em 2013.",
+		"contact-us-title"                : "Fale Conosco",
+		"contact-us-title-small"          : "Preencha este formulário e dê a sua opinião",
+		"contact-us-name"                 : "Nome: <span class='required'>*</span>",
+		"contact-us-email"                : "E-mail: <span class='required'>*</span>",
+		"contact-us-organization"         : "Organização",
+		"contact-us-description"          : "Mensagem: <span class='required'>*</span>",
+		"page-contact-us-thankyou-title"  : "Fale Conosco",
+		"page-contact-us-thankyou-content": "Obrigado por sua mensagem. Nós entraremos em contato com você em breve.",
+		"page-partners-title"             : "Parceiros",
+		"page-partners-content"           : "Abaixo está uma lista de parceiros comprometidos que estão trabalhando conosco para levar a pesquisa “Meu Mundo” às suas comunidades:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Além de 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.telefonica.com/' class='links-partner-page-normal' target='_blank'>Telefónica</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Principal Grupo das Nações Unidas para Crianças e Jovens (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>Associação Mundial de Meninas Guias e Escoteiras (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>Organização Mundial do Movimento Escoteiro</a><br/><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>YWCA Mundial</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>Aliança Mundial de YMCAs</a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Juventude pela Rede Internacional Habitat / Centro Habitat pelo Desenvolvimento e Governança</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Vozes da Juventude Rural<br/>Organização da Juventude Africana<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>Federação Internacional das Associações de Estudantes de Medicina</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>Federação Mundial dos Estudantes Cristãos, IRO</a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>Juventude Internacional dos Estudantes Católicos (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://www.childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/>AIESEC Local Committee Setif<br/><a href='http://www.axios.org.mx' class='links-partner-page-normal' target='_blank'>AXIOS MISION-MUJER</a><br/><a href='http://www.thecommonwealth.org/subhomepage/152816/' class='links-partner-page-normal' target='_blank'>Commonwealth Youth Programme</a><br/><a href='http://www.dayofprayerandaction.org' class='links-partner-page-normal' target='_blank'>Day of Prayer and Action for Children</a><br/><a href='http://www.girlsnotbrides.org' class='links-partner-page-normal' target='_blank'>Girls Not Brides: The Global Partnership to End Child Marriage</a><br/><a href='http://www.gadef.org' class='links-partner-page-normal' target='_blank'>Global Alliance for Development Foundation</a><br/><a href='http://impactwithdanny.wordpress.com/author/impactwithdanny/' class='links-partner-page-normal' target='_blank'>Impactwithdanny</a><br/><a href='http://www.interaction.org' class='links-partner-page-normal' target='_blank'>InterAction</a><br/><a href='http://www.one.org/international' class='links-partner-page-normal' target='_blank'>ONE Campaign</a><br/><a href='http://plan-international.org' class='links-partner-page-normal' target='_blank'>Plan International</a><br/>Prefuturo Institute<br/><a href='http://www.progressio.org.uk' class='links-partner-page-normal' target='_blank'>Progressio</a><br/><a href='http://rhealsolutions.blogspot.com.es' class='links-partner-page-normal' target='_blank'>Rheal Solutions</a><br/><a href='http://seedmediagroup.com' class='links-partner-page-normal' target='_blank'>Seed Media Group</a><br/><a href='http://www.ipsos-mori.com' class='links-partner-page-normal' target='_blank'>Social Research Institute, Ipsos MORI</a><br/><a href='http://www.unfoundation.org' class='links-partner-page-normal' target='_blank'>UN Foundation</a><br/><a href='http://www.un.org.au' class='links-partner-page-normal' target='_blank'>United Nations Information Centre Canberra</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation</a><br/><a href='http://www.youthaward.org' class='links-partner-page-normal' target='_blank'>World Summit Youth Award</a><br/><a href='http://www.youthdividend.org' class='links-partner-page-normal' target='_blank'>Youth Dividend</a><br/><a href='http://orgs.tigweb.org/youth-impact-organization-of-nigeria' class='links-partner-page-normal' target='_blank'>Youth Impact Organization of Nigeria</a><br/><br/>Se você representa uma organização com interesse em estabelecer uma parceria para divulgar  Meu Mundo, favor clicar em:  <a href='http://partner.myworld2015.org' class='links-partner-page-normal' target='_blank'> http://partner.myworld2015.org</a><br/>Contato da Área de Infância e Juventude: Ravi Karkara <a href='mailto:karkara@un.org'>karkara@un.org</a>",
+		"page-coming-soon-title"          : "Em breve",
+		"page-coming-soon-content"        : "",
+        "page-results-title"              : "Ver os resultados",
+        "page-results-content"            : ""
+	},
+	"social_media"   : {
+		"facebook"         : "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=A ONU quer ouvir a sua voz.&caption=Acabo de definir minhas prioridades para um mundo melhor. Vote você também! myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+		"facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=A ONU quer ouvir a sua voz.&caption=Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+		"twitter"          : "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=As Nações Unidas querem saber a SUA opinião! Eu acabei de informar quais as minhas prioridades para criar um mundo melhor.&via=MyWorld2015",
+		"og_title"         : "A ONU quer ouvir a sua voz.",
+		"og_description"   : "Acabo de definir minhas prioridades para um mundo melhor. Vote você também! ",
+		"weibo"			   : "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também!&pic=http://www.myworld2015.org/assets/img/logo.png",
+		"weibo_thankyou"   : "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=A ONU quer ouvir a sua voz. Acabo de definir minhas prioridades para um mundo melhor. Vote você também!&pic=http://www.myworld2015.org/image_path",
+		"orkut"			   : "http://promote.orkut.com/preview?nt=orkut.com&tt=A ONU quer ouvir a sua voz.&du=http:/www.myworld2015.org&cn=Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+		"orkut_thankyou"   : "http://promote.orkut.com/preview?nt=orkut.com&tt=A ONU quer ouvir a sua voz.&du=http:/www.myworld2015.org&cn=Acabo de definir minhas prioridades para um mundo melhor. Vote você também! http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+
+
+	},
+    "viz": {
+        "viz1_title": "Como o mundo votou",
+        "viz1_subtitle": "Ranking de prioridades (até agora)",
+        "viz2_title": "Pessoas que votaram como você",
+        "viz2_title_results": "Veja quem mais votou",
+        "viz2_subtitle": "Eleitores recentes que escolheram ao menos 4 de suas prioridades",
+        "priorities": "Prioridades",
+        "your_priorities": "Suas prioridades",
+        "other_priorities": "Outras prioridades",
+        "tip1_results": "Confira as prioridades para ver o voto de outros países do mundo",
+        "tip1": "Confira suas escolhas para ver o voto de outros países do mundo",
+        "tip2": "Pessoas como você",
+        "tip3": "O Índice de Desenvolvimento Humano (IDH) é um indicador mundial que reflete o desenvolvimento humano. Ele mede a  média de progressos de um país em três dimensões básicas do desenvolvimento humano: uma vida longa e saudável (saúde), acesso ao conhecimento (educação) e um padrão de vida digno (renda).",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "Baixo",
+        "hdi2": "Médio",
+        "hdi3": "Alto",
+        "hdi4": "Muito Alto",
+        "world": "Mundo",
+        "location": "Lugar",
+        "gender": "Gênero",
+        "age_groups": "Idade",
+        "hdi": "IDH",
+        "region_or_country": "Região ou país",
+        "all": "Todos",
+        "customize": "Personalize",
+        "customize_this_segment": "Personalize esta secção",
+        "change": "Alterar",
+        "submit": "Enviar",
+        "hide_markers": "Marcadores ocultos",
+        "votes": "Votos",
+        "total_votes": "Total de votos",
+        "none": "Nenhum",
+        "country_totals": "Total de países recuperados ",
+        "custom_dropdown_values": ["Países com IDH baixo",
+                            "Países com IDH médio",
+                            "Países com IDH alto",
+                            "Países com IDH muito alto",
+                            "África",
+                            "Américas",
+                            "Ásia",
+                            "Europa",
+                            "Oceania"]
+	}
+}

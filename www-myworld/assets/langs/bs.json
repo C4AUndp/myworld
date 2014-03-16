@@ -1,0 +1,1230 @@
+{
+    "html_values": {
+        "tap-for-details": "I-pikpik para sa detalye",
+        "timeline-content": "Ang United Nations ug iyang mga higala gusto makadungog sa IMO! Ang MY WORLD kay usa ka kalibotanhong sarbey sa mas maayo nga kalibutan. Ang resulta ani kay among ibahin sa mga lider sa uban nga nasod sa pagbotang sa sunod nga adyenda sa kalamboan. I-sulti sa amo ang gusto nimo nga kalibotan, kay ang imong tingog makatabang.",
+        "timeline-content-mobile": "Ang United Nations ug iyang mga higala gusto makadungog sa IMO! Ang MY WORLD kay usa ka kalibotanhong sarbey sa mas maayo nga kalibutan. Ang resulta ani kay among ibahin sa mga lider sa uban nga nasod sa pagbotang sa sunod nga adyenda sa kalamboan. I-sulti sa amo ang gusto nimo nga kalibotan, kay ang imong tingog makatabang.",
+        "about-item": "Tungod sa MY World",
+        "who-we-are-item": "Kinsa Mi",
+        "how-it-works-item": "Giunsa Ni Paghimo",
+        "faq-item": "FAQ",
+        "see-results-item": "Tan-awa ang Resulta",
+        "partners-item": "Mga Higala",
+        "blog-item": "Mga Balita ug Blog",
+        "about-btn": "Tungod",
+        "contact-item": "I-kontak Mi",
+        "methodology-item": "Mga Pamaagi",        
+        "teaser-content": "I-botar ang mga pagbag-o nga makabuhat ug daku <br> nga kalahian sa imong kalibotan",
+        "teaser-content-b": "I-botar ang mga pagbag-o nga makabuhat <br> ug daku nga kalahian sa imong kalibotan",
+        "logo-teaser": "Imong Pinili. Imong Kalibotan.",
+        "vote-header": "Aha dire ang pinaka-importante sa imo ug imong pamilya?&nbsp;&nbsp;&nbsp;<span style='font-weight:bold'> Choose 6 </span>",
+        "section-one-date": "2000",
+        "section-one-title": "Millennium Development Goals",
+        "section-one-content": "Ang mga lider sa mga nasod nag uyon sa 8 nga tuyo sa pagwagtang sa sobra nga paglisod, nga matapos sa 2015. Nahimo na ang mga importante nga paglihok, pero daghan pa gihapon ang kinahanglan buhaton.",
+        "section-two-date": "Karon",
+        "section-two-title": "Pag-botar na Karon: Itaas Imong Tingog",
+        "section-two-content": "Sukad karon hangtod sa 2015, makatabang ka sa pagbuo sa sunod nga kalibotanhon nga mga tuyo sa pagsulti sa amo ang mga pagbag-o nga gusto nimo mahitabo sa atong kalibotan.",
+        "section-three-date": "2015",
+        "section-three-title": "Ang Gusto Namo Nga Kalibotan 2015",
+        "section-three-content": "Uban ta sa pagdisenyo sa gabayan nga maghimo sa kalibotan nga gusto nato pagtapos sa 2015 nga nakatutok sa mga isyu nga makabuhat ug daku nga kalahian sa atong mga panginabuhi",
+        "celebrities-title": "Tan-awa kung kung kinsa pa ang ni-botar",
+        "celebrities-title-small": "Tan-awa kung kung kinsa pa ang ni-botar",
+        "priority-item-title": "Pag-surihir pa ug uban nga prayoridad (opsyonal)",
+        "side-title": "Akong Prayoridad",
+        "side-count-more": "Pag-pili <span id='side-count-more-id'> 6 </span> pa ug dugang",
+        "dropdowns-title": "Ug sa katapusan, palihog i-bahin sa amo mga gamay na impormasyon tungod sa imo.",
+        "dropdowns-content": "Ang imong botar dili mahibal-an sa uban, apan ang uban nga datos makatabang namo sa pagsabot sa imo",
+        "dropdowns-oath": "Sa pagpuno dire, akong gisaad nga mao ni akong usa ka botar sa kalibotanhon nga pagsukod sa MY WORLD. Dili nako mo-botar ug labaw pa sa usa.",
+        "dropdowns-gender-label": "Ako",
+        "dropdowns-age-label": ", edad",
+        "dropdowns-country-label": ", nakapuyo sa",
+        "dropdowns-education-label": "Akong lebel sa edukasyon",
+        "about-title": "Tungod sa MY World",
+        "about-content": "Ang My World kay usa ka kalibotanhon nga pagsukad nga gibuhat sa United Nations para sa mga lungsoranon. Nagtarbaho mi uban sa among mga higala, para makuha namo ang mga tingog sa tawo, mga prayoridad ug panan-aw, para makahibalo ang tanan nga mga lider sa kalibotan samtang gasugod sila sa pagbuo sa sunod nga mga tuyo sa pagwagtang sa kalisod.",
+        "about-content-middle": "Sa pag-apil sa kalibotanhon nga pakighinabi ug pagkatapos sa 2015 nga deabte, adto sa:",
+        "partners-title": "Ang MY World kay gibuhat nila:",
+        "thank-you-title": "Pagpahalipay! Daghang Salamat sa pagsulti sa imong pangandoy!",
+        "thank-you-share": "i-bahin",
+        "thank-you-share-text": "Mao ni ang imong personal na imahe sa kalibotan nga gusto nimo.<br/>I-bahin sa imong mga amigo ug tabang sa paghimo ug paglantaw sa mas maayo nga kalibotan.",
+        "thank-you-why": "I-sulti sa amo kung gi-unsa nimo pag-botar (optional)",
+        "thank-you-join": "Apil sa mga pakipaghinabi sa worldwewant2015.org",
+        "validation-message": "Pagpili ug 6 prayoridad ug palihog ibutang imong henero, edad, nasod bag-o ka mo-botar",
+        "thank-you-vote": "Daghang Salamat sa pagsulti ngano ka ni-botar",
+        "more-btn": "Sa pagsuporta sa atong mga higala sa tibu-ok kalibotan",
+        "first-logo-label": "United Nations",
+        "second-logo-label": "Overseas Development <br> Institute",
+        "third-logo-label": "World Wide <br> Web Foundation",
+        "fourth-logo-label": "Ipsos Mori",
+        "captcha-info": "Kani nga mga pangutana nagsulay kung tinuod ka nga bisita nga tawo ug pagpugong sa mga abtik nga pagsumiter sa mga spam",
+        "contact-validation-msg": "Palihog pagpuno sa mga kinahanglan na pangutana",
+        "captcha-error-msg": "Dili mao nga captcha ang nasumiter",
+        "worldmap-title": "Ang mga botar karon<ul class='horizontal'><li>Countries</li><li id='cnumber-small'>Nagkarga…</li></ul>",
+        "worldmap-update": "Ang mapa naga-bag-o kada <span class='minutes'>2</span> nga minuto",
+        "worldmap-title-thanku": "Naihap na imong boto!<ul class='horizontal'><li>Countries</li><li id='cnumber'>Nagkarga...</li></ul>",
+        "worldmap-update-thanku": "Ang mapa naga-bag-o kada <span class='minutes'>2</span> nga minuto",
+        "check-to-vote-text": "tan-awa para maka-botar",
+        "click-for-details-text": "i-click para sa detalye",
+        "langs-wrap-label": "Lengguwahe",
+        "people-from": "mga tao gikan sa",
+        "countries-vote": "nag-botar na ang mga nasod. <strong> Karon, imo ng turno…</strong>",
+        "iframe-link": "Bisitaha ang tibuok website para sa dugang na impormasyon",
+        "back-to-voting": "Balik sa Pagboto"
+    },
+    "accordion_items": {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Mas maayo nga oportunidad sa pagpanarbaho",
+            "item-content": "Pasabot ani nga tanan gobyerno ug mga pribado nga kumpanyo kinahanglan molihok pa para masigurado nga tanan makakita ug tarbaho nga mokita ug desente nga sweldo ug makatabang ug mabati niya nga naa sya maambag isip nga miyembro sa katilingban"
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "Maayo nga pangiskwela",
+            "item-content": "Pasabot ani nga tanan mga anak kinahanglan naay maayo nga primarya ug sekondarya nga edukasyon nga mag-andam para sa pagempleyo ug maayo nga panginabuhi. Ang mga gobyerno ug pribado nga kumpanya kinahanglan molihok para makahatag ug oportunidad para sa mas dugay na kasayoran ug paglambo sa kahanas sa mga tigulang"
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Mas maayo nga pag-atiman sa kalawasan",
+            "item-content": "Pasabot ani nga ang mga serbisyo para sa maayo nga kalawasan makaabot sa tanan kung kinahanglan nila ug pagdumala. Kinahanglan ang pagkugi para sa mogamay ang impak sa mga makatakod ug uban pang pabalik-balik nga mga sakit. Kinahanglan pareho ang mga ga pondar ug mga organisasyon sa sistemang panglawas mo-atiman sa mga panginahanglan sa iyang nasod ug mga lungsoranon."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Barato ug sustansiyado nga pagkaon",
+            "item-content": "Pasabot ani nga tanan makakuha ug pagkaon nga kinahanglan nila. Wala dapat tawo sa kalibotan ang sige na lang gutom, ug wala dapat tawo ang malnuris, labi na ang mga buros na babaye ug bata nga minos dos anyos"
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Suporta sa mga tawo nga dili makatarbaho",
+            "item-content": "Pasabot ni nga kada tawo naa dapat kuwarta nga magbuhi sa iya, kini pinaagi sa pagpanarbaho o tabang gikan sa gobyerno. Kung ang mga tawo dili na makapanarbaho, o naapektuhan sa mga panghitabo tungod sa natural na kalamidad o krises nga ekonimiko, ang gobyerno kinahanglan siguraduhon nga dili magutman ang ilang mga pamilya, ang mga anak dili mo-undang ug eskwela ug  mapadayon gihapon ang mga serbisyo bahin sa ilang panglawas ug uban pa."
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Akses sa telepono ug internet",
+            "item-content": "Pasabot ani nga ang gobyerno ug mga pribado nga kumpanya siguraduhon nga tanan naay akses maski gamay sa teknolohiyang pang-komunikasyon para makakuha ug impormasyon sa internet ug maka-apil sa 'social networks'"
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Akses sa limpyo nga tubig ug sanitasyon",
+            "item-content": "Pasabot nga kada tawo kinahanglan naay akses sa limpyo nga tubig nga mainom, maluto ug mahugas, ug akses sa sanitasyon."
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Makasaligan nga kuryente sa balay",
+            "item-content": "Pasabot ani nga tanan miyembro sa pamilya naay makasaligan ug barato nga kuryente ug uban pang klase sa enerhiya para makasuga, maka-init ug makaluto. Kana nga enerhiya makuha sa sustenable nga pamaagi."
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Proteksyon sa mga lasang, suba ug sa lawod",
+            "item-content": "Pasabot ani nga ang mga kalikasan nga natural kinahanglan gina-atiman, kay ang mga tawo ga-depende sa ila para sa pagkaon, krudo, ug uban pa. Ang mga gobyerno dapat motando sa mga plano para mogamay ang polusyon sa mga lawod ug suba, mo-tanom ug bag-ong mga lasang ug protektahan ang naa na ug molihok padulong sa sustenable nga pamaagi sa pagtanom ug sistema sa pagkaon. Kinahanglan makabuhat ug kalibotanhong paguyon sa pagprotekta sa 'biodiversity' ug mga huyang na ekosistema."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "Aksyon nga gibuhat sa pagbag-o sa klima",
+            "item-content": "Pasabot ani nga ang mga gobyerno molihok sa pag-komite sa pagpagamay sa mga emisyon na carbon sa lebel para dili motaas ang temperatura lampas 2 degrees, ug mamuhunan sa mga adaptasyon na mga proyekto labi na sa mga komunidad na dali ra maapektuhan."
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Matinud-anon ug malihokon nga gobyerno",
+            "item-content": "Pasabot ani nga ang mga gobyerni dapat epektibo, bantaw, matinud-anon, ug dili korap. Ang mga tawo dapat naay barog kung unsa ang prayoridad sa gobyerno, ug salig nga buhaton nila ang mga prayoridad nga maayo. Ang gobyerno dapat mouyon sa pag implementar sa mga sukdanan para mahimo nga magamit ang impormasyon sa tanan tawo ug makita kung giunsa pag-gamit sa kuwarta sa katawhan."
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Kaluwasan nga pulitikal",
+            "item-content": "Pasabot ani nga kada tawo dapat naay abay sa pag -usig sa prosesong pulitikal sa iyang nasod, apil na ang pamaagi sa pag-botar ug pag-uban sa mga partidong pulitikal. Ang mga tawo dapat makagamit sa iyang katungod sa pag-pahayag sa pamaagi sa libre nga medya. Ang mga tawo dapat maka-uban ug maka-apil sa mga unyong patigayon ug sa tanang aspeto sa katilingbanong sibil apil na ang lahi-lahi nga porma na mga sibikong kasabotan ug mga boluntaryong paglihok."
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Proteksyon sa mga krimen ug pagpanakit",
+            "item-content": "Pasabot ani nga tanan tawo dapat magdahom sa pagpuyo sa usa ka komunidad nga magprotekta sa ila gikan sa mga hadla sa krimen ug pagpanakit. Apil na ani ang mga domestikong pagpanakit ug pag-atakeng sekswal sa mga babayeng ug mga batang babaye. Kada tawo dapat makakuha ug hustisya sa pamaagi sa korte ug sistema kung sila ay biktima sa usa ka krimen."
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Parehas nga pagtan-aw sa lalaki ug babaye",
+            "item-content": "Pasabot ani nga kada lalaki ug babaye dapat naay pareho nga karapatan ug oportunidad. Ang mga batang lalaki ug babaye dapat naay pareho nga akses sa eskwelahan nga de-kalidad, ang mga lalaki ug babaye dapat naay pareho nga kahigayonan nga maka-apil sa eleksyon sa mga parliyamento, maka-higayon sa panginabuhing pulitikal ug sosyal ug makabatid sa pareho nga oportunidad ug pag-ganti sa ilang lugar nga gi-trabahoan"
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Kaluwasan gikan sa deskriminasyon ug panglutos",
+            "item-content": "Pasabot ani nga wala dapat tawo sa kalibotan ang makabatid ug paglisod sa ilang oportunidad nga ekonomiko, sosyal ug pulitikal tungod sa ilang rasa, etniko, relihiyon, kakulangang pisikal, oryentasyong sekswal ug uban pang mga rason, ug dapat walay tawo dapat mahadlok sa personal na  kaligtasan tungod sa pareho na mga rason."
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Mas maayo nga kasakyan ug mga dalan",
+            "item-content": "Pasabot ani nga ang mga kasakyoan ug mga dalan dapat ma-usbaw para ang mga tawo makalihok ug tarong ug dali para makabisita sa ilang mga higala ug pamilya, makapangita ug mga bag-ong oportunidad na pang-ekonomiko ug makagamit sa mga serbisyo nga kinahanglan nila."
+        }
+    },
+    "celebrities": {
+        "1": {
+            "image_src": "Diana.png",
+            "content": "<span style='font-weight: bold;'>Diana</span><br><span>Babaye, 22</span><br><span>Cuba</span>",
+            "globe_src": "Globe_diana.png",
+            "supports": [
+                "tenth",
+                "nineth",
+                "second",
+                "twelveth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "2": {
+            "image_src": "myworld_arda.png",
+            "content": "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Babaye, 32</span><br><span>Kazakhstan</span>",
+            "globe_src": "Globe_arda.png",
+            "supports": [
+                "third",
+                "nineth",
+                "fourth",
+                "second",
+                "eleventh",
+                "fourteenth"
+            ]
+        },
+        "3": {
+            "image_src": "myworld_anjana.png",
+            "content": "<span style='font-weight: bold;'>Anjana</span><br><span>Babaye, 25</span><br><span>Nepal</span>",
+            "globe_src": "Globe_anjana.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "4": {
+            "image_src": "Sonal.png",
+            "content": "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Babaye, 25</span><br><span>Tanzania</span>",
+            "globe_src": "Globe_sonal.png",
+            "supports": [
+                "third",
+                "tenth",
+                "nineth",
+                "fourth",
+                "second",
+                "seventh"
+            ]
+        },
+        "5": {
+            "image_src": "Uma.png",
+            "content": "<span style='font-weight: bold;'>Uma</span><br><span>Babaye, 23</span><br><span>Australia</span>",
+            "globe_src": "Globe_uma.png",
+            "supports": [
+                "third",
+                "second",
+                "thirteenth",
+                "eleventh",
+                "twelveth",
+                "fourteenth"
+            ]
+        },
+        "6": {
+            "image_src": "Sebastian.png",
+            "content": "<span style='font-weight: bold;'>Sebastian</span><br><span>Lalaki, 28</span><br><span>Austria</span>",
+            "globe_src": "Globe_sebastian.png",
+            "supports": [
+                "nineth",
+                "fourth",
+                "second",
+                "thirteenth",
+                "sixth",
+                "eleventh"
+            ]
+        },
+        "7": {
+            "image_src": "myworld_juanita.png",
+            "content": "<span style='font-weight: bold;'>Juanita</span><br><span>Babaye, 29</span><br><span>Canada</span>",
+            "globe_src": "Globe_juanita.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "8": {
+            "image_src": "robert.png",
+            "content": "<span style='font-weight: bold;'>Robert</span><br><span>Lalaki, 21</span><br><span>USA</span>",
+            "globe_src": "robert_globe.png",
+            "supports": [
+                "tenth",
+                "sixteenth",
+                "fourth",
+                "second",
+                "first",
+                "fourteenth"
+            ]
+        }
+    },
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "EDUKASYON"
+            },
+            {
+                "id": "1",
+                "name": "Pipila nga primarya"
+            },
+            {
+                "id": "2",
+                "name": "Nahuman ang primarya"
+            },
+            {
+                "id": "3",
+                "name": "Nahuman ang sekondarya"
+            },
+            {
+                "id": "4",
+                "name": "Labaw pa sa sekondarya"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "Hiyas sa Pagkatawo",
+                "ballot_gender": "Hiyas sa Pagkatawo"
+            },
+            {
+                "id": "1",
+                "name": "Lalaki",
+                "ballot_gender": "Lalaki"
+            },
+            {
+                "id": "2",
+                "name": "Babaye",
+                "ballot_gender": "Babaye"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "Edad"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "nasod"
+            },
+            {
+                "id": "1",
+                "name": "Afghanistan"
+            },
+            {
+                "id": "2",
+                "name": "Albania"
+            },
+            {
+                "id": "3",
+                "name": "Algeria"
+            },
+            {
+                "id": "4",
+                "name": "Andorra"
+            },
+            {
+                "id": "5",
+                "name": "Angola"
+            },
+            {
+                "id": "6",
+                "name": "Antigua and Barbuda"
+            },
+            {
+                "id": "7",
+                "name": "Argentina"
+            },
+            {
+                "id": "8",
+                "name": "Armenia"
+            },
+            {
+                "id": "9",
+                "name": "Australia"
+            },
+            {
+                "id": "10",
+                "name": "Austria"
+            },
+            {
+                "id": "11",
+                "name": "Azerbaijan"
+            },
+            {
+                "id": "12",
+                "name": "Bahamas"
+            },
+            {
+                "id": "13",
+                "name": "Bahrain"
+            },
+            {
+                "id": "14",
+                "name": "Bangladesh"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "16",
+                "name": "Belarus"
+            },
+            {
+                "id": "17",
+                "name": "Belgium"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benin"
+            },
+            {
+                "id": "20",
+                "name": "Bhutan"
+            },
+            {
+                "id": "21",
+                "name": "Bolivia (Plurinational State of)"
+            },
+            {
+                "id": "22",
+                "name": "Bosnia and Herzegovina"
+            },
+            {
+                "id": "23",
+                "name": "Botswana"
+            },
+            {
+                "id": "24",
+                "name": "Brazil"
+            },
+            {
+                "id": "25",
+                "name": "Brunei Darussalam"
+            },
+            {
+                "id": "26",
+                "name": "Bulgaria"
+            },
+            {
+                "id": "27",
+                "name": "Burkina Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "29",
+                "name": "Cambodia"
+            },
+            {
+                "id": "30",
+                "name": "Cameroon"
+            },
+            {
+                "id": "31",
+                "name": "Canada"
+            },
+            {
+                "id": "32",
+                "name": "Cape Verde"
+            },
+            {
+                "id": "33",
+                "name": "Central African Republic"
+            },
+            {
+                "id": "34",
+                "name": "Chad"
+            },
+            {
+                "id": "35",
+                "name": "Chile"
+            },
+            {
+                "id": "36",
+                "name": "China"
+            },
+            {
+                "id": "37",
+                "name": "Colombia"
+            },
+            {
+                "id": "38",
+                "name": "Comoros"
+            },
+            {
+                "id": "39",
+                "name": "Congo"
+            },
+            {
+                "id": "40",
+                "name": "Costa Rica"
+            },
+            {
+                "id": "41",
+                "name": "Cote d'Ivoire"
+            },
+            {
+                "id": "42",
+                "name": "Croatia"
+            },
+            {
+                "id": "43",
+                "name": "Cuba"
+            },
+            {
+                "id": "44",
+                "name": "Cyprus"
+            },
+            {
+                "id": "45",
+                "name": "Czech Republic"
+            },
+            {
+                "id": "46",
+                "name": "Democratic People's Republic of Korea"
+            },
+            {
+                "id": "47",
+                "name": "Democratic Republic of the Congo"
+            },
+            {
+                "id": "48",
+                "name": "Denmark"
+            },
+            {
+                "id": "49",
+                "name": "Djibouti"
+            },
+            {
+                "id": "50",
+                "name": "Dominica"
+            },
+            {
+                "id": "51",
+                "name": "Dominican Republic"
+            },
+            {
+                "id": "52",
+                "name": "Ecuador"
+            },
+            {
+                "id": "53",
+                "name": "Egypt"
+            },
+            {
+                "id": "54",
+                "name": "El Salvador"
+            },
+            {
+                "id": "55",
+                "name": "Equatorial Guinea"
+            },
+            {
+                "id": "56",
+                "name": "Eritrea"
+            },
+            {
+                "id": "57",
+                "name": "Estonia"
+            },
+            {
+                "id": "58",
+                "name": "Ethiopia"
+            },
+            {
+                "id": "59",
+                "name": "Fiji"
+            },
+            {
+                "id": "60",
+                "name": "Finland"
+            },
+            {
+                "id": "61",
+                "name": "France"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gambia"
+            },
+            {
+                "id": "64",
+                "name": "Georgia"
+            },
+            {
+                "id": "65",
+                "name": "Germany"
+            },
+            {
+                "id": "66",
+                "name": "Ghana"
+            },
+            {
+                "id": "67",
+                "name": "Greece"
+            },
+            {
+                "id": "68",
+                "name": "Grenada"
+            },
+            {
+                "id": "69",
+                "name": "Guatemala"
+            },
+            {
+                "id": "70",
+                "name": "Guinea"
+            },
+            {
+                "id": "71",
+                "name": "Guinea-Bissau"
+            },
+            {
+                "id": "72",
+                "name": "Guyana"
+            },
+            {
+                "id": "73",
+                "name": "Haiti"
+            },
+            {
+                "id": "74",
+                "name": "Honduras"
+            },
+            {
+                "id": "75",
+                "name": "Hungary"
+            },
+            {
+                "id": "76",
+                "name": "Iceland"
+            },
+            {
+                "id": "77",
+                "name": "India"
+            },
+            {
+                "id": "78",
+                "name": "Indonesia"
+            },
+            {
+                "id": "79",
+                "name": "Iran (Islamic Republic of)"
+            },
+            {
+                "id": "80",
+                "name": "Iraq"
+            },
+            {
+                "id": "81",
+                "name": "Ireland"
+            },
+            {
+                "id": "82",
+                "name": "Israel"
+            },
+            {
+                "id": "83",
+                "name": "Italy"
+            },
+            {
+                "id": "84",
+                "name": "Jamaica"
+            },
+            {
+                "id": "85",
+                "name": "Japan"
+            },
+            {
+                "id": "86",
+                "name": "Jordan"
+            },
+            {
+                "id": "87",
+                "name": "Kazakhstan"
+            },
+            {
+                "id": "88",
+                "name": "Kenya"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id"  : "195",
+                "name": "Kosovo"
+            },
+            {
+                "id": "90",
+                "name": "Kuwait"
+            },
+            {
+                "id": "91",
+                "name": "Kyrgyzstan"
+            },
+            {
+                "id": "92",
+                "name": "Lao People's Democratic Republic"
+            },
+            {
+                "id": "93",
+                "name": "Latvia"
+            },
+            {
+                "id": "94",
+                "name": "Lebanon"
+            },
+            {
+                "id": "95",
+                "name": "Lesotho"
+            },
+            {
+                "id": "96",
+                "name": "Liberia"
+            },
+            {
+                "id": "97",
+                "name": "Libya"
+            },
+            {
+                "id": "98",
+                "name": "Liechtenstein"
+            },
+            {
+                "id": "99",
+                "name": "Lithuania"
+            },
+            {
+                "id": "100",
+                "name": "Luxembourg"
+            },
+            {
+                "id": "101",
+                "name": "Madagascar"
+            },
+            {
+                "id": "102",
+                "name": "Malawi"
+            },
+            {
+                "id": "103",
+                "name": "Malaysia"
+            },
+            {
+                "id": "104",
+                "name": "Maldives"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Malta"
+            },
+            {
+                "id": "107",
+                "name": "Marshall Islands"
+            },
+            {
+                "id": "108",
+                "name": "Mauritania"
+            },
+            {
+                "id": "109",
+                "name": "Mauritius"
+            },
+            {
+                "id": "110",
+                "name": "Mexico"
+            },
+            {
+                "id": "111",
+                "name": "Micronesia (Federated States of)"
+            },
+            {
+                "id": "112",
+                "name": "Monaco"
+            },
+            {
+                "id": "113",
+                "name": "Mongolia"
+            },
+            {
+                "id": "114",
+                "name": "Montenegro"
+            },
+            {
+                "id": "115",
+                "name": "Morocco"
+            },
+            {
+                "id": "116",
+                "name": "Mozambique"
+            },
+            {
+                "id": "117",
+                "name": "Myanmar"
+            },
+            {
+                "id": "118",
+                "name": "Namibia"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "121",
+                "name": "Netherlands"
+            },
+            {
+                "id": "122",
+                "name": "New Zealand"
+            },
+            {
+                "id": "123",
+                "name": "Nicaragua"
+            },
+            {
+                "id": "124",
+                "name": "Niger"
+            },
+            {
+                "id": "125",
+                "name": "Nigeria"
+            },
+            {
+                "id": "126",
+                "name": "Norway"
+            },
+            {
+                "id": "127",
+                "name": "Oman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Palestine (State of)"
+            },              
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panama"
+            },
+            {
+                "id": "131",
+                "name": "Papua New Guinea"
+            },
+            {
+                "id": "132",
+                "name": "Paraguay"
+            },
+            {
+                "id": "133",
+                "name": "Peru"
+            },
+            {
+                "id": "134",
+                "name": "Philippines"
+            },
+            {
+                "id": "135",
+                "name": "Poland"
+            },
+            {
+                "id": "136",
+                "name": "Portugal"
+            },
+            {
+                "id": "137",
+                "name": "Qatar"
+            },
+            {
+                "id": "138",
+                "name": "Republic of Korea"
+            },
+            {
+                "id": "139",
+                "name": "Republic of Moldova"
+            },
+            {
+                "id": "140",
+                "name": "Romania"
+            },
+            {
+                "id": "141",
+                "name": "Russian Federation"
+            },
+            {
+                "id": "142",
+                "name": "Rwanda"
+            },
+            {
+                "id": "143",
+                "name": "Saint Kitts and Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Saint Lucia"
+            },
+            {
+                "id": "145",
+                "name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao Tome and Principe"
+            },
+            {
+                "id": "149",
+                "name": "Saudi Arabia"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Serbia"
+            },
+            {
+                "id": "152",
+                "name": "Seychelles"
+            },
+            {
+                "id": "153",
+                "name": "Sierra Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapore"
+            },
+            {
+                "id": "155",
+                "name": "Slovakia"
+            },
+            {
+                "id": "156",
+                "name": "Slovenia"
+            },
+            {
+                "id": "157",
+                "name": "Solomon Islands"
+            },
+            {
+                "id": "158",
+                "name": "Somalia"
+            },
+            {
+                "id": "159",
+                "name": "South Africa"
+            },
+            {
+                "id": "160",
+                "name": "South Sudan"
+            },
+            {
+                "id": "161",
+                "name": "Spain"
+            },
+            {
+                "id": "162",
+                "name": "Sri Lanka"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "164",
+                "name": "Suriname"
+            },
+            {
+                "id": "165",
+                "name": "Swaziland"
+            },
+            {
+                "id": "166",
+                "name": "Sweden"
+            },
+            {
+                "id": "167",
+                "name": "Switzerland"
+            },
+            {
+                "id": "168",
+                "name": "Syrian Arab Republic"
+            },
+            {
+                "id": "169",
+                "name": "Tajikistan"
+            },
+            {
+                "id": "170",
+                "name": "Thailand"
+            },
+            {
+                "id": "171",
+                "name": "The former Yugoslav Republic of Macedonia"
+            },
+            {
+                "id": "172",
+                "name": "Timor-Leste"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tonga"
+            },
+            {
+                "id": "175",
+                "name": "Trinidad and Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunisia"
+            },
+            {
+                "id": "177",
+                "name": "Turkey"
+            },
+            {
+                "id": "178",
+                "name": "Turkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Uganda"
+            },
+            {
+                "id": "181",
+                "name": "Ukraine"
+            },
+            {
+                "id": "182",
+                "name": "United Arab Emirates"
+            },
+            {
+                "id": "183",
+                "name": "United Kingdom of Great Britain and Northern Ireland"
+            },
+            {
+                "id": "184",
+                "name": "United Republic of Tanzania"
+            },
+            {
+                "id": "185",
+                "name": "United States of America"
+            },
+            {
+                "id": "186",
+                "name": "Uruguay"
+            },
+            {
+                "id": "187",
+                "name": "Uzbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Venezuela (Bolivarian Republic of)"
+            },
+            {
+                "id": "190",
+                "name": "Viet Nam"
+            },
+            {
+                "id": "191",
+                "name": "Yemen"
+            },
+            {
+                "id": "192",
+                "name": "Zambia"
+            },
+            {
+                "id": "193",
+                "name": "Zimbabwe"
+            }
+        ]
+    },
+    "various_values": {
+        "priority-item-content": "Pag-type dire",
+        "submit-label": "botar",
+        "send-label": "padala",
+        "contact-us-submit": "Pag-sumite",
+        "ballot-in": "in",
+        "ballot-vote-for": "pag-botar kay",
+        "ballot-vote-id": "Botar:",
+        "ballot-your-turn": "Now it's your turn...",
+        "ballot-name": "I-entra imong ngalan",
+        "social-title": "Manhinahanglan kami sa imong tabang sa duha ka sayon nga butang sa pag-bahin sa pagbag-o:",
+        "social-title-one": "I-dugang IMONG ngalan sa IMONG balota",
+        "social-title-two": "I-bahin IMONG botar ug i-dasig imong mga amigo nga mo-botar",
+        "social-share": "Ibahin imong botar",
+        "vote-again": "Naa pa ka nahibal-an sa imong lugar nga gusto mo apil?",
+        "vote-again-link": "Pag-botar usab gamit imong computer.",
+        "stay-in-touch": "Gusto tana namo makipag-uyon sa imo...",
+        "your-email-address": "Imong email address",
+        "sign-me-up": "MAGTIMALA KO DIRE",
+        "facebook-btn": "I-BAHIN SA Facebook",
+        "facebook-text": "Pag-botar sa mga pagbag-o nga makabuhat ug daku nga kalahian sa imong kalibutan #MyWorld2015 http://www.myworld2015.org/?ballot=-1",
+        "twitter-btn": "I-BAHIN SA GOOGLE+",
+        "twitter-text": "Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. http://myworld2015.org/?ballot=-1 @MyWorld2015",
+        "sina-btn": "I-BAHIN SA Weibo",
+        "sina-text": "Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar! http://www.myworld2015.org/?ballot=-1",
+        "orkut-btn": "I-BAHIN SA Orkut",
+        "orkut-text": "Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar! http://www.myworld2015.org/?ballot=-1",
+        "googleplus-btn": "I-BAHIN SA Google Plus",
+        "googleplus-text": "Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar!",
+        "sharethis-btn": "I-BAHIN SA Sharethis",
+        "sharethis-text": "Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar! http://www.myworld2015.org/?ballot=-1",
+        "map-header-text": "Tan-awa giunsa pag-botar sa uban nga nasod",
+        "email-sent": "Daghang Salamat!"
+    },
+    "pages": {
+        "methodology-title": "Mga Pamaagi",
+        "methodology-content": "<h2 class='methodology-header-main'>Batakang pangkinatibuk-ang mga pangutana gitubag</h2><br/><br/> <h2 class='methodology-header'>Nagpaluyo: ang lapas-2015 (post-2015) nga pangkalibutang paglambo nga hisgutanan (development agenda)</h2> <br/><ul class='list-extra-pages'>  <li>Ang Tuyo’ng Mga Paglambo sa Melenyo (Millennium Development Goals kun MDG) nakahimo’g dako’ng kausaban sa kinabuhi sa binilyong katawhan, apan daghan pa ang angayan buhaton arun matubag ang subrang kakabus, mga balatian panglawas ug krisis sa kinaiyahan.</li>  <li>Ang kalibutanhong hisgutanang pangkalambuan (global development agenda) alang  sa yugto lapas-2015 magsumikad sa agi nga nahimo sa MDGs samtang moatubang sa mapadayunong kahimtang sa walay pagka-patas ug bag-ong mga hagit sa katawhan ug sa planeta.</li>  <li>Ang bag-ong hisgutanang pangkalambuan gikinahanglan nga magsumikad sa tiunay’ng bukas ug mapasalmutong proseso nga maglangkub sa katawhan gikan sa tanang suok sa kalibutan ug tanang sector sa katilingaban.</li>  <li>Ang UN ug Secretary General’s High Level Panel lambigit sa lapas-2015 gusto nga direktang maminaw sa katawhan sa kalibutan kalabut sa unsay mahinungdanon alang nila, arun ang ilang mga hunahuna malakip niining pangkalibutang panaghisgot. Ang MY WORLD (AKONG KALIBUTAN) nahimugso isip usa ka kahimanan pagpadangat niini.</li> </ul><h2 class='methodology-header'>Unsa ang MY WORLD?</h2> <br/><ul class='list-extra-pages'>  <li>Ang mga Nagkahiusang mga Nasud (United Nations) ug iyang mga kaabay naghugpong arun mapahigayon ang usa ka mamugnaon nga pangkalibutang panukod (survey), giila isip MY WORLD, arun ang katawhan makasalmot sa mga proseso sa lapas-2015 nga maghatag  og kasayuran kalabut sa mga kausaban nga mas makahatag og kaayohan sa ilang kinabuhi. </li>  <li>Usa kini ka panukod sa pagpili subay sa mamugnaong mga paagi (online o offline) nga maghatag kahigayonan sa katawhan sa kalibutan nga masultihan ang United Nations, mga pangulo sa kalibuban – ug particular ang Secretary General’s High Level Panel, kung unsa ang pinaka-mahinungdanong mga isyu nga gusto nilang mahatagan og pagtagad sa lapas-2015 nga hisgutanan.</li><li>Ang MY WORLD mangutana sa matag-usa unsa ang unom (6) sa desesais (16) ka posibleng mga isyu nga sa ilang tan-aw maoy makahatag kaayohan sa ilang kinabuhi. Ang desesais ka isyu gikutlo gikan sa mga prioridad nga gipadayag sa katawhang kabus nga  diha sa nagtunhay nga panuki-duki ug mga proseso sa pagpili, ug gikan sa kamulong gipahigayon nga teknikal ug politikanhong panaghisgot kalabut sa posibleng mamahimong mga katuyoan sa umaabot. Gilangkub niini ang nagtunhay nga MDGs, dugangan sa mga isyu sa pagka-malungtarun, seguridad, pangagamhanan ug pagka-dayag.</li> </ul> <h2 class='methodology-header'>Sa unsang paagi kini mahimo?</h2><br/> <ul class='list-extra-pages'>  <li>Ang survey makuha online sa www.myworld2015.org</a> sa unom ka opisyal nga pinulongan sa UN. Mahimo usab nga makasalmot sa survey pinaagi sa naglihok nga  teknolohiya sama SMS ug IVR (libre nga mga numero sa telepono) sugod Enero 2013.</li>  <li>Ang survey makuha usab sa porma nga nakasulat sa papel – giapud-apod pinaagi sa kutay sa mga kapunongan sa komunidad, tulunghaan, grupo sa kabatan-onan, mga grupo sa pribadong sektor ug mga kaabay nga NGO sa tibuok kalibutan. Ang suporta sa maong mga grupo mahinungdanon sa direktang pag-abot sa mga komunidad ug pagpasalmot sa dili maabot sa internet, dili makasulat ug makabasa ug pobreng kaayong mga komunidad ngadto sa pangakalibutang debate.</li>  <li>Ang mosalmot pangutan-on kalabut sa ilang saring (gender), edad ug nasud, alang sa paghugpong sa mga datus ug arun mahatagan ang mga mohimog desisyon sa hustong pangkalibutan nga hulagway sa huna-huna sa katawhan.</li> </ul> <h2 class='methodology-header'>Kanus-a ug asa kini mahitabo?</h2> <ul class='list-extra-pages'>  <li>Sugod karun hangtud 2015, gusto nato nga mas daghang tawo sa mas daghang nasud ang makasalmot: katawhan sa tanang pangidaron, saring ug gigikanan, ilabina ang pinaka-kabus ug nahiklin nga komunidad.</li>  <li>Magsugod na ang MY WORLD gikan sa sayong bahin sa Disyembre 2012, arun ang mga nasud nga nagpahigayon og mga nasudnong konsultasyon makapahimulos niini. Apan, ang pangkalibutan nga paglunsad sa MY WORLD pagahimuon sa ulahing bahin sa Enero 2013 (panahon diin ang komprehensibong gabay (toolkit) sa komunikasyon maandam na alang sa tanan).</li> </ul> <br/> <h2 class='methodology-header'>Unsa ang desesais ka pili-anan?</h2><br/> <ul class='list-extra-pages'>  <li>Mas maayong kahigayonan sa panarbaho</li>  <li>Ayuda sa mga tawong dili makatarbaho</li>  <li>Maayong edukasyon</li>  <li>Mas maayong panglawas </li>  <li>Barato ug masustansyang pagkaon</li>  <li>Kahigayonan sa telepono ug internet</li>  <li>Mas maayong transportasyon ug kadalanan</li>  <li>Kahigayonan sa limpyong tubig ug sanitasyon</li>  <li>Masaligang enerhiya o elektrisidad sa panimalay</li>  <li>Aksyon gihimo kalabot sa pagkausab sa klima (Climate Change)</li>  <li>Pagpanalipud sa kalasangan, kasubaan ug kadagatan</li>  <li>Pagkapatas tali sa kalalakin-an ug kababayen-an</li>  <li>Proteksyon batok krimen ug abuso</li>  <li>Politikanhong kagawasan</li>  <li>Usa ka matinud-anon ug makugihon nga kagamhanan</li>  <li>Kagawasan gikan sa pagpihig ug paglutos</li> </ul><h2 class='methodology-header'>Unsay sangputan sa mga resulta sa survey?</h2> <ul class='list-extra-pages'>  <li>Ang datus gikan sa mga cellphone, website ug uban pang porma sa survey (offline) mapadayunong itibuok ug kini masubay diha sa MY WORLD nga website.</li>  <li>Ang mga resulta isumiti ngadto sa Secretary General’s High Level Panel sa post-2015</li> </ul> <br/>nga hisgutanang pangkalambuan sa dili pa nila ipadayag ang ilang pinal nga taho ngadto sa Secetary General sa United Nations sa Hunyo 2013. Ang MY WORLD mapadayonong motipok sa tingog sa katawhan ug ang mga resulta ipaambit sa Secretary General ug mga pangulo sa kalibutan samtang ilang giandam ang sunod nga hisgutanang pangkalamboan ngadto sa 2015. <br/><br/> <br/> <br/><h2 class='methodology-header-main'>Mga batakang pangutana sa pamaagi gitubag</h2><br/><br/><br/> <h2 class='methodology-header'>Para asa kini?</h2><br/>Ang MY WORLD usa ka paagi pagpaminaw sa hunahuna sa katawhan matitungod sa mamahimong dagway sa bag-ong pangkalibutan nga kasabutan sa kalamboan. Kaabag kini sa ubang paningkamot pagdala sa tingog sa katawhan ngadto sa post-2015 nga lantugi sama sa proyektong ‘Participate’ nga gipadagan sa Institute for Development Studies ug Beyond 2015 nga koalisyon sa mga katilingbanong kapunongan (civil society organisations), nga naghimo og lalum ug dekalidad nga pagduki-duki sa prayoridad sa katawhan, ug sa daghang nasudnon ug hamiling konsultasyon nga gipahigayon sa United Nations sa tibuok kalibutan.<br/><br/> Nag-abag ang MY WORLD niini pinaagi sa paghatag kantitatibong datus (quantitative data) kalabut sa mga prayoridad. Ang mga kapilian nga anaa sa survey gituyo og gambalay sa pangkinatibuk-ang paagi: “mas maayong healthcare’ panaglit, o ‘pagkapatas tali sa kalalakin-an ug kababayen-an’ arun kini nga mga isyu mahimong sayon sabton sa yanong mga tawo. Ang ubang konsultasyon moabag ug maghatag dugang kasayuran sa mga tighimo’g palisiya arun masabtan ang mga panglantaw ug pryoridad sa katawhan sulod sa mga pangkinatibuk-ang ulohan, ug kung unsaon kini sa paghubad ngadto sa mga katuyoan, kab-utonon ug sukdanan.<br/><br/> Ang MY WORLD motulay tali sa ubang proseso sa konsultasyon, ug sa politikanhong proseso nga nagtutok kun unsaon pag-prayoritisa arun mahimo ang takus dumalaon nga pangkalibutan nga hisgutanan. Ang MY WORLD nagtugot nga ang mga panglantaw sa katawhan malakip niana.<br/><br/> Ang katuyoan dili ang paghimo og pihong ‘tubag’ sa unsa man ang mamahimong prayoridad sa kalibutan, apan mohatag og kasayuran sa mga tighimo’g pangkalibutang desisyon aron pagsiguro nga ang motumaw pagkahuman sa proseso sa post-2015 usa ka tinimbolan sa panglantaw sa mas daghang katawhan.<br/><br/> <br/><br/><h2 class='methodology-header'>Nganong kining 16 ka pilianan?</h2><br/> Ang paghimo og lista sa kapilian alang sa ingon niini nga pagtanyag usa ka lisud nga tahas. Mao kini ang proseso nga atong nasinati sa pagpili sa 16 ka pilianan.<br/><br/> <ul class='list-extra-pages'>  <li>Ang pasiunang lista sa 24 nga nag-unang piliananan ug mga pagpasabot nga paragrapo nakutlo gikan sa mga isyu sa kasamtangang Millenium Development Goals, usa ka balik-subay sa katilingban ug ubang mga hanyag alang sa post-2015, ubang hanyag sa Tuyo’ng Malahutayong Paglambo (Sustainable Development Goals), ug nagtunhay’ng mga datus gikan sa masalmutong pangduki-duki ug pagpili. Ang nakuhang kapilian mao kadtong minglutaw nga klarong mga tema gikan sa mga tinubdan, ug kadtong nakitangg mga isyung pangkalibutanon.</li>  <li>Ang lista ming-agi og konsultasyon nga gisalmutan sa mga representante sa NGOs, magbabalaud, mga magtutudlo ug mga trabahante sa UN gikan sa mga nasud ug rehiyon sa kalibutan. Human maaninaw, nauyonan nga kunhoran ang lista ngadto sa 15, arun mas mapayano ug mas dali sa kadaghanan. Kini nga lista gikonsulta na usab sa mas gamay nga grupo, uban sa usa ka ‘opinion-polling’ nga kompanya sa Africa.</li>  <li>Human sa maong konsultasyon, gikauyonan nga himuon kining 16 arun malakip ang mga bag-ong komentaryo.</li>  <li>Ang pinal nga pagsukod gihimo pinaagi sa SMS survey didto sa Uganda, diin usa ka dayag nga pangtana ang gipasupot ug ang mga tubag gipahaluna ngadto sa 16 ka kapilian. Dihang gisukna kun unsa ang mas mahinungdanong isyu alang kanila ug ilang pamilya, ubos sa kuatro porsyento sa mga tubag wala mapailalum sa 16 ka kapilian.</li> </ul> Hugot natong gituohan nga aduna kitay balansyadong lista sa kapilian, nga nagsalamin sa mga isyu nga mahinungdanon sa katawhan sa kalibutan ug mga isyu nga kabasihan sa mamahimong bag-ong mga katuyoan.  Wala kini maglangkub sa tanang importante sa katawhan, apan naglakip kini sa mga isyu nga matubag sa mahimong mga katuyoan ug diin sayud kita nga mahinungdanon sa katawhan, mga kapunongan, ug mga kagamhanan. Ang pasiunang pagpadayag kalabot sa survey, ma-online man o offline, magpasabot nga ang tanang kapilian pulos importante apan naningkamot kita og punting sa pinaka-mahinungdanon, arun paggiya sa umaabot nga pagpili sa pipila ka pangkalibutang tuyo.<br/><br/> <br/><br/> <h2 class='methodology-header'>Apan kun pananglit gusto nakong mokuha og laing kapilian?</h2><br/> Ang survey naghatag og kahigayonan sa sumasalmot sa pagsulat sa ilang prayoridad, pinaagi sa ika-17 nga hisgutanan alang sa kaugalingon o ‘your own option’ choice. Ang gitubag dinhi moagi’g makuti nga pag-analisa pagsuta kun adunay nakulang nga mga tema o bag-ong mga hunahuna nga dunay daghang sumosunod. Ang resulta sa pag-analisa ipahibalo sa tanan.<br/><br/> <br/><br/><h2 class='methodology-header'>Nganong sa ingon niini nga pagka-garay ang mga kapilian?<br/></h2> Kinahanglang ang mga kapilian sayon sabton sa tanan sa bisan asa nga dapit, dili lang sa mga hanas sa pangkalamboan. Naglihok kita uban sa kompanyang pang-survey nga nakabase sa Africa nga adunay mga batid sa komunikasyon sa tulo ka kapunongan nga mopahaum sa gamitong pinulongan ngadto sa tanan.<br/><br/> <br/><br/> <h2 class='methodology-header'>Nganong imong gipangutana ‘unsay pinaka-importante alang kanimo ug sa imong pamilya?</h2><br/> Samtang ang post-2015 nga kasabutan usa ka pangkalibutanon, sa uyokan ang tuyo niini mao nga mahimong mas maayo ang kinabuhi sa katawhan. Mao nga ang pagpangutana unsa ang pinakamahinungdanon alang sa katawhan mas angayan og klaro nga sukaranan kaysa pangutan-on ang katawhan nga ihanduraw sa hunahuna ang lutaw nga pangkalibutang kasabutan ug ang mga unod niini. Ang survey gibase sa prayoridad sa matag-usa, apan atong giila nga prayoridad ug interes sa matag-usa nakakutay sa panginahanglan sa ilang matag pamilya (pananglit ang mga ginikanan motubag sa mga pangutana subay ilang mga pangandoy alang sa ilang mga anak). Atong gihubit ang ideya nga samtang atong gipangutana ang mga tawo sa unsay pinaka-mahinungdanon alang kanila isip indibidwal, sayud kita nga ang ilang kalipay nakalambigit sa kalipay sa uban.<br/><br/> Dugang pa, ang ingon niini nga paggambalay sa pangutana nagpasabot nga dyutay ra ang luna sa mga tawo nga mahatagan og laing kahulogan ang pangutana, nga usa ka risgo kun pangkinatibuk-an kaayo ang atong pangutana bahin sa mga prayoridad sa pangkalibutang pagdumala, o kabahin sa prayoridad sa nasud o komunidad.<br/><br/> <br/><br/><h2 class='methodology-header'>Nganong limitahan ang mga tawo sa 16 ka kapilian…dili ba mahimong bukas lang nga pangutana?</h2> Ang MY WORLD usa lang sa paningkamot sa pangkalibutang konsultasyon kabahin sa post-2015, ug ang uban naggamit og bukas nga pangutana. Danghan ang paagi diin ang mga tawo makapasupot sa ilang panglantaw, ug ang maong mga paagi magdugangay (complement) sa usag-usa. Ang papel sa MY WORLD mao ang pagpakita sa panghuna-huna kabahin sa prayoridad sa katawhan, ug tungod niini gikinahanglan nga himuon daan ang lista sa mga kapilian. Sa gilarawan sa unahan, dakong paningkamot ang gihimo arun maseguro nga ang mga lista nga kapilian nagsalamin sa gipadayag nga mahinungdanon sa katawhan.<br/><br/> Dugang pa, dunay duha ka teknikal ug kabahin sa pamaagi nga rason sa pagpasupot og mga seradong pangutana:<br/><br/> <ul class='list-extra-pages'>  <li>Tungod kay ang survey  himuon gamit ang lain-laing pinulongan, ug subay sa lain-laing paagi (web, SMS, ug offline) ang kasamtangang teknolohiya dili igo sa mga tubag sa ableng mga pangutana ug mgahugpong niini sa paaging ganid ug masaligan alang sa pag-analisa gamit ang ‘software’. Ang mano-mano nga pag-koda sa minilyong tubag nga atong gidahom madawat niini nga proyekto makahimo sa proyekto nga gastoso ug kalas sa panahon.</li>  <li>Ang mga partner nga nagpahigayon og survey nagpaambit sa ilang kasinatian nga ubos ang pagsalmot sa mga survey nga naggamit og bukas nga mga pangutana. Dilli kini ikatingala labina nga nagkinahanglan kini’g lalum nga pamalandong ug paningkamot sa sumasalmot. Mao nga arun pagmaksimisa sa partisipasyon ug arun mapasayon kanila ang survey, ang pagtanyag og seradong kapilian nakita nga maoy mas maayong solusyon.</li> </ul> <br/><br/><h2 class='methodology-header'>Apan dili gyud nimo mahataga’g pagtagad ang kalisud pinaagi sa listahan sa nag-inusara nga mga isyu – ang tanan managkalambigit.</h2><br/> Uyon kita. Mao nga mahinungdanon nga hatagan ang katawhan og igong kapilian ug tugotan sila pagpili og subra sa usa. Ang pagpili og 6 sa 16 magtugot sa katawhan nga mohunahuna sa unsa nga kumbinasyon sa mga lakang ang makahatag og maayong epekto. Magtugot usab kini sa katawhan nga pilion ang motubag sa susamang problema sa lain-laing paagi: ang ginikanan nga gusto nga ilang anak mahatagan og maayong edukasyon, pananglitan, tingali gusto mopili sa ‘pagkapatas sa kalalakin-an ug kababayen-an’ ug ‘maayong edukasyon’ nga magsalamin og pipila ka aspeto sa kausaban nga gusto nilang makita.<br/><br/> Atong gisulayan ang survey sa tulo ka grupo pagsuta kun aduna kini kalainan kun ang katawhan papilion og 3, 5, o 7 ka kapilian. Ang mga sumasalmot gipangutana kun ang survey mas lisud/sayon o kaha medyo makalingaw. Walay nakitang kalainan.<br/><br/> <br/><br/> <h2 class='methodology-header'>Unsaon nimo pagkasayud kun ang mga tawo nga nagtubag sa survey representate sa populasyon sa kinatibuk-an o sa lain-laing grupo sulod niini?</h2><br/> Atong sutaon kutob sa mahimo ang kabahin sa mga tao nga nagtubag sa survey, arun makasulti kita kutob sa mahimo kinsa sila. Apan magmatngon kita nga dili magpasiatab, pinaagi sa pagkaabli ug pagkadayag kalabot sa unod ug mga limitasyon sa datus. Dugang pa, nangayo kitag ekspertong tambag gikan sa pangkalibutang kompaniya nga nagpahigayon og survey kun unsaon pag-analisa ug pagpresentar sa datus. Ang mga ang-ang sa kasayuran mao ang mosunod:<br/><br/> <ul class='list-extra-pages'>  <li>Saring (gender) - tanang nagsalmot pangutan-on sa ilang saring sa ato pa maglangkub kini sa tanang datus</li>  <li>Edad – sa gihapon, tanang sumasalmot</li>  <li>Nasud – tanan sumasalmot</li>  <li>Paagi sa pagtubag – ma-analisa nato ang datus subay sa giunsa pagdawat sa mga tawo ang survey, nga mag-establisar og kalainan tali sa tulo ka grupo.</li>  <li>Petsa ug oras pagtubag – aron pagtimbang-timbang sa hapak sa kampanyang pangmerkado (marketing campaigns) ug pagkuha og ‘automated programmes’ nga magtibuok sa resulta.</li>  <li>Ang-ang sa edukasyon – tanang offline ug SMS nga sumasalmot pangutan-on niini. Dugang pa, tanang online nga sumasalmot pangutan-on niini isip pakapin (pagminus sa gidaghanon sa mawala)</li>  <li>Sub-national rehiyon – kuhaon kini nga kasayuran kalabut sa SMS nga sumasalmot gikan sa mobile operators, ug kalabut sa offline nga sumasalmot gikan sa mga nag-survey. Ang online nga sumasalmot pangutan-on pag-usab niini isip pakapin, aron pagminus sa gidaghanon sa mawala.</li> </ul> Ang kasayuran nga atong kolektahon susama ka detalye sa gikolekta sa Gallup World Survey ug ubang pangkalibutang pananglitan. Samtang ang ato dili random sampling sama sa gihimo sa Gallup, atong gamiton ang mga sosyal ug demographic nga datus sa pag-establisar unsa ka maayo ang atong sanglitanan (sample) sa matag nasud kung nagsalamin ba sa kinatibuk-ang populasyon, ug ato kining iklaro sa atong pagpublikar sa mga datus.<br/><br/> <br/> <br/><h2 class='methodology-header'>Unsaon pagpresenta sa datus?</h2> <br/> Mahimo nga matan-aw ang datus gikan sa survey sa web sa aktwal nga oras, ug ang datus gikan sa SMS ug offline survey idugang sa pinaspas nga paagi aron pagseguro nga ang resulta takdo sa higayon ang petsa.<br/><br/> Dugang pa, ang kapin nga kasayuran nga makuha sa mga tao gamiton pagbulagbulag sa datus arun mahulagway sa unsang paagi managkalahi ang prayoridad sa matag nasud, populasyon ug sosyo-ekonomikanhong mga grupo. Atong itaho usa-usa ang mga pryoridad sa lain-laing grupo ug nasud.<br/><br/> Ato usab nga hugpongon ang mga resulta matag nasud, rehiyon, ug pangkalibutan. Sa paghimo niini, atong gamiton ang nakolektang kasayuran sa mga nagsalmot arun timbangon ang mga tubag arun kun ang mga datus mahugpong, mahimo kini sa paagi nga maghatag og representatibong hulagway sa kinatibuk-ang populasyon. Mga paagi sa pagtimbang naglakip sa:<br/><br/> <ul class='list-extra-pages'>  <li>Populasyon o Demographic factors: pagtimbang sa mga tubag sa matag nasud subay sa gidak-on sa populasyon, babaye ug lalaki ug lain-laing ang-ang sa pangidaron pagsalamin sa balanse sa populasyon.</li>  <li>Sosyo-ekonomikanhong factor ug sub-national regional nga demographics. Atong gidahom makuha ang kasayuran kalabut sa ang-ang sa edukasyon ug sub-national region nga pinuy-anan sa dakong bahin sa nagsalmot. Kun ang gidaghanon igo na mahimo nang matimbang ang mga tubag sa paagi nga mosalamin sa sosyo-ekonomikanhon ingon man demographic nga linangkuban sa mga nasud.</li>  <li>Hulip sa kinitaan: sa pipila ka bahin ang tulo ka paagi sa pagtubag maghulip sa factor sa kinitaan, diin ang pinaka-adunahan dakog kahigayonan sa web ug ang pinaka-kabus magsalmot gamit ang offline nga paagi. Mao kini ang mahitabo tungod kay hatagan og duot sa offline survey ang pinaka-kabus nga rehiyon sa lain-laing nasud diin kini ipahigayon. Atong sulayan ang lain-laing paagi sa pagtimbang sa mga tubag subay sa giunsa pagpadagan ang survey, arun masalamin ang hulgaway sa rehiyonal nga populasyon ug ang pagkabahin sa katawhan sulod sa nasud subay sa kinitaan.</li> </ul> <br/><br/> <h2 class='methodology-header'>Kun ang post-2015 nga hisgutanan kabahin sa pagwala sa kakabus…nganong hatagan natog pagtagad ang prayoridad sa mga tawo nga dili kabus?</h2> <br/>Nag-amping kita sa paghulma sa pamaagi arun mapaneguro nga ang mga pryoridad sa pinaka-kabus nga katawhan makuha ani nga surbey, ug nga maanalisa ang ilang mga tubag nga bulag sa uban. Naggamit kita og datus gikan sa survey matag bubong pag-ila sa mga rehiyon matag nasud nga gipuy-an sa pinaka-pobreng katawhan, ug magsentro sa mga paningkamot  nga offline sa maong mga rehiyon arun seguradong malangkub ang pinaka-kabus nga komunidad. Dugang pa, nagplano kita nga makig-uban sa grupo sa NGO nga makahatag kanato og tambag kun unsaon pagpadagan sa survey sa lisud maabot nga mga grupo sama sa kabataan, mga tigulang ug mga dunay kabilinggan-pisikal, ug daghan sa maong mga NGO ang mopahigayon sa survey sa mga komunidad nga ilang gilihukan. Mao nga mahimo nga gamiton kini nga datus sa pagsentro lang sa subra ka kabus, kun mao kini ang hatagag duot. Kun ang datus hugpongon na sa pangkalibutan nga ang-ang, gamiton ang mga paagi sa pagsukod arun maseguro nga ang mga tubag sa mga kabus maihap balasi sa ilang gidaghanon sa kinatibuk-ang populasyon, ug dili malumsan sa daghang tubag gikan sa web gikan sa mga adunahang nasud.<br/><br/>Apan ang survey gidesenyo nga pangkalibutanon tungod kay ang matag-usa adunay mga pangandoy ug nag-atubang og mga problema sa ilang kinabuhi. Ug sagad ang mga prayoridad sa lain-laing grupo manag susama kaysa sa atong gitoohan.  Ang pagsabot giunsa sa katawhan sa matag nasud pagtan-aw sa ilang kinabuhi ug ang mga butang nga gusto nilang usbon makapasayon pagpalihok sa mga hingtungdan arun moduso alang sa bag-ong kasabutan.  Kun ang mahimong gambalay mas nagsalamin sa pangklaibutang pag-uyon kalabut sa mga prayoridad, mas sayon ang pagmugna sa pamolitika nga makahatag niini og katumanan.<br/><br/><br/><br/> <h2 class='methodology-header'>Di ba adunay mas pa sa usa ka bag-ong gambalay kaysa mubong-listahan lang sa pinaka-mahinungdanong mga isyu sa mga tao palibut sa kalibutan?</h2> <br/>Ang MY WORLD survey usa lang sa laray sa mga konsultasyon ug politikanhong proseso nga makatabang sa pagmugna sa bag-ong kasabutan. Ug ang kahibalo kalabut sa mga prayoridad sa lain-laing grupo mahinungdanon sa paghulma sa maong politika.<br/><br/> Sa pagbalay sa 16 ka pilianan, sayud kaayo kita nga ang maong proseso mahitungod sa pagdesenyo og pangkalibutang katuyoan, sa ato pa ang tanang kapilian nagrepresentar og mga isyu nga mapuslan ug mahimong matubag pinaagi sa internasyonal nga aksyon. Wala nato giapil ang ubang butang, sama panaglit, relihiyon, diin sayud kita nga mahihungdanon sa katawhan apan dili kaayo tukma sa hisgutanan alang sa bag-ong pangkalibutang katuyoan.",
+        "contact-title": "I-kontak mi",
+        "contact-content": "Uban pang moabot",
+        "policy-title": "Pribado nga Polisiya",
+        "policy-content": "Ginapakita ani nga pribadong pulisiya kung giunsa paggamit ug pagprotekta sa tanan impormasyon nga imong gihatag sa 'My World' sa paggamit sa website.<br></br>Ang 'My World' nagapasalig na masegoro ang pagprotekta sa imong praybasi. Kung kinahanglan namo mangayo ug mga impormasyon gamit ani nga website, makasalig ka nga amo ning gamiton uyon sa ani nga pribadong polisiya.<br></br>Basi magbag-o kani nga polisiya sa 'My World' usahay sa pag-update ani nga pahina. Kinahanglan tan-awon nimo ni nga pahina para masegoro nga naka-angay ka sa mga pagbag-o.<br/><br/><span class='highlight-extra-pages'>What we collect</span><br/>Mo-kolekto mi ani nga mga impormasyon: <br/><br/><ul class='list-extra-pages'><li>Mao ni ang onom nga mga prayoridad nga imong gipili</li><li>Mao ni ang mga opsyonal na praryoridad nga imong gi-surehir</li><li>Imong Hiyas sa Pagkatawo, Edad, Nasod</li></ul> <span class='highlight-extra-pages'>Mao ni among gibuhat sa mga impormasyon nga among nakolekta</span><br/><br/>Dili ginabaligya ug ginabahin sa 'My World' ang imong mga tubag ani nga sarbey sa mga manindahay..<br/><br/>Ang mga resulta gikan sa website, telepono, ug mga sarbey sa offline gina-sumite sa Secretary General's high Level Panel on Post-2015 bag-o sa ilang mga pagpulong sa Monrovia (Pebrero), Bali (Marso) ug New York (Mayo 2013. <br/><br/><span class='highlight-extra-pages'>Security</span><br/>Nagapasalig mi sa pagsegoro sa imong mga impormasyon. Para mapugong ang dili awtorisado nga pag akses ug pagpalabas sa imong mga impormasyon ginabutang namo ang tanan impormasyon nga ginakolekta online sa lugar nga naay segurado nga pamaaging pisikal, elektroniko ug pagdumala.<br/><br/><span class='highlight-extra-pages'>Paunsa namo gigamit ang mga 'cookies'</span><br/>Ang cookie kay usa ka gamay na payl nga mangutana ug permisyon na mabutang sa jard drive sa imong kompyuter. Kung mosugot ka,madugang ni nga payl ug ang 'cookie' makatabang mag-analisa sa web traffic o magpahibalo kung kanus-a ka nibista sa usa ka pahina. Ang mga 'cookies' motugot nga motubag sa imo isip usa ka indibidwal. GInabuhat sa usa ka web application nga mag opera ayon sa imong mga kinahanglan, mga gusto ug mga dili gusto sa pamaagi sa pag-kuha ug paghinumdom sa mga impormasyon tungod sa imong preprensya. <br/><br/> Ginagamit namo ang mga 'traffic log cookies' para mapili ang mga pahina nga imong gusto. Makatabang ni para ma-analisa namo ang mga datos tungod sa trapiko sa mga pahina sa internet ug maka-lambo sa website para makahimo ug pahina nga uyon sa mga gusto sa kostumer. Ginagamit namo ni nga mga impormasyon para sa pag-analisa nga statistikal pagkatapos tanggalon sa among sistema.<br/><br/>Sa tanan, ang mga 'cookies' makatabang ug paghatag sa imo ug mas maayo nga 'website' sa pamaagi sa pagbantay kung asa ang mga pahina nga makatabang ug dili makatabang sa imo. Ang 'cookie' dili mohatag ug akses sa imong kompyuter o unsa pa mang impormasyon tungod sa imo, liban lang sa mga impormasyon nga imong gihatag.<br/><br/>Pwede ka mo-uyon or dili mo-uyon sa pagdawat sa mga 'cookies'. Kasagaran nga mga 'web browsers' awtomatiko modawat ug 'cookies', pero pwede nimo alisdan ang 'setting' sa imong 'browser' para dili modawat ug 'cookies' kung mao ang imong gusto. Pero basi dili nimo magamit ug maayo ang among 'website' tungod ani. <br/><br/><span class='highlight-extra-pages'> Pagdugtong sa uban pang mga 'websites'</span><br/>Ang among 'website' anaay mga pagdugtong para mas dali makabisita sa uban pang mga 'websites'. Pero, pag gigamit nimo ani nga mga pagdugtong para makahawa sa among 'website', wala nami kontrol sa pag akses sa ilang 'website'. Busa, wala nami responsibilidad sa imong proteksyon ug praybasi sa tanan impormasyon nga makuha sa lahi nga 'website' nga imong gi-akses kay dili na sya malantaw ani nga pribadong polisiya. Palihog ug pagbantay ug pagtan-aw sa pribadong polisiya sa 'website' nga imong gi-akses.<br/><br/><span class='highlight-extra-pages'>Pag-kontrol sa imong personal na impormasyon.</span><br/>Boluntaryo ang paghatag ug mga tubag sa mga sarbey. Hinumduma nga pwede ka dili motubag sa mga pangutana sa mga sarbey (labi na tong mga nagapanguha ug imong personal na impormasyon ug datos). Pero, dili nimo mahuman ang sarbey kung dili kumpleto ni nga mga impormasyon.<br/><br/>Kung sa imong pagtan-aw nga dili sakto ang impormasyon nga among gigamit bahin sa imo, palihog sulat o page-mail sa amo ug dali, dire sa info@worldwewant2015.org. Amo dayon i-sakto ang mga impormasyon nga dili sakto.",
+        "copyright-title": "Copyright",
+        "copyright-content": "All Rights Reserved.<br/><br/>Walay parte sa 'Akong Kalibotan' nga 'website' ug uban pang sulod dire ang pwede ipahulad, sundugan, alisdan ug pag-angay, kung walay pananghid nga sulat gikan sa awtor, liban na lang kung naay gihisgot tungod sa 'stand-alone' na mga materyal.<br><br/>Pwede sab nimo ni i-bahin nga website sa uban sa pagsunod ani nga mga pamaagi:<br/>1. Pag gamit sa mga 'icons' kada pahina;<br/>2. Paghatag ug mga back-link o URL sa sulod nga gusto nimo i-bahin; ug<br/>3. Pag-kutlo sa mga pulong gikan sa 'website' nga naay tarong nga atribusyon sa <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a><br/><br/>Ang komersyal na paggamit ug pagpabanwag sa sulod ani nga website ginadili kung walay pagpananghid pinaagi sa pagsulat ug pagsugot gikan sa awtor.",
+        "about-my-world-title": "Tungod sa MY World",
+        "about-my-world-content": "<span class='highlight-extra-pages'>Ang MY WORLD usa ka  pangkalibutang surbey alang sa mga tawo gipasiugdahan sa Tiniping Nasud (United  Nations) ug mga kaabin. </span>Tuyo niini ang pagsipong sa mga tingog sa katawhan,  mga pryoridad ug mga panglantaw, arun ang   pangkalibutang mga lider mapahibalo samtang nagsugod sila sa proseso  paghatag kahulogan sa bag-ong hisgutanang pangkalamboan alang sa kalibutan.<br/><br/>Pinaagi sa mamugnaong <em>online</em> ug <em>offline</em> nga mga pamaagi, <span class='highlight-extra-pages'>ang MY WORLD nagsukot sa matag-usa kun asa  sa unon sa desisais ka posibleng mga isyu</span> ilang gituohan makahatag og  kausaban sa ilang kinabuhi. Ang desisais ka isyu naumol gikan sa mga pryoridad  nga gipadayag sa katawhang kabus diha sa nagtunhay’ng panukiduki ug mga surbey  nga naglangkub sa kasamtangan nga Mga Tuyong Kalamboan sa Milenyo (Millenium  Development Goals), dugang sa mga isyu sa pagkamalungtarun, kasigurohan, pangdumala  ug pagkadayag.<br/><br/><span class='highlight-extra-pages'>Sukad karun hangtud  2015, gusto nato nga kun mahimo mas daghang tawo sa mas daghang nasud ang mapasalmot  sa MY WORLD</span>: mga tawo sa tanang ang-ang sa pangidaron, saring ug gigikanan,  ilabina ang mga kabus sa kalibutan ug nahiklin nga mga komunidad.<br/><br/>Ang mga resulta unang isumite ngadto sa Secretary General’s <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>High  Level Panel sa Lapas-2015</a> sa dili pa ang ilang katiguman sa Monrovia, Bali  ug New York ug ilakip sa ilang pinal nga taho ug mga rekomendasyon  alang sa bag-ong pangkalamboang gambalay sa  Mayo 2013.<br/><br/>Pagkahuman, ipadayon sa MY WORLD ang pagsipong  sa mga tingog sa katawhan taman 2015 ug ang mga resulta ipadangat sa Secretary  General ug mga lider sa kalibutan samtang ilang giandam ang sunod  pangkalibutang hisgutanan nga magdagan taman sa 2015.",
+        "who-we-are-title": "Kinsa Mi",
+        "who-we-are-content": "<span class='highlight-extra-pages'>Programi për Zhvillim i Kombeve të Bashkuara, Fushata e Kombeve të Bashkuara Millennium Campaign, Instituti për Zhvillim Ndërkombëtar Përtejdetit dhe Fondacioni World Wide Web</span> kanë krijuar së bashku My World. Ai i është nënshtruar një procesi të gjerë konsultimi dhe ka mbështetje të gjerë nga një sërë organizatash, përfshirë OJQ-të, grupet fetare dhe lëvizjet rinore.<br/><br/><span class='highlight-extra-pages'>Departamenti i Informimit Publik të Kombeve të Bashkuara dhe Programi i Vullnetarëve të Kombeve të Bashkuara (UNV) gjithashtu do të kenë një rol drejtues në MY World.</span><br/><br/><span class='highlight-extra-pages'><a href='#' id='more-partners-link'>Shihni më shumë partnerë</a></span><br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Rreth <a href='http://www.undp.org/' target='_blank'>UNDP</a></span> Programi i Kombeve të Bashkuara për Zhvillim (UNDP) është rrjeti global për zhvillim i Kombeve të Bashkuara, që mbron ndryshimin dhe i lidh vendet me njohurinë, ekspertizën dhe burimet, për t'i ndihmuar njerëzit të ndërtojnë një jetë më të mirë. Ai ndodhet në terren në 177 shtete dhe territore.</li><li><span class='highlight-extra-pages'>Rreth <a href='http://www.endpoverty2015.org/' target='_blank'>Fushatës së Kombeve të Bashkuara Millennium Campaign</a></span> Krijuar në vitin 2002 nga Sekretari i Përgjithshëm i Kombeve të Bashkuara, Fushata mbështet dhe frymëzon njerëzit në mbarë botën të ndërmarrin veprime për arritjen e Objektivave të Zhvillimit të Mijëvjeçarit brenda vitit 2015 dhe lehtëson pjesëmarrjen e shoqërisë civile në axhendën e zhvillimit pas vitit 2015.</li><li><span class='highlight-extra-pages'>Rreth <a href='http://www.odi.org.uk/' target='_blank'>ODI</a></span><a href='http://www.webfoundation.org/' target='_blank'> </a>Instituti për Zhvillim Ndërkombëtar Përtejdetit është instituti studimor lider i Mbretërisë së Bashkuar për zhvillimin ndërkombëtar dhe çështjet humanitare që punon për të frymëzuar dhe informuar politika e praktika që çojnë në reduktimin e varfërisë, lehtësimin e vuajtjeve dhe arritjen e një jetese të qëndrueshme në vendet në zhvillim.</li><li><span class='highlight-extra-pages'>Rreth <a href='http://www.webfoundation.org/' target='_blank'>Fondacionit World Wide Web</a></span> Krijuar nga shpikësi i Web-it, Sir Tim Berners-Lee, Fondacioni World Wide Web është një organizatë jofitimprurëse e përkushtuar për arritjen e një bote, ku të gjithë njerëzit të përdorin Web-in për të komunikuar dhe bashkëpunuar lirisht, si dhe për të sjellë novacione, duke ngritur ura lidhjeje midis ndarjeve që kërcënojnë të ardhmen tonë të përbashkët.</li></ul>",
+        "faq-title": "FAQ",
+        "faq-content": "<h2 class='faq-header'>Unsa ang MY World? </h2><br/>Unsa kini ka surbey sa pagpili nga, pinaagi sa mamugnaong online ug offline nga mga paagi gihatagn og kahigayonan sa katawhan sa tibuok kalibutan nga sultian ang Tinipong Nasud, ug sa Secretary General’s High Level Panel, sa pinakamahinungdanong mga isyu nga buot nilang matubag sa lapas-2015 nga hisgutanan.<br/><br/>Ang MY WORLD nagsukot sa matag-usa kun unsa ang unom sa desisais ka posibleng isyu ang ilang gituohang makahatag og kalamboan sa ilang kinabuhi. Ang desisais ka isyu naumol gikan sa mga pryoridad nga gipadayag sa katawhang kabus diha sa nagtunha’ng panukiduki ug mga surbey, ug sa mapadayunong panaghigot teknikal ug pulitikanhon kalabut sa mamahimong mga katuyoan sa umaabot. Gilangkob niini ang kasamtangan nga Mga Katuyoang Pangkalamboan sa Milenyo (MDG’s), dugang sa mga isyu sa pagkamalalungtaron, kasigurohan, pangdumala ug pagkadayag.<br/><br/><h2 class='faq-header'>Sa unsang paagi kini mahimo?</h2><br/><span class='highlight-extra-pages'>Sugod Disyembre 2012, ang surbey makuha na <em>online</em> sa </span><a href='http://www.myworld2015.org'><span class='highlight-extra-pages'>www.myworld2015.org</span></a> sa unom ka opisyal nga pinulongan sa Tinipong Nasud. Ang mga tawo makasalmot usab niini nga surbey pinaagi sa mga teknolohiyang <em>mobile</em> sama sa SMS ug IVR (walay bayad pagtawag) sugod Enero 2013.<br/><br/>Ang surbey makuha usab <span class='highlight-extra-pages'><em>offline</em> sa porma nga naa sa papel</span> – giapud-apod pinaagi sa kutay sa mga kapunongan nga nakabase sa komunidad, relihyosong mga grupo, grupo sa kabatan-onan, mga grupo sa pribadong sektor ug mga higalang NGO sa tibuok kalibutan. Ang suporta sa maong mga kapunongan <span class='highlight-extra-pages'>mahukmanon kaayo arun direktang maabot ang mga komunidad</span> ug pagpasalmot nila sa pangkalibutang lantugi, labina kadtong dili makonektahan sa <em>digital</em> nga pamaagi, sa dili makabasa ug makasulat ug pinaka-kabus nga mga komunidad.<br/><br/>Ang mga nagsalmot pagutan-on sa ilang saring, idad ug gigikanang-nasud, arun masayon ang paghugpong sa datus ug mapresentar sa mga tighimog desisyon ang tukmang pangkalibutang hulagway sa unsay panghuna-huna sa katawhan.<br/><br/><h2 class='faq-header'>Kanus-a ug asa kining tanan mahitabo?</h2><br/>Sugod karun hangtud 2015, gusto nato nga kutob sa mahimo mas daghang tawo sa mas daghang nasud ang makasalmot: katawhan sa lain-laing ang-ang sa pangidaron, saring ug gigikanan, ilabina mga labing kabus sa kalibutan ug mga nahiklin ug napasagdan nga mga komunidad.<br/><br/><h2 class='faq-header'>Unsay mahitabo sa mga resulta sa surbey?</h2><br/>Ang mga datus gikan sa <em>mobile</em> nga mga telepono, <em>website</em> ug <em>offline</em> nga surbey mapadayunong konsolidahon ug mahimong masubay sa <em>website</em> sa MY WORLD.<br/><br/>Ang mga resulta isumete ngadto sa High Level Panel sa dili pa ang ilang katiguman sa Monrovia, Bali ug New York ug a dili pa nila isumete ang ilang pinal nga taho ngadto sa Secretary General arun mahatagan siya sa ilang panglantaw kalabot sa lapas-2015 hisgutanang pangkalamboan. Mapadayunong tapukon sa MY WORLD ang tingog sa katawhan ug ang mga resulta ipaambit sa Secretary General ug mga lider sa kalibutan nga kamulong samtang nag-andam sa sunod nga hisgutanang pangkalamboan nga madogan hangtud 2015.<br/><br/><h2 class='faq-header'>Nganong karun man?</h2><br/><span class='highlight-extra-pages'>Ang Mga Katuyoang Pangkalamboan sa Milenyo (MDGs) nakahatag og kaayohan sa kinabuhi sa linibong katawhan</span>, apan daghan pa ang kinahanglang buhaton arun matubag ang labihang kakabus, mga balatian ug krisis sa kinaiyahan.<br/><br/>Ang hisgutanang pangkalibutang kalamboan alang sa yugto human sa 2015 <span class='highlight-extra-pages'>magsumikad sa agi nga nahimo sa MDGs</span> samtang nag-atubang sa makanunayong walay-pagka-patas ug bag-ong mga hagit nga giatubang sa katawhan ug sa planeta.<br/><br/><span class='highlight-extra-pages'>Ang bag-ong hisgutanang pangkalamboan kinahanglang magsumikad sa tiuna’ng bukas ug mapasalmutong proseso</span> nga naglakip sa katawhan gikan sa tanang suok swa kalibutan ug  tanang sektor sa katilingban.<br/><br/><span class='highlight-extra-pages'>Ang Tinipong Nasud u gang Secretary General’s High Level Panel sa lapas-2015 nga hisgutanan gusto nga direktang mopatalinghog</span> kalabot sa unsay mahinungdanon alang sa katawhan sa kalibutan, arun ang ilang mga panglantaw malakip sa pangkalibutang panaghisgot. Ang MY WORLD gihimugso isip kahimanan arun kini mapahitabo.<br/><br/><h2 class='faq-header'>Unsaon nato pagpangilabot sa MY World?</h2><br/>Alang sa usa ka indibidwal:<br/><br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Makatabang pagpakaylap sa pulong!</span> Ipaambit ang surbey ug ang imong napili nga mga pryoridad ngadto sa imong mga higala ug pamilya ug awhaga sila pagsalmot niining mahinungdanon nga surbey.</li> <li><span class='highlight-extra-pages'>Padalhi kami og mga balita!</span> Pagkuhag mga hulagway, salida ug mga estorya sa misalmot sa MY WORLD ug ipaambit ginamit ang imong <em>social media accounts.</em></li> <li><span class='highlight-extra-pages'>Hatagi kami sa imong detalye</span> arun mahatagan ka namog kasayuran sa pinakaulahing resulta sa surbey ug lain-laing mga paagi arun makapangilabot ka sa kawsa batok sa kalibutanong kakabus.</li></ul><br/>Alang sa usa ka organisasyon:<br> Adunay usa ka pinahaom nga himan ang makuha sa <a href='http://www.myworld2015.org'>www.myworld2015.org</a> sa dili pa ang pangkalibutang paglunsad sa Enero 2013. Sa kinatibuk-an, kun ang usa ka kapunongan interesado nga mosuporta sa MY WORLD mahimo kining:<br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Mopadagan sa surbey nga offline </span>sa local nga komunidad pinaagi sa balota, paghipos sa mga resulta ug pagpadala sa dutus ngadto sa atong nasudnon ug pangrehiyon nga mga sentro.</li> <li><span class='highlight-extra-pages'>Mopaabot sa nagtunhay nga mga kaanib, local nga mga kapunongan ug mga membro </span>ug awhagon sila nga mosalmot.</li> <li><span class='highlight-extra-pages'>Motabang og ganoyl sa katawhan ngadto sa </span><a href='http://www.myworld2015.org'>www.myworld2015.org</a> gamit ang mga kutay linya sa komunikasyon (websites, mga mantalaan ug mga kalihukang social media) </li> <li><span class='highlight-extra-pages'>Molambigit sa ubang mamahimong kaanib </span>(panaglit, mga tigpahaluna sa mobile nga telepono, pribadong sektor ug sa medya) arun mapahigayon ang duso sa MY WORLD.</li> <li><span class='highlight-extra-pages'>Mopadala kanamo sa mga balita!</span> Kuhag mga hulagway, salida ug mga estorya sa nagsalmot sa MY WORLD.</li></ul><h2 class='faq-header'>Unsay kalabutan sa MY WORLD ngadto sa Ang Atong Gustong Kalibutan 2015?</h2><br/>Karun ang katawhan sa tibuok kalibutan adunay makaaghat nga kahigayonan, nga wala pa sukad mahitabo, nga mahimong kabahin sa bag-ong mga katuyuan pagpaundang sa kalisud ug mugnaon ang malungtarong palibot sukad sa pinakasayo nga yugto sa proseso.<br/><br/>Ang <em>online</em> nga ganghaan <a href='http://www.myworld2015.org'>www.myworld2015.org</a> maghatag higayon sa katawhan sa kalibutan nga mosalmot sa lapas-2015 nga proseso sa pangbinayloay og hunahuna ug pag-apil sa lantugi. Ang MY WORLD gitukma niining maong paningkamot ug usa ka paagi pagsipong sa tingog sa katawhan alang sa mas lambo nga pangkalibutang panaghisgot. <a href='http://www.myworld2015.org'>www.myworld2015.org</a> hingpit nga nagkutay sa <a href='http://www.worldwewant2015.org'>www.worldwewant2015.org</a> ug nagdapit sa katawhan pagsunod sa panaghisgot human nila masumite ang ilang botar.<br/><br/><h2 class='faq-header'>Asa mohaum niini nga proseso ang Mga Katuyoan sa Malungtarong Kalamboan?</h2><br/>Sa gikasabutan sa Rio+20, ang Open Working Group modesinyo sa han-ay sa Mga Katuyoan sa Malungtarong Kalamboan karong Septyembre 2013. Ang High Level Panel molihok ambas sa Open Working Group u gang duha mosumite sa ilang mga rekomendasyon ngadto sa opisina sa Secretary General.<br/><br/><span class='highlight-extra-pages'>Ang Secretary General’s High Level Panel kalabot sa Lapas-2015</span><br/><br/>Ang Secretary General’s High Level Panel kabahin sa Secretary General Ban K-moon’s Lapas-2015 nga inisyatiba ug gimugna arun pagtambag niya mahitungod sa hisgutanang pangkalibutanong kalamboan lapas 2015, ang nalatid nga petsa pagkab-ot sa mga napunting sa kontra-kalisud nga naila isip Mga Tuyong Kalamboan sa Milenyo (MDGs).<br> Ang trabaho sa High Level Panel magsalamin sa bag-ong mga hagit sa kalamboan samtang nagkutlo og kasinatian sa implementasyon sa MDGs, lambigit sa nakab-ot nga mga resulta ingon man mga aspeto nga kinahanglang ipalambo pa.  Gisaligan nga ang High Level Panel mosumite sa ilang nasuta ngadto sa Secretry General sa Tinipong nasud sa unang tungang bahin sa 2013, ug mogiya sa iyang taho ngadto sa mga membro sa Tinipong Nasud panahon sa Asembliya sa karung Septyembre 2013.<br/><br/><u>Tan-awa ang mga membro sa High Level Panel</u><br/><br/><h2 class='faq-header'>Kinsa ang nagkoordina sa MY World?</h2><br/>Ang <span class='highlight-extra-pages'><u>Development Programme sa Tinipong nasud</u>, ang <u>Kampanya sa Milenyo sa Tinipong</u></span><u> <span class='highlight-extra-pages'>Nasud,</span></u><span class='highlight-extra-pages'> ang <u>Overseas Development Institute</u> ug ang <u>World Wide Web Foundation</u></span> nag-usa paghulma sa MY WORLD. Nag-agi kini sa lapad nga prosseso sa konsultasyon, ug adunay lapad nga suporta gikan sa mga organisasyon, lakip mga NGO, mga grupo sa pagtuo mga hugpong sa kabatan-onan.<br/><br/><span class='highlight-extra-pages'>Ang Department of Public Informatin sa Tinipong nasud u gang Volunteers programme sa Tinipong nasud aduna usab papel sa pagpangulo sa MY WORLD.</span><br/><br/><u>Tan-awa ang uban pang mga kaanib</u><br/><br/>",
+        "how-it-works-title": "Giunsa Ni Paghimo",
+        "how-it-works-content": "Ang MY WORLD mosukot sa matag-usa kun unsa ang unon sa desisais ka posibleng isyu nga sa ilang tan-aw maoy mas makahatag og kalamboan sa ilang kinabuhi. Ang deisais ka isyu naumol human sa <span class='highlight-extra-pages'>malupanon nga pag-analisa ug proseso sa konsultasyon</span>:<br/><br/><ul class='list-extra-pages'><li>Ang surbey gidesenyo isip usa ka <span class='highlight-extra-pages'>surbey sa kapilian</span>, nga sahi sa ‘bukas nga pangutana’ nga pagsurbey tungod kay ang piho nga tuyo sa MY WORLD diha sa mas halapad nga paningkamot sa pangkalibutang konsultasyon sa Tinipong Nasud kalabot sa lapas 2015 mao ang pagtanyag og <span class='highlight-extra-pages'>pagsabot mahitungod sa mga pryoridad sa katawhan</span>.</li><li><span class='highlight-extra-pages'>Ang pasiunang lista sa beinte kuatro ka isyu gikuha gikan sa lailaing mahinungdanong tinubdan</span>, lakip ang mapasalmutong panukiduki, botasyon, <em>civil society</em>,  Mga Katuyoang Kalamboan sa Milenyo ug mga plano alang sa Mga Katuyoan sa Malungtarong Kalamboan.  Ang mga kapilian gipino pa ngadto sa desisais kabuok pinaagi sa <span class='highlight-extra-pages'>daghang mga konsultasyon</span>, uban sa mga NGO, mga magbabalaud, mga akademiko, mga empleyado sa Tinipong nasud ug mga kumpaniya nga batid sa surbey. Ang surbey <span class='highlight-extra-pages'>nag-agi usab og pagsukod subay sa pipila ka pagsulay</span>, ug pinaagi sa surbey nga SMS didto sa Uganda arun pagsiguro nga ang desisais ka pilianan komprehensibo ug tukma.</li><li>Arun malakip ang magbalikbalik nga mga tema tunagod kay nataligam-an ug wala makita daan, mahimo usab nga ang mga nagsalmot molakip sa kaugalingon nilang pryoridad pinaagi sa luna nga gipahigayon para ‘idugang ang kaugaling nimong isyu’.</li><li>Ang MY WORLD nga surbey dili makalangkub sa tanan nga mahinungdanon sa tawo tungod kay dili tanang problema matubag sa Mga Katuyoang Pangkalibutan. Apan, the han-ay sa mga pryoridad nga matubag sa Mga Katuyoan nga mahinungdanon sa katawhan, nalakip na.</li></ul><br/><br/><span class='highlight-extra-pages'>Ang MY WORLD nga surbey mapuslan subay sa Tulo ka nanag-unang agianan:</span><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Online:</span> sa <span class='highlight-extra-pages'>www.myworld2015.org</span> sa unom ka opisyal nga pnulongan sa Tinipong nasud ug pinaagi sa <em>social media</em>;</li><li><span class='highlight-extra-pages'>Mga teknolohiya sa Mobile phone (magamit na sugod Enero 2013)</span>: pinaagi sa via SMS ug Interactive Voice Response (IVR) gamit ang mga libreng telepono; ug</li><li><span class='highlight-extra-pages'>Offline (magamit na sugod Disyembre 2012):</span> porma nga nahisulat sa papel nga may kaanggid sa balota – giapud-apod pinaagi sa kutay sa mga kapunongan sa katawhan, mga katilingban sa pagtuo, mga grupo sa kabatan-onan, mga grupo sa pribadong sektor ug kaabin nga mga NGOsa tibuok kalibutan.</li></ul><br/><br/>Ang surbey dili mangayog ngalan sa nagsalmot. Ang pangayuon mao lang ang saring, idad, nasud-gigikanan, arun makahimo og makahuloganon nga pagtuki sa mga datus arun makapresentar og <span class='highlight-extra-pages'>husto nga pangkalibutang hulagway</span> sa panglantaw sa katawhan ngadto sa mga tighimo sa desisyon.<br/><br/> Ang mga datus gikan sa selpon, website ug surbey nga offline mapadayunong ikonsolida ug masubay diha sa MY WORLD nga website.<br/><br/> Ang mga resulta gikan sa website, selpon ug surbey nga offline <span class='highlight-extra-pages'>isumite ngadto sa Secretary General’s High Level Panel kalabot sa Lapas-2015</span> sa dili pa ilang katiguman didto sa Monrovia (Pebrero), Bali (Marso) ug New York (Mayo) 2013.",
+        "contact-us-title": "I-kontak mi",
+        "contact-us-title-small": "I-kumpleto ni nga porma ug ihatag imong panan-aw",
+        "contact-us-name": "Ngalan: <span class='required'>*</span>",
+        "contact-us-email": "Email: <span class='required'>*</span>",
+        "contact-us-organization": "Organisasyon:",
+        "contact-us-description": "Mensahe: <span class='required'>*</span>",
+        "page-contact-us-thankyou-title": "I-kontak mi",
+        "page-contact-us-thankyou-content": "Daghang Salamat sa imong mensahe.Mobalik dayon mi sa imo",
+        "page-partners-title": "Mga Higala",
+        "page-partners-content": "Sa ubos ang listahan sa among mga maayo nga higala nga tarbaho uban sa amo para moabot ang MY World sarbey sa ilang mga komunidad:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Beyond 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Major Group for Children and Youth (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>World Association of Girl Guides and Girl Scouts (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>The World Organization of the Scout Movement</a><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>The World YWCA</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>World Alliance of YMCAs </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Youth for Habitat International Network /  Habitat Center for Development and Governanc</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Rural Voices of Youth<br/>Organisation of African Youth<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>The International Federation of Medical Students' Associations</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>International Young Catholic Students (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://https://childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/><br/>If you are an organisation and would like to join the outreach efforts for MY World please write to <a href='mailto:xavier.longan@undp.org'>xavier.longan@undp.org</a>",
+        "page-coming-soon-title": "Uban pang moabot",
+        "page-coming-soon-content": ""
+    },
+    "social_media": {
+        "facebook": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=Gusto makadungog ang United Nations gikan sa imo.&caption=Ako silang gi-ingnan sa imong prayoridad sa paghimo ug mas maayo nga kalibotan. Uban na sa ako ug mag-botar! Myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+        "facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=Gusto makadungog ang United Nations gikan sa imo.&caption=Ako silang gi-ingnan sa imong prayoridad sa paghimo ug mas maayo nga kalibotan. Uban na sa ako ug mag-botar!http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+        "twitter": "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. .&via=MyWorld2015",
+        "og_title": "Gusto makadungog ang United Nations gikan sa imo.",
+        "og_description": "Ako silang gi-ingnan sa imong prayoridad sa paghimo ug mas maayo nga kalibotan. Uban na sa ako ug mag-botar!",
+        "weibo": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=Gusto makadungog ang #UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar!&pic=http://www.myworld2015.org/assets/img/logo.png",
+        "weibo_thankyou": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=Gusto makadungog ang %23UN gikan sa imo. Ako silang gi-ingnan sa imong mga prayoridad sa pagbuhat ug mas maayo na kalibotan. Uban na sa ako ug mag-botar!&pic=http://www.myworld2015.org/image_path",
+        "orkut": "http://promote.orkut.com/preview?nt=orkut.com&tt=Gusto makadungog ang United Nations gikan sa imo.&du=http:/www.myworld2015.org&cn=Ako silang gi-ingnan sa imong prayoridad sa paghimo ug mas maayo nga kalibotan. Uban na sa ako ug mag-botar! Myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+        "orkut_thankyou": "http://promote.orkut.com/preview?nt=orkut.com&tt=Gusto makadungog ang United Nations gikan sa imo.&du=http:/www.myworld2015.org&cn=Ako silang gi-ingnan sa imong prayoridad sa paghimo ug mas maayo nga kalibotan. Uban na sa ako ug mag-botar! Myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+    },
+    "viz": {
+        "viz1_title": "Gi-unsa Pagbotar sa Kalibotan",
+        "viz1_subtitle": "Ranggo sa mga Prayoridad (sa karon)",
+        "viz2_title": "Ang mga Taong Nibotar Pareha Nimo",
+        "viz2_title_results": "Tan-awa kung kinsa pa ang nibotar",
+        "viz2_subtitle": "Tan-awa ang imong mga gipili para makita kung giunsa pag botar sa uban sa kalibotan",
+        "priorities": "Mga Prayoridad",
+        "your_priorities": "Ang imong mga Prayoridad",
+        "other_priorities": "Uban pang mga Prayoridad",
+        "tip1_results": "Tan-awa ang imong mga gipili para makita kung giunsa pag botar sa uban sa kalibotan",
+        "tip1": "Tan-awa ang imong mga gipili para makita kung giunsa pag botar sa kalibotan",
+        "tip2": "Mga Taong Pareha Nimo",
+        "tip3": "Ang Human Development Index (Sukod sa Katawhang Kalamboan) o HDI mao ang usa ka kasumahan sa pagsukod sa katawhang kalamboan. Ginasukod ani ang sakto nga katumanan sa atong nasod sa tulo ka dimensyon sa katawhang kalamboan: usa ka taas ug baskog nga kinabuhi (kabaskog), naay akses sa edukasyon (edukasyon), ug tarong na estado sa panginabuhi (kinitaan)",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "Ubos",
+        "hdi2": "Tunga",
+        "hdi3": "Taas",
+        "hdi4": "Taas Kaayo",
+        "world": "Kalibotan",
+        "location": "Lokasyon",
+        "gender": "Kinatawhan",
+        "age_groups": "Mga Ka-edad (Mga Kadungawog)",
+        "hdi": "HDI",
+        "region_or_country": "Rehiyon o Nasod",
+        "all": "Tanan",
+        "customize": "Patuyo",
+        "customize_this_segment": "Tuyoon kani nga bahin",
+        "change": "Akong Alisdan",
+        "submit": "I-sumiter",
+        "hide_markers": "Itago ang mga Marka",
+        "votes": "Mga Boto",
+        "total_votes": "Sumada sa mga Boto",
+        "none": "Wala",
+        "country_totals": "Sumada sa mga Boto gikan sa mga Nasod ",
+        "custom_dropdown_values": ["Ubos ug HDI nga mga Nasod",
+                            "Tunga ug HDI nga mga Nasod",
+                            "Taas ug HDI nga mga Nasod",
+                            "Taas kaayo ug HDI nga mga Nasod",
+                            "Africa",
+                            "Americas",
+                            "Asia",
+                            "Europe",
+                            "Oceania"]
+    }
+}

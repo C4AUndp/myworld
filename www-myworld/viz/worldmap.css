@@ -1,0 +1,66 @@
+#worldmap {
+			border: solid 2px #E3E3E3;
+			background-color: white;
+			background-position: 0 223px;
+			background-repeat: no-repeat;
+			width: 1020px;
+			padding: 20px 30px;
+		}
+		header {
+			font-weight: bold;
+			font-size: 21px;
+		 }
+		 .b {
+			font-weight: bold;
+		 }
+		 .horizontal:before, .horizontal:after {
+		 	clear: both;
+		 }
+		 .horizontal {
+		 	/*display: block;*/
+		 	/*clear: both;*/
+		 	/*margin-bottom: 20px*/
+		 	/*border: 1px solid gray;*/
+		 	float: right;
+		 	/*margin-top: -20px*/
+		 }
+		 .horizontal li {
+		 	font-size: 14px;
+		 	/*text-align: right;*/
+		 	/*width: 25%;*/
+		 	float: left;
+
+		 }
+		 #pnumber, #cnumber {
+		 	margin: -5px 30px 0px 5px;
+		 	/*font-size: 20px;*/
+
+		 }
+		 .count {
+		 	border: 1px solid #e3e3e3;
+		 	padding: 3px;
+	 		display: inline-block;
+			width: 28px;
+			text-align: center;
+		 }
+		 .coma {
+		 	/*border: 1px solid #e3e3e3;*/
+		 	padding: 3px;
+	 		display: inline-block;
+			width: 14px;
+		 }
+		 .svgtooltip {
+		 	border: 1px solid #e3e3e3;
+		 	background: white;
+		 	padding: 3px;
+		 	font-size: 10px;
+		 	line-height: 11px;
+		 	color: #111;
+		 	text-align: center;
+		 }
+		 #viz {
+		 	margin: 8px 0 0 0;
+		 }
+		 path:hover{
+		 	cursor: pointer;
+		 }

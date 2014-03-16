@@ -1,0 +1,1232 @@
+{
+    "html_values": {
+        "tap-for-details": "Klik untuk rincian",
+        "timeline-content": "Perserikatan Bangsa-Bangsa dan mitra-mitranya ingin mendengarkan ANDA! MY World merupakan sebuah survei global yang meminta anda untuk menentukan prioritas-prioritas untuk dunia yang lebih baik. Hasilnya akan dibagikan dengan pemimpin-pemimpin dunia dalam merumuskan agenda pembangunan global berikutnya. Beritahukan kami tentang dunia yang anda inginkan, karena suara anda berarti.",
+        "timeline-content-mobile": "Perserikatan Bangsa-Bangsa dan mitra-mitranya ingin mendengarkan ANDA! MY World merupakan sebuah survei global yang meminta anda untuk menentukan prioritas-prioritas untuk dunia yang lebih baik. Hasilnya akan dibagikan dengan pemimpin-pemimpin dunia dalam merumuskan agenda pembangunan global berikutnya. Beritahukan kami tentang dunia yang anda inginkan, karena suara anda berarti.",
+        "about-item": "Tentang My World",
+        "who-we-are-item": "Siapa Kami",
+        "how-it-works-item": "Bagaimana Kerjanya",
+        "faq-item": "FAQ",
+        "see-results-item": "Lihat Hasilnya",
+        "partners-item": "Mitra-Mitra",
+        "blog-item": "Berita dan Blog",
+        "about-btn": "Tentang",
+        "contact-item": "Hubungi Kami",
+        "methodology-item": "Metodologi",
+        "teaser-content": "Tentukan pilihan-pilihan yang akan <br> paling berdampak bagi dunia anda.",
+        "teaser-content-b": "Tentukan pilihan-pilihan yang akan <br> paling berdampak bagi dunia anda.",
+        "logo-teaser": "Pilihan Anda. Dunia Anda.",
+        "vote-header": "Diantara ini mana yang paling penting bagi anda dan keluarga anda? &nbsp;&nbsp;&nbsp;<br/><span style='font-weight:bold'>Pilih 6</span>",
+        "section-one-date": "2000",
+        "section-one-title": "Tujuan Pembangunan <br/>Millenium",
+        "section-one-content": "Para pemimpin dunia menyepakati pencapaian 8 tujuan guna memberantas kemiskinan, yang akan berakhir pada tahun 2015. Kemajuan penting telah dicapai, namun masih banyak hal yang masih perlu dilakukan.",
+        "section-two-date": "Sekarang",
+        "section-two-title": "Tentukan Pilihan Anda Sekarang: Suarakan Pendapat Anda",
+        "section-two-content": "Dari sekarang hingga tahun 2015, anda dapat membantu merumuskan rangkaian tujuan global berikutnya dengan memberitahukan kami mengenai perubahan-perubahan yang ingin anda lihat di dunia.",
+        "section-three-date": "2015",
+        "section-three-title": "Dunia Yang Kita <br/>Inginkan 2015",
+        "section-three-content": "Bersama kita akan dapat merancang sebuah peta jalan untuk menciptakan dunia yang kita inginkan setelah tahun 2015 yang berfokus pada isu-isu yang paling berdampak bagi kehidupan kita.",
+        "celebrities-title": "Lihat siapa saja yang telah memilih",
+        "celebrities-title-small": "Lihat siapa saja yang telah memilih",
+        "priority-item-title": "Usulkan prioritas lain (pilihan)",
+        "side-title": "Prioritas saya",
+        "side-count-more": "Pilih <span id='side-count-more-id'>6</span> lagi",
+        "dropdowns-title": "Akhirnya, silakan beritahukan kami sedikit tentang diri anda.",
+        "dropdowns-content": "Penetapan pilihan akan dilakukan secara anonim, tetapi data dasar ini akan membantu kami untuk memahami anda dengan lebih baik.",
+        "dropdowns-oath": "Dengan mengisi formulir ini, saya menyatakan bahwa ini adalah pilihan saya satu-satunya di survei global MY World. Saya tidak akan memilih lebih dari satu kali.",
+        "dropdowns-gender-label": "Saya",
+        "dropdowns-age-label": ", berumur",
+        "dropdowns-country-label": ", dan tinggal di",
+        "dropdowns-education-label": "Tingkat pendidikan saya adalah",
+        "about-title": "Tentang My World",
+        "about-content": "MY World adalah sebuah survei global dari Perserikatan Bangsa-Bangsa untuk masyarakat umum. Bersama para mitra, kami bertujuan untuk menangkap suara, prioritas dan pandangan masyarakat, untuk memberi masukan kepada pemimpin-pemimpin dunia ketika mereka memulai proses perumusan serangkaian tujuan global berikutnya untuk mengakhiri kemiskinan.",
+        "about-content-middle": "Untuk bergabung dalam diskusi global dan debat pasca-2015 kunjungi:",
+        "partners-title": "My World dikembangkan oleh:",
+        "thank-you-title": "Selamat karena telah memberitahukan kami tentang diri <b>passionate</b> ANDA!",
+        "thank-you-share": "Bagikan",
+        "thank-you-share-text": "Berikut adalah gambaran pribadi dari dunia yang anda inginkan.<br/>Bagikan hal ini dengan teman-teman anda dan bantu ciptakan visi dunia yang lebih baik.",
+        "thank-you-why": "Beritahukan kami mengapa anda memilih prioritas-prioritas tersebut (opsional)",
+        "thank-you-join": "Ikuti diskusinya di worldwewant2015.org",
+        "validation-message": "Pilih 6 prioritas dan harap mengisikan jenis kelamin, umur, negara anda sebelum menentukan pilihan.",
+        "thank-you-vote": "Terima kasih telah memberitahukan kami alasan anda untuk memilih",
+        "more-btn": "Dengan dukungan mitra-mitra di seluruh dunia",
+        "first-logo-label": "Perserikatan Bangsa-Bangsa",
+        "second-logo-label": "Overseas Development <br> Institute",
+        "third-logo-label": "World Wide <br> Web Foundation",
+        "fourth-logo-label": "Ipsos Mori",
+        "captcha-info": "Pertanyaan ini ditujukan untuk menghindari terjadinya pendaftaraan spam otomatis.",
+        "contact-validation-msg": "Silahkan mengisi semua bidang yang diperlukan.",
+        "captcha-error-msg": "Captcha tidak valid.",
+        "worldmap-title": "Pilihan sejauh ini <ul class='horizontal'><li>Negara</li><li id='cnumber-small'>Memuat...</li></ul>",
+        "worldmap-update": "Peta diperbaharui setiap <span class='minutes'>2</span> menit",
+        "worldmap-title-thanku": "Pilihan anda telah terhitung!<ul class='horizontal'><li>Negara</li><li id='cnumber'>Memuat...</li></ul>",
+        "worldmap-update-thanku": "Peta diperbaharui setiap <span class='minutes'>2</span> menit",
+        "check-to-vote-text": "Centang untuk memilih",
+        "click-for-details-text": "Tekan untuk tahu lebih banyak",
+        "langs-wrap-label": "Bahasa:",
+        "people-from": "orang-orang dari",
+        "countries-vote": "berbagai negara sudah memilih. <strong>Sekarang giliranmu...</strong>",
+        "iframe-link": "Kunjungi situs penuh untuk informasi lebih lanjut",
+        "back-to-voting": "Kembali"
+    },
+    "accordion_items": {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Kesempatan kerja yang lebih baik",
+            "item-content": "Hal ini berarti pemerintah dan perusahaan-perusahaan di sektor swasta perlu bertindak lebih untuk memastikan bahwa semua orang bisa memperoleh pekerjaan dengan gaji yang layak, dan dapat berkontribusi dan merasa dihargai sebagai bagian dari komunitas yang produktif."
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "Pendidikan yang layak",
+            "item-content": "Hal ini berarti bahwa setiap anak perlu memiliki pendidikan dasar dan sekunder yang berkualitas tinggi guna memperlengkapi mereka dalam memperoleh pekerjaan dan kehidupan yang layak. Pemerintah dan sektor swasta perlu bekerjasama untuk menyediakan peluang-peluang pembelajaran seumur hidup dan pengembangan keterampilan untuk orang-orang dewasa."
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Layanan kesehatan yang lebih baik",
+            "item-content": "Hal ini berarti bahwa layanan kesehatan yang baik dan berkualitas perlu tersedia bagi semua orang ketika mereka membutuhkan perawatan. Perlu diterapkan langkah-langkah untuk mengurangi dampak dari penyakit-penyakit menular dan kronis lainnya. Baik pendanaan dan pengaturan sistem kesehatan harus disesuaikan dengan keperluan negara dan penduduknya."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Makanan bergizi dan terjangkau",
+            "item-content": "Hal ini berarti bahwa setiap orang perlu mendapatkan makanan yang mereka perlukan. Tidak boleh ada satu orangpun di  dunia yang terus menerus hidup dalam kelaparan, kekurangan gizi, khususnya untuk ibu hamil dan anak-anak dibawah dua tahun."
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Bantuan untuk orang-orang yang tidak dapat bekerja",
+            "item-content": "Hal ini berarti bahwa setiap orang perlu memiliki uang yang cukup untuk hidup, antara lain melalui bekerja atau bantuan pemerintah. Ketika orang-orang tidak dapat bekerja, atau dipengaruhi dengan kejadian-kejadian seperti bencana alam atau krisis ekonomi, pemerintah perlu memastikan bahwa mereka dan keluarga mereka tidak kelaparan, anak-anak tidak putus sekolah, dan mereka dapat memperoleh layanan kesehatan layanan mendasar lainnya yang mereka perlukan."
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Akses telepon dan internet",
+            "item-content": "Hal ini berarti bahwa pemerintah dan sektor swasta perlu memastikan bahwa setiap orang memiliki akses terhadap teknologi komunikasi, setidaknya pada tingkatan yang minimum, untuk memperoleh informasi secara online dan berpartisipasi dalam jejaring sosial."
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Akses terhadap air bersih dan sanitasi",
+            "item-content": "Hal ini berarti setiap orang perlu memiliki akses air bersih untuk minum, masak, dan mencuci, sekaligus akses terhadap sanitasi."
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Energi yang dapat diandalkan di rumah",
+            "item-content": "Hal ini berarti semua anggota keluarga perlu mendapatkan aliran listrik yang harganya terjangkau dan dapat diandalkan atau sumber energi lainnya di rumah untuk penerangan, pemanas, memasak. Sebagian besar dari energi tersebut harus dapat dihasilkan secara berkelanjutan."
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Pelindungan hutan, sungai dan lautan",
+            "item-content": "Hal ini berarti sumber daya alam perlu dijaga, orang-orang bergantung padanya untuk makanan, bahan bakar, dan sumber daya lainnya. Pemerintah perlu menyetujui rencana-rencana untuk mengurangi polusi di lautan dan sungai, menanam hutan-hutan baru dan melestarikan yang ada, dan maju menuju sistem pertanian dan pangan yang berkelanjutan. Sebuah kesepakatan global diperlukan dalam melindungi keanekaragaman hayati dan ekosistem yang rapuh."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "Tindakan terhadap perubahan iklim",
+            "item-content": "Hal ini berarti bahwa pemerintah perlu mengambil komitmen yang mengikat dalam mengurangi emisi karbon untuk menjaga agar suhu bumi tidak meningkat melebihi 2 derajat, dan berinventasi dalam langkah-langkah adaptasi khususnya yang melibatkan komunitas-komunitas yang rentan."
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Pemerintahan yang jujur dan responsif",
+            "item-content": "Hal ini berarti pemerintah perlu efektif, transparan, akuntabel, dan tidak korup. Masyarakat perlu memiliki suara dalam menentukan apa yang perlu menjadi prioritas dari pemerintah, dan keyakinan bahwa mereka dapat menjalankan prioritas tersebut secara kompeten. Pemerintah juga perlu menyepakati dan menjalankan standar-standar dalam penyediaan informasi kepada semua orang tentang bagaimana uang publik digunakan."
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Kebebasan Politik",
+            "item-content": "Hal ini berarti setiap orang dapat mengambil bagian dalam proses politik di negara mereka sendiri, termasuk melalui pemilihan dan pembentukan atau penggabungan partai politik. Orang-orang dapat berekspresi secara bebas termasuk melalui media bebas. Orang-orang juga dapat berpartisipasi dalam serikat-serikat pekerja dan segala aspek masyarakat sipil termasuk di dalamnya segala bentuk keterlibatan sipil dan tindakan sukarela."
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Perlindungan dari aksi kriminal dan kekerasan",
+            "item-content": "Hal ini berarti bahwa semua orang perlu hidup dalam sebuah komunitas yang melindungi mereka dari berbagai ancaman kejahatan dan kekerasan. Termasuk di dalamnya kekerasan dalam rumah tangga dan kekerasan seksual terhadap perempuan dan anak-anak perempuan. Setiap orang harus dapat memperoleh keadilan melalui pengadilan atau sistem lain jika mereka merupakan korban sebuah kejahatan."
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Kesetaraan antara laki-laki dan perempuan",
+            "item-content": "Hal ini berarti bahwa laki-laki dan perempuan perlu memiliki hak dan peluang yang sama. Anak laki-laki dan perempuan perlu mendapatkan akses yang sama untuk sekolah serta mutu pendidikan yang sama; laki-laki dan perempuan perlu mendapatkan kesempatan yang sama untuk dipilih ke parlemen, memiliki kesempatan yang sama untuk terlibat dalam kehidupan sosial dan politik, dan mendapatkan peluang dan imbalan yang sama di tempat kerja."
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Kebebasan dari diskriminasi dan penindasan",
+            "item-content": "Hal ini berarti bahwa tidak boleh ada satu orangpun yang kesempatan ekonomi, sosial atau politiknya dibatasi karena latar belakang ras, etnis, agama, disabilitas, preferensi seksual, atau untuk alasan lainnya, tidak boleh ada satu orangpun yang mengkhawatirkan keamanan pribadinya untuk alasan yang sama."
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Sarana transportasi dan jalanan yang lebih baik",
+            "item-content": "Hal ini berarti bahwa sarana transportasi dan jalanan perlu dibenahi agar orang-orang dapat bergerak secara bebas dan mudah untuk mengunjungi teman-teman dan keluarga mereka, mencari peluang-peluang ekonomi baru dan menggunakan jasa yang mereka perlukan."
+        }
+    },
+    "celebrities": {
+        "1": {
+            "image_src": "Diana.png",
+            "content": "<span style='font-weight: bold;'>Diana</span><br><span>Perempuan, 22</span><br><span>Kuba</span>",
+            "globe_src": "Globe_diana.png",
+            "supports": [
+                "tenth",
+                "nineth",
+                "second",
+                "twelveth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "2": {
+            "image_src": "myworld_arda.png",
+            "content": "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Perempuan, 32</span><br><span>Kazakhstan</span>",
+            "globe_src": "Globe_arda.png",
+            "supports": [
+                "third",
+                "nineth",
+                "fourth",
+                "second",
+                "eleventh",
+                "fourteenth"
+            ]
+        },
+        "3": {
+            "image_src": "myworld_anjana.png",
+            "content": "<span style='font-weight: bold;'>Anjana</span><br><span>Perempuan, 25</span><br><span>Nepal</span>",
+            "globe_src": "Globe_anjana.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "4": {
+            "image_src": "Sonal.png",
+            "content": "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Perempuan, 25</span><br><span>Tanzania</span>",
+            "globe_src": "Globe_sonal.png",
+            "supports": [
+                "third",
+                "tenth",
+                "nineth",
+                "fourth",
+                "second",
+                "seventh"
+            ]
+        },
+        "5": {
+            "image_src": "Uma.png",
+            "content": "<span style='font-weight: bold;'>Uma</span><br><span>Perempuan, 23</span><br><span>Australia</span>",
+            "globe_src": "Globe_uma.png",
+            "supports": [
+                "third",
+                "second",
+                "thirteenth",
+                "eleventh",
+                "twelveth",
+                "fourteenth"
+            ]
+        },
+        "6": {
+            "image_src": "Sebastian.png",
+            "content": "<span style='font-weight: bold;'>Sebastian</span><br><span>Laki-laki, 28</span><br><span>Austria</span>",
+            "globe_src": "Globe_sebastian.png",
+            "supports": [
+                "nineth",
+                "fourth",
+                "second",
+                "thirteenth",
+                "sixth",
+                "eleventh"
+            ]
+        },
+        "7": {
+            "image_src": "myworld_juanita.png",
+            "content": "<span style='font-weight: bold;'>Juanita</span><br><span>Perempuan, 29</span><br><span>Kanada</span>",
+            "globe_src": "Globe_juanita.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "8": {
+            "image_src": "robert.png",
+            "content": "<span style='font-weight: bold;'>Robert</span><br><span>Laki-laki, 21</span><br><span>Amerika Serikat</span>",
+            "globe_src": "robert_globe.png",
+            "supports": [
+                "tenth",
+                "sixteenth",
+                "fourth",
+                "second",
+                "first",
+                "fourteenth"
+            ]
+        }
+    },
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "PENDIDIKAN"
+            },
+            {
+                "id": "1",
+                "name": "Sekolah Dasar"
+            },
+            {
+                "id": "2",
+                "name": "Tamat Sekolah Dasar"
+            },
+            {
+                "id": "3",
+                "name": "Tamat Sekolah Menengah"
+            },
+            {
+                "id": "4",
+                "name": "Pendidikan Tinggi"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "gender",
+                "ballot_gender": "gender"
+            },
+            {
+                "id": "1",
+                "name": "Laki-laki",
+                "ballot_gender": "Laki-laki"
+            },
+            {
+                "id": "2",
+                "name": "Perempuan",
+                "ballot_gender": "Perempuan"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "usia"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "negara"
+            },
+            {
+                "id": "1",
+                "name": "Afghanistan"
+            },
+            {
+                "id": "159",
+                "name": "Afrika Selatan"
+            },
+            {
+                "id": "33",
+                "name": "Afrika Tengah"
+            },
+            {
+                "id": "2",
+                "name": "Albania"
+            },
+            {
+                "id": "3",
+                "name": "Aljazair"
+            },
+            {
+                "id": "185",
+                "name": "Amerika Serikat"
+            },
+            {
+                "id": "4",
+                "name": "Andorra"
+            },
+            {
+                "id": "5",
+                "name": "Angola"
+            },
+            {
+                "id": "6",
+                "name": "Antigua and Barbuda"
+            },
+            {
+                "id": "149",
+                "name": "Arab Saudi"
+            },
+            {
+                "id": "7",
+                "name": "Argentina"
+            },
+            {
+                "id": "8",
+                "name": "Armenia"
+            },
+            {
+                "id": "9",
+                "name": "Australia"
+            },
+            {
+                "id": "10",
+                "name": "Austria"
+            },
+            {
+                "id": "11",
+                "name": "Azerbaijan"
+            },
+            {
+                "id": "12",
+                "name": "Bahama"
+            },
+            {
+                "id": "13",
+                "name": "Bahrain"
+            },
+            {
+                "id": "14",
+                "name": "Banglades"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "121",
+                "name": "Belanda"
+            },
+            {
+                "id": "16",
+                "name": "Belarus"
+            },
+            {
+                "id": "17",
+                "name": "Belgia"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benin"
+            },
+            {
+                "id": "20",
+                "name": "Bhutan"
+            },
+            {
+                "id": "21",
+                "name": "Bolivia (Negara Plurinasional)"
+            },
+            {
+                "id": "22",
+                "name": "Bosnia Herzegovina"
+            },
+            {
+                "id": "23",
+                "name": "Botswana"
+            },
+            {
+                "id": "24",
+                "name": "Brazil"
+            },
+            {
+                "id": "25",
+                "name": "Brunei Darussalam"
+            },
+            {
+                "id": "26",
+                "name": "Bulgaria"
+            },
+            {
+                "id": "27",
+                "name": "Burkina Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "32",
+                "name": "Cape Verde"
+            },
+            {
+                "id": "45",
+                "name": "Ceko"
+            },
+            {
+                "id": "34",
+                "name": "Chad"
+            },
+            {
+                "id": "35",
+                "name": "Cili"
+            },
+            {
+                "id": "36",
+                "name": "China"
+            },
+            {
+                "id": "38",
+                "name": "Comoros"
+            },
+            {
+                "id": "48",
+                "name": "Denmark"
+            },
+            {
+                "id": "49",
+                "name": "Djibouti"
+            },
+            {
+                "id": "50",
+                "name": "Dominika"
+            },
+            {
+                "id": "51",
+                "name": "Dominika (Republik)"
+            },
+            {
+                "id": "52",
+                "name": "Ekuador"
+            },
+            {
+                "id": "54",
+                "name": "El Salvador"
+            },
+            {
+                "id": "56",
+                "name": "Eritrea"
+            },
+            {
+                "id": "57",
+                "name": "Estonia"
+            },
+            {
+                "id": "58",
+                "name": "Ethiopia"
+            },
+            {
+                "id": "59",
+                "name": "Fiji"
+            },
+            {
+                "id": "134",
+                "name": "Filipina"
+            },
+            {
+                "id": "60",
+                "name": "Finlandia"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gambia"
+            },
+            {
+                "id": "64",
+                "name": "Georgia"
+            },
+            {
+                "id": "66",
+                "name": "Ghana"
+            },
+            {
+                "id": "68",
+                "name": "Grenada"
+            },
+            {
+                "id": "69",
+                "name": "Guatemala"
+            },
+            {
+                "id": "70",
+                "name": "Guinea"
+            },
+            {
+                "id": "71",
+                "name": "Guinea-Bissau"
+            },
+            {
+                "id": "55",
+                "name": "Guinea Equatorial"
+            },
+            {
+                "id": "72",
+                "name": "Guyana"
+            },
+            {
+                "id": "73",
+                "name": "Haiti"
+            },
+            {
+                "id": "74",
+                "name": "Honduras"
+            },
+            {
+                "id": "75",
+                "name": "Hongaria"
+            },
+            {
+                "id": "76",
+                "name": "Islandia"
+            },
+            {
+                "id": "77",
+                "name": "India"
+            },
+            {
+                "id": "183",
+                "name": "Inggris"
+            },
+            {
+                "id": "78",
+                "name": "Indonesia"
+            },
+            {
+                "id": "79",
+                "name": "Iran (Republik Islam)"
+            },
+            {
+                "id": "80",
+                "name": "Irak"
+            },
+            {
+                "id": "81",
+                "name": "Irlandia"
+            },
+            {
+                "id": "82",
+                "name": "Israel"
+            },
+            {
+                "id": "83",
+                "name": "Italia"
+            },
+            {
+                "id": "84",
+                "name": "Jamaica"
+            },
+            {
+                "id": "85",
+                "name": "Japan"
+            },
+            {
+                "id": "65",
+                "name": "Jerman"
+            },
+            {
+                "id": "29",
+                "name": "Kambodia"
+            },
+            {
+                "id": "30",
+                "name": "Kamerun"
+            },
+            {
+                "id": "31",
+                "name": "Kanada"
+            },
+            {
+                "id": "87",
+                "name": "Kazakhstan"
+            },
+            {
+                "id": "88",
+                "name": "Kenya"
+            },
+            {
+                "id": "107",
+                "name": "Kepulauan Marshall"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id": "37",
+                "name": "Kolombia"
+            },
+            {
+                "id": "39",
+                "name": "Kongo (Republik)"
+            },
+            {
+                "id": "47",
+                "name": "Kongo (Republik Demokratik)"
+            },
+            {
+                "id": "138",
+                "name": "Korea (Republik)"
+            },
+            {
+                "id": "46",
+                "name": "Korea (Republik Rakyat Demokratik)"
+            },
+            {
+                "id"  : "195",
+                "name": "Kosovo"
+            },
+            {
+                "id": "40",
+                "name": "Kosta Rika"
+            },
+            {
+                "id": "42",
+                "name": "Kroasia"
+            },
+            {
+                "id": "43",
+                "name": "Kuba"
+            },
+            {
+                "id": "90",
+                "name": "Kuwait"
+            },
+            {
+                "id": "91",
+                "name": "Kyrgyzstan"
+            },
+            {
+                "id": "92",
+                "name": "Laos (Republik Rakyat Demokratik)"
+            },
+            {
+                "id": "93",
+                "name": "Latvia"
+            },
+            {
+                "id": "95",
+                "name": "Lesotho"
+            },
+            {
+                "id": "94",
+                "name": "Libanon"
+            },
+            {
+                "id": "96",
+                "name": "Liberia"
+            },
+            {
+                "id": "97",
+                "name": "Libya"
+            },
+            {
+                "id": "98",
+                "name": "Liechtenstein"
+            },
+            {
+                "id": "99",
+                "name": "Lithuania"
+            },
+            {
+                "id": "100",
+                "name": "Luksemburg"
+            },
+            {
+                "id": "101",
+                "name": "Madagaskar"
+            },
+            {
+                "id": "104",
+                "name": "Maladewa"
+            },
+            {
+                "id": "102",
+                "name": "Malawi"
+            },
+            {
+                "id": "103",
+                "name": "Malaysia"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Malta"
+            },
+            {
+                "id": "115",
+                "name": "Maroko"
+            },
+            {
+                "id": "108",
+                "name": "Mauritania"
+            },
+            {
+                "id": "109",
+                "name": "Mauritius"
+            },
+            {
+                "id": "110",
+                "name": "Meksiko"
+            },
+            {
+                "id": "53",
+                "name": "Mesir"
+            },
+            {
+                "id": "111",
+                "name": "Mikronesia (Negara Federasi)"
+            },
+            {
+                "id": "139",
+                "name": "Moldova (Republik)"
+            },
+            {
+                "id": "112",
+                "name": "Monaco"
+            },
+            {
+                "id": "113",
+                "name": "Mongolia"
+            },
+            {
+                "id": "114",
+                "name": "Montenegro"
+            },
+            {
+                "id": "116",
+                "name": "Mozambik"
+            },
+            {
+                "id": "117",
+                "name": "Myanmar"
+            },
+            {
+                "id": "118",
+                "name": "Namibia"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "123",
+                "name": "Nikaragua"
+            },
+            {
+                "id": "124",
+                "name": "Niger"
+            },
+            {
+                "id": "125",
+                "name": "Nigeria"
+            },
+            {
+                "id": "126",
+                "name": "Norwegia"
+            },
+            {
+                "id": "127",
+                "name": "Oman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Palestine (State of)"
+            },            
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panama"
+            },
+            {
+                "id": "41",
+                "name": "Pantai Gading"
+            },
+            {
+                "id": "131",
+                "name": "Papua Nugini"
+            },
+            {
+                "id": "132",
+                "name": "Paraguay"
+            },
+            {
+                "id": "61",
+                "name": "Perancis"
+            },
+            {
+                "id": "182",
+                "name": "Persatuan Emirat Arab"
+            },
+            {
+                "id": "133",
+                "name": "Peru"
+            },
+            {
+                "id": "135",
+                "name": "Polandia"
+            },
+            {
+                "id": "136",
+                "name": "Portugal"
+            },
+            {
+                "id": "137",
+                "name": "Qatar"
+            },
+            {
+                "id": "140",
+                "name": "Romania"
+            },
+            {
+                "id": "141",
+                "name": "Rusia"
+            },
+            {
+                "id": "142",
+                "name": "Rwanda"
+            },
+            {
+                "id": "143",
+                "name": "Saint Kitts and Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Saint Lucia"
+            },
+            {
+                "id": "145",
+                "name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao Tome and Principe"
+            },
+            {
+                "id": "122",
+                "name": "Selandia Baru"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Serbia"
+            },
+            {
+                "id": "152",
+                "name": "Seychelles"
+            },
+            {
+                "id": "153",
+                "name": "Sierra Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapore"
+            },
+            {
+                "id": "44",
+                "name": "Siprus"
+            },
+            {
+                "id": "155",
+                "name": "Slovakia"
+            },
+            {
+                "id": "156",
+                "name": "Slovenia"
+            },
+            {
+                "id": "157",
+                "name": "Solomon Islands"
+            },
+            {
+                "id": "158",
+                "name": "Somalia"
+            },
+            {
+                "id": "161",
+                "name": "Spanyol"
+            },
+            {
+                "id": "162",
+                "name": "Sri Lanka"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "160",
+                "name": "Sudan Selatan"
+            },
+            {
+                "id": "168",
+                "name": "Suriah"
+            },
+            {
+                "id": "164",
+                "name": "Suriname"
+            },
+            {
+                "id": "165",
+                "name": "Swaziland"
+            },
+            {
+                "id": "166",
+                "name": "Swedia"
+            },
+            {
+                "id": "167",
+                "name": "Swiss"
+            },
+            {
+                "id": "169",
+                "name": "Tajikistan"
+            },
+            {
+                "id": "184",
+                "name": "Tanzania"
+            },
+            {
+                "id": "170",
+                "name": "Thailand"
+            },
+            {
+                "id": "171",
+                "name": "The former Yugoslav Republic of Macedonia"
+            },
+            {
+                "id": "172",
+                "name": "Timor-Leste"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tonga"
+            },
+            {
+                "id": "175",
+                "name": "Trinidad and Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunisia"
+            },
+            {
+                "id": "177",
+                "name": "Turki"
+            },
+            {
+                "id": "178",
+                "name": "Turkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Uganda"
+            },
+            {
+                "id": "181",
+                "name": "Ukraina"
+            },
+            {
+                "id": "186",
+                "name": "Uruguay"
+            },
+            {
+                "id": "187",
+                "name": "Uzbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Venezuela"
+            },
+            {
+                "id": "190",
+                "name": "Viet Nam"
+            },
+            {
+                "id": "191",
+                "name": "Yaman"
+            },
+            {
+                "id": "86",
+                "name": "Yordania"
+            },
+            {
+                "id": "67",
+                "name": "Yunani"
+            },
+            {
+                "id": "192",
+                "name": "Zambia"
+            },
+            {
+                "id": "193",
+                "name": "Zimbabwe"
+            }
+        ]
+    },
+    "various_values": {
+        "priority-item-content": "Ketik di sini",
+        "submit-label": "pilih",
+        "send-label": "kirim",
+        "contact-us-submit": "Kirim",
+        "ballot-in": "di",
+        "ballot-vote-for": "Memilih untuk:",
+        "ballot-vote-id": "Pilih:",
+        "ballot-your-turn": "Sekarang giliranmu...",
+        "ballot-name": "Masukan nama anda",
+        "social-title": "Kami membutuhkan bantuan anda untuk melakukan dua hal sederhana <br> saat anda mengadvokasikan perubahan:",
+        "social-title-one": "Tambahkan nama ANDA pada surat pemungutan suara ANDA",
+        "social-title-two": "Bagikan pilihan ANDA dan ajak teman-teman anda untuk ikut memilih",
+        "social-share": "Bagikan pilihan anda",
+        "vote-again": "Apakah ada orang lain ditempat anda yang ingin berpartisipasi?",
+        "vote-again-link": "Pilih sekali lagi menggunakan komputer ini.",
+        "stay-in-touch": "Kami ingin tetap menjaga hubungan...",
+        "your-email-address": "Alamat email anda",
+        "sign-me-up": "DAFTARKAN SAYA",
+        "facebook-btn": "BAGIKAN DI FACEBOOK",
+        "facebook-text": "Perserikatan Bangsa-Bangsa ingin mendengarkan anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya & tentukan pilihan! http://www.myworld2015.org/?ballot=-1",
+        "twitter-btn": "Share on Twitter",
+        "twitter-text": "#UN ingin mendengarkan pendapat anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. http://myworld2015.org/?ballot=-1 @MyWorld2015",
+        "sina-btn": "Share on Weibo",
+        "sina-text": "Perserikatan Bangsa-Bangsa ingin mendengarkan anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya & tentukan pilihan! http://www.myworld2015.org/?ballot=-1",
+        "orkut-btn": "Share on Orkut",
+        "orkut-text": "Perserikatan Bangsa-Bangsa ingin mendengarkan anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya & tentukan pilihan! http://www.myworld2015.org/?ballot=-1",
+        "googleplus-btn": "Share on Google Plus",
+        "googleplus-text": "The United Nations wants to hear from you. I have just told them my priorities for creating a better world. Join me and vote!",
+        "sharethis-btn": "Share on Sharethis",
+        "sharethis-text": "Perserikatan Bangsa-Bangsa ingin mendengarkan anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya & tentukan pilihan! http://www.myworld2015.org/?ballot=-1",
+        "map-header-text": "Periksa jumlah pilihan sejauh ini",
+        "email-sent": "Terima kasih!"
+    },
+    "pages": {
+        "methodology-title": "Metodologi",
+        "methodology-content": "<h2 class='methodology-main-header'>Jawaban pertanyaan-pertanyaan umum</h2><br/><br/><h2 class='methodology-header'>Latar Belakang: agenda pembangunan global pasca-2015</h2><br/><ul class='list-extra-pages'><li>Tujuan-tujuan Pembangunan Millenium (MDGs) telah berdampak besar pada kehidupan triliunan orang, namun masih banyak yang perlu dilakukan untuk mengatasi kemiskinan ekstrem, berbagai penyakit dan krisis lingkungan.</li><li>Agenda pembangunan global untuk periode setelah 2015 akan dibentuk sejalan dengan kemajuan MDGs seraya menghadapi ketidaksetaraan yang berkepanjangan dan tantangan-tantangan baru yang dihadapi manusia dan Bumi.</li><li>Agenda pembangunan baru harus dihasilkan dari proses yang benar-benar terbuka dan inklusif yang melibatkan orang-orang dari segala penjuru dunia dan seluruh lapisan masyarakat.</li><li>PBB dan Panel Tingkat Tinggi Sekretaris-Jenderal pada pasca-2015 ingin mendengar secara langsung dari masyarakat di seluruh dunia mengenai apa yang penting bagi mereka, agar pandangan-pandangan mereka dapat diperhitungkan dalam diskusi global ini. MY World dipahami sebagai alat untuk menyampaikan ini.</li></ul><h2 class='methodology-header'>Apakah MY World?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Perserikatan Bangsa-Bangsa dan para mitra telah bekerjasama untuk mengadakan survei global yang inovatif, dikenal sebagai MY World, sehingga orang-orang dapat berpartisipasi dalam proses pasca-2015 yang menjelaskan perubahan yang akan memberikan perbedaan paling berarti bagi kehidupan mereka.</span></li><li><span class='highlight-extra-pages'>Ini merupakan sebuah survei pilihan</span>, melalui metode online dan offline yang kreatif, yang memungkinkan masyarakat di seluruh dunia menyampaikan pada Perserikatan Bangsa-Bangsa, para pemimpin dunia – dan khususnya Panel Tingkat Tinggi Sekretaris-Jenderal, isu-isu yang paling penting yang diharapkan ditangani agenda pasca-2015.</li><li><span class='highlight-extra-pages'>My World meminta para individu memilih setidaknya enam dari enam belas isu yang dianggap akan membuat perbedaan paling nyata bagi kehidupan mereka. Enam belas isu tersebut telah dibentuk berdasarkan prioritas-prioritas yang diungkapkan oleh masyarakat miskin melalui penelitian dan poling yang berlangsung, dan dari diskusi-diskusi teknis serta politik yang tengah berlangsung mengenai tujuan-tujuan masa depan yang mungkin ditetapkan. Hal tersebut mencakup MDGs yang ada, ditambah isu-isu tentang keberlanjutan, keamanan, pemerintahan dan transparasi.</li></ul><h2 class='methodology-header'>Bagaimana ini akan bekerja?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Survei tersebut tersedia secara online di www.myworld2015.org</span> dalam enam bahasa resmi PBB. Masyarakat juga akan dapat berpartisipasi dalam survei ini melalui <span class='highlight-extra-pages'>teknologi selular</span> seperti SMS dan IVR (nomor telepon bebas pulsa) <span class='highlight-extra-pages'>sejak Januari 2013.</span></li><li>Survei tersebut juga akan <span class='highlight-extra-pages'>tersedia secara offline dalam bentuk formulir yang</span> – didistribusikan melalui jaringan organisasi  akar rumput, komunitas berbasis keimanan, kelompok pemuda, badan sektor swasta dan para mitra LSM di seluruh dunia. Dukungan dari organisasi-organisasi ini <span class='highlight-extra-pages'>sangat penting dalam menjangkau masyarakat secara langsung dan</span> menggambarkan masyarakat yang tidak terhubung secara digital, buta aksara, dan paling miskin ke dalam perdebatan global.</li><li>Para peserta akan mendapat pertanyaan tentang jender, usia dan asal negara mereka untuk memungkinkan pemisahan data dan untuk memberikan gambaran global yang akurat tentang apa yang dipikirkan oleh para warga dunia kepada para pembuat keputusan.</li></ul><h2 class='methodology-header'>Kapan dan di mana ini berlangsung?</h2><br/><ul class='list-extra-pages'><li>Saat ini hingga 2015, kami menginginkan keterlibatan sebanyak mungkin masyarakat di di berbagai negara: warga dunia dari semua umur, jender, dan latar belakang, khususnya dari negara-negara miskin dan masyarakat yang terpinggirkan.</li><li>My World akan tersedia sejak awal Desember 2012, sehingga negara-negara yang menyelenggarakan konsultasi nasional dapat memperhitungkannya. Namun, peluncuran global dari My World dijadwalkan akhir Januari 2013 (pada waktu tersebut, panduan komunikasi komprehensif akan tersedia bagi semua).</li></ul><h2 class='methodology-header'>Apa saja enam belas pilihan tersebut?</h2><br/><ul class='list-extra-pages'><li> Kesempatan kerja yang lebih baik</li><li>Dukungan bagi orang-orang yang tidak dapat bekerja</li><li> Pendidikan yang baik</li><li> Layanan kesehatan yang lebih baik</li><li> Makanan bergizi yang terjangkau</li><li> Akses telepon dan internet</li><li> Jalan dan transportasi yang lebih baik</li><li> Akses untuk air bersih dan sanitasi</li><li> Energi yang dapat diandalkan di rumah</li><li> Aksi untuk perubahan iklim</li><li> Melindungi hutan, sungai, dan lautan</li><li> Kesetaraan antara laki-laki dan perempuan</li><li> Perlindungan terhadap kejahatan dan kekerasan</li><li> Kebebasan politik</li><li> Pemerintah yang jujur dan tanggap</li><li> Kebebasan dari diskriminasi dan penganiayaan</li></ul><h2 class='methodology-header'>Apa yang akan terjadi dengan hasil survei?</h2><br/><ul class='list-extra-pages'><li>Data dari telepon selular, survei website dan offline akan terus dikonsolidasi dan tersedia di website My World.</li><li>Hasil akan dikumpulkan kepada Panel Tingkat Tinggi Sekretaris-Jenderal pada agenda pembangunan pasca 2015  sebelum mereka menyerahkan laporan akhir kepada Sekretaris-Jenderal Perserikatan Bangsa-Bangsa pada Juni 2013. My World akan terus mengumpulkan suara masyarakat dan hasilnya akan disampaikan pada Sekretaris-Jenderal dan para pemimpin dunia sambil mempersiapkan agenda pembangunan berikutnya yang berjalan hingga tahun 2015.</li></ul><br/><br/><h2 class='methodology-main-header'>Jawaban pertanyaan-pertanyaan metodologi dasar</h2><br/><br/><br/><h2 class='methodology-header'>Untuk apakah survei ini?</h2><br/>My World merupakan cara untuk mendengarkan pandangan masyarakat tentang wujud kesepakatan global terkini tentang pembangunan. Hal ini akan melengkapi inisiatif lain yang membawa suara para warga dunia ke dalam perdebatan pasca-2015, seperti proyek <span class='pages-italics'>“Partisipasi”</span>, oleh Institute for Development Studies dan Beyond 2015 coalition of civil society organisations yang melakukan penelitian kualitatif mendalam ke dalam prioritas-prioritas masyarakat, dan sejumlah konsultasi nasional dan tematis yang diselenggarakan oleh Perserikatan Bangsa-Bangsa di seluruh dunia.<br/><br/>My World melengkapi inisiatif tersebut dengan menyediakan data kuantitatif pada prioritas-prioritas yang ada. Pilihan-pilihan di dalam survei sengaja dirancang pada tingkatan yang lebih umum: misalnya <span class='pages-italics'>‘layanan kesehatan yang lebih baik’</span> atau <span class='pages-italics'>‘kesetaraan antara laki-laki dan perempuan’</span> agar isu-isu ini dapat dipahami oleh masyarakat biasa, Konsultasi-konsultasi lainnya akan saling melengkapi dan menyediakan informasi tambahan yang memungkinkan para pembuat kebijakan memahami pandangan dan prioritas masyarakat yang terkandung dalam setiap pilihan tersebut, serta untuk mempertimbangkan jika dan bagaimana ini dapat diterjemahkan ke dalam berbagai tujuan, target dan indikator.<br/><br/>My World menjadi penghubung dengan proses konsultasi lainnya, dan proses politik yang fokus pada bagaimana memprioritaskan dalam menciptakan agenda tujuan yang dapat dikelola. My World akan memungkinkan pandangan-pandangan para warga dunia untuk dimasukkan ke dalamnya.<br/><br/>Tujuannya adalah tidak untuk menciptakan ‘jawaban’ pasti tentang apa yang sebaiknya menjadi prioritas dunia, namun lebih untuk memberikan informasi kepada para pembuat keputusan dan jaminan bahwa apa yang muncul pada akhir proses pasca-2015 merupakan hasil pandangan dari sejumlah besar masyarakat.<br/><br/><br/><h2 class='methodology-header'>Mengapa 16 pilihan ini?</h2><br/>Memilih daftar pilihan dari sebuah proposal seperti ini adalah tugas yang sangat sulit. Ini merupakan proses yang kami lalui untuk memilih dari 16 pilihan tersebut:<br/><ol class='ordered-list-extra-pages'><li>Daftar awal dari 24 pilihan utama dan paragraf-paragraf penjelasan disusun  berdasarkan isu-isu Tujuan Pembangunan Millenium saat ini sebuah tinjauan dari masyarakat sipil dan proposal lainnya untuk pasca-2015, berbagai proposal Tujuan-Tujuan Pembangunan Berkelanjutan, dan data yang diambil dari penelitian dan pemungutan suara partisipatif. Pilihan-pilihan yang diambil dibentuk dari tema jelas dari sumber-sumber tersebut, dan cenderung menjadi isu-isu global.</li><li>Daftar tersebut kemudian dikonsultasikan, di antara kelompok individu dari LSM, para pembuat kebijakan, akademisi dan pegawai PBB di sejumlah besar negara dan wilayah. Berdasarkan masukan dari proses tersebut, diputuskan untuk mengurangi daftar menjadi 15 pilihan, dengan tujuan membuat survei tersebut lebih sederhana dan lebih mudah diakses. Daftar tersebut kemudian dikonsultasikan kembali di antara kelompok yang lebih kecil, termasuk perusahaan pemungutan suara berbasis pendapat yang berbasis di Afrika, untuk putaran kedua.<li>Mengikuti konsultasi ini, diputuskan untuk menambah jumlah menjadi 16 pilihan untuk mengakomodasi masukan-masukan pada putaran berikutnya.</li><li>Sebuah uji akhir dilakukan melalui survei SMS di Uganda, di mana sebuah pertanyaan terbuka ditanyakan dan tanggapan-tanggapan didata kembali menjadi 16 pilihan. Ketika ditanyakan mengenai isu-isu yang paling penting bagi para individu dan keluarga, kurang dari empat persen tanggapan tidak termasuk ke dalam  16 pilihan kategori tersebut.</li></ol>Kami sangat percaya bahwa kami memliki sederet pilihan yang seimbang, yang mencerminkan beragam isu yang diperhatikan oleh masyarakat di seluruh dunia dan isu-isu lain yang memungkinkan untuk dikembangkan sebagai tujuan baru. Sederet pilihan tersebut tidak dapat mencakup semua hal yang penting bagi masyarakat, namun diharapkan mewakili beragam isu yang kita ketahui penting bagi masyarakat, organisasi-organisasi dan pemerintah. Pengantar survei tersebut, baik online maupun offline, akan menekankan bahwa semua pilihan ini penting namun kita sedang berusaha merumuskan pilihan yang paling penting sebagai pilihan akhir dari beberapa tujuan global.<br/><br/><br/><h2 class='methodology-header'>Bagaimana jika saya ingin memilih opsi berbeda?</h2><br/>Survei tersebut menyediakan kesempatan bagi para partisipan untuk memasukkan prioritas mereka sendiri, melalui pilihan ke-17 <span class='pages-italics'>‘pilihan Anda sendiri’</span>. Jawaban yang tersedia di sini akan dianalisis dengan sangat hati-hati untuk mengetahui apakah ada tema-tema yang terlewat atau ide-ide baru yang menghasilkan dukungan. Analisis dari bentuk pilihan bebas ini akan disediakan.<br/><br/><br/><h2 class='methodology-header'>Mengapa pilihan-pilihan disampaikan seperti ini?</h2><br/>Pilihan-pilihan tersebut harus dapat dipahami oleh setiap orang di manapun berada, tidak hanya oleh para ahli pembangunan. Kami bekerja dengan perusahaan pemungutan suara Afrika dan dengan para ahli komunikasi di tiga organisasi untuk merevisi bahasa demi menjamin bahwa ini dapat diakses dan sebisa mungkin bebas dari jargon atau referensi-referensi budaya tertentu.<br/><br/><br/><h2 class='methodology-header'>Mengapa Anda bertanya ‘apa yang paling penting bagimu dan keluarga Anda’?</h2><br/>Walaupun persetujuan pasca-2015 akan mendunia, tujuan akhirnya adalah untuk membuat hidup masyarakat menjadi lebih baik bagi orang-orang. Oleh karenanya mempertanyakan apa yang penting kepada masyarakat merupakan cara yang lebih baik dan jelas daripada meminta mereka untuk membayangkan suatu kesepakatan global yang jauh dan apa yang termasuk di dalam kesepakan tersebut. Survei tersebut dirancang seputar prioritas para individu, namun kami mengetahui bahwa bagi banyak orang, kepentingan pribadi dan pilihan mereka terkait erat kepada keluarganya (orangtua, misalnya, mungkin menjawab pertanyaan tersebut sebagai pandangan mereka untuk anak-anaknya). Oleh karena itu, kami mencoba meyakinkan bahwa pada saat kami menanyakan orang-orang tentang apa yang penting bagi mereka secara individu, kami mengenali bahwa kebahagiaan mereka terikat dengan yang lain.<br/><br/>Selain itu, bentuk pertanyaan seperti ini mempersempit kemungkinan timbulnya penafsiran berbeda dari responden terhadap setiap pertanyaan resiko ini muncul jika kami mengajukan pertanyaan yang lebih luas tentang prioritas-prioritas tersebut bagi pemerintahan global, atau yang mengenai negara atau prioritas-prioritas masyarakat.<br/><br/><br/><h2 class='methodology-header'>Mengapa membatasi orang-orang dengan 16 pilihan … tidak dapatkah Anda menanyakan pertanyaan terbuka?</h2><br/>My World hanyalah satu bagian dari upaya konsultasi global pada pasca-2015, dan konsultasi lainnya melibatkan pertanyaan-pertanyaan terbuka. Ada banyak cara bagi masyarakat untuk mengedepankan pandangan mereka, dan cara-cara berbeda ini dapat saling melengkapi. Peran My World adalah untuk menawarkan pandangan tentang prioritas-prioritas masyarakat, dan untuk tujuan itu, diperlukan sederetan pilihan-pilihan awal sebagai dasar penentuan prioritas. Sebagaimana yang digambarkan di atas, upaya-upaya luar biasa telah dibuat untuk menjamin bahwa pilihan-pilihan tersebut mewakili hal-hal penting menurut masyarakat.<br/><br/>Selain itu, ada dua alasan teknis dan metodologis untuk menanyakan pertanyaan-pertanyaan tertutup:<br/><ul class='list-extra-pages'><li>Mengingat bahwa survei akan dilakukan dalam berbagai bahasa serta melalui media berbeda (web, SMS dan offline), teknologi terkini tidak cukup baik bagi respon-respon atas pertanyaan terbuka untuk dikelompokkan secara konsisten dan dipercaya ke dalam kelompok kecil untuk analisis menggunakan software yang tersedia. Masukan data secara manual dari jutaan tanggapan yang kami harapkan akan membuat proyek ini mahal dan memakan waktu.</li><li>Para mitra pemungutan suara utama berbagi pengalaman mereka dan menyatakan bahwa tingkat partisipasi sangat rendah jika diajukan pertanyaan-pertanyaan terbuka. Hal ini tidak mengejutkan karena membutuhkan pemikiran dan upaya lebih dari para partisipan.</li></ul><br/><h2 class='methodology-header'>Namun Anda tidak dapat benar-benar mengatasi kemiskinan melalui sederet isu tunggal– segalanya berhubungan</h2><br/>Kami setuju. Itulah mengapa hal ini penting untuk menawarkan masyarakat sejumlah besar pilihan dan memungkinkan mereka untuk memilih lebih dari satu. Memilih 6 dari 16 akan memungkinkan mereka untuk berpikir mengenai kombinasi aksi apa yang akan menghasilkan efek terbaik. Hal ini juga memungkinkan masyarakat untuk memilih pilihan yang mengatasi masalah yang sama dalam cara yang berbeda: orangtua memperhatikan bahwa anak perempuannya seharusnya mendapat pendidikan yang baik, misalnya, mungkin ingin memilih baik ‘kesetaraan antara laki-laki dan perempuan’ dan ‘pendidikan yang baik’ untuk mewakili dimensi-dimensi berbeda dari perubahan-perubahan yang mereka harapkan.<br/><br/>Kami menguji jajak pendapat dengan tiga kelompok percontohan untuk melihat apakah ada perbedaannya jika orang-orang diminta untuk memilih 3, 5, atau 7 pilihan. Para responden ditanya apakah survei tersebut lebih sulit/ lebih mudah dan lebih atau kurang menyenangkan. Tidak ada perbedaan nyata yang ditemukan.<br/><br/><br/><h2 class='methodology-header'>Bagaimana Anda dapat mengetahui apakah orang-orang yang menjawab survei mewakili populasi secara keseluruhan atau kelompok-kelompok berbeda di dalamnya?</h2><br/>Kami akan berusaha semaksimal mungkin menemukenali orang-orang yang menjawab survei ini, sehingga kami dapat menyampaikan sebanyak mungkin mengenai siapakah mereka, kami akan sangat hati-hati untuk tidak memberi pernyataan berlebihan dan akan terbuka dan transparan mengenai isi dan keterbatasan data. Selain itu, kami menerima masukan dari pendapat ahli perusahaan pemungutan suara global tentang bagaimana untuk menganalisa dan menyajikan data. Tingkat informasi tersebut sebagaimana berikut:<br/><ul class='list-extra-pages'><li> Jender – semua responden akan ditanya jender mereka sehingga ini berlaku untuk semua data</li><li> Usia – semua responden</li><li> Negara – semua responden</li><li> Metode respon – kami akan dapat menganalisa data berdasarkan bagaimana orang-orang mengisi survei ini, yang akan terjadi perbedaan-perbedaan luas apapun antara tiga kelompok tersebut.</li><li> Tanggal dan waktu respon –Untuk mengevaluasi dampak dari kampanye pemasaran apapun dan untuk menyambut program-program otomastis apapun yang dapat melengkapi hasil.</li><li> Tingkat pendidikan –  hal ini akan ditanyakan kepada semua partisipan offline dan SMS. Selain itu, pertanyaan ini akan disampaikan, sebagai opsi tambahan, kepada semua partisipan online (hal ini untuk meminimalisir tingkat dropout)</li><li> Wilayah sub-nasional – Kami akan mendapat informasi ini mengenai partisipan SMS dari operator-operator selular, dan tentang partisipan offline dari para pensurvei. Pertanyaan ini kembali menjadi opsi tambahan bagi para partisipan online, yang tujuannya untuk meminimalisir tingkat dropout.</li></ul>Informasi yang akan kami kumpulkan tersebut akan memiliki tingkat rincian yang mirip dengan yang dikumpulkan oleh Gallup World Survey dan contoh-contoh perwakilan global lainnya. Kami tidak akan mengambil contoh secara acak menggunakan cara yang dilakukan oleh Gallup, kami akan menggunakan data sosial dan demografis yang kami kumpulkan untuk menggambarkan sejauh mana contoh di masing-masing negara dapat mencerminkan populasi secara keseluruhan. Hal ini akan diperjelas saat data tersebut diterbitkan.<br/><br/><br/><h2 class='methodology-header'>Bagaimana Anda akan menyajikan data?</h2><br/>Data dapat dilihat dari survei web di waktu yang sedang berlangsung, dan data dari survei SMS dan offline juga akan ditangani secepat mungkin untuk memastikan hasil terkini.<br/><br/>Selain itu, informasi tambahan yang dikumpulkan dari orang-orang yang mengisi survei akan digunakan untuk memisahkan data demi menyediakan gambaran bagaimana prioritas-prioritas berbeda antar negara, demografis dan kelompok-kelompok sosial-ekonomi. Kami akan melaporkan prioritas dari kelompok-kelompok dan negara-negara berbeda secara terpisah.<br/><br/>Kami juga akan menyatukan hasil-hasil dari negara, wilayah, dan secara global. Dalam melakukan hal tersebut, kami akan menggunakan informasi yang dikumpulkan dari para partisipan untuk mempertimbangkan tanggapan sehingga ketika data dikumpulkan, hal ini selesai dengan cara menyediakan gambaran yang sebisa mungkin mewakili penduduk secara keseluruhan. Pilihan-pilihan (untuk dipertimbangkan) meliputi:<br/><ul class='list-extra-pages'><li> <span class='highlight-extra-pages'>Faktor-faktor demografis:</span> menimbang respon dari masing-masing negara sesuai dengan tingkat populasi, baik dari laki-laki maupun perempuan dan kelompok usia berbeda untuk mencerminkan keseimbangan dalam populasi tersebut.</li><li> <span class='highlight-extra-pages'>Faktor-faktor sosio-ekonomi dan demografi wilayah sub-nasional.</span> Kami mengharapkan untuk memiliki informasi mengenai tingkat pendidikan dan wilayah kediaman sub-nasional dalam sub-grup yang cukup besar dari total responden. Jika angka-angka tersebut sudah cukup besar, maka akan memungkinkan untuk memenuhi tanggapan dalam cara yang mencerminkan sosio-ekonomi dan juga komposisi demografis dari negara.</li><li> <span class='highlight-extra-pages'>Perkiraan (Proxies) untuk pendapatan:</span> sejauh tiga metode tanggapan merupakan wakil untuk tiga kelompok pendapatan, dengan yang paling kaya cenderung memiliki akses untuk web dan yang paling miskin cenderung di antara yang berpartisipasi secara offline. Hal ini khususnya menjadi perhatian untuk survei offline yang akan meliputi wilayah-wilayah yang paling miskin di negara-negara berbeda yang dikelola. Kami akan melakukan percobaan dengan cara yang berbeda untuk menimbang respon-respon berdasarkan bagaimana survei tersebut dilakukan untuk mencerminkan pola populasi regional dan distribusi kelompok-kelompok pendapatan di Negara-negara tersebut.</li></ul><br/><h2 class='methodology-header'>Jika agenda pasca-2015 mengenai pemberantasan kemiskinan…mengapa kita harus peduli dengan prioritas orang-orang yang tidak miskin?</h2><br/>Kami harus memberi perhatian besar dalam mengembangkan metodologi untuk memastikan bahwa prioritas-prioritas masyarakat miskin dimasukkan dalam survei ini, dan memungkinkan respon mereka untuk dianalisa secara terpisah dari yang lain. Kami telah menggunakan data survei rumah tangga untuk mengidentifikasi wilayah-wilayah dalam negara tempat masyarakat paling miskin bermukim, dan akan memusatkan kegiatan survei offline di wilayah-wilayah tersebut untuk memastikan cakupan masyarakat miskin. Selain itu, kami sedang berencana untuk bekerja dengan kelompok-kelompok LSM yang dapat memberi masukan tentang bagaimana melakukan survei dengan kelompok-kelompok khusus yang sulit dijangkau seperti anak-anak, orang lanjut usia dan penyandang disabilitas. Banyak dari LSM yang sama tersebut akan melakukan survei dengan masyarakat yang bekerja dengan mereka. Sehingga jika fokusnya adalah hanya masyarakat yang benar-benar miskin, upaya ini memungkinkan untuk memperoleh dan menggunakan data yang dihasilkan. Ketika data tersebut disatukan pada tingkat global, kami menggunakan teknik-teknik perbandingan untuk memastikan bahwa respon masyarakat miskin terhitung sebanding dengan jumlah mereka dalam populasi secara keseluruhan, dan tidak diredam oleh tanggapan luas dari web di negara-negara berpenghasilan tinggi.<br/><br/>Survei ini dirancang untuk global karena setiap orang memiliki aspirasi dan menghadapi berbagai masalah kehidupan. Sangat sering prioritas-prioritas dari kelompok-kelompok berbeda lebih mirip dari yang mungkin kami harapkan. Memahami bagaimana masyarakat di setiap negara memandang kehidupan mereka dan hal yang ingin mereka ubah akan memudahkan pembentukan konstitusi politik untuk mendorong kesepakatan baru. Semakin kerangka mencerminkan konsesus global tentang prioritas, semakin mudah akan membangun kebijakan yang dapat mewujudkannya.<br/><br/><br/><h2 class='methodology-header'>Tidak adakah sesuatu yang lebih pada kerangka baru ini daripada sekadar daftar singkat isu-isu paling penting bagi orang-orang di seluruh dunia?</h2><br/>Survei MY World hanyalah satu dari ragam konsultasi dan proses politik yang akan berkontribusi dalam kesepakatan baru. Mengetahui prioritas bagi kelompok-kelompok berbeda penting dalam membentuk proses politik tersebut.<br/><br/>Dalam menyusun 16 pilihan, kami sangat sadar bahwa proses ini mengenai merancang tujuan-tujuan global, sehingga pilihan-pilihan tersebut mewakili isu-isu yang dapat bermanfaat dan layak ditangani melalui tindakan internasional. Kami tidak memasukkan beberapa hal, seperti, misalnya, agama, yang kami ketahui sangat penting bagi masyarakat namun akan kurang sesuai sebagai subjek bagi tujuan-tujuan global baru.",
+        "contact-title": "Hubungi Kami",
+        "contact-content": "Segera Datang.",
+        "policy-title": "Kebijakan Privasi",
+        "policy-content": "Kebijakan privasi ini mengatur bagaimana \"My World\" menggunakan dan melindungi informasi yang anda berikan ketika menggunakan website ini.<br/><br/>“My World” berkomitmen untuk memastikan bahwa privasi anda terjaga. Jika kami meminta anda untuk memberikan informasi tertentu yang dapat membuat anda dikenali di situs web ini, anda tidak perlu khawatir karena informasi tersebut akan digunakan sesuai dengan pernyataan privasi ini.<br/><br/>“My World” dapat mengubah kebijakan ini dari waktu ke waktu dengan memperbarui halaman ini. Silakan periksa halaman ini secara berkala untuk memastikan bahwa anda tidak keberatan dengan perubahan yang ada. <br/><br/><span class='highlight-extra-pages'>Apa yang kami kumpulkan</span><br/>Berikut ini adalah informasi yang  akan kami kumpulkan: <br/><br/><ul class='list-extra-pages'><li>6 prioritas yang telah anda pilih</li><li>Prioritas lain yang anda tambahkan</li><li>Jenis kelamin, Usia and Negara asal anda</li></ul> <span class='highlight-extra-pages'>Apa yang kami lakukan dengan informasi yang kami kumpulkan</span><br/><br/>“My World”  TIDAK menjual atau membagikan hasil survei anda dengan pihak ketiga.<br/><br/> Hasil survei dari situs web, telepon genggam dan survei offline akan disampaikan kepada Panel Tingkat Tinggi Sekretaris-Jenderal PBB tentang Pasca-2015 sebelum pertemuan mereka di Monrovia (Februari), Bali (Maret) dan New York (Mei) 2013. <br/><br/><span class='highlight-extra-pages'>Security</span><br/> Kami berkomitmen untuk memastikan keamanan informasi yang anda berikan. Dalam rangka mencegah  adanya akses atau keluarnya informasi yang tidak diotorisasi, kami telah menerapkan prosedur yang sesuai baik secara fisik, elektronik dan manajerial dalam menjaga informasi yang kami peroleh secara online. <br/><br/><span class='highlight-extra-pages'>Bagaimana kami menggunakan cookies</span><br/> Cookie merupakan sebuah file kecil yang meminta izin untuk ditempatkan pada hard drive komputer anda. Setelah anda menyetujuinya, file tersebut akan ditambahkan dan cookie akan membantu dalam menganalisa lalu lintas web atau memberitahukan anda ketika anda mengunjungi sebuah situs tertentu. Cookies memperbolehkan aplikasi web untuk menanggapi anda sebagai seorang individu. Aplikasi web dapat disesuaikan dengan keperluan anda, hal-hal yang anda sukai maupun tidak dengan mengumpulkan dan mengingat informasi tentang preferensi anda. <br/><br/> Kami menggunakan log lalu lintas cookie untuk mengidentifikasi laman-laman yang telah anda gunakan. Ini membantu kami untuk menganalisa data tentang lalu lintas laman web dan meningkatkan situs web kami guna menyesuaikan dengan keinginan pelanggan kami. Kami hanya akan menggunakan informasi yang kami peroleh untuk tujuan analisis statistik dan kemudian data tersebut akan dikeluarkan dari sistem kami. <br/><br/> Secara keseluruhan, cookie membantu dalam kami menyediakan anda dengan sebuah situs web yang lebih baik, dengan memperbolehkan kami untuk memonitor laman-laman yang anda temukan berguna dan yang tidak berguna. Sebuah cookie dalam cara apapun tidak memberikan kami akses kepada komputer anda atau informasi apapun mengenai anda, selain dari informasi yang anda telah memilih untuk memberikan kepada kami. <br/><br/> Anda dapat memilih untuk menerima atau menolak cookies. Sebagian besar browser secara otomatis menerima cookies, tetapi anda dapat memodifikasi pengaturan browser anda untuk menolak cookies. Hal ini dapat mencegah anda untuk menggunakan situs web secara penuh. <br/><br/><span class='highlight-extra-pages'>Mengendalikan informasi pribadi anda</span><br/> Penyediaan tanggapan survei bersifat sukarela. Ingat, anda dapat selalu memilih untuk tidak menyediakan jawaban untuk pertanyaan survei manapun (khususnya yang meminta informasi atau data pribadi). Namun, hal ini akan menghalangi anda dalam melengkapi survei ini. <br/><br/> Jika anda yakin bahwa informasi yang ada di kami tentang anda tidak benar atau tidak lengkap, silahkan tulis atau email kami secepatnya, di info@worldwewant2015.org. Kami akan memperbaiki segala informasi yang kami temukan tidak benar.",
+        "copyright-title": "Hak cipta",
+        "copyright-content": "Semua hak dilindungi.<br/><br/>Tidak ada satupun bagian dari situs “My World” atau isinya yang dapat diciptakan ulang, disalin, diubah atau dimodifikasi, tanpa izin tertulis dari pencipta, kecuali jika dicantumkan sebaliknya untuk material yang berdiri sendiri.<br/><br/> Anda dapat membagi informasi tentang situs web ini dengan cara-cara berikut:<br/>1. Menggunakan berbagai  logo untuk berbagi di setiap halaman;<br/>2. Menyediakan tautan atau URL dari isi yang ingin anda sampaikan;<br/>3. Anda dapat mengutip inti dari situs web dengan pengakuan kepada <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a><br/><br/>Penggunaan untuk kepentingan komersial dan pendistribusian isi situs web ini tidak diizinkan tanpa memperoleh persetujuan awal tertulis dari pencipta.",
+        "about-my-world-title": "Tentang MY World",
+        "about-my-world-content": "<span class='highlight-extra-pages'>MY World merupakan survei untuk masyarakat global yang dirancang oleh PBB dan mitra-mitranya.</span> Tujuan dari survei ini adalah untuk menangkap suara hati masyarakat, prioritas, serta sudut pandang mereka, sehingga para pemimpin global dapat diberitahukan sekaligus disaat yang sama mereka memulai proses pembentukan agenda pembangunan baru untuk dunia.<br/><br/>Melalui metode kreatif online dan offline, <span class='highlight-extra-pages'>MY World meminta semua orang untuk memilih enam dari enam belas isu,</span> yang paling berpengaruh terhadap hidup mereka. Keenambelas isu tersebut telah diurutkan berdasarkan prioritas orang-orang yang kurang mampu menurut penelitian dan polling yang telah dilakukan dan survei itu juga mencakup soal Tujuan Pembangunan Milenium (MDGs), ditambah isu-isu mengenai keberkelanjutan, keamanan, pemerintahan, dan transparansi.<br/><br/><span class='highlight-extra-pages'>Mulai sekarang hingga tahun 2015, kami menginginkan peran serta setiap orang dari berbagai negara yang sebanyak-banyaknya dalam MY World:</span> penduduk dari beragam usia, jenis kelamin, serta latar belakang, dan terutama masyarakat yang kurang mampu dan yang terpinggirkan.<br/><br/>Hasil dari survei akan terlebih dahulu disampaikan kepada <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'> Panel Tingkat Tinggi Pasca 2015</a> Sekretaris-Jenderal PBB sebelum pertemuan mereka di Monrovia, Bali dan New York yang pada akhirnya akan menghasilkan laporan akhir dan rekomendasi untuk kerangka pembangunan yang baru pada bulan Mei 2013.<br/><br/>Setelah itu, MY World akan terus mengumpulkan pandangan masyarakat hingga tahun 2015 dimana hasilnya akan diberikan kepada Sekretaris-Jenderal dan para pemimpin dunia saat mereka menyiapkan agenda pembangunan selanjutnya menuju tahun 2015.",
+        "who-we-are-title": "Tentang Kami",
+        "who-we-are-content": "<span class=' highlight-extra-pages'>United Nations Development Programme (UNDP), UN Millennium Campaign (UNMC), Overseas Development Institute (ODI) dan World Wide Web Foundation</span> telah bersama-sama mengembangkan MY World. MY World telah menjadi subyek dari proses konsultasi luas, dan memiliki dukungan luas dari berbagai jenis organisasi, termasuk lembaga-lembaga swadaya masyarakat, kelompok agama, dan gerakan pemuda.<br/><br/><span class=' highlight-extra-pages'>Departemen Informasi Publik PBB (DPI) dan United Nations Volunteers (UNV) juga akan berperan memimpin pelaksanaan survei MY World.</span><br/><br/><span class='highlight-extra-pages'><a href='#' id='more-partners-link'>Mengenai mitra-mitra</a></span><br/><br/><ul class='list-extra-pages'><li><span class=' highlight-extra-pages'>Tentang <a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>UNDP</a></span> Program Pembangunan PBB merupakan jaringan pembangunan global dari PBB, yang menganjurkan perubahan dan menghubungkan negara-negara perihal pengetahuan, pengalaman, dan sumber daya untuk membantu masyarakat membangun kehidupan yang lebih baik. UNDP beroperasi di 177 negara dan wilayah.</li><li><span class='highlight-extra-pages'>Tentang <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>UNMC</a> </span> Didirikan tahun 2002 oleh Sekretaris-Jenderal PBB, kampanye ini mendukung dan menginspirasi orang-orang di seluruh dunia untuk beraksi dalam rangka mencapai Tujuan Pembangunan Milenium (MDGs) di tahun 2015 mendatang, dan memfasilitasi keikutsertaan dari masyarakat sipil di dalam agenda pembangunan pasca-2015. </li> <li><span class='highlight-extra-pages' >Tentang <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>ODI</a></span> Institut Pembangunan Luar Negeri (ODI) merupakan wadah pemikir (think tank) independen terkemuka dari Inggris yang membahas terutama tentang pembangunan internasional dan isu-isu kemanusiaan dan bekerja untuk menginspirasi dan menginformasikan tentang kebijaksanaan dan praktek yang mengacu kearah pemberantasan kemiskinan, pengurangan penderitaan serta pencapaian mata pencaharian yang berkelanjutan di negara-negara berkembang.</li><li><span class='highlight-extra-pages'>Tentang <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>World Wide Web Foundation</a> </span>Didirikan oleh penemu Web, Sir Tim Berners-Lee, World Wide Web Foundation adalah organisasi non-profit yang berdedikasi untuk mencapai sebuah dunia dimana semua orang dapat menggunakan Web untuk berkomunikasi, berkolaborasi, berinovasi secara bebas, menjembatani perbedaan yang dapat mengancam masa depan kita semua.</li></ul>",
+        "faq-title": "FAQ",
+        "faq-content": "<h2 class='faq-header'>Apa itu MY World?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>MY World merupakan survei</span> dengan metode kreatif yang dilakukan baik online maupun offline di mana semua orang di dunia dapat menyampaikan kepada PBB, terutama kepada Panel Tingkat Tinggi Sekretaris-Jenderal PBB, mengenai isu penting yang kiranya dapat diulas dalam agenda pasca-2015.</li><li><span class='highlight-extra-pages'>MY World meminta pada tiap individu untuk memilih enam di antara enam belas isu</span> yang menurut mereka dapat membawa perubahan yang berarti pada hidup mereka. Keenambelas isu tersebut telah diurutkan berdasarkan prioritas dari orang yang kurang mampu menurut penelitian dan polling yang telah dilakukan, dan juga dari diskusi teknis dan politik yang berlangsung mengenai tujuan di masa depan. Survei tersebut mencakup tentang Tujuan Pembangunan Milenium (MDGs), ditambah isu tentang program berkelanjutan, keamanan, pemerintahan dan transparansi.</li></ul><h2 class='faq-header'>Bagaimana cara kerja MY World?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Mulai dari Desember 2012, survei ini dapat diakses secara online di <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span> dalam enam bahasa resmi PBB. Selain itu, masyarakat pada umumnya juga dapat berpartisipasi dalam survei ini melalui SMS dan IVR (nomor telepon bebas pulsa) <span class='highlight-extra-pages'>mulai Januari 2013.</span></li><li>Survei ini juga akan tersedia secara offline dalam <span class='highlight-extra-pages'>bentuk lembaran (tertulis)</span> – didistribusikan melalui jaringan organisasi akar rumput (grassroots organizations), komunitas beragama, kelompok pemuda, badan sektor swasta dan mitra LSM (NGOs) di seluruh dunia. Dukungan dari organisasi-organisasi tersebut <span class='highlight-extra-pages'>sangat vital karena mereka dapat  menyentuh komunitas-komunitas yang ada secara langsung</span> dan menarik orang yang tidak memiliki koneksi digital, buta huruf, serta yang kurang mampu ke dalam debat global.</li><li>Para peserta akan didata jenis kelamin, umur, serta dari negara asal, untuk memungkinkan pemisahan data serta untuk menunjukkan gambaran yang akurat tentang apa yang ada di pikiran rakyat kepada para pemimpin global.</li></ul><h2 class='faq-header'>Kapan dan dimana ini semua dilakukan?</h2><br/><ul class='list-extra-pages'><li>Dari sekarang hingga tahun 2015, kami menginginkan peran serta dari orang-orang dari berbagai negara yang sebanyak-banyaknya: penduduk dari beragam usia, jenis kelamin, serta latar belakang, dan terutama masyarakat yang kurang mampu dan yang terpinggirkan.</li></ul><h2 class='faq-header'>Apa yang akan selanjutnya dilakukan dari hasil survei tersebut?</h2><br/><ul class='list-extra-pages'><li>Hasil dari survei melalui handphone, website dan survei secara offline akan dikonsolidasi (digabungkan) secara terus-menerus dan akan dapat diakses di website MY World.</li><li>Hasil dari survei akan terlebih dahulu disampaikan kepada Panel Tingkat Tinggi sebelum pertemuan mereka di Monrovia, Bali dan New York sebelum menyampaikan hasil akhirnya kepada Sekretaris-Jenderal sebagai masukan untuk visi mereka akan agenda pembangunan pasca-2015. MY World akan terus mengumpulkan suara rakyat dan hasilnya akan diberikan kepada Sekretaris-Jenderal dan para pemimpin global di mana mereka harus menyiapkan agenda pembangunan yang selajutnya dengan jangka waktu sampai tahun 2015.</li></ul><h2 class='faq-header'>Kenapa sekarang?</h2> <br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Tujuan Pembangunan Milenium (MDGs) telah memberikan dampak yang besar terhadap hidup milyaran orang,</span> tetapi masih banyak yang harus dilakukan untuk menghadapi kasus kemiskinan yang ekstrim, penyakit dan krisis lingkungan.</li><li>Agenda pembangunan global untuk periode pasca-2015 <span class='highlight-extra-pages'>akan membangun kemajuan yang dibuat pada MDGs</span> sementara menghadapi ketidaksetaraan dan tantangan baru lainnya yang dihadapi baik masyarakat maupun planet ini.</li><li><span class='highlight-extra-pages'>Agenda pembangunan yang baru harus dihasilkan dari proses yang benar-benar terbuka dan inklusif</span> yang mengikat masyarakat dari berbagai macam bagian dunia dan dari semua lapisan.</li><li><span class='highlight-extra-pages'>Panel Tingkat Tinggi Sekretaris-Jenderal PBB dalam agenda pasca-2015 ingin mendengar langsung dari masyarakat di segala penjuru dunia</span> tentang apa yang penting bagi mereka, sehingga pandangan mereka dapat diikutsertakan dalam diskusi tingkat global. MY World telah dianggap sebagai alat untuk membantu melaksanakan hal ini.</li></ul><h2 class='faq-header'>Bagaimana cara untuk berpartisipasi di MY World?</h2><br/>Untuk Anda perorangan: <br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Bantu kami menyebarkan berita ini!</span> Perlihatkan survei dan pilihan anda dalam survei  kepada teman dan keluarga, kemudian dorong mereka untuk berpartisipasi dalam survei ini.</li><li><span class='highlight-extra-pages'>Beritahu kami!</span> Kumpulkan foto, video, dan cerita yang berkaitan dengan MY World dan kemudian perlihatkan di akun-akun social media anda.</li><li><span class='highlight-extra-pages'>Beritahu kami bagaimana untuk mengontak anda</span> agar kami dapat terus mengirimkan informasi terbaru tentang hasil survei serta cara-cara agar anda dapat terlibat dalam memerangi kemiskinan global.</li></ul>Untuk organisasi:<br/><br/>Sebuah perangkat khusus untuk mitra-mitra MY World akan dapat diakses di <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> sebelum MY World diluncurkan secara global pada Januari 2013. Umumnya, apabila sebuah organisasi tertarik untuk mendukung MY World, organisasi tersebut dapat: <br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Mengelola survei offline</span> pada masyarakat setempat dengan cara mendistribusikan kartu pemilihan, mengumpulkan hasilnya kemudian mengirimkan datanya ke titik-titik fokus nasional dan regional kami.</li><li><span class='highlight-extra-pages'>Menghubungi mitra-mitra terdekat, organisasi lokal dan anggotanya</span> kemudian mendorong mereka untuk berpartisipasi.</li><li><span class='highlight-extra-pages'>Mendorong orang-orang untuk mengakses</span> <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> melalui jaringan eksternal dan berbagai sarana komunikasi (website, berita buletin, dan social media).</li><li><span class='highlight-extra-pages'>Bekerja sama dengan mitra lainnya yang potensial</span> (seperti provider telepon selular, badan sektor swasta dan outlet media) untuk mempermudah jangkauan dan memberikan pengaruh dari MY World.</li><li><span class='highlight-extra-pages'>Beritahu kami!</span> Kumpulkan foto, video, dan cerita yang berkaitan dengan MY World.</li></ul><h2 class='faq-header'>Apa kaitan antara MY World dengan “The World We Want 2015”?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Sekarang semua penduduk dari seluruh penjuru dunia bisa mendapatkan kesempatan yang menarik yang tidak pernah ada sebelumnya, yaitu menjadi bagian dari tujuan baru untuk memberantas kemiskinan dan menciptakan sebuah lingkungan hidup yang berkelanjutan yang dimulai dari tahap-tahap awal proses pencapaian.</span> </li><li>Portal online <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a> dapat mempermudah orang-orang dari segala penjuru dunia untuk bergabung dalam proses berbagi ide dan mengikuti debat pada pasca-2015.  MY World sepenuhnya terpadu dalam usaha global ini dan merupakan satu bagian dari usaha untuk mengumpulkan suara dari rakyat untuk memperkaya diskusi global. <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages-normal'>www.myworld2015.org</a> sepenuhnya terkait dengan <a href='http://www.worldwewant2015.org/' target='_blank' class='links-extra-pages-normal'>www.worldwewant2015.org</a> serta mengajak masyarakat global untuk mengikuti perkembangan diskusi ini setelah mereka memberikan suara mereka. </li></ul><h2 class='faq-header'>Bagian dari Tujuan Pembangunan Berkelanjutan (MDGs) mana yang sesuai dengan proses ini? </h2><br/><ul class='list-extra-pages'><li>Sebagaimana yang telah disetujui di Rio+20, Kelompok Kerja Terbuka (the Open Working Group) akan merancang satu set dari Tujuan Pembangunan Berkelanjutan pada September 2013. Sedangkan panel tingkat tinggi akan bekerja secara paralel dengan Kelompok Kerja Terbuka dan kemudian keduanya akan memberikan rekomendasi-rekomendasi mereka kepada Kantor Sekretariat-Jenderal PBB.</li></ul><h2 class='faq-header'>Tentang Panel Tingkat Tinggi Sekretaris-Jenderal PBB mengenai Pasca-2015</h2><br/><ul class='list-extra-pages'><li><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>Panel Tingkat Tinggi Sekretaris-Jenderal PBB</a> merupakan bagian dari inisiatif Sekretaris-Jenderal Ban Ki-moon pasca-2015 dan diciptakan untuk memberikan masukan mengenai agenda pembangunan setelah tahun 2015, yang merupakan target waktu untuk mencapai target anti-kemiskinan yang dikenal sebagai Tujuan Pembangunan Milenium (MDGs).</li><li>Hasil kerja dari Panel Tingkat Tinggi akan mencerminkan tantangan pembangunan yang baru dan sementara juga memanfaatkan pengalaman yang didapat dalam penerapan MDGs, baik dari segi hasil yang dicapai maupun area untuk perbaikan (yang perlu diimprovisasi). Panel Tingkat Tinggi diharapkan untuk menyerahkan penemuan mereka kepada Sekretaris-Jenderal PBB pada paruh pertama tahun 2013, dan dari penemuan tersebut akan diberitahukan laporannya kepada Negara Anggota PBB di dalam Majelis Umum PBB pada bulan September 2013.<br/><br/><a href=' http://www.post2015hlp.org/the-panel ' target='_blank' class='links-extra-pages-normal'>Lihat anggota dari Panel Tingkat Tinggi</a> </li></ul><h2 class='faq-header'>Siapa yang mengkoordinasikan MY World?</h2><br/><span class='highlight-extra-pages'><a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>Program Pembangunan PBB (UNDP)</a>, <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>Kampanye Milenium PBB (UNMC)</a>, <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>Institut Pembangunan Luar Negeri (ODI)</a> dan <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>World Wide Web Foundation</a></span> bersama- sama mengembangkan MY World. MY World telah menjadi subyek dari proses konsultasi yang luas, dan memiliki dukungan yang luas dari berbagai jenis organisasi, termasuk LSM (NGO), kelompok agama, dan gerakan pemuda. <br/><br/><span class='highlight-extra-pages'>Departemen Informasi Publik PBB (DPI) dan Program Relawan PBB (UNV) juga akan memiliki peran kepemimpinan dalam MY World.</span><br/><br/><span class='highlight-extra-pages'><a id='faq-see-more-partners' href='#' target='_blank' class='links-extra-pages-normal'>Lihat mitra-mitra lainnya</a></span>",
+        "how-it-works-title": "Bagaimana Cara Kerjanya",
+        "how-it-works-content": "MY WORLD menanyakan individu-individu tentang enam dari enam belas isu yang menurut mereka akan sangat berdampak dalam memberi perubahan bagi kehidupan mereka. Keenam belas isu tersebut diperoleh melalui <span class='highlight-extra-pages'>kegiatan analisis dan konsultasi yang panjang:</span><br/><br/><ul class='list-extra-pages'><li>Survei ini dirancang dalam bentuk <span class='highlight-extra-pages'>survei pilihan</span>, tidak dalam bentuk survei ‘pertanyaan terbuka’ sebab tujuan khusus dari survey MY World dalam ruang lingkup upaya konsultasi luas global PBB tengan pasca-2015 adalah memberikan <span class='highlight-extra-pages'>pandangan mengenai hal-hal yang menjadi prioritas orang-orang.</span> </li> <li><span class='highlight-extra-pages'>Daftar awal survei ini terdiri dari dua puluh empat isu yang diperoleh dari beragam sumber penting</span>, termasuk riset partisipatif, pemungutan suara, masukan dari organisasi-organisasi masyarakat, Tujuan Pembangunan Millenium dan Tujuan Pembangunan Berkelanjutan. Opsi-opsi tersebut kemudian dirangkum menjadi enam belas pilihan melalui <span class='highlight-extra-pages'>beberapa tahap konsultasi</span>, dengan LSM, pengambil keputusan, akademisi, staf UN  dan perusahaan-perusahaan jasa penghimpunan opini. Survei ini juga <span class='highlight-extra-pages'>telah diuji pada beberapa kelompok</span>, dan melalui survei SMS di Uganda untuk memastikan bahwa keenambelas pilihan tersebut sudah komprehensif dan tepat.</li> <li>Untuk menangkap tema-tema yang terkini yang mungkin terlewatkan, para partisipan survei dapat juga memasukan prioritas mereka sendiri melalui pilihan tambahan ‘tambahkan pilihan anda sendiri’.</li> <li>Survey MY World tidak dapat menutupi semua hal yang penting bagi setiap orang karena tidak semua masalah dapat diselesaikan melalui sebuah tujuan global. Namun, jangkauan prioritas yang dapat ditanggani oleh tujuan tersebut dan yang kami ketahui penting bagi orang-orang, telah dimasukkan dalam survei.</li> </ul> <span class='highlight-extra-pages'>Survey MY World dapat di akses melalui TIGA saluran utama:</span><br/><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Online:</span> di <span class='highlight-extra-pages'><a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a></span> dalam enam bahasa resmi PBB dan melalui jejaring media sosial;</li><li><span class='highlight-extra-pages'>Teknologi telepon genggam <span class='highlight-underline-extra-pages'> (tersedia mulai Januari 2013):</span></span> via SMS dan Interactive Voice Response (IVR) lewat nomor telepon bebas pulsa; dan </li><li><span class='highlight-extra-pages'>Offline <span class='highlight-underline-extra-pages'>(tersedia dari December 2012):</span></span> dalam bentuk formulir – yang didistribusikan melalui jaringan organisasi akar rumput, komunitas beragama, kelompok pemuda, badan/ sektor swasta dan mitra-mitra LSM di seluruh dunia. </li></ul> Survei ini dilakukan secara anonim. Partisipan survei hanya akan ditanyakan jenis kelamin, usia, dan negara, untuk dapat menghadirkan analisis data-data yang bermakna agar kami dapat menunjukkan sebuah <span class='highlight-extra-pages'>gambaran akurat global</span> tentang apa yang dipikirkan masyarakat kepada para pembuat keputusan. <br/><br/>Data dari telepon genggam, situs web dan survey offline akan terus diperbaharui dan tersedia di  situs web MY World. <br/><br/>Hasil survei dari situs web, telepon genggam dan survei offline akan disampaikan kepada <span class='highlight-extra-pages'>Panel Tingkat Tinggi Sekretaris-Jenderal</span> tentang Pasca-2015 sebelum pertemuan mereka di Monrovia (Februari), Bali (Maret) dan New York (Mei) 2013.",
+        "contact-us-title": "Hubungi Kami",
+        "contact-us-title-small": "Lengkapi formulir ini dan berikan kami masukan anda",
+        "contact-us-name": "Nama: <span class='required'>*</span>",
+        "contact-us-email": "Email: <span class='required'>*</span>",
+        "contact-us-organization": "Organisasi",
+        "contact-us-description": "Pesan: <span class='required'>*</span>",
+        "page-contact-us-thankyou-title": "Hubungi Kami",
+        "page-contact-us-thankyou-content": "Terima kasih untuk pesannya. Kami akan segera menghubungi anda.",
+        "page-partners-title": "Mitra-Mitra",
+        "page-partners-content": "Dibawah terdapat daftar mitra-mitra yang telah berkomitmen untuk bekerjasama dengan kami untuk membagikan survei MY World dengan komunitas mereka:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Beyond 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.telefonica.com/' class='links-partner-page-normal' target='_blank'>Telefónica</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Major Group for Children and Youth (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>World Association of Girl Guides and Girl Scouts (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>The World Organization of the Scout Movement</a><br/><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>The World YWCA</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>World Alliance of YMCAs </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Youth for Habitat International Network /  Habitat Center for Development and Governanc</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Rural Voices of Youth<br/>Organisation of African Youth<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>The International Federation of Medical Students' Associations</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>International Young Catholic Students (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://www.childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/>AIESEC Local Committee Setif<br/><a href='http://www.axios.org.mx' class='links-partner-page-normal' target='_blank'>AXIOS MISION-MUJER</a><br/><a href='http://www.thecommonwealth.org/subhomepage/152816/' class='links-partner-page-normal' target='_blank'>Commonwealth Youth Programme</a><br/><a href='http://www.dayofprayerandaction.org' class='links-partner-page-normal' target='_blank'>Day of Prayer and Action for Children</a><br/><a href='http://www.girlsnotbrides.org' class='links-partner-page-normal' target='_blank'>Girls Not Brides: The Global Partnership to End Child Marriage</a><br/><a href='http://www.gadef.org' class='links-partner-page-normal' target='_blank'>Global Alliance for Development Foundation</a><br/><a href='http://impactwithdanny.wordpress.com/author/impactwithdanny/' class='links-partner-page-normal' target='_blank'>Impactwithdanny</a><br/><a href='http://www.interaction.org' class='links-partner-page-normal' target='_blank'>InterAction</a><br/><a href='http://www.one.org/international' class='links-partner-page-normal' target='_blank'>ONE Campaign</a><br/><a href='http://plan-international.org' class='links-partner-page-normal' target='_blank'>Plan International</a><br/>Prefuturo Institute<br/><a href='http://www.progressio.org.uk' class='links-partner-page-normal' target='_blank'>Progressio</a><br/><a href='http://rhealsolutions.blogspot.com.es' class='links-partner-page-normal' target='_blank'>Rheal Solutions</a><br/><a href='http://seedmediagroup.com' class='links-partner-page-normal' target='_blank'>Seed Media Group</a><br/><a href='http://www.ipsos-mori.com' class='links-partner-page-normal' target='_blank'>Social Research Institute, Ipsos MORI</a><br/><a href='http://www.unfoundation.org' class='links-partner-page-normal' target='_blank'>UN Foundation</a><br/><a href='http://www.un.org.au' class='links-partner-page-normal' target='_blank'>United Nations Information Centre Canberra</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation</a><br/><a href='http://www.youthaward.org' class='links-partner-page-normal' target='_blank'>World Summit Youth Award</a><br/><a href='http://www.youthdividend.org' class='links-partner-page-normal' target='_blank'>Youth Dividend</a><br/><a href='http://orgs.tigweb.org/youth-impact-organization-of-nigeria' class='links-partner-page-normal' target='_blank'>Youth Impact Organization of Nigeria</a><br/><br/>Jika organisasi anda ingin mendaftar sebagai mitra jangkau MY World, silakan kunjungi: <a href='http://partner.myworld2015.org' class='links-partner-page-normal' target='_blank'>http://partner.myworld2015.org</a><br/>Kontak untuk Kelompok Pemuda dan Anak-anak: Ravi Karkara <a href='mailto:karkara@un.org'>karkara@un.org</a>",
+        "page-coming-soon-title": "Segera Datang",
+        "page-coming-soon-content": "",
+        "page-results-title": "Lihat Hasilnya",
+        "page-results-content": ""
+    },
+    "social_media": {
+        "facebook": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.&caption=Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya %26 tentukan pilihan! myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+        "facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.&caption=Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya %26 tentukan pilihan! http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+        "twitter": "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=%23UN ingin mendengarkan pendapat anda. Saya telah menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik.&via=MyWorld2015",
+        "og_title": "Perserikatan Bangsa-Bangsa ingin mendengarkan anda.",
+        "og_description": "Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya %26 tentukan pilihan!",
+        "weibo": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik.Bergabunglah dengan saya %26 tentukan pilihan!&pic=http://www.myworld2015.org/assets/img/logo.png",
+        "weibo_thankyou": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik.Bergabunglah dengan saya %26 tentukan pilihan!&pic=http://www.myworld2015.org/image_path",
+        "orkut": "http://promote.orkut.com/preview?nt=orkut.com&tt=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.&du=http:/www.myworld2015.org&cn=Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya %26 tentukan pilihan! http://www.myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+        "orkut_thankyou": "http://promote.orkut.com/preview?nt=orkut.com&tt=Perserikatan Bangsa-Bangsa ingin mendengarkan anda.&du=http:/www.myworld2015.org&cn=Saya baru saja menyampaikan prioritas saya untuk menciptakan dunia yang lebih baik. Bergabunglah dengan saya %26 tentukan pilihan! http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+    },
+    "viz": {
+        "viz1_title": "Bagaimana Dunia Memilih",
+        "viz1_subtitle": "Ranking Prioritas (sejauh ini)",
+        "viz2_title": "Orang-orang Yang Memilih Seperti Anda",
+        "viz2_title_results": "Lihat siapa orang lain yang memilih",
+        "viz2_subtitle": "Pemilih terakhir yang memilih setidaknya 4 dari prioritas anda",
+        "priorities": "Prioritas",
+        "your_priorities": "Prioritas Anda",
+        "other_priorities": "Prioritas Lain",
+        "tip1_results": "Tinjau setiap pilihan untuk melihat bagaimana dunia memilihnya",
+        "tip1": "Tinjau pilihan anda untuk melihat bagaimana dunia memilih mereka",
+        "tip2": "Orang-orang Seperti Anda",
+        "tip3": "Indeks Pembangunan Manusia (Human Development Index/ HDI) merupakan ringkasan ukuran dari pembangunan manusia. HDI mengukur pencapaian rata-rata di sebuah negara pada tiga dimensi dasar pembangunan manusia: hidup panjang dan sehat (kesehatan), akses ke pendidikan (pendidikan) dan  standar hehidupan yang layak (pendapatan).",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "Rendah",
+        "hdi2": "Sedang",
+        "hdi3": "Tinggi",
+        "hdi4": "Tinggi Sekali",
+        "world": "Dunia",
+        "location": "Lokasi",
+        "gender": "Jenis Kelamin",
+        "age_groups": "Usia",
+        "hdi": "HDI (Indeks Perkembangan Manusia)",
+        "region_or_country": "Wilayah atau Negara",
+        "all": "Semua",
+        "customize": "Sesuaikan",
+        "customize_this_segment": "Sesuaikan segmen ini",
+        "change": "Ubah",
+        "submit": "Kirim",
+        "hide_markers": "Sembunyikan Tanda",
+        "votes": "Pilih",
+        "total_votes": "Jumlah Pilihan",
+        "none": "Tidak Ada",
+        "country_totals": "Jumlah Negara yang Diperoleh ",
+        "custom_dropdown_values": ["Negara dengan HDI Rendah",
+                            "Negara dengan HDI Menengah",
+                            "Negara dengan HDI Tinggi",
+                            "Negara dengan HDI Sangat Tinggi",
+                            "Afrika",
+                            "Amerika",
+                            "Asia",
+                            "Eropa",
+                            "Oceania"]
+    }
+}

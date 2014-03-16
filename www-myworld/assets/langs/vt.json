@@ -1,0 +1,1232 @@
+﻿{
+    "html_values": {
+        "tap-for-details": "Chạm vào để có thêm thông tin chi tiết",
+        "timeline-content": "Liên Hợp quốc và các đối tác mong muốn được lắng nghe ý kiến của BẠN! Thế giới CỦA TÔI là một cuộc khảo sát trên phạm vi toàn cầu yêu cầu bạn lựa chọn các ưu tiên của riêng bạn vì một thế giới tốt đẹp hơn. Kết quả cuộc khảo sát này sẽ được chia sẻ với các nhà lãnh đạo trên thế giới nhằm xây dựng chương trình phát triển tiếp theo cho toàn cầu. Hãy cho chúng tôi biết về thế giới mà bạn mong muốn vì ý kiến của bạn rất quan trọng.",
+        "timeline-content-mobile": "Liên Hợp quốc và các đối tác mong muốn được lắng nghe ý kiến của BẠN! Thế giới CỦA TÔI là một cuộc khảo sát trên phạm vi toàn cầu yêu cầu bạn lựa chọn các ưu tiên của riêng bạn vì một thế giới tốt đẹp hơn. Kết quả cuộc khảo sát này sẽ được chia sẻ với các nhà lãnh đạo trên thế giới nhằm xây dựng chương trình phát triển tiếp theo cho toàn cầu. Hãy cho chúng tôi biết về thế giới mà bạn mong muốn vì ý kiến của bạn rất quan trọng.",
+        "about-item": "Về Thế giới CỦA TÔI",
+        "who-we-are-item": "Chúng tôi là ai",
+        "how-it-works-item": "Cách thức thực hiện",
+        "faq-item": "Câu hỏi thường gặp",
+        "see-results-item": "Xem Kết quả",
+        "partners-item": "Đối tác",
+        "blog-item": "Tin tức và sự kiện",
+        "about-btn": "Về",
+        "contact-item": "Звяжыцеся з намі",
+        "methodology-item": "Метадалогія",
+        "teaser-content": "Bình chọn cho những thay đổi sẽ mang lại  nhiều điều khác biệt nhất <br>cho thế giới của bạn",
+        "teaser-content-b": "Bình chọn cho những thay đổi sẽ mang lại  nhiều điều khác biệt nhất <br>cho thế giới của bạn",
+        "logo-teaser": "Bạn Bình chọn. Thế giới của Bạn",
+        "vote-header": "Trong những lĩnh vực sau, lĩnh vực nào là quan trọng nhất đối với bạn và gia đình bạn?&nbsp;&nbsp;&nbsp;<span style='font-weight:bold'>Hãy lựa chọn 6 lĩnh vực</span>",
+        "section-one-date": "2000",
+        "section-one-title": "Các Mục tiêu Phát triển Thiên niên kỷ",
+        "section-one-content": "Các nhà lãnh đạo đã cam kết thực hiện 8 mục tiêu để giảm nghèo cùng cực và năm 2015 là thời hạn kết thúc các mục tiêu này. Mặc dù tiến trình thực hiện các mục tiêu này đang được triển khai nhưng vẫn còn tồn tại nhiều thách thức cần phải giải quyết.",
+        "section-two-date": "Bây giờ",
+        "section-two-title": "Hãy Bình chọn từ Bây giờ: Nêu lên Tiếng nói của Bạn",
+        "section-two-content": "Từ đây đến năm 2015, bạn có thể giúp xác định các mục tiêu toàn cầu mới bằng cách cho chúng tôi biết những thay đổi mà bạn muốn chứng kiến trong tương lai.",
+        "section-three-date": "2015",
+        "section-three-title": "Thế giới Chúng Ta Mong muốn 2015",
+        "section-three-content": "Chúng ta sẽ cùng nhau thiết kế một lộ trình nhằm tạo ra thế giới chúng ta mong muốn sau năm 2015 và chúng ta sẽ tập trung vào các vấn đề có thể mang lại sự khác biệt nhiều nhất đối với cuộc sống của chúng ta.",
+        "celebrities-title": "Hãy xem những ai đã bình chọn",
+        "celebrities-title-small": "Hãy xem những ai đã bình chọn",
+        "priority-item-title": "Hãy đề xuất thêm một ưu tiên (tùy chọn)",
+        "side-title": "Những Ưu tiên của Tôi",
+        "side-count-more": "Hãy lựa chọn 6 lĩnh vực ưu tiên",
+        "dropdowns-title": "Cuối cùng, xin vui lòng cho chúng tôi biết một chút thông tin về bản thân bạn?",
+        "dropdowns-content": "Bình chọn của bạn sẽ ẩn danh, nhưng những thông tin cơ bản này sẽ giúp chúng tôi hiểu thêm về bạn.",
+        "dropdowns-oath": "Bằng cách điền vào đây, tôi cam kết đây là bình chọn duy nhất của tôi cho Thế giới CỦA TÔI. Tôi sẽ không bình chọn nữa.",
+        "dropdowns-gender-label": "Tôi là",
+        "dropdowns-age-label": ", độ tuổi",
+        "dropdowns-country-label": ", và sống ở",
+        "dropdowns-education-label": "Trình độ giáo dục của tổi là",
+        "about-title": "Về Thế giới CỦA TÔI",
+        "about-content": "Thế giới CỦA TÔI là một cuộc khảo sát trên phạm vi toàn cầu của Liên Hợp quốc thực hiện cho người dân. Phối hợp với các đối tác, mục tiêu của Liên Hợp quốc là ghi lại tiếng nói, các lựa chọn ưu tiên và quan điểm của người dân để thông tin cho các nhà lãnh đạo thế giới vì họ bắt đầu quá trình xác định các mục tiêu toàn cầu tiếp để chấm dứt nghèo đói.",
+        "about-content-middle": "Để tham gia vào cuộc hội thoại toàn cầu và các tranh luận với chương trình phát triển sau năm 2015, hãy truy cập trang web:",
+        "partners-title": "Thế giới CỦA TÔI được xây dựng bởi:",
+        "thank-you-title": "Chúc mừng bạn vì đã chia sẻ với chúng tôi về những điều mà BẠN<b>tâm huyết</b>!",
+        "thank-you-text": "chia sẻ",
+        "thank-you-share-text": "Đây là hình ảnh được cá nhân hóa về một thế giới mà bạn mong muốn.<br/>Hãy chia sẻ hình ảnh này với các bạn bè của bạn và giúp tạo ra tầm nhìn cho một thế giới tốt đẹp hơn.",
+        "thank-you-why": "Hãy giải thích cho chúng tôi về cách bạn bình chọn (tùy chọn)",
+        "thank-you-join": "Hãy tham gia vào cuộc hội thọai tại trang web: http://ww.worldwewant2015.org",
+        "validation-message": "Hãy lựa chọn 6 lĩnh vực ưu tiên và xin vui lòng cung cấp giới tính, độ tuổi và đất nước của bạn trước khi bình chọn.",
+        "thank-you-vote": "Cám ơn bạn vì đã nói cho chúng tôi biết lý do bạn bình chọn",
+        "more-btn": "Với sự hỗ trợ của các đối tác trên toàn cầu",
+        "first-logo-label": "Liên Hợp quốc",
+        "second-logo-label": "Viện <br> Phát triển Quốc tế",
+        "third-logo-label": "Quỹ Mạng<br>Toàn cầu",
+        "fourth-logo-label": "Ipsos Mori",
+        "captcha-info": "Câu hỏi này nhằm kiểm tra xem bạn có phải là một con người thực sự hay không và để ngăn chặn việc bình chọn tự tràn lan tự động.",
+        "contact-validation-msg": "Xin vui lòng điền thông tin vào tất cả những ô yêu cầu",
+        "captcha-error-msg": "Đăng ký không hợp lệ",
+        "worldmap-title": "Số lượng bình chọn cho đến hiện giờ <ul class='horizontal'><li>Đất nước</li><li id='cnumber-small'>Đang tải...</li></ul>",
+        "worldmap-update": "Bản đồ cập nhật <span class='minutes'>2 phút</span>một lần",
+        "worldmap-title-thanku": "<ul class='horizontal'><li>Quốc gia</li><li id='cnumber'>Đang tải thông tin...</li></ul>",
+        "worldmap-update-thanku": "Bản đồ cập nhật <span class='minutes'>2 phút</span>một lần",
+        "check-to-vote-text": "nhấp vào đây để bình chọn",
+        "click-for-details-text": "nhấp chọn vào đây để có thông tin chi tiết",
+        "langs-wrap-label": "Ngôn ngữ",
+        "people-from": "người dân từ",
+        "countries-vote": "những nước đã tham gia bình chọn. <br/><strong>Bây giờ đến lượt của bạn</strong>",
+        "iframe-link": "Vào thăm trang web để có nhiều thông tin hơn",
+        "back-to-voting": "Trở lại phần bình chọn"
+    },
+    "accordion_items": {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Cơ hội việc làm tốt hơn",
+            "item-content": "Điều này có nghĩa là các chính phủ và các công ty thuộc khu vực tư nhân cần nỗ lực hơn nữa để đảm bảo mọi người đều tìm được việc làm để có thu nhập tốt và có thể đóng góp và cảm nhận được giá trị của mình như một thành viên có ích cho xã hội."
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "Một nền giáo dục tốt",
+            "item-content": "Điều này có nghĩa là tất cả trẻ em cần được hưởng nền giáo dục tiểu học và trung học chất lượng cao để trang bị cho các em kiến thức phục vụ công việc và có một cuộc sống tốt. Các chính phủ và khu vực tư nhân cần phối hợp với nhau tạo cơ hội học tập suốt đời và phát triển kỹ năng cho người lớn"
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Chăm sóc sức khỏe tốt hơn",
+            "item-content": "Điều này có nghĩa là cần có các dịch vụ y tế chất lượng tốt cho tất cả mọi người khi họ cần được điều trị.Cần nỗ lực để giảm tác động của các bệnh lây truyền và các bệnh kinh niên khác. Cả phân bổ ngân sách và tổ chức cho các hệ thống y tế cần phù hợp với nhu cầu của đất nước và người dân nước mình."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Giá thực phẩm hợp lý và thực phẩm bổ dưỡng",
+            "item-content": "Điều này có nghĩa là mọi người đều nên có đủ thức ăn để sống từ việc làm hoặc từ sự trợ giúp của chính phủ. Không còn ai trên thế giới còn chịu cảnh đói triền miên và không ai còn tiếp tục bị suy dinh dưỡng, nhất là phụ nữ có thai và trẻ em dưới hai tuổi"
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Hỗ trợ những người không có khả năng làm việc hoặc không có việc làm",
+            "item-content": "Điều này có nghĩa là mọi người  cần có đủ tiền để sống, thu nhập từ việc làm hoặc được chính phủ trợ cấp. Khi người dân không có khả năng làm việc hoặc bị ảnh hưởng bởi các sự kiện như thiên tai hay khủng hoảng kinh tế thì các chính phủ cần đảm bảo chắc chắn là họ và gia đình họ không phải chịu đói, trẻ em không phải bỏ học và họ được chăm sóc sức khỏe và sử dụng các dịch vụ thiết yếu khác mà họ cần"
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Tiếp cận điện thoại và Internet",
+            "item-content": "Điều này có nghĩa là các chính phủ và khu vực tư nhân cần đảm bảo mọi người tiếp cận được với mức độ công nghệ truyền thông tối thiểu để lấy được thông tin trên mạng và tham gia vào các mạng xã hội"
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Tiếp cận được với nước sạch và vệ sinh",
+            "item-content": "Điều này có nghĩa là mọi người đều được tiếp cận với nước sạch dùng để uống, nấu ăn và tắm giặt cũng như tiếp cận được với điều kiện vệ sinh"
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Có đủ năng lượng cho gia đình",
+            "item-content": "Điều này có nghĩa là mọi thành viên trong gia đình có đủ năng lượng để sử dụng và đủ tiền để thanh toán cho các chi phí năng lượng hoặc có các nguồn năng lượng khác để phục vụ cho mục đích thắp sáng, sưởi ấm và nấu ăn. Càng ngày nên có nhiều hơn các năng lượng như vậy được sản xuất một cách bền vững"
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Bảo vệ rừng, sông ngòi và đại dương",
+            "item-content": "Điều này có nghĩa là cần quan tâm chú ý đến tài nguyên thiên nhiên bởi vì người dân phụ thuộc vào các tài nguyên đó để có lương thực, nhiên liệu và các nguồn lợi khác. Các chính phủ cần thống nhất kế hoạch giảm ô nhiễm ở sông ngòi và đại dương, trồng thêm rừng và bảo tồn các khu rừng đã có, đồng thời  tiến tới có nông nghiệp và các hệ thống lương thực bền vững. Các hiệp định toàn cầu cần bảo vệ sự đa dạng sinh học và các hệ sinh thái dễ bị ảnh hưởng."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "Hành động do biến đổi khí hậu",
+            "item-content": "Điều này có nghĩa là các chính phủ cần tham gia vào những cam kết ràng buộc để giảm lượng khí thải các bon tới mức có thể duy trì nhiệt độ toàn cầu tăng ở mức dưới 2 độ và đầu tư vào các biện pháp thích ứng, đặc biệt là khuyến khích sự tham gia của các cộng đồng dễ bị tổn thương"
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Một chính phủ trung thực và nhạy bén",
+            "item-content": "Điều này có nghĩa là các chính phủ cần hoạt động hiệu quả, minh bạch, có trách nhiệm và không tham nhũng. Người dân cần có tiếng nói quyết định đối với những ưu tiên mà chính phủ đặt ra và có niềm tin vào năng lực thực hiện các ưu tiên đó của chính phủ. Các chính phủ cần thống nhất và thực hiện các tiêu chuẩn đểcó thông tin cho mọi người dân về ngân sách công được chi tiêu như thế nào"
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Tự do chính trị",
+            "item-content": "Điều này có nghĩa là mọi người đều có thể giữ một vai trò trong các quá trình chính trị ở nước họ bao gồm thông qua bầu chọn và thành lập hoặc tham gia các đảng phái chính trị. Người dân cần được thực hiện quyền tự do ngôn luận, bày tỏ quan điểm bao gồm thông qua tự do thông tin. Người dân cần được gia nhập và tham gia vào công đoàn và mọi lĩnh vựccủa xã hội dân sự bao gồm nhiều hình thức đa dạng để người dân tham gia và tự nguyện hành động."
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Phòng chống tội phạm và bạo lực",
+            "item-content": "Điều này có nghĩa là tất cả mọi người đều mong đợi được sống trong một cộng đồng có thể bảo vệ họ không bị tội phạm và bạo lực đe dọa, bao gồm các hình thức bạo lực gia đình và tấn công tình dục đối với phụ nữ và trẻ em gái. Mọi người đều có quyền công lý thông qua hệ thống tòa án hoặc hệ thống khác nếu họ là nạn nhân của tội ác."
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Bình đẳng giữa nam và nữ",
+            "item-content": "Điều này có nghĩa là nam nữ có quyền và cơ hội như nhau. Trẻ em trai và trẻ em gái đều có quyền bình đẳng được đi học và được hưởng nền giáo dục chất lượng như nhau; nam nữ đều có cơ hội như nhau trong việc được bầu vào quốc hội, có cơ hội như nhau để tham gia vào đời sống chính trị xã hội và ở nơi làm việc được hưởng cơ hội và khen thưởng như nhau"
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Không bị phân biệt đối xử và bị ngược đãi",
+            "item-content": "Điều này có nghĩa là trên thế giới không ai bị hạn chế cơ hội chính trị kinh tế xã hội vì lý do chủng tộc, dân tộc, tôn giáo, khuyết tật, lựa chọn giới tính hoặc vì bất kỳ lý do nào khác và không ai phải lo sợ về sự an toàn cá nhân của mình vì những lý do trên"
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Giao thông và đường xá tốt hơn",
+            "item-content": "Điều này có nghĩa là cần cải thiện giao thông và đường xá để người dân có thể đi lại tự do và dễ dàng đến thăm bạn bè và gia đình, tìm được các cơ hội kinh tế mới và sử dụng các dịch vụ mà họ cần"
+        }
+    },
+    "celebrities": {
+        "1": {
+            "image_src": "Diana.png",
+            "content": "<span style='font-weight: bold;'>Diana</span><br><span>Nữ, 22</span><br><span>Cuba</span>",
+            "globe_src": "Globe_diana.png",
+            "supports": [
+                "tenth",
+                "nineth",
+                "second",
+                "twelveth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "2": {
+            "image_src": "myworld_arda.png",
+            "content": "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Nữ, 32</span><br><span>Kazakhstan</span>",
+            "globe_src": "Globe_arda.png",
+            "supports": [
+                "third",
+                "nineth",
+                "fourth",
+                "second",
+                "eleventh",
+                "fourteenth"
+            ]
+        },
+        "3": {
+            "image_src": "myworld_anjana.png",
+            "content": "<span style='font-weight: bold;'>Anjana</span><br><span>Nữ, 25</span><br><span>Nepal</span>",
+            "globe_src": "Globe_anjana.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "4": {
+            "image_src": "Sonal.png",
+            "content": "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Nữ, 25</span><br><span>Tanzania</span>",
+            "globe_src": "Globe_sonal.png",
+            "supports": [
+                "third",
+                "tenth",
+                "nineth",
+                "fourth",
+                "second",
+                "seventh"
+            ]
+        },
+        "5": {
+            "image_src": "Uma.png",
+            "content": "<span style='font-weight: bold;'>Uma</span><br><span>Nữ, 23</span><br><span>Australia (Úc)</span>",
+            "globe_src": "Globe_uma.png",
+            "supports": [
+                "third",
+                "second",
+                "thirteenth",
+                "eleventh",
+                "twelveth",
+                "fourteenth"
+            ]
+        },
+        "6": {
+            "image_src": "Sebastian.png",
+            "content": "<span style='font-weight: bold;'>Sebastian</span><br><span>Nam, 28</span><br><span>Austria (Áo)</span>",
+            "globe_src": "Globe_sebastian.png",
+            "supports": [
+                "nineth",
+                "fourth",
+                "second",
+                "thirteenth",
+                "sixth",
+                "eleventh"
+            ]
+        },
+        "7": {
+            "image_src": "myworld_juanita.png",
+            "content": "<span style='font-weight: bold;'>Juanita</span><br><span>Nữ, 29</span><br><span>Canada</span>",
+            "globe_src": "Globe_juanita.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "8": {
+            "image_src": "robert.png",
+            "content": "<span style='font-weight: bold;'>Robert</span><br><span>Nam, 21</span><br><span>Hoa Kỳ</span>",
+            "globe_src": "robert_globe.png",
+            "supports": [
+                "tenth",
+                "sixteenth",
+                "fourth",
+                "second",
+                "first",
+                "fourteenth"
+            ]
+        }
+    },
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "giáo dục"
+            },
+            {
+                "id": "1",
+                "name": "Tiểu học"
+            },
+            {
+                "id": "2",
+                "name": "Kết thúc tiểu học"
+            },
+            {
+                "id": "3",
+                "name": "Kết thúc trung học phổ thông"
+            },
+            {
+                "id": "4",
+                "name": "Sau trung học phổ thông"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "giới tính",
+                "ballot_gender": "giới tính"
+            },
+            {
+                "id": "1",
+                "name": "Nam",
+                "ballot_gender": "Nam"
+            },
+            {
+                "id": "2",
+                "name": "Nữ",
+                "ballot_gender": "Nữ"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "tuổi"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "Quốc gia"
+            },
+            {
+                "id": "1",
+                "name": "Afghanistan"
+            },
+            {
+                "id": "2",
+                "name": "Albania"
+            },
+            {
+                "id": "3",
+                "name": "Algeria"
+            },
+            {
+                "id": "4",
+                "name": "Andorra"
+            },
+            {
+                "id": "5",
+                "name": "Angola"
+            },
+            {
+                "id": "6",
+                "name": "Antigua and Barbuda"
+            },
+            {
+                "id": "7",
+                "name": "Argentina"
+            },
+            {
+                "id": "8",
+                "name": "Armenia"
+            },
+            {
+                "id": "9",
+                "name": "Australia (Úc)"
+            },
+            {
+                "id": "10",
+                "name": "Austria (Áo)"
+            },
+            {
+                "id": "11",
+                "name": "Azerbaijan"
+            },
+            {
+                "id": "12",
+                "name": "Bahamas"
+            },
+            {
+                "id": "13",
+                "name": "Bahrain"
+            },
+            {
+                "id": "14",
+                "name": "Bangladesh"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "16",
+                "name": "Belarus"
+            },
+            {
+                "id": "17",
+                "name": "Belgium (Bỉ)"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benin"
+            },
+            {
+                "id": "20",
+                "name": "Bhutan"
+            },
+            {
+                "id": "21",
+                "name": "Bolivia"
+            },
+            {
+                "id": "22",
+                "name": "Bosnia và Herzegovina"
+            },
+            {
+                "id": "23",
+                "name": "Botswana"
+            },
+            {
+                "id": "24",
+                "name": "Brazil"
+            },
+            {
+                "id": "25",
+                "name": "Brunei Darussalam"
+            },
+            {
+                "id": "26",
+                "name": "Bulgaria"
+            },
+            {
+                "id": "27",
+                "name": "Burkina Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "29",
+                "name": "Cambodia"
+            },
+            {
+                "id": "30",
+                "name": "Cameroon"
+            },
+            {
+                "id": "31",
+                "name": "Canada"
+            },
+            {
+                "id": "32",
+                "name": "Cape Verde"
+            },
+            {
+                "id": "33",
+                "name": "Cộng hòa Trung Phi"
+            },
+            {
+                "id": "34",
+                "name": "Chad"
+            },
+            {
+                "id": "35",
+                "name": "Chile"
+            },
+            {
+                "id": "36",
+                "name": "China (Trung Quốc)"
+            },
+            {
+                "id": "37",
+                "name": "Colombia"
+            },
+            {
+                "id": "38",
+                "name": "Comoros"
+            },
+            {
+                "id": "39",
+                "name": "Congo"
+            },
+            {
+                "id": "40",
+                "name": "Costa Rica"
+            },
+            {
+                "id": "41",
+                "name": "Cote d'Ivoire"
+            },
+            {
+                "id": "42",
+                "name": "Croatia"
+            },
+            {
+                "id": "43",
+                "name": "Cuba"
+            },
+            {
+                "id": "44",
+                "name": "Cyprus"
+            },
+            {
+                "id": "45",
+                "name": "Cộng hòa Czech"
+            },
+            {
+                "id": "46",
+                "name": "Democratic People's Republic of Korea (Cộng hòa dân chủ nhân dân Triều Tiên)"
+            },
+            {
+                "id": "47",
+                "name": "Democratic Republic of the Congo (Cộng hòa Dân chủ Congo)"
+            },
+            {
+                "id": "48",
+                "name": "Denmark (Đan Mạch)"
+            },
+            {
+                "id": "49",
+                "name": "Djibouti"
+            },
+            {
+                "id": "50",
+                "name": "Dominica"
+            },
+            {
+                "id": "51",
+                "name": "Dominican Republic (Cộng hòa Dominican)"
+            },
+            {
+                "id": "52",
+                "name": "Ecuador"
+            },
+            {
+                "id": "53",
+                "name": "Egypt (Ai Cập)"
+            },
+            {
+                "id": "54",
+                "name": "El Salvador"
+            },
+            {
+                "id": "55",
+                "name": "Equatorial Guinea"
+            },
+            {
+                "id": "56",
+                "name": "Eritrea"
+            },
+            {
+                "id": "57",
+                "name": "Estonia"
+            },
+            {
+                "id": "58",
+                "name": "Ethiopia"
+            },
+            {
+                "id": "59",
+                "name": "Fiji"
+            },
+            {
+                "id": "60",
+                "name": "Finland (Phần Lan)"
+            },
+            {
+                "id": "61",
+                "name": "France (Pháp)"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gambia"
+            },
+            {
+                "id": "64",
+                "name": "Georgia"
+            },
+            {
+                "id": "65",
+                "name": "Germany (Đức)"
+            },
+            {
+                "id": "66",
+                "name": "Ghana"
+            },
+            {
+                "id": "67",
+                "name": "Greece (Hy Lạp)"
+            },
+            {
+                "id": "68",
+                "name": "Grenada"
+            },
+            {
+                "id": "69",
+                "name": "Guatemala"
+            },
+            {
+                "id": "70",
+                "name": "Guinea"
+            },
+            {
+                "id": "71",
+                "name": "Guinea-Bissau"
+            },
+            {
+                "id": "72",
+                "name": "Guyana"
+            },
+            {
+                "id": "73",
+                "name": "Haiti"
+            },
+            {
+                "id": "74",
+                "name": "Honduras"
+            },
+            {
+                "id": "75",
+                "name": "Hungary"
+            },
+            {
+                "id": "76",
+                "name": "Iceland"
+            },
+            {
+                "id": "77",
+                "name": "India"
+            },
+            {
+                "id": "78",
+                "name": "Indonesia"
+            },
+            {
+                "id": "79",
+                "name": "Iran (Islamic Republic of)"
+            },
+            {
+                "id": "80",
+                "name": "Iraq"
+            },
+            {
+                "id": "81",
+                "name": "Ireland"
+            },
+            {
+                "id": "82",
+                "name": "Israel"
+            },
+            {
+                "id": "83",
+                "name": "Italy (Ý)"
+            },
+            {
+                "id": "84",
+                "name": "Jamaica"
+            },
+            {
+                "id": "85",
+                "name": "Japan (Nhật Bản)"
+            },
+            {
+                "id": "86",
+                "name": "Jordan"
+            },
+            {
+                "id": "87",
+                "name": "Kazakhstan"
+            },
+            {
+                "id": "88",
+                "name": "Kenya"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id"  : "195",
+                "name": "Kosovo"
+            },
+            {
+                "id": "90",
+                "name": "Kuwait"
+            },
+            {
+                "id": "91",
+                "name": "Kyrgyzstan"
+            },
+            {
+                "id": "92",
+                "name": "Lao People's Democratic Republic (Cộng hòa Dân chủ Nhân dân Lào)"
+            },
+            {
+                "id": "93",
+                "name": "Latvia"
+            },
+            {
+                "id": "94",
+                "name": "Lebanon"
+            },
+            {
+                "id": "95",
+                "name": "Lesotho"
+            },
+            {
+                "id": "96",
+                "name": "Liberia"
+            },
+            {
+                "id": "97",
+                "name": "Libya"
+            },
+            {
+                "id": "98",
+                "name": "Liechtenstein"
+            },
+            {
+                "id": "99",
+                "name": "Lithuania"
+            },
+            {
+                "id": "100",
+                "name": "Luxembourg"
+            },
+            {
+                "id": "101",
+                "name": "Madagascar"
+            },
+            {
+                "id": "102",
+                "name": "Malawi"
+            },
+            {
+                "id": "103",
+                "name": "Malaysia"
+            },
+            {
+                "id": "104",
+                "name": "Maldives"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Malta"
+            },
+            {
+                "id": "107",
+                "name": "Marshall Islands"
+            },
+            {
+                "id": "108",
+                "name": "Mauritania"
+            },
+            {
+                "id": "109",
+                "name": "Mauritius"
+            },
+            {
+                "id": "110",
+                "name": "Mexico"
+            },
+            {
+                "id": "111",
+                "name": "Micronesia (Liên bang)"
+            },
+            {
+                "id": "112",
+                "name": "Monaco"
+            },
+            {
+                "id": "113",
+                "name": "Mongolia"
+            },
+            {
+                "id": "114",
+                "name": "Montenegro"
+            },
+            {
+                "id": "115",
+                "name": "Morocco"
+            },
+            {
+                "id": "116",
+                "name": "Mozambique"
+            },
+            {
+                "id": "117",
+                "name": "Của Tôianmar"
+            },
+            {
+                "id": "118",
+                "name": "Namibia"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "121",
+                "name": "Netherlands (Hà Lan)"
+            },
+            {
+                "id": "122",
+                "name": "New Zealand"
+            },
+            {
+                "id": "123",
+                "name": "Nicaragua"
+            },
+            {
+                "id": "124",
+                "name": "Niger"
+            },
+            {
+                "id": "125",
+                "name": "Nigeria"
+            },
+            {
+                "id": "126",
+                "name": "Norway (Na Uy)"
+            },
+            {
+                "id": "127",
+                "name": "Oman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Palestine (State of)"
+            },            
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panama"
+            },
+            {
+                "id": "131",
+                "name": "Papua New Guinea"
+            },
+            {
+                "id": "132",
+                "name": "Paraguay"
+            },
+            {
+                "id": "133",
+                "name": "Peru"
+            },
+            {
+                "id": "134",
+                "name": "Philippines"
+            },
+            {
+                "id": "135",
+                "name": "Poland (Ba Lan)"
+            },
+            {
+                "id": "136",
+                "name": "Portugal (Bồ Đào Nha)"
+            },
+            {
+                "id": "137",
+                "name": "Qatar"
+            },
+            {
+                "id": "138",
+                "name": "Republic of Korea (Cộng hòa Triều Tiên)"
+            },
+            {
+                "id": "139",
+                "name": "Cộng hòa Moldova"
+            },
+            {
+                "id": "140",
+                "name": "Romania"
+            },
+            {
+                "id": "141",
+                "name": "Russian Federation (Liên bang Nga)"
+            },
+            {
+                "id": "142",
+                "name": "Rwanda"
+            },
+            {
+                "id": "143",
+                "name": "Saint Kitts and Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Saint Lucia"
+            },
+            {
+                "id": "145",
+                "name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao Tome and Principe"
+            },
+            {
+                "id": "149",
+                "name": "Saudi Arabia"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Serbia"
+            },
+            {
+                "id": "152",
+                "name": "Seychelles"
+            },
+            {
+                "id": "153",
+                "name": "Sierra Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapore"
+            },
+            {
+                "id": "155",
+                "name": "Slovakia"
+            },
+            {
+                "id": "156",
+                "name": "Slovenia"
+            },
+            {
+                "id": "157",
+                "name": "Solomon Islands"
+            },
+            {
+                "id": "158",
+                "name": "Somalia"
+            },
+            {
+                "id": "159",
+                "name": "South Africa (Nam Phi)"
+            },
+            {
+                "id": "160",
+                "name": "South Sudan (Nam Sudan)"
+            },
+            {
+                "id": "161",
+                "name": "Spain (Tây Ban Nha)"
+            },
+            {
+                "id": "162",
+                "name": "Sri Lanka"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "164",
+                "name": "Suriname"
+            },
+            {
+                "id": "165",
+                "name": "Swaziland"
+            },
+            {
+                "id": "166",
+                "name": "Sweden (Thụy Điển)"
+            },
+            {
+                "id": "167",
+                "name": "Switzerland (Thụy Sĩ)"
+            },
+            {
+                "id": "168",
+                "name": "Cộng hòa Á-rập Syria"
+            },
+            {
+                "id": "169",
+                "name": "Tajikistan"
+            },
+            {
+                "id": "170",
+                "name": "Thailand (Thái Lan)"
+            },
+            {
+                "id": "171",
+                "name": "The former Yugoslav Republic of Macedonia"
+            },
+            {
+                "id": "172",
+                "name": "Đông Timor"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tonga"
+            },
+            {
+                "id": "175",
+                "name": "Trinidad và Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunisia"
+            },
+            {
+                "id": "177",
+                "name": "Turkey (Thổ Nhĩ Kỳ)"
+            },
+            {
+                "id": "178",
+                "name": "Turkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Uganda"
+            },
+            {
+                "id": "181",
+                "name": "Ukraine"
+            },
+            {
+                "id": "182",
+                "name": "Các Tiểu Vương quốc Á rập thống nhất"
+            },
+            {
+                "id": "183",
+                "name": "Vương quốc Anh và Bắc Ai-len"
+            },
+            {
+                "id": "184",
+                "name": "Cộng hòa thống nhất Tanzania"
+            },
+            {
+                "id": "185",
+                "name": "Hoa Kỳ"
+            },
+            {
+                "id": "186",
+                "name": "Uruguay"
+            },
+            {
+                "id": "187",
+                "name": "Uzbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Venezuela (Bolivarian Republic of)"
+            },
+            {
+                "id": "190",
+                "name": "Tiếng Việt Nam"
+            },
+            {
+                "id": "191",
+                "name": "Yemen"
+            },
+            {
+                "id": "192",
+                "name": "Zambia"
+            },
+            {
+                "id": "193",
+                "name": "Zimbabwe"
+            }
+        ]
+    },
+    "various_values": {
+        "priority-item-content": "Đánh máy Tại đây",
+        "submit-label": "Bình chọn",
+        "send-label": "Gửi",
+        "contact-us-submit": "Đăng nộp",
+        "ballot-in": "in",
+        "ballot-vote-for": "Bình chọnd for:",
+        "ballot-vote-id": "Bình chọn:",
+        "ballot-your-turn": "Bây giờ nó là của bạn...",
+        "ballot-name": "Nhập tên của bạn",
+        "social-title": "Chúng tôi cần bạn giúp thực hiện hai điều đơn giản để vận động cho sự thay đổi",
+        "social-title-one": "Thêm giọng nói của bạn để bỏ phiếu CỦA BẠN",
+        "social-title-two": "Chia sẻ sự bình chọn của bạn",
+        "social-share": "Chia sẻ sự bình chọn của bạn",
+        "vote-again": "Có ai khác tại địa phương bạn muốn cùng tham gia bình chọn không?",
+        "vote-again-link": "Bình chọn lần nữa với máy vi tính này.",
+        "stay-in-touch": "Chúng tôi muốn giữ liên lạc với bạn…",
+        "your-email-address": "Địa chỉ email của bạn",
+        "sign-me-up": "ĐĂNG KÝ THÀNH VIÊN",
+        "facebook-btn": "CHIA SẺ TRÊN FACEBOOK",
+        "facebook-text": "The Liên Hợp quốc wants to hear from you. I have just told them my priorities for creating a better world. Join me and Bình chọn! http://www.myworld2015.org/?ballot=-1",
+        "twitter-btn": "CHIA SẺ TRÊN TWITTER",
+        "twitter-text": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn! Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn. http://myworld2015.org/?ballot=-1 @MyWorld2015",
+        "sina-btn": "CHIA SẺ TRÊN WEIBO",
+        "sina-text": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn! Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn. http://myworld2015.org/?ballot=-1",
+        "orkut-btn": "CHIA SẺ TRÊN ORKUT",
+        "orkut-text": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn! Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn. http://myworld2015.org/?ballot=-1",
+        "googleplus-btn": "CHIA SẺ TRÊN GOOGLE+",
+        "googleplus-text": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn! Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn!",
+        "sharethis-btn": "CHIA SẺ TRÊN Sharethis",
+        "sharethis-text": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn! Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn. http://myworld2015.org/?ballot=-1",
+        "map-header-text": "Xem phần bình chọn của những người khác",
+        "email-sent": "Xin cảm ơn!"
+    },
+    "pages": {
+        "methodology-title": "Phương pháp",
+        "methodology-content": "<h2 class='methodology-main-header'>Những câu hỏi cơ bản chung được trả lời</h2><br/><br/><h2 class='methodology-header'>Thông tin nền: Chương trình phát triển toàn cầu sau năm 2015 </h2><br/><ul class='list-extra-pages'><li>Các Mục tiêu Phát triển Thiên niên kỷ (MDGs) vừa mang lại tác động lớn lao đối với cuộc sống của hàng tỉ người, tuy vậy vẫn còn nhiều người dân vẫn đang cần được trợ giúp để chống chọi với đói nghèo cùng cực, các dịch bệnh và khủng hoảng môi trường.</li><li>Chương trình phát triển toàn cầu cho giai đoạn sau năm 2015 sẽ được xây dựng dựa trên thành tựu đạt được của các MDGs và những vấn đề mà người dân và thế giới vẫn đang phải đối phó, ví dụ như những bất bình đẳng dai dẳng và những thách thức mới.</li><li>Chương trình phát triển mới phải là kết quả của một tiến trình thực sự rộng mở và được nhiều người thuộc nhiều lĩnh vực xã hội từ khắp nơi trên thế giới tham gia.</li><li>Liên Hợp Quốc và Nhóm làm việc Cấp cao của Tổng Thư ký về chương trình nghị sự sau năm 2015 mong muốn được lắng nghe trực tiếp từ người dân về những vấn đề quan trọng đối với bản thân họ, nhờ đó quan điểm của người dân có thể được ghi nhận trong hoạt động thảo luận toàn cầu. Thế giới CỦA TÔI được xem như là một công cụ thực hiện hoạt động này.</li></ul><br/><h2 class='methodology-header'>Thế Giới CỦA TÔI là gì?</h2><br/><ul class='list-extra-pages'><li><span class='highlight-extra-pages'>Tổ chức Liên Hợp Quốc và các đối tác cùng hợp tác để thực hiện một cuộc khảo sát toàn cầu mới, được gọi là Thế Giới CỦA TÔI, nhờ đó người dân có thể tham gia vào tiến trình tham vấn sau năm 2015 để nói cho chúng ta biết về những thay đổi sẽ mang lại những khác biệt nhất cho cuộc sống của chính họ.</li><li>Đây là cuộc khảo sát với nhiều sự lựa chọn, thông qua các phương pháp trên mạng và ngoài mạng, cho phép người dân khắp nơi trên thế giới thông tin cho Liên Hợp Quốc, các nhà lãnh đạo thế giới - và đặc biệt là Nhóm Làm việc Cao cấp của Tổng Thư ký, về những vấn đề quan trọng nhất mà họ muốn chương trình nghị sự sau năm 2015 giải quyết.</li><li>Thế Giới CỦA TÔI sẽ yêu cầu từng cá nhân lựa chọn 6 trong số 16 vấn đề mà theo họ có thể mang lại sự nhiều sự khác biệt nhất cho cuộc sống chính mình. 16 vấn đề trên được định hình từ những ưu tiên do người dân nghèo chọn lựa trong một nghiên cứu gần đây, những hoạt động bình chọn, và từ các cuộc thảo luận chính trị và kỹ thuật đang diễn ra về những mục tiêu cho tương lai. Những ưu tiên này bao gồm cả những Mục tiêu Phát triển Thiên niên kỷ hiện nay, cộng với những vấn đề về bền vững, an toàn và minh bạch.</li></ul><br/><h2 class='methodology-header'>Cuộc khảo sát được thực hiện như thế nào?</h2><br/><ul class='list-extra-pages'><li>Cuộc khảo sát hiện đang được triển khai ở trang web: www.myworld2015.org với sáu ngôn ngữ chính thức của Liên Hợp Quốc. Người dân có thể tham gia khảo sát thông qua các công nghệ di động như SMS và IVR (các số điện thoại miễn phí) từ tháng 1 năm 2013.</li><li>Cuộc khảo sát cũng sẽ được thực hiện theo hình thức phát phiếu giấy - được cung cấp thông qua một mạng lưới các tổ chức cấp cơ sở, các cộng đồng tôn giáo, những nhóm thanh niên, khu vực tư nhân và các đối tác là tổ chức phi chính phủ (NGO) trên toàn thế giới. Sự hỗ trợ của những tổ chức này rất quan trọng giúp cuộc khảo sát có thể đến được các cộng đồng, thu hút những cộng đồng không được kết nối mạng, những cộng đồng nghèo và mù chữ tham gia vào cuộc thảo luận toàn cầu.</li><li>Người tham gia sẽ được hỏi về giới tính, độ tuôải và đất nước của họ, để có thể phân loại các dữ liệu thu thập được và trình bày cho những nhà ra quyết định về bức tranh toàn cầu phản ánh chính xác những gì người dân đang mong đợi.</li></ul><br/><h2 class='methodology-header'>Cuộc khảo sát được thực hiện khi nào và ở đâu?</h2><br/><ul class='list-extra-pages'><li>Từ nay đến năm 2015, chúng tôi mong muốn càng nhiều người dân ở càng nhiều quốc gia tham gia vào hoạt động này: người dân ở mọi lứa tuổi, giới tính và hoàn cảnh, đặc biệt là những cộng đồng nghèo và ngoài lề của thế giới.</li>Thế Giới CỦA TÔI được thực hiện từ đầu tháng 12 năm 2012, vì thế các cuộc tham vấn cấp quốc gia có thể bao gồm luôn hoạt động khảo sát này. Tuy nhiên, việc giới thiệu cuộc khảo sát này trên toàn cầu được lên kế hoạch vào cuối tháng 1 năm 2013 (tại thời điểm mà bộ thông tin được hoàn chỉnh cho tất cả mọi người).</li></ul><br/><h2 class='methodology-header'>16 lựa chọn ưu tiên là gì?</h2><br/><ul class='list-extra-pages'><li>Cơ hội việc làm tốt hơn</li><li>Hỗ trợ người dân không có khả năng làm việc</li><li>Một nền giáo dục tốt</li><li>Chăm sóc sức khỏe tốt hơn</li><li>Giá thực phẩm hợp lý và thực phẩm bổ dưỡng</li><li>Tiếp cận điện thoại và internet</li><li>Giao thông và đường xá tốt hơn</li><li>Tiếp cận được với nước sạch và vệ sinh</li><li>Có đủ năng lượng cho gia đình </li><li>Thực hiện các hành động cụ thể do biến đổi khí hậu</li><li>Bảo vệ rừng, sông ngòi và đại dương</li><li>Bình đẳng giữa nam và nữ</li><li>Phòng chống tội phạm và bạo lực</li><li>Tự do chính trị</li><li>Một chính phủ trung thực và nhạy bén</li><li>Không bị phân biệt đối xử và bị ngược đãi</li></ul><br/><h2 class='methodology-header'>Kết quả khảo sát sẽ được xử lý thế nào?</h2><br/><ul class='list-extra-pages'><li>Dữ liệu thu thập từ các điện thoại di động, trang web và khảo sát trên giấy sẽ liên tục được cập nhật và trình bày trên trang web của Thế Giới CỦA TÔI.</li><li>Những kết quả này sẽ được đệ trình lên Nhóm Làm việc Cao cấp về Chương trình phát triển sau năm 2015 của Tổng Thư ký trước khi Nhóm làm việc này trình bày kết quả cuối cùng cho Tổng Thư ký vào tháng 6 năm 2013. Thế Giới CỦA TÔI sẽ tiếp tục tổng hợp tiếng nói của người dân và kết quả sẽ được thông báo cho Tổng Thư ký và các nhà lãnh đạo toàn cầu khi chuẩn bị cho chương trình phát triển tiếp theo từ nay đến năm 2015. </li></ul><br/><br/><h2 class='methodology-main-header'>Những câu hỏi cơ bản về phương pháp thực hiện được trả lời</h2><br/><br/><br/><h2 class='methodology-header'>Cuộc khảo sát này để làm gì?</h2><br/>Thế Giới CỦA TÔI là một cách để lắng nghe tiếng nói của người dân về một thỏa thuận toàn cầu mới về phát triển. Cuộc khảo sát hoan nghênh những sáng kiến vận động người dân nói lên tiếng nói của mình tại các tranh luận về chương trình sau năm 2015, như là dự án “Tham gia” được Viện Nghiên cứu Phát triển và Liên minh các tổ chức xã hội dân sự sau năm 2015 triển khai với phương pháp nghiên cứu định tính sâu đối với những ưu tiên của người dân, và các tham vấn quốc gia theo chủ đề được Liên Hợp Quốc tổ chức trên khắp thế giới.<br/><br/>Thế Giới CỦA TÔI sẽ bổ sung vào nỗ lực này bằng cách cung cấp những dữ liệu định lượng về các ưu tiên của người dân. Những lựa chọn trong cuộc khảo sát được đóng khung một cách có chủ đích theo hướng thoáng: ví dụ ‘chăm sóc y tế tốt hơn’, hoặc ‘bình đẳng giữa nam và nữ’ để những vấn đề này trở nên dễ hiểu đối với người dân bình thường. Những tham vấn khác sẽ cung cấp thêm thông tin giúp cho những nhà làm chính sách hiểu được quan điểm và ưu tiên của người dân ở mỗi chủ đề bao quát được nêu, và xem xét nếu những ưu tiên này có thể được giải thích thành những mục đích, mục tiêu và các chỉ số.<br/>Thế Giới CỦA TÔI cung cấp một nhịp cầu kết nối giữa các tiến trình tham vấn khác, và tiến trình chính trị tập trung vào cách thức ưu tiên tạo ra một chương trình nghị sự toàn cầu có thể quản lý được. Thế Giới CỦA TÔI cho phép quan điểm của người dân được chú ý trong cả tiến trình trên.<br/>Mục tiêu đề ra không phải nhằm tạo ra một ‘câu trả lời’ chắc chắn về những ưu tiên của thế giới, mà là để góp phần cung cấp thông tin cho các nhà ra quyết định toàn cầu để đảm bảo rằng quan điểm của người dân sẽ được chú ý xem xét thích đáng trong suốt những hoạt động của tiến trình xây dựng chương trình sau năm 2015.<br/><br/><h2 class='methodology-header'>Tại sao lại là 16 lựa chọn này?</h2><br/>Việc quyết định một danh sách các lựa chọn là một nhiệm vụ khó khăn. Sau đây là tiến trình đã được thực hiện:<br/><ol class='ordered-list-extra-pages'><li>Một danh sách ban đầu gồm 24 lựa chọn hàng đầu và những phần chú thích được rút ra từ những vấn đề hiện tại của các Mục tiêu Phát triển Thiên Niên kỷ, cùng với sự xem xét của tổ chức xã hội dân sự và những đề nghị khác dành cho mục tiêu phát triển bền vững sau năm 2015 và những dữ liệu hiện tại từ các nghiên cứu có sự tham gia và các lần bình bầu. Những lựa chọn này được xác định cũng chính là những vấn đề toàn cầu mới xuất hiện.</li><li>Danh sách này sau đó được tham vấn ở một nhóm các cá nhân của các tổ chức phi chính phủ, các nhà làm luật, học thuật, và nhân viên Liên Hợp Quốc ở một số quốc gia và khu vực. Dựa vào các phản hồi thu được, danh sách này đã được cắt giảm còn 15 lựa chọn nhằm giúp cho cuộc khảo sát đơn giản và dễ tiếp cận hơn. Danh sách rút gọn này lại được kiểm tra lấy ý kiến lần thứ hai trong một nhóm nhỏ hơn, bao gồm các công ty bình chọn ở Châu Phi.</li><li>Tiếp theo hoạt động tham vấn này, danh sách cuối cùng đã được nâng lên là 16 lựa chọn để đáp ứng với những ý kiến đóng góp mới. </li><li>Một cuộc thử nghiệm lần cuối đã được thực hiện thông qua hoạt động khảo sát qua tin nhắn SMS ở Uganda. Tại đây, người tham gia được hỏi một câu hỏi mở và các ý kiến thu được mã hóa trở lại 16 lựa chọn trên. Khi được hỏi về những vấn đề quan trọng nhất đối với từng người dân và gia đình của họ, chỉ có dưới 4% câu trả lời không rơi vào danh sách 16 sự lựa chọn trên.</li></ol>Chúng tôi tin rằng chúng tôi đã có được một bộ các vấn đề ưu tiên cân bằng, phản ánh được một loạt các vấn đề mà người dân trên khắp thế giới quan tâm, và đây cũng chính là những vấn đề mà các mục tiêu mới nên hướng đến. Mặc dù bộ lựa chọn này không thể bao gồm hết được tất cả các mối quan tâm của mọi người, nhưng nó đã bao gồm những vấn đề, các mục tiêu mới có thể giải quyết và có tầm quan trọng đối với người dân, với các tổ chức và các chính phủ. Sự giới thiệu các lựa chọn này cho cuộc khảo sát trên mạng và ngoài mạng sẽ nhấn mạnh vào tất cả những vấn đề quan trọng, tuy nhiên chúng tôi cũng cố gắng xác định những vấn đề nào người dân quan tâm nhiều nhất để cung cấp thông tin cho các mục tiêu toàn cầu mới.<br/><br/><br/><h2 class='methodology-header'>Nhưng việc gì sẽ xảy ra nếu tôi muốn chọn một vấn đề khác?</h2><br/>Cuộc khảo sát cung cấp một cơ hội cho người tham gia nói lên ưu tiên của riêng họ tại mục 17 ‘sự lựa chọn của bạn’. Câu trả lời được nêu ở đây sẽ được phân tích cẩn thận để cho thấy khả năng những chủ đề bị bỏ sót hay những ý kiến mới có thể có ích và đóng góp được vào chương trình mới. Phần phân tích những câu trả lời tự do này sẽ được thực hiện một cách chu đáo.<br/><br/><br/><h2 class='methodology-header'>Tại sao những vấn đề này lại được trình bày như thế này?</h2><br/>Những vấn đề này phải dễ hiểu với tất cả mọi người ở khắp nơi trên thế giới, chứ không chỉ riêng các chuyên gia về phát triển mới có thể hiểu được. Chúng tôi đã làm việc với một công ty bình chọn ở Châu Phi và các chuyên gia truyền thông của 3 tổ chức để chỉnh sửa lại phần ngôn ngữ của bảng khảo sát để đảm bảo rằng mọi người đều có thể tiếp cận và hiểu được mà không gặp khó khăn nào do các từ ngữ chuyên dụng hoặc rào cản văn hóa.<br/><br/><br/><h2 class='methodology-header'>Tại sao bạn lại hỏi ‘điều gì là mối bận tâm nhất của bạn và gia đình bạn’?</h2><br/>Trong khi thỏa thuận sau năm 2015 sẽ trở thành một thỏa thuận toàn cầu, mục đích cao nhất chính là mang lại cuộc sống tốt hơn cho mọi người. Vì thế việc hỏi điều gì là quan trọng nhất đối với người dân dường như là một điểm khởi đầu thuận lợi và rõ ràng hơn là hỏi người dân về một thỏa thuận toàn cầu và những gì nên được nêu trong thỏa thuận này. Bảng khảo sát xoay quanh các ưu tiên cá nhân, nhưng chúng tôi nhận ra rằng đối với nhiều người, mối quan tâm và sự chọn lựa cá nhân thường gắn kết với những quan tâm và chọn lựa của gia đình họ (ví dụ ba mẹ có thể hỏi câu hỏi về mong ước của họ dành cho con cái). Vì thế, chúng tôi hiểu rằng trong khi hỏi người dân về vấn đề cá nhân họ, người dân thường thể hiện rằng hạnh phúc của họ tùy thuộc vào sự hạnh phúc của nhiều người khác. Thêm nữa, cách viết câu hỏi như thế sẽ không tạo ra nhiều khe hở cho người tham gia diễn giải câu hỏi chệch đi. Việc giải thích chệch đi có thể gây ra khó khăn, đặc biệt là các câu hỏi rộng hơn về quản trị toàn cầu hay về sự ưu tiên của một đất nước hay một cộng đồng.<br/><br/><br/><h2 class='methodology-header'>Tại sao lại giới hạn mọi người ở 16 lựa chọn... bạn không thể hỏi một câu hỏi mở hay sao?</h2><br/>Thế Giới CỦA TÔI chỉ là một phần của nỗ lực tham vấn toàn cầu về chương trình sau năm 2015, và tất cả các hoạt động khác đều bao gồm các câu hỏi mở. Có nhiều cách hỏi mọi người để tìm hiểu quan điểm của họ và nhiều phương pháp để bổ sung cho nhau. Vai trò của Thế Giới CỦA TÔI là mang đến cách nhìn về những ưu tiên của người dân, và vì thế cuộc khảo sát này cần thiết trong việc xác định trước danh sách các lựa chọn cho mọi người. Như mô tả trên đây, nhiều nỗ lực đã được thực hiện để đảm bảo rằng những ưu tiên này đại diện cho những điều mà mọi người cho  là quan trọng đối với họ.<br/><br/>Thêm nữa, có 2 lý do về kỹ thuật và phương pháp để hỏi những câu hỏi đóng:<br/><ul class='list-extra-pages'><li>Cuộc khảo sát này sẽ được thực hiện bằng nhiều ngôn ngữ, và thông qua nhiều phương tiện truyền thông (trang web, tin nhắn SMS và ngoài mạng), những phương tiện kỹ thuật này sẽ không đủ thực hiện được việc nhóm lại tất cả câu trả lời cho một câu hỏi mở một cách đáng tin cậy và thống nhất để có thể được một phần mềm hiện nay phân tích. Việc mã hóa bằng tay hàng triệu câu trả lời, theo chúng tôi, sẽ khiến cho dự án này trở nên tốn kém và mất thời gian. </li><li>Các đối tác bầu cử và bình chọn chính của chúng tôi cũng chia sẻ kinh nghiệm rằng tỉ lệ tham gia sẽ rất thấp nếu chúng ta đặt câu hỏi mở. Đây không phải là một điều đáng ngạc nhiên, bởi vì các câu hỏi mở thường đòi hỏi người trả lời phải suy nghĩ và nỗ lực nhiều hơn. Vì thế, để mở rộng tối đa sự tham gia của mọi người và đảm bảo cuộc khảo sát dễ tiếp cận nhất, cung cấp những lựa chọn đóng vẫn là phương án tốt hơn.</li></ul><br/><h2 class='methodology-header'>Nhưng bạn không thể nào giải quyết được nghèo đói chỉ nhờ vào một danh sách các vấn đề đơn thuần - mọi việc cần được liên kết với nhau</h2><br/>Chúng tôi đồng ý với ý kiến trên. Đó là lý do tại sao việc cung cấp cho mọi người một loạt các lựa chọn lại quan trọng như vậy. Việc này sẽ cho phép người ta chọn lựa ra được nhiều hơn 1 vấn đề quan tâm. Chọn 6 trong số 16 vấn đề sẽ cho phép người dân nghĩ về sự kết nối các hành động sẽ mang lại những hiệu quả tốt nhất. Nó cũng sẽ cho phép người ta lựa chọn những ưu tiên đối phó với cùng vấn đề theo nhiều cách khác nhau: ví dụ, một phụ huynh quan tâm đến việc con gái của họ có được học tập tốt hay không có thể mong muốn lựa chọn ‘sự bình đẳng giữa nam và nữ’ và ‘một nền giáo dục tốt’ để thể hiện những khía cạnh khác nhau của những thay đổi họ mong muốn được chứng kiến.<br/><br/>Chúng tôi đã tiến hành kiểm nghiệm việc bình chọn với 3 nhóm mẫu để xem sự khác biệt nếu người dân được hỏi lựa chọn 3 hay 5 hay 7 ưu tiên. Người trả lời được hỏi nếu bảng khảo sát có khó hơn hay dễ hơn hoặc thú vị hơn hay đáng chán hơn. Tuy vậy, kết quả thu về cho thấy không có sự khác biệt lớn trong 3 nhóm này.<br/><br/><br/><h2 class='methodology-header'>Làm sao bạn biết nếu người tham gia khảo sát là đại diện của một nhóm dân số - của tất cả hay chỉ của một số nhóm người khác nhau trong đó?</h2><br/>Chúng tôi đang cố gắng tìm ra cách để tìm hiểu thông tin về người tham gia khảo sát, vì thế chúng tôi có thể thông tin càng nhiều nhất đến mức có thể về những người tham gia - họ là ai. Những chúng tôi cũng cực kỳ cẩn thận để không yêu cầu thái quá bằng cách để mở và minh bạch về nội dung và những hạn chế của các dữ liệu thu thập được. Hơn nữa, chúng tôi đang xin lời khuyên từ một công ty thu thập ý kiến toàn cầu về cách thức phân tích và trình bày kết quả. Những mức độ thông tin sẽ được hỏi như sau:<br/><ul class='list-extra-pages'><li>Giới tính – tất cả người tham gia sẽ được yêu cần cho thông tin về giới tính và thông tin này sẽ được sử dụng cho mọi dữ liệu. </li><li>Tuổi tác – tất cả mọi người.</li><li>Đất nước – tất cả mọi người.</li><li>Phương pháp trả lời - chúng tôi có thể phân tích dữ liệu thu thập theo cách thức mọi người tham gia cuộc khảo sát, việc này sẽ mang lại sự khác biệt lớn giữa ba nhóm.</li><li>Ngày và thời gian tham gia khảo sát - để đánh gia tác động của các chiến dịch tiếp thị và lựa chọn một chương trình tự động để thu thập kết quả.</li><li>Trình độ giáo dục - tất cả những người tham gia khảo sát ngoài mạng và qua tin nhắn SMS sẽ được hỏi câu hỏi này. Hơn nữa, những người tham gia khảo sát trên mạng sẽ được hỏi câu hỏi này (tùy chọn) để giảm thiểu tỉ lệ bỏ cuộc giữa chừng.</li><li>Khu vực ở các nước - chúng tôi sẽ hỏi câu hỏi này đối với người tham gia bình chọn qua tin nhắn SMS từ những nhà cung cấp mạng điện thoại, đối với người tham gia khảo sát ngoài mạng từ những người tiến hành khảo sát. Người tham gia trên mạng sẽ được hỏi câu hỏi này (tùy chọn) để giảm thiểu tỉ lệ bỏ cuộc giữa chừng.</li></ul><br/>Thông tin mà chúng tôi thu thập sẽ giống nhau về chi tiết với thông tin của Cuộc Khảo Sát Thế Giới Gallup và những mẫu đại diện toàn cầu khác. Trong khi chúng tôi không thể thực hiện mẫu ngẫu nhiên như Gallup làm, chúng tôi sẽ dùng những dữ liệu xã hội và nhân khẩu học thu thập được để các mẫu có thể đại diện cho tổng thể dân số của xã hội đó, và giúp cho các thông tin trở nên rõ ràng khi công bố các dữ liệu.<br/><br/><br/><h2 class='methodology-header'>Cách thức trình bày dữ liệu?</h2><br/>Hoàn toàn có thể xem được các dữ liệu từ bảng khảo sát trên mạng tại bất kỳ thời điểm nào bạn muốn, và dữ liệu từ SMS và các khảo sát ngoài mạng cũng sẽ được bổ sung nhanh chóng để đảm bảo kết quả được cập nhật liên tục. <br/>Hơn nữa, những thông tin được thu thập bổ sung cũng sẽ được sử dụng để phân loại các dữ liệu cung cấp một bức tranh về các ưu tiên khác nhau giữa các nước, các nhóm kinh tế - xã hội và nhân khẩu học khác nhau. <br/><br/>Chúng tôi sẽ báo cáo các ưu tiên theo từng nhóm và theo từng quốc gia. Chúng tôi cũng sẽ tổng hợp kết quả theo quốc gia, khu vực và toàn cầu. Để làm được việc này, chúng tôi sẽ sử dụng thông tin do người tham gia cung cấp để đánh giá sự phản hồi của người dân khi thông tin được tổng hợp và có thể cung cấp bức tranh đại diện cho toàn bộ dân số. Những lựa chọn được đo lường bao gồm:<ol><li><strong>Các yếu tố nhân khẩu học: </strong>đo lường phản hồi ở từng nước theo dân số, từ nam và nữ và nhóm độ tuổi khác nhau sẽ phản ánh sự cân bằng trong dân số. </li><li><strong>Các yếu tố kinh tế - xã hội và nhân khẩu khu vực trong từng quốc gia.</strong> Chúng tôi mong muốn có được thông tin về trình độ học vấn và khu vực trong quốc gia cho các nhóm có thể đo lường được theo cách có thể phản ánh được nền tảng nhân khẩu học và kinh tế - xã hội của các quốc gia. </li><li><strong>Đại diện khảo sát: </strong>ba phương pháp phản hồi là những đại diện các nhóm có thu nhập khác nhau, với nhóm giàu có nhất câu trả lời tập trung nhiều về ưu tiên được kết nối mạng, đối với nhóm nghèo nhất sẽ là các phương pháp ngoài mạng. Điều này đặc biệt đối với trường hợp cuộc khảo sát ngoài mạng cho những người nghèo nhất khu vực ở những nước khác nhau. Chúng tôi sẽ sử dụng nhiều cách khác nhau để đo lường các phản hồi tùy theo cách mà cuộc khảo sát được tiến hành, để phản ánh lại các mẫu dân số khu vực và sự phân bố thu nhập giữa các nhóm trong các quốc gia.</li></ol><br/><h2 class='methodology-header'>Nếu chương trình sau năm 2015 hướng đến việc giảm nghèo... tại sao chúng tôi nên quan tâm đến những người không nghèo?</h2><br/>Chúng tôi rất chú trọng phát triển các phương pháp để đảm bảo ưu tiên của những người nghèo nhất được thu thập trong cuộc khảo sát, và nếu có thể thì sẽ phân tích các phản hồi của họ một cách riêng biệt so với các nhóm còn lại. Chúng tôi sử dụng dữ liệu khảo sát hộ gia đình để xác định khu vực ở các quốc gia nơi người nghèo nhất sinh sống, và sẽ tập trung các nỗ lực ngoài mạng để triển khai rộng khắp tại các cộng đồng nghèo nhất. Hơn nữa, chúng tôi cũng đang lên kế hoạch để làm việc với các nhóm phi chính phủ, những người có thể cho chúng tôi lời khuyên về việc thực hiện khảo sát đối với các nhóm khó tiếp cận như trẻ em, người lớn tuổi, người khuyết tật và những người của các tổ chức này sẽ thực hiện luôn các hoạt động khảo sát với các cộng đồng mà họ làm việc. Vì thế chúng tôi có thể sử dụng được những dữ liệu chỉ tập trung những người cực nghèo. Khi dữ liệu được tổng hợp ở cấp độ toàn cầu, chúng tôi có thể sử dụng các kỹ thuật đo lường để đảm bảo các phản hồi của người nghèo sẽ được tính theo tỉ lệ phần trăm số lượng người trong tổng số dân số và không chỉ thu thập thông tin từ những phản hồi qua trang mạng ở những nước có thu nhập cao. <br/><br/>Nhưng cuộc khảo sát này được thiết kế cho phạm vi toàn cầu, bởi vì mọi người đều có những mong đợi và phải đối mặt với những vấn đề riêng trong cuộc sống của họ. Những ưu tiên hay gặp nhất của các nhóm sẽ giống nhau hơn những gì chúng ta mong đợi. Hiểu được người dân ở từng quốc gia nhìn nhận về cuộc sống và những vấn đề họ muốn thay đổi sẽ giúp tạo ra những không gian chính trị thúc đẩy cho một thỏa thuận mới. Nếu Khung phát triển mới phản ảnh nhiều sự đồng thuận hơn của người dân về các ưu tiên, thì sẽ càng dễ mang lại tác động hơn đối với các vấn đề chính trị.<br/><br/><br/><h2 class='methodology-header'>Không phải là có nhiều các lựa chọn cho khung phát triển mới hơn chỉ là việc duyệt lại những vấn đề quan trọng nhất đối với mọi người trên thế giới?</h2><br/>Thế Giới CỦA TÔI chỉ làm một trong hàng loạt các tham vấn và tiến trình chính trị sẽ đóng góp và một khung phát triển mới. Và biết về những ưu tiên của các nhóm khác nhau sẽ rất quan trong trong việc định hình chính trị các nước. <br/><br/>Trong khuôn khổ 16 lựa chọn, chúng tôi nhận thức rằng tiến trình này nhằm xây dựng những mục tiêu toàn cầu, vì thế những lựa chọn đại diện cho tất cả những vấn đề có thể được giải quyết thông qua hành động quốc tế. Chúng tôi đã bỏ ra một số chủ đề, ví dụ như tôn giáo, đây là chủ đề mà theo chúng tôi cũng rất quan trọng đối với mọi người, nhưng lại không phải là một chủ đề phù hợp cho các mục tiêu phát triển.",
+        "contact-title": "Liên hệ với Chúng tôi",
+        "contact-content": "Sắp xảy ra",
+        "policy-title": "Chính sách Bảo mật Thông tin Cá nhân",
+        "policy-content": "Chính sách bảo mật thông tin cá nhân xác định cách thức 'Thế giới CỦA TÔI' sử dụng và bảo vệ thông tin mà bạn cung cấp trong lúc bạn sử dụng trang web. <br/><br/>'Thế giới của Tôi' cam kết sẽ bảo vệ thông tin cá nhân của bạn. Nếu những thông tin chúng tôi hỏi xin có thể giúp nhận dạng được bạn khi bạn đang sử dụng trang web này, bạn có thể yên tâm là việc sử dụng phù hợp với chính sách bảo mật.<br/><br/>'Thế giới Của Tôi' có thể thay đổi chính sách này bằng cách cập nhật trang thông tin này. Bạn nên kiểm tra trang thông tin này thường xuyên để đảm bảo rằng bạn hài lòng với những thay đổi mới.<br/><br/><span class='highlight-extra-pages'>Những thông tin chúng tôi thu thập</span><br/>Chúng tôi có thể thu thập những thông tin sau đây: <br/><br/><ul class='lít-extra-pages'><li>6 lựa chọn ưu tiên mà bạn vừa bình chọn</li><li>Giới tính của Bạn, Tuổi và Đất nước</li></ul> <span class='highlight-extra-pages'>Việc chúng tôi với những thông tin chúng tôi thu thập được</span><br/><br/>'Thế giới Của Tôi' KHÔNG bán hay chia sẻ những phản hồi của bạn với bên thứ ba, những người quảng cáo và những người tiếp thị.<br/><br/>Kết quả thu được từ cuộc khảo sát trên web, điện thoại và khảo sát ngoài sẽ được nộp lên cho Nhóm Hỗ trợ Cấp Cao của Tổng Thư ký về Chương trình sau năm 2015 trước các kỳ họp tại Monrovia (tháng 2), Bali (tháng 3) và New York (tháng 5) 2013. <br/><br/><span class='highlight-extra pages'>An ninh</span><br/>Chúng tôi cam kết đảm bảo các thông tin của bạn được bảo mật. Nhằm ngăn chặn những truy cập trái phép hoặc việc để lộ thông tin, chúng tôi sử dụng một quy trình quản lý và điện tử để bảo vệ và bảo đảm các thông tin chúng tôi thu thập trên mạng. <br/><br/><span class='highlight-extra-pages'>Cách chúng tôi sử dụng các cookies</span><br/>Một cookie là một tập tin nhỏ đề nghị sự cấp phép để được đặt ổ đỉa cứng của máy tính của bạn. Khi bạn đồng ý, tập tin này sẽ được cộng vào và cookie nay sẽ giúp phân tích lượng lưu thông của trang web hoặc sẽ báo bạn biết khi bạn mở một trang cụ thể. Các cookies cho phép các ứng dụng của web để phản hồi lại bạn như một cá nhân. Ứng dụng của web đo lường sự vận hành đáp ứng nhu cầu, sở thích và không thích của bạn bằng cách tập hợp và ghi nhớ các thông tin về sở thích của bạn. <br/><br/>Chúng tôi sử dụng cookies log traffic để xác định trang web nào đang được sử dụng. Việc này giúp chúng tôi phân tích được dữ liệu về lưu thông của trang web và nâng cấp trang web của chúng tôi để đáp ứng nhu cầu của khách hàng. Chúngt ôi chỉ sử dụng thông tin này để sử dụng cho mục đích phân tích thống kê và sau đó, dữ liệu thu thập sẽ được chuyển ra khỏi hệ thống. <br/><br/>Nhìn chung, các cookies giúp chúng tôi nâng cấp trang web tốt hơn cho bạn, bằng cách cho phép chúng tôi giám sát trang web nào mà bạn thấy có ích nhất và trang nào thì không. Một cookie sẽ không thể cho phép chúng tôi tiếp cận máy tính của bạn hay bất kỳ thông tin nào về bản thân bạn, hoặc bất kỳ thông tin nào mà bạn không quyết định chia sẻ với chúng tôi. <br/><br/>Bạn có thể lựa chọn để chấp thuận hay từ chối các cookies. Hầu hết các web browsers tự động chấp nhận các cookies, nhưng bạn có thể điều chỉnh mặc định browser để từ chối các cookies nếu bạn muốn. Việc này có thể ngăn cản bạn tận dụng tối đa lợi ích của trang web. <br/><br/><span class='highlight-extra-pages'>Kết nối đến các trang web khác</span><br/>Trang web của chúng tôi bao gồm các đường dẫn cho phép bạn đến thăm các trang web khác một cách dễ dàng. Tuy nhiên, một khi bạn sử dụng những đường dẫn này để ra khỏi trang của chúng tôi, bạn nên lưu ý rằng chúng tôi không có bất kỳ sự quản lý nào với các trang web khác. Do đó, chúng tôi không thể chịu trách nhiệm về việc bảo vệ và bảo mật thông tin mà bạn cung cấp trong khi mở những trang này và những trang web này có thể không được quản lý bằng chính sách bảo mật thông tin. Bạn nên kiểm tra phần lưu ý và xem hướng dẫn về chính sách bảo mật của trang web mới. <br/><br/><span class='highlight-extra-pages'> Quản lý thông tin cá nhân của bạn </span><br/>Cung cấp phản hồi cho cuộc khảo sát là việc tình nguyện. Xin hãy nhớ rằng, bạn có thể lựa chọn việc không cung cấp câu trả lời cho bất kỳ câu hỏi khảo sát nào (đặc biệt đối với những câu yêu cầu thông tin và dữ liệu cá nhân của bạn). Tuy nhiên, việc này sẽ ngăn cản bạn hoàn thành cuộc khảo sát. <br/><br/>Nếu bạn tin rằng bất cứ thông tin nào chúng tôi đang lưu giữ là sai và chưa đủ, xin hãy viết hoặc thư điện tử cho chúng tôi càng sớm càng tôi tại địa chỉ info@worldwewant2015.org. Chúng tôi sẽ nhanh chóng chỉnh sửa những thông tin chưa đúng.",
+        "copyright-title": "Bản quyền",
+        "copyright-content": "Bản Quyền được đảm bảo.<br/><br/>Không có phần nào hoặc nội dung nào trên trang 'Thế Giới CỦA TÔI' có thể được sản xuất, sao chép, điều chỉnh  hoặc biến đổi, mà không có sự đồng ý bằng văn bản của tác giả, ngoại trừ trường hợp xác định được chỉnh định trong một tài liệu riêng lẻ.<br/><br/>Bạn có thể chia sẻ trang web này theo những cách sau đây:<br/>1. Sử dụng bất kỳ những biểu tượng chung được thể hiện trên mỗi trang;<br/>2. Cung cấp một đường dẫn đến trang web của bạn hoặc địa chỉ của một tài nguyên trên trang web (URL) của nội dung mà bạn muốn chia sẻ thông tin; và<br/>3. Bạn có thể trích dẫn thông tin trừ trang web này và đề cập đến <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-ptuổis'>www.myworld2015.org</a><br/><br/>Không được sử dụng cho mục đích thương mại và phân phát nội dung của trang web này nếu không thông báo cho tác giả và được sự đồng ý của tác giả.",
+        "about-my-world-title": "Về Thế giới CỦA TÔI",
+        "about-my-world-content": "Thế Giới CỦA TÔI là cuộc khảo sát dành cho mọi người dân được Liên Hợp Quốc và các đối tác thực hiện. Cuộc khảo sát này hướng đến việc thu thập tiếng nói, ưu tiên và quan điểm của người dân nhằm giúp cho các nhà lãnh đạo trên thế giới có được nhiều thông tin hơn khi bắt đầu tiến trình xác định chương trình phát triển mới cho toàn thế giới.</br></br>Nhờ vào các phương pháp sáng tạo trên mạng và ngoài mạng, Thế Giới CỦA TÔI lấy ý kiến của người dân về 6 trong tổng số 16 sự lựa chọn mà theo họ sẽ mang lại sự khác biệt nhất trong cuộc sống của chính mình. Danh sách 16 sự lựa chọn này được xác lập dựa trên những ưu tiên do chính những người nghèo xác định trong một cuộc nghiên cứu đang tiến hành và nhiều hoạt động bình chọn khác. Những lựa chọn này bao gồm các Mục tiêu Phát triển Thiên niên kỷ, với những vấn đề về bền vững, an ninh, quản trị nhà nước và minh bạch.</br></br>Từ nay cho đến năm 2015, chúng tôi mong muốn càng nhiều người dân ở nhiều nước tham gia bình chọn tại trang Thế Giới CỦA TÔI: người dân ở mọi lứa tuổi, giới tính, và hoàn cảnh, và đặc biệt là những nhóm người nghèo và ngoài lề của thế giới.</br></br>Kết quả ban đầu sẽ được đệ trình lên Nhóm Làm việc Cấp cao về chương trình sau năm 2015 của Tổng Thư ký trước các kỳ họp tại Monrovia, Bali và New York và sẽ cung cấp thông tin cho bản báo cáo cuối cùng và những khuyến nghị về một khung phát triển mới vào tháng 5 năm 2013.</br></br>Sau đó, Thế Giới CỦA TÔI sẽ tiếp tục thu thập ý kiến của người dân cho đến năm 2015 và kết quả cũng sẽ được báo cáo lên Tổng Thư ký và các nhà lãnh đạo trên thế giới khi họ chuẩn bị xác định chương trình phát triển tiếp theo trong khoảng thời gian còn lại đến năm 2015.</br></br>",
+        "who-we-are-title": "Chúng tôi là ai?",
+        "who-we-are-content": "Chương trình Phát triển của Liên Hợp Quốc (UNDP), Chiến dịch Thiên niên kỷ của Liên Hợp Quốc, Viện Phát triển Quốc tế (ODI) và Quỹ Mạng Toàn cầu cùng nhau xây dựng cuộc khảo sát Thế Giới CỦA TÔI. Cuộc khảo sát này là một tiến trình tham vấn rộng khắp, vớisự hỗ trợ to lớn của các tổ chức, bao gồm các tổ chức phi chính phủ, các nhóm tôn giáo và các phong trào thanh niên.<br/><br/>Ban Thông Tin Đại Chúng của Liên Hợp Quốc và chương trình Tình nguyện viên Liên Hợp Quốc (UNV) cũng đóng vai trò quan trọng trong cuộc khảo sát Thế Giới CỦA TÔI.<br/><br/>Hãy xem thêm thông tin về các đối tác quan trọng:<br/><br/><strong>Về UNDP</strong><br/>Đây là mạng lưới phát triển toàn cầu của Liên Hợp Quốc, vận động cho những thay đổi và kết nối các quốc gia về kiến thức, kinh nghiệm và nguồn lực để giúp người dân xây dựng được một cuộc sống tốt hơn. UNDP có mặt trên 177 quốc gia và vùng lãnh thổ.<br/><br/><strong>Về Chiến dịch Thiên Niên kỷ của Liên Hợp Quốc (UN Millennium Campaign)</strong><br/>Được Tổng thư ký Liên Hợp Quốc thành lập từ năm 2002, Chiến dịch hỗ trợ và giúp người dân khắp thế giới có những hành động cụ thể để đạt được các Mục tiêu Phát triển Thiên niên kỷ trước năm 2015, và tăng cường sự tham gia của xã hội dân sự vào chương trình phát triển mới sau năm 2015.<br/><br/><strong>Về ODI</strong><br/>Đây là một đơn vị học thuật độc lập hàng đầu của Vương quốc Anh về các vấn đề phát triển và con người nhằm khuyến khích và cung cấp thông tin về chính sách và các ứng dụng hướng đến xóa giảm đói nghèo, loại trừ các cam chịu và đạt được cuộc sống bền vững tại các quốc gia đang phát triển.<br/><br/><strong>Về Quỹ Mạng Toàn Cầu</strong><br/>được Ngài Tim Berners - Lee, người sáng lập ra trang Mạng trên Internet. Quỹ này là một tổ chức phi lợi nhuận hướng đến một thế giới mà ở đó mọi người đều có thể sử dụng trang Mạng để trao đổi thông tin liên lạc, hợp tác cùng nhau, và xây dựng nhịp cầu kết nối những khác biệt khiến chúng ta quan ngại về tương lai của chính mình.<br/><br/>",
+        "faq-title": "Câu hỏi thường gặp",
+        "faq-content": "<h2 class='faq-header'>Thế Giới CỦA TÔI là gì?</h2><br/><ul class='list-extra-pages'><li>Các Mục tiêu Phát triển Thiên niên kỷ (MDGs) vừa tạo ra nhiều sự thay đổi lớn lao trong cuộc sống của hàng triệu người trên thế giới, nhưng vẫn còn rất nhiều việc cần tiếp tục được thực hiện để xóa bỏ đói nghèo, bệnh tật và khủng hoảng môi trường. </li><li>Chương trình phát triển toàn cầu sau năm 2015 sẽ được xây dựng dựa trên những thành tựu của các MDGs và cũng sẽ được tập trung để giải quyết các vấn đề bất bình đẳng dai dẳng và các thách thức mà người dân và hành tinh này đang gặp phải.</li><li>Chương trình phát triển mới phải là kết quả của một tiến trình mở và bao gồm nhiều người tham gia từ khắp nơi trên thế giới và từ các lĩnh vực của xã hội.</li><li>Liên Hợp Quốc và Nhóm Làm việc Cấp cao về chương trình sau năm 2015 của Tổng Thư ký mong muốn lắng nghe trực tiếp từ người dân trên khắp thế giới về những vấn đề quan trọng đối với họ, vì thế ý kiến của họ sẽ được ghi nhận trong các hoạt động thảo luận toàn cầu. Thế Giới CỦA TÔI được xem như là một công cụ để giúp thực hiện việc này.</li></ul><br/><h2 class='faq-header'>Tôi có thể tham gia vào Thế Giới CỦA TÔI như thế nào?</h2><br/>Nếu bạn là một cá nhân:<br/><br/><ul class='list-extra-pages'><li>Hãy giúp chia sẻ thông tin rộng khắp! Chia sẻ thông tin về cuộc khảo sát và sự lựa chọn của bạn với những người bạn và gia đình và khuyến khích mọi người cùng tham gia vào cuộc khảo sát quan trọng này.</li><li>Gửi thông tin cho chúng tôi! Thu thập hình ảnh, đoạn phim, và câu chuyện của những người tham gia vào cuộc khảo sát này và chia sẻ lên các trang mạng xã hội.</li><li>Cung cấp thông tin chi tiết của bạn cho chúng tôi để chúng tôi có thể thông tin cho bạn những kết quả mới nhất của cuộc khảo sát và những cách thức khác nhau để bạn tham gia vào cuộc chiến xóa đói nghèo toàn cầu.<br/><br/></li></ul>Nếu bạn là một tổ chức:<br/><br/>Một bộ thông tin cho các đối tác đã được chuẩn bị trên trang web: www.myworld2015.org  trước khi cuộc khảo sát này được giới thiệu rộng khắp toàn cầu vào tháng 11 năm 2013. Nếu tổ chức của bạn quan tâm và muốn hỗ trợ cuộc khảo sát, bạn có thể: <br/><br/><ul class='list-extra-pages'><li>Thực hiện cuộc khảo sát ngoài mạng tại các cộng đồng địa phương bằng cách phát các phiếu hỏi, thu thập thông tin và gửi thông tin cho chúng tôi qua cán bộ đầu mối của chúng tôi tại quốc gia và khu vực của bạn.</li><li>Tìm kiếm thêm các đối tác, các tổ chức địa phương và các thành viên để khuyến khích họ cùng tham gia.</li><li>Giúp người dân tiếp cận được với địa chỉ: www.myworld2015.org thông qua nhiều mạng lưới ngoài mạng và các kênh thông tin liên lạc (các trang web, các bản tin và các hoạt động địa phương).</li><li>Cùng tham gia với các đối tác tiềm năng (ví dụ, những nhà cung cấp mạng di động, khu vực tư nhân và các đơn vị truyền thông) để tăng cường khả năng tiếp cận của cuộc khảo sát với người dân.</li><li>Gửi cho chúng tôi tin tức! Thu thập hình ảnh, đoạn phim và câu chuyện về những người tham gia vào cuộc khảo sát.</li></ul><br/><h2 class='faq-header'>Thế Giới CỦA TÔI liên quan như thế nào với Thế Giới Mà Chúng Tôi Mong Muốn sau năm 2015?</h2><br/><br/>Bây giờ, công dân trên khắp thế giới có được một cơ hội hấp dẫn, chưa từng có trước đây, để là một phần của các mục tiêu xóa giảm đói nghèo và tạo ra một môi trường bền vững từ giai đoạn đầu tiên của tiến trình. <br/><br/>Cổng thông tin trên mạng www.worldwewant2015.org cho phép người dân ở khắp nơi trên thế giới tham gia vào tiến trình sau năm 2015 cũng như chia sẻ ý kiến và tham gia vào các tranh luận. Thế Giới CỦA TÔI là một phần của nỗ lực toàn cầu và là một cách làm phong phú thêm các ý kiến cho hoạt động thảo luận toàn cầu. www.myworld2015.org hoàn toàn kết nối với www.worldwewant2015.org và mời gọi người dân tham gia vào hoạt động thảo luận để sau đó có thế đệ trình sự bình chọn của người dân lên cấp cao hơn.<br/><br/><h2 class='faq-header'>Các Mục tiêu Phát triển Bền vững phù hợp với tiến trình này thế nào?</h2><br/>Theo sự thỏa thuận tại Hội nghị Rio+20, Nhóm Làm việc Mở sẽ thiết kế các Mục tiêu Phát triển Bền vững trước năm 2013. Nhóm Làm việc Cấp cao sẽ thực hiện song song với các hoạt động này và cả hai sẽ cùng đệ trình khuyến nghị lên văn phòng Tổng Thư ký.<br/><br/><br/><h2 class='faq-header'>Thông tin về Nhóm Làm việc Cao cấp về chương trình sau 2015 của Tổng Thư ký</h2><br/>Nhóm Làm việc Cao cấp của Tổng Thư ký là một phần của sáng kiến sau năm 2015 của Tổng Thư ký Ban Ki-moon, được hình thành để góp ý kiến cho Tổng Thư ký về chương trình phát triển mới sau năm 2015 – đây chính là thời gian dự kiến sẽ đạt được các mục tiêu chống đói nghèo mà mọi người biết đến dưới tên gọi các Mục tiêu Phát triển Thiên niên kỷ.<br/><br/>Nhóm này có nhiệm vụ vừa phản ảnh những thách thức mới trong quá trình phát triển vừa thu thập những kinh nghiệm về việc thực hiện các MDGs, bao gồm những kết quả đạt được và các lĩnh vực được cải thiện. Ban này cũng sẽ đệ trình kết quả thu được cho Tổng Thư ký trong vòng 6 tháng đầu năm 2013, và những kết quả này cũng sẽ được sử dụng cho báo cáo của Tổng Thư ký đến các Quốc gia Thành viên tại Đại hội đồng Liên Hợp Quốc vào tháng 9 năm 2013.<br/><br/><a href=' http://www.post2015hlp.org/the-panel ' target='_blank' class='links-extra-pages-normal'>Hãy xem thành viên của Nhóm Làm việc Cao cấp.</a><br/><br/><h2 class='faq-header'>Các đối tác nào cùng thực hiện Thế Giới CỦA TÔI?</h2><br/>Chương trình Phát triển của Liên Hợp quốc (UNDP), Chiến dịch Thiên niên kỷ của Liên Hợp quốc, Viện Phát triển Quốc tế (ODI) và Quỹ Mạng Toàn cầu cùng nhau hình thành cuộc khảo sát Thế Giới CỦA TÔI. Cuộc khảo sát này là một tiến trình tham vấn rộng khắp, và có sự hỗ trợ to lớn của các tổ chức bao gồm các tổ chức phi chính phủ, các nhóm niềm tin và các phong trào thanh niên.<br/><br/>Ban Thông Tin Đại Chúng của Liên Hợp quốc và chương trình Tình nguyện viên Liên Hợp quốc (UNV) cũng đóng vai trò quan trọng trong cuộc khảo sát Thế Giới CỦA TÔI.<br/><br/><span class='highlight-extra-ptuổis'><a id='faq-see-more-partners' href='#' target='_blank' class='links-extra-ptuổis-normal'>Xem thêm thông tin về các đối tác</a></span>",
+        "how-it-works-title": "Cuộc khảo sát được thực hiện như thế nào?",
+        "how-it-works-content": "Thế Giới CỦA TÔI thu thập ý kiến của người dân về 6 trong tổng số 16 sự lựa chọn về các vấn đề mà người dân cho rằng có thể mang đến sự thay đổi quan trọng trong cuộc sống của họ. 16 sự lựa chọn này được xác định từ một phân tích rộng khắp và các hoạt động tham vấn:<br/><br/>Đây là một cuộc khảo sát với nhiều lựa chọn có sẵn, chứ không phải là khảo sát với câu hỏi mở vì mục đích cụ thể của Thế Giới CỦA TÔI chính là nỗ lực thu thập ý kiến và mong đợi của chính người dân trên thế giới về những ưu tiên của họ trong hoạt động tham vấn toàn cầu về chương trình phát triển sau năm 2015 của Liên Hợp Quốc.<br/><br/>Danh sách 24 ưu tiên ban đầu đã chọn lọc từ nhiều nguồn quan trọng khác nhau, bao gồm nghiên cứu có sự tham gia, bình chọn, ý kiến của xã hội dân sự, các Mục tiêu Phát triển Thiên niên kỷ (MDGs) và những kế hoạch của các Mục tiêu Phát triển Bền vững. Những sự lựa chọn này được sàng lọc lại còn 16 thông qua hàng loạt hoạt động tham vấn với các tổ chức phi chính phủ, các nhà làm luật, giới học thuật, nhân viên Liên Hợp Quốc và các công ty chuyên gia về thu thập ý kiến. Cuộc khảo sát cũng đã được tiến hành thử nghiệm với một số nhóm, và thông qua một cuộc khảo sát qua tin nhắn điện thoại (SMS) ở Uganda để đảm bảo tính bao quát và sự phù hợp của 16 sự lựa chọn này<br/><br/>Để thu thập thông tin về những chủ đề định kỳ, kể cả trường hợp các chủ đề này chưa được nhắc đến, người tham gia vẫn có thể đưa thêm các ưu tiên của mình vào phần ‘hãy bổ sung thêm ý kiến của bạn’.<br/><br/>Thế Giới CỦA TÔI không thể bao trùm hết các vấn đề quan trọng đối với mọi công dân, vì không phải tất cả các vấn đề đều có thể được các mục tiêu toàn cầu hướng đến giải quyết. Tuy nhiên, phạm vi các ưu tiên mà các mục tiêu có thể giải quyết và các ưu tiên mà chúng ta biết là quan trọng với người dân đều đã được đề cập trong 16 sự lựa chọn này.<br/><br/><br/><strong>Cuộc khảo sát Thế Giới CỦA TÔI có thể được tiếp cận qua BA (3) kênh chính:</strong><br/><br/><strong>Trên mạng:</strong> tại trang web: www.myworld2015.org bằng 6 ngôn ngữ chính thức của Liên Hợp Quốc và thông qua các phương tiện xã hội;<br/><br/><strong>Công nghệ di động (được bắt đầu từ tháng 1 năm 2013): </strong>thông qua các tin nhắn qua điện thoại (SMS) và Hệ thống Phản hồi Giọng nói Tương tác (IVR) thông qua các số điện thoại miễn phí; <br/><br/><strong>Ngoài mạng (được bắt đầu từ tháng 12 năm 2012):</strong> bằng phiếu giấy – được phân phát thông qua một mạng lưới các tổ chức cộng đồng, các cộng đồng tín ngưỡng, các nhóm tuổi trẻ, các đơn vị thuộc khu vực tư nhân và các đối tác phi chính chính phủ khắp thế giới.<br/><br/>Cuộc khảo sát này là ẩn danh. Người tham gia sẽ chỉ được hỏi về giới tính, tuổi tác và đất nước, để giúp cho phần phân tích thêm ý nghĩa và từ đó chúng tôi có thể thể hiện một bức tranh toàn cầu chính xác về những gì người dân gợi ý cho các nhà làm chính sách.<br/><br/>Các dữ liệu dựa trên điện thoại, trang web và khảo sát qua phiếu sẽ liên tục được thu thập và tổng hợp trên trang web Thế Giới CỦA TÔI.<br/><br/>Kết quả thu được từ các hoạt động này sẽ được đệ trình lên Nhóm làm việc Cấp cao về Chương trình sau năm 2015 của Tổng Thư ký trước các kỳ họp của Nhóm tại Monrovia (tháng 2), Bali (tháng 3) và New York (tháng 5) năm 2013.<br/><br/>",
+        "contact-us-title": "Liên hệ với Chúng tôi",
+        "contact-us-title-small": "Hoàn tất bảng thông tin này và cho chúng tôi biết phản hồi của bạn",
+        "contact-us-tên": "Tên: <span class='required'>*</span>",
+        "contact-us-thư điện tử": "Địa chỉ thư điện tử: <span class='required'>*</span>",
+        "contact-us-organization": "Tổ chức",
+        "contact-us-description": "Messtuổi: <span class='required'>*</span>",
+        "page-contact-us-thankyou-title": "Liên hệ với Chúng tôi",
+        "page-contact-us-thankyou-content": "Thank you for your messtuổi. We will get back to you soon.",
+        "page-partners-title": "Đối tác",
+        "page-partners-content": " Bên dưới đây là danh sách các đối tác cam kết sẽ triển khai cuộc khảo sát Thế Giới CỦA TÔI đến các cộng động:<br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Beyond 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.telefonica.com/' class='links-partner-page-normal' target='_blank'>Telefónica</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Major Group for Children and Youth (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>World Association of Girl Guides and Girl Scouts (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>The World Organization of the Scout Movement</a><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>The World YWCA</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>World Alliance of YMCAs </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Youth for Habitat International Network /  Habitat Center for Development and Governanc</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Rural Voices of Youth<br/>Organisation of African Youth<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>The International Federation of Medical Students' Associations</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>International Young Catholic Students (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://https://childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/><br/>Nếu bạn có một tổ chức và muốn cùng tham gia triển khai hoạt động này với Thế Giới CỦA TÔI, xin bạn hãy gửi thư đến địa chỉ sau: <a href='mailto:xavier.longan@undp.org'>xavier.longan@undp.org</a>",
+        "page-coming-soon-title": "Sắp xảy ra",
+        "page-coming-soon-content": "",
+        "page-results-title": "Xem Kết quả",
+        "page-results-content": ""
+    },
+    "social_media": {
+        "facebook": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&tên=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&caption=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+        "facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&tên=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&caption=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org%20http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+        "twitter": "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=Liên Hợp Quốc muốn lắng nghe ý kiến từ BẠN! Tôi vừa nói với họ về những ưu tiên của tôi để tạo ra một thế giới tốt đẹp hơn. &via=MyWorld2015",
+        "og_title": "Tổ chức Liên Hợp quốc muốn lắng nghe ý kiến của bạn.",
+        "og_description": "Tôi vừa thông báo cho họ những lựa chọn ưu tiên nhằm tạo ra một thế giới tốt hơn. Hãy cùng tham gia với tôi và bình chọn tại myworld2015.org!",
+        "weibo": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&caption=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org&pic=http://www.myworld2015.org/assets/img/logo.png",
+        "weibo_thankyou": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&caption=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org&pic=http://www.myworld2015.org/image_path",
+        "orkut": "http://promote.orkut.com/preview?nt=orkut.com&tt=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&du=http:/www.myworld2015.org&cn=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+        "orkut_thankyou": "http://promote.orkut.com/preview?nt=orkut.com&tt=Tổ%20chức%20Liên%20Hợp%20quốc%20muốn%20lắng%20nghe%20ý%20kiến%20của%20bạn.&du=http:/www.myworld2015.org&cn=Tôi%20vừa%20thông%20báo%20cho%20họ%20những%20lựa%20chọn%20ưu%20tiên%20nhằm%20tạo%20ra%20một%20thế%20giới%20tốt%20hơn.%20Hãy%20cùng%20tham%20gia%20với%20tôi%20và%20bình%20chọn%20tại%20myworld2015.org http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+    },
+    "viz": {
+        "viz1_title": "Thế giới đã bình chọn như thế nào",
+        "viz1_subtitle": "Thứ tự các ưu tiên (cho đến bây giờ)",
+        "viz2_title": "Những người bình chọn giống như Bạn",
+        "viz2_title_results": "Xem những người khác bình chọn",
+        "viz2_subtitle": "Những người bình chọn gần đây đã lựa chọn ít nhất 4 trong tổng số các ưu tiên của bạn",
+        "priorities": "Những Ưu tiên",
+        "your_priorities": "Ưu tiên của Bạn",
+        "other_priorities": "Những Ưu tiên khác",
+        "tip1_results": "Nhấp chọn vào từng ưu tiên để xem thế giới đã bình chọn ưu tiên đó như thế nào",
+        "tip1": "Kéo lên xuống trên những lựa chọn của bạn để xem thế giới bình chọn như thế nào",
+        "tip2": "Những người như bạn",
+        "tip3": "Chỉ số Phát triển Con người (HDI) là cách thức tóm tắt việc đo lường sự phát triển của con người. Chỉ số này giúp đo lường những thành tựu trung bình của một đất nước trên ba khía cạnh phát triển con người: một cuộc sống khỏe mạnh và lâu dài (sức khỏe), khả năng tiếp cận kiến thức (giáo dục) và một mức sống đầy đủ (thu nhập).",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "Thấp",
+        "hdi2": "Trung bình",
+        "hdi3": "Cao",
+        "hdi4": "Rất Cao",
+        "world": "Thế giới",
+        "location": "Địa điểm",
+        "gender": "Giới tính",
+        "age_groups": "Độ tuổi",
+        "hdi": "HDI",
+        "region_or_country": "Khu vực hay Đất nước",
+        "all": "Tất cả",
+        "customize": "Cung cấp thông tin ",
+        "customize_this_segment": "Cung cấp thông tin trong mục này",
+        "change": "Thay đổi",
+        "submit": "Đăng nộp ",
+        "hide_markers": "Giấu Người thực hiện",
+        "votes": "Bình chọn",
+        "total_votes": "Tổng Bình chọn",
+        "none": "Không",
+        "country_totals": "Tổng số lượng người bình chọn ",
+        "custom_dropdown_values": ["Những nước HDI Thấp",
+                            "Những nước HDI Trung bình",
+                            "Những nước HDI Cao",
+                            "Những nước HDI Rất Cao",
+                            "Châu Phi",
+                            "Châu Mỹ",
+                            "Châu Á",
+                            "Châu Âu",
+                            "Châu Đại Dương"]
+    }
+}

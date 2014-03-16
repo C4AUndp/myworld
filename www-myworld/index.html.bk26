@@ -1,0 +1,1024 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>MY World</title>
+		<meta name="description" content="">
+
+
+		<meta property="og:title" content="The United Nations wants to hear from you."/>
+		<meta property="og:description" content="I have just told them my priorities for creating a better world. Join me and vote!"/>
+		<meta property="og:url" content="http://www.myworld2015.org"/>
+		<meta property="og:image" content="http://www.myworld2015.org/assets/img/logo.png"/>
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/grid.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="viz/postvoteviz.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="assets/icons/favicon_16.png">
+		<link rel="apple-touch-icon" href="assets/icons/favicon_24.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/icons/favicon_72.png">
+		<link rel="apple-touch-icon" sizes="32x32" href="assets/icons/favicon_32.png">
+		<link rel="apple-touch-icon" sizes="64x64" href="assets/icons/favicon_64.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/icons/favicon_128.png">
+
+		<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push([
+				'_setAccount',
+				'UA-10576069-13'
+				]);
+			_gaq.push([
+				'_trackPageview'
+				]);
+
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+		<script type="text/javascript">var switchTo5x = true;</script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher:"ur-d657dd25-77f0-dbea-1e31-213444d4bb6c"});</script>
+
+	</head>
+
+	<body>
+
+		<div id="fb-root"></div>
+		<span id="button_1"></span>
+
+		<section class="top-wrap row plan-a clearfix">
+			<section>
+				<a href="#" class="mobile-toggle-pages-btn"><img src="assets/icons/mobile-toggle-pages.png" alt=""/></a>
+			</section>
+
+			<section class="mobile-langs-wrap">
+				<select class="langs-wrap langs-wrap-select" id="langs-wrap">
+					<option value="en">English</option>
+					<option value="es">Español</option>
+					<option value="fr">Français</option>
+					<option value="ru">Pусский</option>
+					<option value="ar">العربية</option>
+					<option value="ch">中文</option>
+					<option value="kr">한국어</option>
+					<option value="pr">Português</option>
+					<option value="th">ภาษาไทย</option>
+					<option value="bi">Bahasa Indonesia</option>
+					<option value="vt">Tiếng Việt</option>
+					<option value="bl">Беларуская</option>
+					<option value="al">Albania</option>
+					<option value="bs">Bisaya</option>
+					<!-- <option value="ct">Catalan</option> -->
+				</select>
+			</section>
+		</section>
+
+		<section class="plan-a clearfix">
+			<ul class="top-list row mobile-pages-dropdown">
+				<li>
+					<a id="see-results-item" href="#"></a>
+				</li>
+				<li>
+					<a id="about-item" href="#"></a>
+				</li>
+				<li>
+					<a id="who-we-are-item" href="#"></a>
+				</li>
+				<li>
+					<a id="how-it-works-item" href="#"></a>
+				</li>
+				<li>
+					<a id="faq-item" href="#"></a>
+				</li>
+				<li>
+					<a id="contact-item" href="#"></a>
+				</li>
+				<li>
+					<a id="methodology-item" href="#"></a>
+				</li>
+				<li>
+					<a id="blog-item" href="http://blog.myworld2015.org/" target="_blank"></a>
+				</li>
+				<li>
+					<a id="partners-item" href="#"></a>
+				</li>
+			</ul>
+		</section>
+
+
+		<section class="top-wrap row plan-b">
+			<section class="inner clearfix">
+				<ul class="top-list row">
+					<li>
+						<a id="see-results-item" href="#"></a>
+					</li>
+					<li style="position: relative">
+						<a id="about-btn" href="#"></a>
+						<ul id="about-list" class="clearfix">
+							<li>
+								<a id="about-item" href="#"></a>
+							</li>
+							<li>
+								<a id="who-we-are-item" href="#"></a>
+							</li>
+							<li>
+								<a id="how-it-works-item" href="#"></a>
+							</li>
+							<li>
+								<a id="faq-item" href="#"></a>
+							</li>
+							<li>
+								<a id="contact-item" href="#"></a>
+							</li>
+							<li>
+								<a id="methodology-item" href="#"></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a id="blog-item" href="http://blog.myworld2015.org/" target="_blank"></a>
+					</li>
+					<li>
+						<a id="partners-item" href="#"></a>
+					</li>
+				</ul>
+
+				<label for="langs-wrap" id="langs-wrap-label"></label>
+				<select class="langs-wrap langs-wrap-select" id="langs-wrap">
+					<option value="en">English</option>
+					<option value="es">Español</option>
+					<option value="fr">Français</option>
+					<option value="ru">Pусский</option>
+					<option value="ar">العربية</option>
+					<option value="ch">中文</option>
+					<option value="kr">한국어</option>
+					<option value="pr">Português</option>
+					<option value="th">ภาษาไทย</option>
+					<option value="bi">Bahasa Indonesia</option>
+					<option value="vt">Tiếng Việt</option>
+					<option value="bl">Беларуская</option>
+					<option value="al">Albania</option>
+					<option value="bs">Bisaya</option>
+					<!-- <option value="ct">Catalan</option> -->
+				</select>
+
+				<ul class="clearfix top-social-list">
+					<li class="top-button" id="top-button-5">
+						<a href="https://www.facebook.com/myworld2015?ref=tn_tnmn" target="_blank"></a>
+					</li>
+					<li class="top-button" id="top-button-4">
+						<a href="https://twitter.com/myworld2015" target="_blank"></a>
+					</li>
+					<li class="top-button" id="top-button-1">
+						<a href="#" target="_blank" class="weibo_media_link_top"></a>
+					</li>
+					<li class="top-button" id="top-button-2">
+						<a href="#" target="_blank" class="orkut_media_link_top"></a>
+					</li>
+					<li class="top-button" id="top-button-3">
+						<a href="https://plus.google.com/u/0/115106670965060117370" target="_blank"></a>
+					</li>
+
+					<li class="top-button" id="top-button-6">
+						<a href="#"><span class="st_sharethis_custom" st_url="http://www.myworld2015.org" st_title="The United Nations wants to hear from you." st_summary="I have just told them my priorities for creating a better world. Join me and vote!" st_image="http://www.myworld2015.org/assets/img/logo.png">&nbsp;</span></a>
+					</li>
+				</ul>
+			</section>
+		</section>
+
+		<section class="main-wrap container">
+			<!-- Top row section -->
+			<section class="row">
+				<!-- Logo section -->
+				<section class="columns fourteen logo-wrap alpha plan-a">
+					<a href="index.html" class="logo-img-urls index-btn">
+						<img src="assets/img/logo.png" alt="">
+					</a>
+					<span style="display: none" id="logo-teaser" class="hidden-mobile">You choose. Your World.</span>
+				</section>
+
+				<section class="clearfix plan-b">
+					<section class="columns">
+						<a href="#" class="index-btn">
+							<img class="logo" src="assets/img/plan-b/logo.png" alt=""/>
+						</a>
+
+						<section class="counters">
+							<section class="clearfix">
+								<div class="columns" id='pnumber-header'></div>
+								<p class="columns" id="people-from"></p>
+							</section>
+
+							<section class="clearfix">
+								<div class="columns" id='cnumber-header'></div>
+								<p class="columns" id="countries-vote"></p>
+							</section>
+						</section>
+					</section>
+
+					<section class="columns top-info">
+						<img class="mad-logo" src='assets/img/MAD_logo.png' alt="" width="320" style="display:none">
+						<p id="teaser-content-b"></p>
+
+						<article id="timeline-content" class="columns"></article>
+					</section>
+				</section>
+				<!-- End of Logo section -->
+
+				<!-- Mobile Languages section -->
+				<section class="columns ten langs-wrap plan-a">
+
+					<ul class="clearfix top-social-list">
+						<li class="top-button" id="top-button-5">
+							<a href="https://www.facebook.com/myworld2015?ref=tn_tnmn" target="_blank"></a>
+						</li>
+						<li class="top-button" id="top-button-4">
+							<a href="https://twitter.com/myworld2015" target="_blank"></a>
+						</li>
+						<li class="top-button" id="top-button-1">
+							<a href="#" target="_blank" class="weibo_media_link_top"></a>
+						</li>
+						<li class="top-button" id="top-button-2">
+							<a href="#" target="_blank" class="orkut_media_link_top"></a>
+						</li>
+						<li class="top-button" id="top-button-3">
+							<a href="https://plus.google.com/u/0/115106670965060117370" target="_blank"></a>
+						</li>
+
+						<li class="top-button" id="top-button-6">
+							<a href="#"><span class="st_sharethis_custom" st_url="http://www.myworld2015.org" st_title="The United Nations wants to hear from you." st_summary="I have just told them my priorities for creating a better world. Join me and vote!" st_image="http://www.myworld2015.org/assets/img/logo.png">&nbsp;</span></a>
+						</li>
+					</ul>
+				</section>
+				<!-- End of Languages section -->
+			</section>
+			<!-- End of Top row section -->
+
+			<!-- Information wrap -->
+			<section class="plan-a">
+				<section style="margin-bottom: 8px; display: none" class="row info-wrap">
+					<section id="teaser" class="columns twentyfour teaser-wrap">
+						<p id="teaser-content"> </p>
+					</section>
+
+					<article id="timeline-content-mobile"></article>
+					<!--<section class="vote-info-wrap clearfix">-->
+						<!--<article id="timeline-content" class="columns six alpha"></article>-->
+						<!--<article class="columns six section-one">-->
+							<!--<header class="date" id="section-one-date"></header>-->
+							<!--<header class="title font-size-tweak" id="section-one-title"></header>-->
+							<!--<p id="section-one-content"></p>-->
+						<!--</article>-->
+						<!--<article class="columns six section-two">-->
+							<!--<header class="date" id="section-two-date"></header>-->
+							<!--<header class="title" id="section-two-title"></header>-->
+							<!--<p id="section-two-content"></p>-->
+						<!--</article>-->
+						<!--<article class="columns six section-three omega">-->
+							<!--<header class="date" id="section-three-date"></header>-->
+							<!--<header class="title" id="section-three-title"></header>-->
+							<!--<p id="section-three-content"></p>-->
+						<!--</article>-->
+					<!--</section>-->
+				</section>
+			</section>
+
+			<!--<section class="plan-a">-->
+				<!--<section class="celebrities-wrap row celebrity-only" style="display: none">-->
+					<!--<header id="celebrities-title"></header>-->
+					<!--<ul class="celebrities-list">-->
+						<!--<li id="item-one" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-two" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-three" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-four" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+					<!--</ul>-->
+				<!--</section>-->
+			<!--</section>-->
+
+			<!-- Small World Map Section -->
+			<section class="celebrities-wrap row celebrity-map plan-a">
+				<!--<div id="worldmap-small">-->
+					<!--<header id="worldmap-title"></header>-->
+					<!--<div id="viz-small"></div>-->
+					<!--<div id="worldmap-update"></div>-->
+				<!--</div>-->
+
+				<!--<div id="celebrity-modern">-->
+					<!--<header id="celebrities-title-small"></header>-->
+					<!--<ul class="celebrities-list">-->
+						<!--<li id="item-one" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-two" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-three" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-four" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-five" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-six" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-seven" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+						<!--<li id="item-eight" class="clearfix item">-->
+							<!--<a href="#">-->
+								<!--<img class="preview" src="" alt="">-->
+
+								<!--<p class="content"></p>-->
+								<!--<img class="globe" src="" alt="">-->
+
+								<!--<section class="support-wrap">-->
+									<!--<ul class="support-list">-->
+
+									<!--</ul>-->
+								<!--</section>-->
+							<!--</a>-->
+						<!--</li>-->
+					<!--</ul>-->
+				<!--</div>-->
+
+				<!--****************************************** Ballot Region **************************************
+				***************************************************************************************************-->
+
+				<section class="clearfix ballot-page-vote-wrap" style="display: none">
+					<section class="clearfix inner">
+						<section class="row">
+							<p id="info" class="info column eighteen">Female, 24 in Nigeria</p>
+							<p id="vote-num" class="column six vote-num">Vote #12.345</p>
+						</section>
+						<header class="row">
+							<span class="vote-text">vote for:</span>
+						</header>
+						<section class="row">
+							<section class="column fifteen">
+								<ul class="priorites"></ul>
+								<section class="priority-suggest">
+									<a href="#" id="priority-suggest-btn" class="priority-suggest-btn"></a>
+									<p id="priority-suggest-text" class="priority-suggest-text"></p>
+								</section>
+							</section>
+
+							<img id="priority-globe" class="column nine hidden-tablet hidden-mobile priority-globe" src="" alt="">
+						</section>
+					</section>
+					<section class="row your-turn hidden-tablet hidden-mobile">
+						<p id="your-turn-text" class="your-turn-text"></p>
+						<img src="assets/img/blue-vote.png" alt="">
+					</section>
+				</section>
+
+
+				<!--****************************************** End of Ballot Region **************************************
+				***************************************************************************************************-->
+			</section>
+			<!-- End of Small World Map Section -->
+
+			<!-- End of Information wrap -->
+
+			<!-- Thank you page ********************************************** -->
+
+			<section style="display: none" class="row thank-you-wrap">
+				<section class="inner row" style="margin-bottom: 20px">
+
+					<section class="columns thirteen" style="margin-left: -15px; position: relative">
+						<header id="thank-you-title" class="row"></header>
+						<img style="position: absolute" class="number number-one" src="assets/icons/ballot/circle_1.png" alt="">
+
+						<section class="clearfix ballot-page-vote-wrap thank-you-ballot" style="float: none; margin: 0; margin-left: 35px; overflow:visible !important;">
+							<section class="clearfix inner" style="border:none !important; box-shadow: 0 0 7px #888888 !important">
+								<section class="clearfix">
+									<p id="info" class="info column eighteen"></p>
+									<p id="vote-num" class="column six vote-num" style="display: none">Vote #12.345</p>
+								</section>
+								<header class="row">
+									<input type="text" id="vote-name" class="vote-name">
+									<span class="vote-text"></span>
+								</header>
+								<section class="row">
+									<section class="column sixteen">
+										<ul class="priorites"></ul>
+										<section class="priority-suggest" style="display: none">
+											<a href="#" id="priority-suggest-btn" class="priority-suggest-btn"></a>
+											<p id="priority-suggest-text" class="priority-suggest-text"></p>
+										</section>
+									</section>
+
+									<img id="priority-globe" class="column eight hidden-tablet hidden-mobile priority-globe" src="" alt="">
+								</section>
+							</section>
+						</section>
+
+						<section class="clearfix">
+							<p id="vote-again"></p>
+							<a href="#" id="vote-again-link"></a>
+						</section>
+					</section>
+
+					<section class="columns eleven social-info">
+						<p id="thank-you-share-title" class="row"></p>
+						<ol class="social-title-list">
+							<li id="social-title-one"></li>
+							<li id="social-title-two"></li>
+						</ol>
+						<section class="thank-you-img-wrap">
+							<section class="clearfix share-vote">
+								<img class="number" src="assets/icons/ballot/circle_2.png" alt="">
+								<p id="share-your-vote"></p>
+							</section>
+
+
+							<ul class="clearfix social-list">
+								<li style="margin-right: 35px; display: none" id="thank-you-share"></li>
+								<li class="button" id="button-5">
+									<a href="#" target="_blank" class="fb_media_link_thankyou"></a>
+								</li>
+								<li class="button" id="button-4">
+									<a href="http://twitter.com/share?text=The%20%23UN%20wants%20to%20hear%20from%20you.%20I%20have%20just%20told%20them%20my%20priorities%20for%20creating%20a%20better%20world.%20Join%20me%20%26%20vote!" target="_blank" class="twitter_media_link"></a>
+								</li>
+								<li class="button" id="button-1">
+									<a href="#" target="_blank" class="weibo_media_link_thankyou"></a>
+								</li>
+								<li class="button" id="button-2">
+									<a href="#" target="_blank" class="orkut_media_link_thankyou"></a>
+								</li>
+								<li class="button" id="button-3">
+									<a href="http://plus.google.com/share?url=http://www.myworld2015.org/" target="_blank"></a>
+								</li>
+								<li class="button" id="button-6">
+									<a style="margin-right: 0" href="#">
+										<!-- <span style="height: 32px; width: 32px" class="st_sharethis_custom st_sharethis_custom_thankyou" st_url="http://www.myworld2015.org/" st_title="The United Nations wants to hear from you." st_summary="I have just told them my priorities for creating a better world. Join me and vote!" st_image="http://www.myworld2015.org/assets/img/logo.png">&nbsp;</span> --></a>
+								</li>
+							</ul>
+						</section>
+
+						<section class="row tooltip">
+							<img class="arrow" src="assets/icons/ballot/arrow.png" alt="">
+
+							<section class="clearfix tooltip-text">
+
+							</section>
+							<a href="#" id="share-btn" class="share-btn" target="_blank"></a>
+						</section>
+
+						<section class="row sing-up">
+							<span class="clearfix" id="stay-in-touch"></span>
+							<input type="text" id="your-email-address">
+							<a href="#" id="sign-me-up"></a>
+							<p class="email-sent" id="email-sent"></p>
+						</section>
+					</section>
+
+				</section>
+
+				<section class="row divider">&nbsp;</section>
+
+				<section class="row thank-you-fields-wrap">
+					<section class="clearfix thank-you-why columns twelve">
+						<h3 class="clearfix">
+							<img src="assets/icons/plus.png" alt="">
+							<span id="thank-you-why"></span>
+
+							<div style="display: none" id="tell-us-why-form" class="clearfix">
+								<textarea id="thank-you-why-content"></textarea>
+								<input type="button" id="tell-us-why-send" value="">
+							</div>
+						</h3>
+					</section>
+
+					<section style="display: none" class="clearfix thank-you-vote columns twelve alpha">
+						<img src="assets/icons/check-on-mobile.png" alt="">
+						<span style="padding-top: 20px; display: block" id="thank-you-vote"></span>
+					</section>
+
+					<section class="clearfix thank-you-join columns twelve">
+						<a href="http://www.worldwewant2015.org/" target="_blank">
+							<img src="assets/icons/join.png" alt="">
+							<span id="thank-you-join"></span>
+						</a>
+					</section>
+				</section>
+
+				<!-- Thank You Visualization Section -->
+				<div class="viz-wrapper vizclearfix">
+				<div id="viz-explore"></div>
+					<div id="tips">
+					<div id="hdi-q"></div>
+				</div>
+				<div id="viz-explore-custom">
+					<div class="tooltip-custom">
+						<form id="viz-form"></form>
+					</div>
+				</div>
+				</div>
+
+				<div class="viz-wrapper">
+				<div id="viz-map"></div>
+				</div>
+				<!-- End of Thank You Visualization Section -->
+
+			</section>
+
+			<!-- End of Thank you page *************************************** -->
+
+			<!-- Vote wrapper section -->
+			<section style="display: none" class="row vote-wrap">
+
+				<header style="margin-bottom: 0;" class="row vote-header-wrap plan-a">
+					<p id="vote-header"></p>
+				</header>
+
+				<header class="row vote-header-wrap plan-b">
+					<p id="vote-header"></p>
+				</header>
+
+				<section class="plan-b clearfix">
+					<section class="columns" id="click-for-details">
+						<span id="click-for-details-text"></span>
+					</section>
+
+					<section class="columns" id="check-to-vote">
+						<span id="check-to-vote-text"></span>
+					</section>
+				</section>
+
+				<section class="plan-a">
+					<p id="tap-for-details"></p>
+				</section>
+
+				<!-- Vote form -->
+				<div class="columns twenty alpha vote-form" id="vote-form">
+
+					<!-- Accordion checkboxes -->
+					<section id="accordion" class="row accordion">
+						<h3 class="clearfix priority-wrap">
+								<span class="color-box-priority">
+									<img style="margin: 10px" src="assets/icons/plus.png" alt="">
+								</span>
+							<a id="priority-item-title" href="#">Suggest a priority (optional)</a>
+						</h3>
+
+						<article id="priority-item-content-wrap">
+							<textarea id="priority-item-content" name="priority-item-content" placeholder="Type Here"></textarea>
+						</article>
+
+					</section>
+					<!-- End of Accordion checkboxes -->
+
+					<!-- Dropdowns wrap -->
+					<section class="row dropdowns-wrap">
+						<section class="dropdowns-wrap-inner">
+							<p id="dropdowns-title"></p>
+
+							<p id="dropdowns-content"></p>
+
+							<section style="margin-bottom: 20px" class="row" id="dropdown-area">
+								<label class="hidden-mobile" id="dropdowns-gender-label" for="gender-dropdown"></label>
+								<select class="gender-dropdown" id="gender-dropdown" name="gender-dropdown"> </select>
+
+								<label class="hidden-mobile" id="dropdowns-age-label" for="age-dropdown"></label>
+								<select class="age-dropdown" id="age-dropdown" name="age-dropdown"> </select>
+
+								<label class="hidden-mobile" id="dropdowns-country-label" for="countries-dropdown"></label>
+								<select class="countries-dropdown" id="countries-dropdown" name="countries-dropdown"> </select>
+
+								<label class="hidden-mobile" id="dropdowns-education-label" for="education-dropdown"></label>
+								<select class="education-dropdown" id="education-dropdown" name="education-dropdown"> </select>
+							</section>
+
+							<p class="clearfix" id="dropdowns-oath"></p>
+
+							<section style="margin-bottom: 0" class="row submit-btn-wrap">
+								<span style="width: 262px; height: 50px; display: block; position: relative; margin: 0 auto">
+									<input type="button" id="submit-btn" name="submit-btn" value="">
+								</span>
+							</section>
+
+							<section style="height: 60px;">
+								<p id="validation-message" class="validation-message clearfix"></p>
+							</section>
+						</section>
+					</section>
+					<!-- End of Dropdowns wrap -->
+				</div>
+				<!-- End of Vote form -->
+
+				<!-- Sicebar wrap -->
+				<section class="columns five accordion-side-wrap omega hidden-mobile">
+					<p id="side-title">My Priorities</p>
+					<img id="side-ball" src="assets/img/ball-empty.png" alt="">
+
+					<p id="side-count">0/6</p>
+
+					<p id="side-count-more">Select up to 5 more</p>
+				</section>
+				<!-- End of Sicebar wrap -->
+
+			</section>
+			<!-- End of Vote wrapper section -->
+
+			<!-- Pages section ************************************************************************* -->
+
+			<!-- Coming Soon page -->
+			<section style="display: none" class="row page-wrap coming-soon-wrap">
+				<header id="page-coming-soon-title"></header>
+				<article id="page-coming-soon-content"></article>
+			</section>
+			<!-- End of Coming Soon page -->
+
+			<!-- Results page -->
+			<section style="display: none" class="row page-wrap results-wrap">
+				<header id="page-results-title"></header>
+				<article>
+					<div class="viz-wrapper-results">
+						<div id="viz-explore-results"></div>
+						<div id="tips-results">
+							<div id="hdi-q-results"></div>
+						</div>
+						<div id="viz-explore-custom-results">
+							<div class="tooltip-custom">
+								<form id="viz-form-results"></form>
+							</div>
+						</div>
+					</div>
+
+					<div class="viz-wrapper-results">
+						<div id="viz-map-results"></div>
+					</div>
+
+
+
+					<div class="segment-wrapper">
+
+					</div>
+					<div class="map-wrapper">
+
+					</div>
+
+					<div class="viz-brand">
+						<div id="viz-brand"><a href="http://seedscientific.com"><img src="viz/img/seed-text.png"></a></div>
+					</div>
+				</article>
+			</section>
+			<!-- End of Results page -->
+
+			<!-- Methodology page -->
+			<section style="display: none" class="row page-wrap methodology-wrap">
+				<header id="page-methodology-title"></header>
+				<article id="page-methodology-content"></article>
+			</section>
+			<!-- End of Methodology page -->
+
+			<!-- Contact page -->
+			<section style="display: none" class="row page-wrap contact-wrap">
+				<header id="page-contact-title"></header>
+				<article id="page-contact-content"></article>
+			</section>
+			<!-- End Contact page -->
+
+			<!-- Policy page -->
+			<section style="display: none" class="row page-wrap policy-wrap">
+				<header id="page-policy-title"></header>
+				<article id="page-policy-content"></article>
+			</section>
+			<!-- End Policy page -->
+
+			<!-- Copyright page -->
+			<section style="display: none" class="row page-wrap copyright-wrap">
+				<header id="page-copyright-title"></header>
+				<article id="page-copyright-content"></article>
+			</section>
+			<!-- End Copyright page -->
+
+			<!-- About My Worldpage -->
+			<section style="display: none" class="row page-wrap about-my-world-wrap">
+				<header id="page-about-my-world-title"></header>
+				<article id="page-about-my-world-content"></article>
+			</section>
+			<!-- End About My World page -->
+
+			<!-- How it works page -->
+			<section style="display: none" class="row page-wrap how-it-works-wrap">
+				<header id="page-how-it-works-title"></header>
+				<article id="page-how-it-works-content"></article>
+			</section>
+			<!-- End How it works page -->
+
+			<!-- Who We Are page -->
+			<section style="display: none" class="row page-wrap who-we-are-wrap">
+				<header id="page-who-we-are-title"></header>
+				<article id="page-who-we-are-content"></article>
+			</section>
+			<!-- End Who We Are page -->
+
+			<!-- FAQ -->
+			<section style="display: none" class="row page-wrap faq-wrap">
+				<header id="page-faq-title"></header>
+				<article id="page-faq-content"></article>
+			</section>
+			<!-- End FAQ page -->
+
+			<!-- Contact us page -->
+			<section style="display: none" class="row page-wrap contact-us-wrap">
+				<header id="page-contact-us-title"></header>
+				<section class="page-contact-form">
+					<h3 id="contact-us-title-small"></h3>
+					<label id="contact-us-name" for="contact-us-name-filed"></label>
+					<input type="text" id="contact-us-name-field"/>
+
+					<label id="contact-us-email" for="contact-us-email-filed"></label>
+					<input type="text" id="contact-us-email-field"/>
+
+					<label id="contact-us-organization" for="contact-us-organization-filed"></label>
+					<input type="text" id="contact-us-organization-field"/>
+
+					<label id="contact-us-description" for="contact-us-description-filed"></label>
+					<textarea id="contact-us-description-field" style="min-height: 150px"> </textarea>
+
+					<p>CAPTCHA</p>
+
+					<!-- <p style="font-size: 14px; margin: 10px 0 20px 0" id="captcha-info"></p>
+					<script type="text/javascript"
+							src="http://www.google.com/recaptcha/api/challenge?k=6Lc1z9kSAAAAABiXStmmzho_TUkeliZV_gqqYUG8">
+					</script>
+					<noscript>
+						<iframe src="http://www.google.com/recaptcha/api/noscript?k=6Lc1z9kSAAAAABiXStmmzho_TUkeliZV_gqqYUG8"
+								height="300" width="500" frameborder="0"></iframe>
+						<br>
+						<textarea name="recaptcha_challenge_field" rows="3" cols="40">
+						</textarea>
+						<input type="hidden" name="recaptcha_response_field"
+							   value="manual_challenge">
+							</noscript> -->
+					<div id="recaptcha_div"></div>
+
+					<br>
+					<input type="submit" value="Submit" id="contact-us-submit">
+
+					<p id="contact-validation-msg"></p>
+					<p id="captcha-error-msg"></p>
+				</section>
+			</section>
+			<!-- End of Contact us page -->
+
+			<!-- Contact Us Thank you -->
+			<section style="display: none" class="row page-wrap contact-thankyou-wrap">
+				<header id="page-contact-us-thankyou-title"></header>
+				<article id="page-contact-us-thankyou-content"></article>
+			</section>
+			<!-- End of Contact Us Thank you -->
+
+			<!-- Partners List -->
+			<section style="display: none" class="row page-wrap partners-wrap">
+				<header id="page-partners-title"></header>
+				<article id="page-partners-content"></article>
+			</section>
+			<!-- End Partners List page -->
+
+			<!-- End of Pages section ****************************************************************** -->
+
+			<!-- About wrapper section -->
+			<section class="row about-wrap" style="display: none">
+				<section class="columns eleven">
+					<h3 id="about-title" class="title">About</h3>
+					<ul class="about-list">
+						<li id="about-content"></li>
+						<li id="about-content-middle"></li>
+						<li>
+							<a class="about-logo" href="http://www.worldwewant2015.org" target="_blank">
+								<img src="assets/img/partners/logo_www2015.png" alt="www2015.png" width="60">
+							</a>
+						</li>
+					</ul>
+				</section>
+
+				<section style="margin-left: 60px;" class="columns twelve partners omega">
+					<h3 id="partners-title" class="title"></h3>
+					<ul class="partners-list clearfix">
+						<li>
+							<a href="http://www.un.org" target="_blank">
+								<img src="assets/img/partners/logo_un.png" alt="UN" width="60"><span id="first-logo-label"></span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.webfoundation.org" target="_blank">
+								<img src="assets/img/partners/logo_wwwf.png" alt="WWWF" width="60"><span id="third-logo-label"></span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.odi.org.uk/" target="_blank">
+								<img src="assets/img/partners/logo_uk.png" alt="UK" width="60"><span id="second-logo-label"></span>
+							</a>
+						</li>
+						<li class="last">
+							<a href="http://www.ipsos-mori.com/" target="_blank">
+								<img src="assets/img/partners/logo_ipsos.png" alt="Ipsos-Mori"><span id="fourth-logo-label"></span>
+							</a>
+						</li>
+					</ul>
+					<section style="margin-left: 0;">
+						<a id="more-btn" href="#"></a>
+					</section>
+				</section>
+			</section>
+			<!-- End of About wrapper section -->
+
+			<!-- Footer wrapper section -->
+			<footer class="row footer-wrap">
+				<section class="columns twelve alpha">
+					<a id="methodology-title" href="#"></a>
+					<a id="contact-title" href="http://www.worldwewant2015.org/post2015-contactus"></a>
+				</section>
+
+				<section class="columns twelve omega">
+					<a id="policy-title" href="#"></a>
+					<a id="copyright-title" href="#"></a>
+				</section>
+			</footer>
+			<!-- End of Footer wrapper section -->
+		</section>
+
+		<script type="text/javascript" src="assets/js/libs/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/libs/jquery-ui.js"></script>
+		<script type="text/javascript" src="assets/js/libs/cookie.js"></script>
+		<script type="text/javascript" src="assets/js/libs/sticky.js"></script>
+		<script type="text/javascript" src="assets/js/libs/jquery.backgroundpos.min.js"></script>
+		<script type="text/javascript" src="assets/js/vendor/easyxdm/easyXDM.min.js"></script>
+		<script type="text/javascript" src="assets/js/MW.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<!-- Thank You Visualization Scripts -->
+		<script src="viz/lib/d3.v3.min.js"></script>
+		<script src="viz/lib/d3.geo.projection.v0.min.js"></script>
+		<script src="viz/lib/topojson.v0.min.js"></script>
+		<script src="viz/lib/queue.min.js"></script>
+		<script src="viz/postvoteviz.js"></script>
+		<!--<![endif]-->
+	</body>
+
+</html>

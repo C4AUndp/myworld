@@ -1,0 +1,1231 @@
+{
+    "html_values": {
+        "tap-for-details": "Premi per més informació",
+        "timeline-content": "Les Nacions Unides i els seus socis volen conèixer la TEVA opinió. EL MEU Món és una enquesta global per conèixer les teves prioritats per crear un món millor. Els resultats es compartiran amb els líders mundials per elaborar una nova agenda global de desenvolupament. Parla'ns sobre el món que desitges, perquè la teva opinió importa.",
+        "timeline-content-mobile": "Les Nacions Unides i els seus socis volen conèixer la TEVA opinió. EL MEU Món és una enquesta global per conèixer les teves prioritats per crear un món millor. Els resultats es compartiran amb els líders mundials per elaborar una nova agenda global de desenvolupament. Parla'ns sobre el món que desitges, perquè la teva opinió importa.",
+        "about-item": "Sobre EL MEU Món",
+        "who-we-are-item": "Qui som",
+        "how-it-works-item": "Com funciona",
+        "faq-item": "Preguntes Més Freqüents",
+        "see-results-item": "Mira els resultats",
+        "partners-item": "Socis",
+        "blog-item": "Notícies i Blog",
+        "about-btn": "Sobre",
+        "contact-item": "Contacta’ns",
+        "methodology-item": "Metodologia",
+        "teaser-content": "Vota pels canvis que més marcarien la diferència al teu món",
+        "teaser-content-b": "Vota pels canvis que més marcarien la diferència al teu món",
+        "logo-teaser": "Tu tries. El Teu Món.",
+        "vote-header": "Quines d'aquestes són les més importants per a tu i la teva família? &nbsp;&nbsp;&nbsp;<span style='font-weight:bold'> Escull-ne 6 </span>",
+        "section-one-date": "2000",
+        "section-one-title": "Objectius de Desenvolupament del Mil·lenni",
+        "section-one-content": "Els líders mundials acorden 8 objectius per eradicar l'extrema pobresa, que finalitzen el 2015. Hi ha hagut un progrés important, però encara queda molt per fer.",
+        "section-two-date": "Ara",
+        "section-two-title": "Vota Ara: Aixeca la Teva Veu",
+        "section-two-content": "D'ara fins al 2015, pots ajudar a definir els propers objectius globals explicant-nos els canvis que t'agradaria veure al món.",
+        "section-three-date": "2015",
+        "section-three-title": "El Món Que Volem 2015",
+        "section-three-content": "Junts hem dissenyat un full de ruta per crear el món que volem després del 2015 centrant-nos en temes que marcaran més la diferència en les nostres vides.",
+        "celebrities-title": "Mira qui més ha votat",
+        "celebrities-title-small": "Mira qui més ha votat",
+        "priority-item-title": "Suggereix una prioritat (opcional)",
+        "side-title": "Les Meves Prioritats",
+        "side-count-more": "Sel·lecciona'n <span id='side-count-more-id'> 6 </span>  més",
+        "dropdowns-title": "Finalment, explica'ns una mica més sobre tu.",
+        "dropdowns-content": "Els teus vots seran anònims, però aquestes dades bàsiques ens ajudaran a entendre't millor.",
+        "dropdowns-oath": "Omplint això, certifico que aquest és el meu únic vot a l'enquesta global d'EL MEU Món. No votaré més d'una vegada. ",
+        "dropdowns-gender-label": "Sóc",
+        "dropdowns-age-label": ", tinc",
+        "dropdowns-country-label": ", i visc a ",
+        "dropdowns-education-label": "El meu nivell educatiu és educació",
+        "about-title": "Sobre EL MEU Món",
+        "about-content": "EL MEU Món és una enquesta global de Nacions Unides per als ciutadans i ciutadanes. Treballant juntament amb uns socis, volem capturar les veus de la gent, les prioritats i opinions, de manera que els líders mundials puguin estar informats quan comencin el procés de definició del proper conjunt d'objectius globals per eradicar la pobresa.",
+        "about-content-middle": "Per unir-te a la conversa global i al debat post-2015 vés a:",
+        "partners-title": "Aquesta iniciativa ha estat desenvolupada per:",
+        "thank-you-title": "Enhorabona per explicar-nos què <b>t'apassiona</b> a TU!",
+        "thank-you-share": "Comparteix",
+        "thank-you-share-text": "Aquí tens una imatge personalitzada del món que tu vols. <br/> Comparteix-la amb els teus amics i ajuda a crear una visió per un món millor",
+        "thank-you-why": "Explica'ns per què has votat així (opcional)",
+        "thank-you-join": "Uneix-te a la conversa a worldwewant2015.org",
+        "validation-message": "Escull 6 prioritats i, si us plau, digue'ns el teu gènere, edat i país abans de votar.",
+        "thank-you-vote": "Gràcies per explicar-nos per què has votat",
+        "more-btn": "Amb el suport de socis a tot el món.",
+        "first-logo-label": "Nacions Unides",
+        "second-logo-label": "Overseas Development <br> Institute",
+        "third-logo-label": "World Wide <br> Web Foundation",
+        "fourth-logo-label": "Ipsos Mori",
+        "captcha-info": "Aquesta pregunta és per provar si ets un visitant humà i per evitar transmissions d'spam automàtiques",
+        "contact-validation-msg": "Si us plau, omple tots els camps obligatoris.",
+        "captcha-error-msg": "El captcha que has posat és invàlid.",
+        "worldmap-title": "Vots fins ara <ul class='horizontal'><li>Countries</li><li id='cnumber-small'>Loading...</li></ul>",
+        "worldmap-update": "El mapa s'actualitza cada  <span class='minutes'>2</span>  minuts",
+        "worldmap-title-thanku": "<ul class='horizontal'><li>Countries</li><li id='cnumber'>Loading...</li></ul>",
+        "worldmap-update-thanku": "El mapa s'actualitza cada  <span class='minutes'>2</span>  minuts",
+        "check-to-vote-text": "comprova per votar",
+        "click-for-details-text": "clica per detalls",
+        "langs-wrap-label": "Llengua:",
+        "people-from": "gent de",
+        "countries-vote": "països han votat. <strong>Ara és el teu torn....</strong>",
+        "iframe-link": "Visiteu el lloc Web per més info"
+    },
+    "accordion_items": {
+        "1": {
+            "prefix": "first",
+            "item-color": "#E8168B",
+            "item-title": "Millors oportunitats laborals",
+            "item-content": "Això significa que els governs i les empreses del sector privat haurien de fer més per assegurar que tothom pot trobar una feina amb un salari digne i que pot contribuir i sentir-se valorat com un membre productiu de la societat."
+        },
+        "2": {
+            "prefix": "second",
+            "item-color": "#47C0BE",
+            "item-title": "Una bona educació",
+            "item-content": "Això vol dir que tots els nens i nenes haurien de tenir una educació primària i secundària d'alta qualitat que els doni els instruments per trobar feina i gaudir de la vida. Els governs i el sector privat haurien de treballar conjuntament per oferir oportunitats de formació contínua i desenvolupament de les habilitats pels adults"
+        },
+        "3": {
+            "prefix": "third",
+            "item-color": "#CA3A28",
+            "item-title": "Millor assistència sanitària",
+            "item-content": "Això significa que uns serveis sanitaris de qualitat haurien d'estar a l'abast de tothom quan necessiti tractament. Caldria fer esforços per reduir l'impacte de malalties infeccioses i altres malalties cròniques. Tant el finançament com l'organització de sistemes sanitaris haurien d'adaptar-se a les necessitats del país i de la seva ciutadania."
+        },
+        "4": {
+            "prefix": "fourth",
+            "item-color": "#B0D256",
+            "item-title": "Aliments assequibles i nutritius",
+            "item-content": "Tothom hauria de tenir els aliments que necessita. Ningú al món hauria de patir fam constantment, i cap persona hauria d'estar malnutrida, sobretot les dones embarassades i els infants menors de 2 anys."
+        },
+        "5": {
+            "prefix": "fifth",
+            "item-color": "#233884",
+            "item-title": "Suport a les persones que no poden treballar",
+            "item-content": "Això vol dir que cada persona ha de tenir prou diners per viure, ja sigui a través de l'ocupació o de l'ajuda del govern. Quan la gent no pot treballar, o es veuen afectats per esdeveniments com desastres naturals o crisis econòmiques, els governs s'han d'assegurar que ells i les seves famílies no passin gana, els infants no abandonin l'escola, i que es pugui obtenir l'atenció mèdica i els altres serveis essencials que necessiten."
+        },
+        "6": {
+            "prefix": "sixth",
+            "item-color": "#7CB5D6",
+            "item-title": "Accés a telèfon i internet",
+            "item-content": "Això vol dir que els governs i el sector privat haurien d'assegurar-se que tothom té accés a un nivell mínim de tecnologies de la comunicació per tenir informació en línea i participar a les xarxes socials."
+        },
+        "7": {
+            "prefix": "seventh",
+            "item-color": "#97D3C9",
+            "item-title": "Accés a aigua potable i sanejament",
+            "item-content": "Això vol dir que cada persona hauria de tenir accés a aigua potable per beure, cuinar i rentar, i accés a sanejament."
+        },
+        "8": {
+            "prefix": "eighth",
+            "item-color": "#A01C40",
+            "item-title": "Energia fiable a casa",
+            "item-content": "Això vol dir que tots els membres d'una família haurien de tenir electricitat fiable i assequible o d'altres fonts d'energia a la llar per a la il·luminació, la calefacció i la cuina. Caldria que un major percentatge d'aquesta energia fos sostenible."
+        },
+        "9": {
+            "prefix": "nineth",
+            "item-color": "#71BE45",
+            "item-title": "Protegir boscos, rius i oceans",
+            "item-content": "Això significa que els recursos naturals han de ser atesos, perquè les persones en depenen per aconseguir aliments, combustible i altres recursos. Els governs han de posar-se d'acord sobre els plans per reduir la contaminació en els oceans i els rius, plantar nous boscos, i preservar els ja existents; i avançar cap a un sistema d'alimentació i una agricultura sostenible. Els acords globals han de protegir els ecosistemes fràgils i la biodiversitat."
+        },
+        "10": {
+            "prefix": "tenth",
+            "item-color": "#FCB749",
+            "item-title": "Mesures adoptades en matèria de canvi climàtic",
+            "item-content": "Això significa que els governs han d'assumir compromisos vinculants per reduir les emissions de carboni a nivells que puguin mantenir l'augment de la temperatura global per sota de 2 graus, i invertir en mesures d'adaptació especialment amb comunitats vulnerables"
+        },
+        "11": {
+            "prefix": "eleventh",
+            "item-color": "#2DA9E1",
+            "item-title": "Un govern honest i sensible",
+            "item-content": "Això vol dir que els governs han de ser eficaços, transparents, responsables i no corruptes. Les persones han de tenir veu i vot en quines haurien de ser les prioritats del govern, tenir confiança que aplicarà les prioritats de manera competent. Els governs han d'acordar i aplicar normes per posar la informació a disposició de totes les persones sobre com es gasta els diners públics"
+        },
+        "12": {
+            "prefix": "twelveth",
+            "item-color": "#723390",
+            "item-title": "Llibertats polítiques",
+            "item-content": "Això significa que cada persona ha de poder jugar un paper en els processos polítics del seu propi país, entre d'altres a través de votar i formar o afiliar-se a partits polítics. Les persones han de poder exercir la llibertat d'expressió, inclosa a través de mitjans de comunicació lliures. Les persones han de poder unir-se i participar en sindicats i qualsevol modalitat de la societat civil, incloses les diverses formes de participació ciutadana i l'acció voluntària"
+        },
+        "13": {
+            "prefix": "thirteenth",
+            "item-color": "#387195",
+            "item-title": "Protecció contra el crim i la violència",
+            "item-content": "Això significa que totes les persones han d'esperar viure en una comunitat que els protegeix de l'amenaça de la delinqüència i la violència. Això hauria d'incloure la violència domèstica i assalt sexual contra dones i nenes. Cada persona ha de ser capaç d'obtenir justícia a través d'un tribunal o un altre sistema si són víctimes d'un delicte"
+        },
+        "14": {
+            "prefix": "fourteenth",
+            "item-color": "#C84699",
+            "item-title": "Igualtat entre home i dona",
+            "item-content": "Això significa que homes i dones han de tenir els mateixos drets i oportunitats. Els nens i les nenes han de tenir igual accés a l'escola i la mateixa qualitat de l'educació; els homes i les dones han de tenir la mateixa probabilitat de ser elegits per als parlaments, tenir les mateixes oportunitats de participar en la vida política i social, i tenir les mateixes oportunitats i recompenses en el lloc de treball"
+        },
+        "15": {
+            "prefix": "fifteenth",
+            "item-color": "#DEC0CA",
+            "item-title": "Protecció contra la discriminació i la persecució",
+            "item-content": "Això vol dir que cap persona al món hauria de tenir limitades les seves oportunitats econòmiques, socials o polítiques limitats a causa de la seva raça, origen ètnic, religió, discapacitat, preferència sexual, o per qualsevol altra raó, i ningú ha de témer per la seva seguretat personal per les mateixes raons"
+        },
+        "16": {
+            "prefix": "sixteenth",
+            "item-color": "#FBE792",
+            "item-title": "Millor transport i carreteres",
+            "item-content": "Això vol dir que caldria millorar el transport i les carreteres de manera que les persones es poguessin moure lliurement i fàcilment per visitar els seus amics i família, trobar noves oportunitats econòmiques i utilitzar els serveis que necessiten."
+        }
+    },
+    "celebrities": {
+        "1": {
+            "image_src": "Diana.png",
+            "content": "<span style='font-weight: bold;'>Diana</span><br><span>Dona, 22</span><br><span>Cuba</span>",
+            "globe_src": "Globe_diana.png",
+            "supports": [
+                "tenth",
+                "nineth",
+                "second",
+                "twelveth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "2": {
+            "image_src": "myworld_arda.png",
+            "content": "<span style='font-weight: bold;'>Ardak Tukenova</span><br><span>Dona, 32</span><br><span>Kazakhstan</span>",
+            "globe_src": "Globe_arda.png",
+            "supports": [
+                "third",
+                "nineth",
+                "fourth",
+                "second",
+                "eleventh",
+                "fourteenth"
+            ]
+        },
+        "3": {
+            "image_src": "myworld_anjana.png",
+            "content": "<span style='font-weight: bold;'>Anjana</span><br><span>Dona, 25</span><br><span>Nepal</span>",
+            "globe_src": "Globe_anjana.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "4": {
+            "image_src": "Sonal.png",
+            "content": "<span style='font-weight: bold;'>Sonal Kanabar</span><br><span>Dona, 25</span><br><span>Tanzania</span>",
+            "globe_src": "Globe_sonal.png",
+            "supports": [
+                "third",
+                "tenth",
+                "nineth",
+                "fourth",
+                "second",
+                "seventh"
+            ]
+        },
+        "5": {
+            "image_src": "Uma.png",
+            "content": "<span style='font-weight: bold;'>Uma</span><br><span>Dona, 23</span><br><span>Australia</span>",
+            "globe_src": "Globe_uma.png",
+            "supports": [
+                "third",
+                "second",
+                "thirteenth",
+                "eleventh",
+                "twelveth",
+                "fourteenth"
+            ]
+        },
+        "6": {
+            "image_src": "Sebastian.png",
+            "content": "<span style='font-weight: bold;'>Sebastian</span><br><span>Home, 28</span><br><span>Austria</span>",
+            "globe_src": "Globe_sebastian.png",
+            "supports": [
+                "nineth",
+                "fourth",
+                "second",
+                "thirteenth",
+                "sixth",
+                "eleventh"
+            ]
+        },
+        "7": {
+            "image_src": "myworld_juanita.png",
+            "content": "<span style='font-weight: bold;'>Juanita</span><br><span>Dona, 29</span><br><span>Canada</span>",
+            "globe_src": "Globe_juanita.png",
+            "supports": [
+                "third",
+                "second",
+                "seventh",
+                "thirteenth",
+                "first",
+                "fourteenth"
+            ]
+        },
+        "8": {
+            "image_src": "robert.png",
+            "content": "<span style='font-weight: bold;'>Robert</span><br><span>Home, 21</span><br><span>USA</span>",
+            "globe_src": "robert_globe.png",
+            "supports": [
+                "tenth",
+                "sixteenth",
+                "fourth",
+                "second",
+                "first",
+                "fourteenth"
+            ]
+        }
+    },
+    "fields_values": {
+        "education": [
+            {
+                "id": "",
+                "name": "educació"
+            },
+            {
+                "id": "1",
+                "name": "Part de la primària"
+            },
+            {
+                "id": "2",
+                "name": "Primària completada"
+            },
+            {
+                "id": "3",
+                "name": "Secundària completada"
+            },
+            {
+                "id": "4",
+                "name": "Més enllà de la secundària"
+            }
+        ],
+        "gender": [
+            {
+                "id": "",
+                "name": "gènere",
+                "ballot_gender": "gènere"
+            },
+            {
+                "id": "1",
+                "name": "Home",
+                "ballot_gender": "Home"
+            },
+            {
+                "id": "2",
+                "name": "Dona",
+                "ballot_gender": "Dona"
+            }
+        ],
+        "age": [
+            {
+                "id": "",
+                "name": "edat"
+            }
+        ],
+        "countries": [
+            {
+                "id": "",
+                "name": "país"
+            },
+            {
+                "id": "161",
+                "name": "Espanya"
+            },
+            {
+                "id": "1",
+                "name": "Afganistan"
+            },
+            {
+                "id": "2",
+                "name": "Albània"
+            },
+            {
+                "id": "3",
+                "name": "Algèria"
+            },
+            {
+                "id": "4",
+                "name": "Andorra"
+            },
+            {
+                "id": "5",
+                "name": "Angola"
+            },
+            {
+                "id": "6",
+                "name": "Antigua i Barbuda"
+            },
+            {
+                "id": "7",
+                "name": "Argentina"
+            },
+            {
+                "id": "8",
+                "name": "Armènia"
+            },
+            {
+                "id": "9",
+                "name": "Austràlia"
+            },
+            {
+                "id": "10",
+                "name": "Àustria"
+            },
+            {
+                "id": "11",
+                "name": "Azerbaidjan"
+            },
+            {
+                "id": "12",
+                "name": "Bahames"
+            },
+            {
+                "id": "13",
+                "name": "Bahrain"
+            },
+            {
+                "id": "14",
+                "name": "Bangla Desh"
+            },
+            {
+                "id": "15",
+                "name": "Barbados"
+            },
+            {
+                "id": "16",
+                "name": "Bielorússia"
+            },
+            {
+                "id": "17",
+                "name": "Bèlgica"
+            },
+            {
+                "id": "18",
+                "name": "Belize"
+            },
+            {
+                "id": "19",
+                "name": "Benín"
+            },
+            {
+                "id": "20",
+                "name": "Bhutan"
+            },
+            {
+                "id": "21",
+                "name": "Bolívia"
+            },
+            {
+                "id": "22",
+                "name": "Bòsnia i Hercegovina"
+            },
+            {
+                "id": "23",
+                "name": "Botswana"
+            },
+            {
+                "id": "24",
+                "name": "Brasil"
+            },
+            {
+                "id": "25",
+                "name": "Brunei "
+            },
+            {
+                "id": "26",
+                "name": "Bulgària"
+            },
+            {
+                "id": "27",
+                "name": "Burkina Faso"
+            },
+            {
+                "id": "28",
+                "name": "Burundi"
+            },
+            {
+                "id": "29",
+                "name": "Cambodja"
+            },
+            {
+                "id": "30",
+                "name": "Camerun"
+            },
+            {
+                "id": "31",
+                "name": "Canadà"
+            },
+            {
+                "id": "32",
+                "name": "Cap Verd"
+            },
+            {
+                "id": "33",
+                "name": "República Centreafricana"
+            },
+            {
+                "id": "34",
+                "name": "Txad"
+            },
+            {
+                "id": "35",
+                "name": "Xile"
+            },
+            {
+                "id": "36",
+                "name": "Xina"
+            },
+            {
+                "id": "37",
+                "name": "Colòmbia"
+            },
+            {
+                "id": "38",
+                "name": "Comores"
+            },
+            {
+                "id": "39",
+                "name": "Congo"
+            },
+            {
+                "id": "40",
+                "name": "Costa Rica"
+            },
+            {
+                "id": "41",
+                "name": "Costa d'Ivori"
+            },
+            {
+                "id": "42",
+                "name": "Croàcia"
+            },
+            {
+                "id": "43",
+                "name": "Cuba"
+            },
+            {
+                "id": "44",
+                "name": "Xipre"
+            },
+            {
+                "id": "45",
+                "name": "República Txeca"
+            },
+            {
+                "id": "46",
+                "name": "Corea del Nord"
+            },
+            {
+                "id": "47",
+                "name": "República Democràtica del Congo"
+            },
+            {
+                "id": "48",
+                "name": "Dinamarca"
+            },
+            {
+                "id": "49",
+                "name": "Djibouti"
+            },
+            {
+                "id": "50",
+                "name": "Dominica"
+            },
+            {
+                "id": "51",
+                "name": "República Dominicana"
+            },
+            {
+                "id": "52",
+                "name": "Equador"
+            },
+            {
+                "id": "53",
+                "name": "Egipte"
+            },
+            {
+                "id": "54",
+                "name": "El Salvador"
+            },
+            {
+                "id": "55",
+                "name": "Guinea Equatorial"
+            },
+            {
+                "id": "56",
+                "name": "Eritrea"
+            },
+            {
+                "id": "57",
+                "name": "Estònia"
+            },
+            {
+                "id": "58",
+                "name": "Etiòpia"
+            },
+            {
+                "id": "59",
+                "name": "Fiji"
+            },
+            {
+                "id": "60",
+                "name": "Finlàndia"
+            },
+            {
+                "id": "61",
+                "name": "França"
+            },
+            {
+                "id": "62",
+                "name": "Gabon"
+            },
+            {
+                "id": "63",
+                "name": "Gàmbia"
+            },
+            {
+                "id": "64",
+                "name": "Geòrgia"
+            },
+            {
+                "id": "65",
+                "name": "Alemanya"
+            },
+            {
+                "id": "66",
+                "name": "Ghana"
+            },
+            {
+                "id": "67",
+                "name": "Grècia"
+            },
+            {
+                "id": "68",
+                "name": "Grenada"
+            },
+            {
+                "id": "69",
+                "name": "Guatemala"
+            },
+            {
+                "id": "70",
+                "name": "Guinea"
+            },
+            {
+                "id": "71",
+                "name": "Guinea Bissau"
+            },
+            {
+                "id": "72",
+                "name": "Guyana"
+            },
+            {
+                "id": "73",
+                "name": "Haití"
+            },
+            {
+                "id": "74",
+                "name": "Hondures"
+            },
+            {
+                "id": "75",
+                "name": "Hongria"
+            },
+            {
+                "id": "76",
+                "name": "Islàndia"
+            },
+            {
+                "id": "77",
+                "name": "Índia"
+            },
+            {
+                "id": "78",
+                "name": "Indonèsia"
+            },
+            {
+                "id": "79",
+                "name": "Iran (República Islàmica)"
+            },
+            {
+                "id": "80",
+                "name": "Iraq"
+            },
+            {
+                "id": "81",
+                "name": "Irlanda"
+            },
+            {
+                "id": "82",
+                "name": "Israel"
+            },
+            {
+                "id": "83",
+                "name": "Itàlia"
+            },
+            {
+                "id": "84",
+                "name": "Jamaica"
+            },
+            {
+                "id": "85",
+                "name": "Japó"
+            },
+            {
+                "id": "86",
+                "name": "Jordània"
+            },
+            {
+                "id": "87",
+                "name": "Kazakhstan"
+            },
+            {
+                "id": "88",
+                "name": "Kènia"
+            },
+            {
+                "id": "89",
+                "name": "Kiribati"
+            },
+            {
+                "id"  : "195",
+                "name": "Kosovo"
+            },
+            {
+                "id": "90",
+                "name": "Kuwait"
+            },
+            {
+                "id": "91",
+                "name": "Kirguizistan"
+            },
+            {
+                "id": "92",
+                "name": "Laos"
+            },
+            {
+                "id": "93",
+                "name": "Letònia"
+            },
+            {
+                "id": "94",
+                "name": "Líban"
+            },
+            {
+                "id": "95",
+                "name": "Lesotho"
+            },
+            {
+                "id": "96",
+                "name": "Libèria"
+            },
+            {
+                "id": "97",
+                "name": "Libia"
+            },
+            {
+                "id": "98",
+                "name": "Liechtenstein"
+            },
+            {
+                "id": "99",
+                "name": "Lituània"
+            },
+            {
+                "id": "100",
+                "name": "Luxemburg"
+            },
+            {
+                "id": "101",
+                "name": "Madagascar"
+            },
+            {
+                "id": "102",
+                "name": "Malawi"
+            },
+            {
+                "id": "103",
+                "name": "Malàisia"
+            },
+            {
+                "id": "104",
+                "name": "Maldives"
+            },
+            {
+                "id": "105",
+                "name": "Mali"
+            },
+            {
+                "id": "106",
+                "name": "Malta"
+            },
+            {
+                "id": "107",
+                "name": "Illes Marshall"
+            },
+            {
+                "id": "108",
+                "name": "Mauritània"
+            },
+            {
+                "id": "109",
+                "name": "Maurici"
+            },
+            {
+                "id": "110",
+                "name": "Mèxic"
+            },
+            {
+                "id": "111",
+                "name": "Micronèsia (Estats Federats de)"
+            },
+            {
+                "id": "112",
+                "name": "Mònaco"
+            },
+            {
+                "id": "113",
+                "name": "Mongòlia"
+            },
+            {
+                "id": "114",
+                "name": "Montenegro"
+            },
+            {
+                "id": "115",
+                "name": "Marroc"
+            },
+            {
+                "id": "116",
+                "name": "Moçambic"
+            },
+            {
+                "id": "117",
+                "name": "Birmània"
+            },
+            {
+                "id": "118",
+                "name": "Namíbia"
+            },
+            {
+                "id": "119",
+                "name": "Nauru"
+            },
+            {
+                "id": "120",
+                "name": "Nepal"
+            },
+            {
+                "id": "121",
+                "name": "Països Baixos"
+            },
+            {
+                "id": "122",
+                "name": "Nova Zelanda"
+            },
+            {
+                "id": "123",
+                "name": "Nicaragua"
+            },
+            {
+                "id": "124",
+                "name": "Níger"
+            },
+            {
+                "id": "125",
+                "name": "Nigèria"
+            },
+            {
+                "id": "126",
+                "name": "Noruega"
+            },
+            {
+                "id": "127",
+                "name": "Oman"
+            },
+            {
+                "id": "128",
+                "name": "Pakistan"
+            },
+            {
+                "id": "194",
+                "name": "Palestina (l'Estat de)"
+            },
+            {
+                "id": "129",
+                "name": "Palau"
+            },
+            {
+                "id": "130",
+                "name": "Panamà"
+            },
+            {
+                "id": "131",
+                "name": "Papua Nova Guinea"
+            },
+            {
+                "id": "132",
+                "name": "Paraguai"
+            },
+            {
+                "id": "133",
+                "name": "Perú"
+            },
+            {
+                "id": "134",
+                "name": "Filipines"
+            },
+            {
+                "id": "135",
+                "name": "Polònia"
+            },
+            {
+                "id": "136",
+                "name": "Portugal"
+            },
+            {
+                "id": "137",
+                "name": "Qatar"
+            },
+            {
+                "id": "138",
+                "name": "República de Corea"
+            },
+            {
+                "id": "139",
+                "name": "República de Moldàvia"
+            },
+            {
+                "id": "140",
+                "name": "Romania"
+            },
+            {
+                "id": "141",
+                "name": "Federació Russa"
+            },
+            {
+                "id": "142",
+                "name": "Ruanda"
+            },
+            {
+                "id": "143",
+                "name": "Saint Christopher i Nevis"
+            },
+            {
+                "id": "144",
+                "name": "Saint Lucia"
+            },
+            {
+                "id": "145",
+                "name": "Saint Vincent i les Grenadines"
+            },
+            {
+                "id": "146",
+                "name": "Samoa"
+            },
+            {
+                "id": "147",
+                "name": "San Marino"
+            },
+            {
+                "id": "148",
+                "name": "Sao Tomé i Príncipe"
+            },
+            {
+                "id": "149",
+                "name": "Aràbia Saudita"
+            },
+            {
+                "id": "150",
+                "name": "Senegal"
+            },
+            {
+                "id": "151",
+                "name": "Sèrbia"
+            },
+            {
+                "id": "152",
+                "name": "Seychelles"
+            },
+            {
+                "id": "153",
+                "name": "Sierra Leone"
+            },
+            {
+                "id": "154",
+                "name": "Singapur"
+            },
+            {
+                "id": "155",
+                "name": "Eslovàquia"
+            },
+            {
+                "id": "156",
+                "name": "Eslovènia"
+            },
+            {
+                "id": "157",
+                "name": "Illes Solomó"
+            },
+            {
+                "id": "158",
+                "name": "Somàlia"
+            },
+            {
+                "id": "159",
+                "name": "Sud-àfrica"
+            },
+            {
+                "id": "160",
+                "name": "Sudan del Sud"
+            },
+            {
+                "id": "162",
+                "name": "Sri Lanka"
+            },
+            {
+                "id": "163",
+                "name": "Sudan"
+            },
+            {
+                "id": "164",
+                "name": "Surinam"
+            },
+            {
+                "id": "165",
+                "name": "Suazilàndia"
+            },
+            {
+                "id": "166",
+                "name": "Suècia"
+            },
+            {
+                "id": "167",
+                "name": "Suïssa"
+            },
+            {
+                "id": "168",
+                "name": "Síria"
+            },
+            {
+                "id": "169",
+                "name": "Tadjikistan"
+            },
+            {
+                "id": "170",
+                "name": "Tailàndia"
+            },
+            {
+                "id": "171",
+                "name": "Macedònia"
+            },
+            {
+                "id": "172",
+                "name": "Timor Oriental"
+            },
+            {
+                "id": "173",
+                "name": "Togo"
+            },
+            {
+                "id": "174",
+                "name": "Tonga"
+            },
+            {
+                "id": "175",
+                "name": "Trinitat i Tobago"
+            },
+            {
+                "id": "176",
+                "name": "Tunísia"
+            },
+            {
+                "id": "177",
+                "name": "Turquia"
+            },
+            {
+                "id": "178",
+                "name": "Turkmenistan"
+            },
+            {
+                "id": "179",
+                "name": "Tuvalu"
+            },
+            {
+                "id": "180",
+                "name": "Uganda"
+            },
+            {
+                "id": "181",
+                "name": "Ucraïna"
+            },
+            {
+                "id": "182",
+                "name": "Unió dels Emirats Àrabs"
+            },
+            {
+                "id": "183",
+                "name": "Regne Unit"
+            },
+            {
+                "id": "184",
+                "name": "Tanzània"
+            },
+            {
+                "id": "185",
+                "name": "Estats Units"
+            },
+            {
+                "id": "186",
+                "name": "Uruguai"
+            },
+            {
+                "id": "187",
+                "name": "Uzbekistan"
+            },
+            {
+                "id": "188",
+                "name": "Vanuatu"
+            },
+            {
+                "id": "189",
+                "name": "Veneçuela (República Bolivariana de)"
+            },
+            {
+                "id": "190",
+                "name": "Vietnam"
+            },
+            {
+                "id": "191",
+                "name": "Iemen"
+            },
+            {
+                "id": "192",
+                "name": "Zàmbia"
+            },
+            {
+                "id": "193",
+                "name": "Zimbàbue"
+            }
+        ]
+    },
+    "various_values": {
+        "priority-item-content": "Escriu Aquí",
+        "submit-label": "vota",
+        "send-label": "envia",
+        "contact-us-submit": "Envia",
+        "ballot-in": "in",
+        "ballot-vote-for": "votat per:",
+        "ballot-vote-id": "Vota:",
+        "ballot-your-turn": " Ara és el teu torn...",
+        "ballot-name": "Introdueix el teu nom",
+        "social-title": "Necessitem la teva ajuda per fer dues coses molt simples mentre promous el canvi",
+        "social-title-one": "Afegeix el TEU nom a la TEVA papereta",
+        "social-title-two": "Comparteix el TEU vot i anima als teus amics i amigues a votar",
+        "social-share": "Comparteix el teu vot",
+        "vote-again": "Algú més a prop teu vol participar-hi?",
+        "vote-again-link": "Vota una altra vegada en aquest ordinador.",
+        "stay-in-touch": "Ens agradaria estar en contacte amb tu...",
+        "your-email-address": "La teva adreça de correu electrònic",
+        "sign-me-up": "REGISTRA'M",
+        "facebook-btn": "Comparteix al Facebook",
+        "facebook-text": "La ONU vol saber de TU! Acabo d'explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org/?ballot=-1",
+        "twitter-btn": "Comparteix al Twitter",
+        "twitter-text": "Nacions Unides vol saber la teva opinió.! Acabo d’explicar-los quines són les meves prioritats per crear un món millor. Fes el mateix que jo i vota tu també! http://myworld2015.org/?ballot=-1@MyWorld2015",
+        "sina-btn": "Comparteix al Weibo",
+        "sina-text": "La ONU vol saber de TU! Acabo d'explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org/?ballot=-1",
+        "orkut-btn": "Comparteix al Orkut",
+        "orkut-text": "La ONU vol saber de TU! Acabo d'explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org/?ballot=-1",
+        "googleplus-btn": "Comparteix al Google+",
+        "googleplus-text": "La ONU vol saber de TU! Acabo d'explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també!",
+        "sharethis-btn": "Comparteix al Sharethis",
+        "sharethis-text": "La ONU vol saber de TU! Acabo d'explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org/?ballot=-1",
+        "map-header-text": "Mira com ha votat la resta del món",
+        "email-sent": "Gràcies!"
+    },
+    "pages": {
+        "methodology-title": "Metodologia",
+        "methodology-content": "<h2 class='methodology-main-header'>Respostes a les qüestions generals bàsiques</h2><br/><br/> <h2 class='methodology-header'>Context: L’agenda global de desenvolupament del post-2015</h2> <ul class='list-extra-pages'> <li>Els Objectius de Desenvolupament del Mil·lenni (ODM) han tingut un gran impacte en les vides de milers de milions de persones, però encara hi ha molt més per fer per tal de combatre la pobresa extrema, les malalties i les crisis ambientals.<li>L’agenda global de desenvolupament per al període post-2015 es basarà en els avenços fets en els ODM, mentre afronta les desigualtats persistents i els nous reptes que tenen les persones i el planeta.</li><li>La nova agenda de desenvolupament ha de ser el resultat d'un procés veritablement obert i inclusiu que involucri persones d'arreu del món i de tots els sectors de la societat.</li><li>L'ONU i el Grup d'Alt Nivell sobre el Post-2015 del Secretari General volen conèixer directament de persones de tot el món què és important per a elles, de manera que les seves opinions es puguin tenir en compte en aquesta conversa global. EL MEU Món es concep com una eina per aconseguir-ho.</li></ul><h2 class='methodology-header'>Què és EL MEU Món? </h2><ul class='list-extra-pages'> <li>Les Nacions Unides i els seus associats s'han unit per posar en marxa una enquesta global innovadora, coneguda com “EL MEU Món”, perquè la gent pugui participar en el procés post-2015 explicant-nos els canvis que implicarien la major diferència en les seves vides.</li><li>Es tracta d'una enquesta d'opcions que, a través de mètodes creatius<em> en línea </em>i <em>en format imprès</em>, permet a persones de tot el món explicar a les Nacions Unides, als líders mundials -i, en particular, al Grup d'Alt Nivell del Secretari General-, els temes més importants que els agradaria que tractés l’agenda post-2015.</li><li>EL MEU Món demana als individus quins sis dels setze possibles temes pensen que implicarien la major diferència en les seves vides. Els setze temes s'han construït a partir de les prioritats expressades per les persones més desafavorides que participen en exercicis de recerca i electorals existents, i dels continus debats tècnics i polítics sobre els possibles objectius futurs. Aquests setze temes cobreixen els ODM ja existents, a més de les qüestions de sostenibilitat, seguretat, governança i transparència.</li></ul><h2 class='methodology-header'>Com funcionarà?</h2><ul class='list-extra-pages'> <li>L'enquesta està disponible <em>en línea</em> a la pàgina www.myworld2015.org en els sis idiomes oficials de l'ONU. Els ciutadans també podran participar en aquesta enquesta a través de tecnologies mòbils com SMS i IVR (números gratuïts de telèfon) a partir de gener de 2013.</li><li>L'enquesta també estarà disponible <em>en format imprès</em> en format paper, distribuïts a través d'una xarxa d'organitzacions de base, comunitats religioses, associacions juvenils, entitats del sector privat i ONGs arreu del món. El suport d'aquestes organitzacions és vital per arribar directament a les comunitats i implicar les comunitats digitalment desconnectades, analfabetes y més desafavorides en el debat global. </li><li>Als participants se'ls demanarà el seu sexe, edat i país, per permetre la desagregació de les dades i presentar als responsables de la presa de decisions una visió global i acurada del que els ciutadans pensen.</li></ul><h2 class='methodology-header'>Quan i on passarà tot això?</h2><ul class='list-extra-pages'> <li>A partir d'ara i fins al 2015, volem que s’involucri el major nombre de gent de tants països com sigui possible: ciutadans de totes les edats, sexes i orígens, i en particular de les comunitats pobres i marginades del món.</li><li>EL MEU Món estarà disponible a partir de principis de desembre del 2012, perquè els països que acullen les consultes nacionals ho puguin tenir en compte. No obstant això, el llançament mundial d’ EL MEU Món està previst per a finals de gener de 2013 (en aquest moment un conjunt d'eines de comunicació global estarà disponible per a tothom).</li></ul><h2 class='methodology-header'>Quines són les setze opcions?</h2><ul class='list-extra-pages'> <li>Millors oportunitats laborals</li>  <li>Suport a les persones que no poden treballar</li>  <li>Una bona educació</li>  <li>Una millor assistència sanitària</li>  <li>Aliments assequibles i nutritius</li>  <li>Telèfon i accés a internet</li>  <li>Millor transport i carreteres</li>  <li>Accés a aigua potable i sanejament</li>  <li>Energia fiable a casa  </li>  <li>Mesures adoptades en matèria de canvi climàtic</li>  <li>La protecció dels boscos, els rius i els oceans</li>  <li>La igualtat entre homes i dones</li>  <li>Protecció contra el crim i la violència</li>  <li>La llibertat política</li>  <li>Un govern honest i sensible</li>  <li>Protecció contra la discriminació i la persecució</li></ul><h2 class='methodology-header'>Què passarà amb els resultats de l’enquesta?</h2><ul class='list-extra-pages'> <li>Les dades dels telèfons mòbils, web i enquestes <em>en format imprès</em> seran contínuament consolidades i disponibles al lloc web d’EL MEU Món.</li><li>ls resultats es presentaran al Grup d'Alt Nivell del Secretari General sobre l’agenda de desenvolupament post-2015, abans que aquest presenti el seu informe final al Secretari General de les Nacions Unides el juny del 2013. EL MEU Món continuarà recollint la veu de la gent i els resultats seran compartits amb el Secretari General i els líders mundials que preparen la propera agenda de desenvolupament en el període previ a 2015.</li></ul><h2 class='methodology-main-header'>Respostes a qüestions bàsiques de metodologia</h2><br/><br/><h2 class='methodology-header'>Per a què serveix aquesta enquesta?</h2><br/>EL MEU Món és una manera d'escoltar el que la gent pensa sobre com hauria de ser un nou acord mundial sobre desenvolupament. Complementarà altres iniciatives que porten les veus dels ciutadans al debat post-2015, com el projecte 'Participa', dirigit per l'Institut d'Estudis per al Desenvolupament i la  Beyond 2015, una coalició d'organitzacions de la societat civil que duu a terme una recerca qualitativa profunda sobre les prioritats de les persones, i el gran nombre de consultes nacionals i temàtiques organitzades per les Nacions Unides arreu del món.<br/><br/>EL MEU Món complementa aquestes consultes proporcionant dades quantitatives sobre les prioritats. Les opcions de l'enquesta s'emmarquen deliberadament en un sentit ampli: &quot;una millor assistència sanitària&quot;, per exemple, o &quot;la igualtat entre homes i dones&quot;, per fer més comprensibles aquests temes als ciutadans comuns. Les altres consultes seran complementàries i proporcionaran informació addicional per permetre als responsables polítics de comprendre els punts de vista i prioritats de la gent dins de cadascun d'aquests temes generals, i considerar si i com aquestes es podrien traduir en objectius, metes i indicadors.<br/><br/>EL MEU Món fa de pont entre els altres processos de consulta i el procés polític que se centra en com donar prioritat a la creació d'una agenda global manejable. EL MEU Món permetrà que les opinions dels ciutadans s’hi puguin incloure.<br> <br> La intenció no és crear una autèntica &quot;resposta&quot; pel que fa a quines haurien de ser les prioritats del món, sinó aportar informació als responsables de la presa de decisions globals per assegurar que el que emergeix al final del procés post 2015 hagi tingut en compte les opinions del màxim nombre de persones possible.<br/><br/><h2 class='methodology-header'>Per què aquestes 16 opcions?</h2><br/>Escollir una llista d’opcions per a una proposta com aquesta és una tasca molt difícil. Aquest és el procés que hem seguit per escollir les 16 opcions:<br/><br/><ol class='list-extra-pages'> <li>Es va elaborar una llista inicial de 24 opcions de primera línia i els paràgrafs explicatius sobre la base dels actuals Objectius de Desenvolupament del Mil·lenni, una revisió de la societat civil i altres propostes per al post-2015, diverses propostes d’Objectius Desenvolupament Sostenible, i les dades existents de la recerca participativa i de votació. Les opcions triades van ser les que van sorgir com a temes clars d'aquestes fonts, i que eren qüestions d’àmbit global.</li><li>Aquesta llista va ser després consultada a un grup d'individus d'organitzacions no governamentals, legisladors, acadèmics i personal de l'ONU en molts països i regions. Després dels seus comentaris, es va decidir reduir la llista a 15, amb la finalitat de simplificar i fer més accessible l’estudi. Posteriorment aquesta llista es va sotmetre a una segona ronda de consultes, a un grup més reduït, incloent una empresa d’estudis d’opinió amb seu a l’Àfrica.</li><li>Després d’aquesta consulta, es va decidir augmentar el nombre a 16 per incloure-hi la nova ronda de comentaris.</li><li>Es va dur a terme una prova final a través d’una enquesta en SMS a Uganda, on es feina una pregunta oberta i les respostes codificades en les 16 opcions. Quan se’ls preguntava sobre quins temes eren els més importants per ells i les seves famílies, menys del quatre per cent de respostes no entraven a cap de les 16 opcions. </li></ol>Estem convençuts que tenim un conjunt d’opcions equilibrat, que reflecteix la varietat de temes que preocupen la gent de tot el món i les qüestions al voltant de les quals es poden desenvolupar nous objectius. No inclou tot el que preocupa la gent, però sí que inclou la gamma de qüestions que els objectius podrien abordar i que sabem que són importants per a les persones, les organitzacions i els governs. En la introducció de l'enquesta, tant <em>en línea</em> com <em>en format imprès</em>, es farà èmfasi en què totes aquestes opcions són importants, però que estem tractant d'identificar-ne les que més importen, per formar part de l'eventual selecció d'alguns objectius globals.<br/><h2 class='methodology-header'>Però què passa si vull escollir una opció diferent?</h2><br/>L’enquesta ofereix als participants l’oportunitat d’incloure la seva pròpia prioritat, a través d’una dissetena opció: “la teva opció”. Les respostes que s’hi plantegin s’analitzaran acuradament per tal de veure si hi ha temes que hi manquen o si hi ha idees alternatives que generen molt suport. L’anàlisi d’aquestes opcions de format lliure estarà també disponible.<br/><h2 class='methodology-header'>Per què les opcions estan redactades d’aquesta manera?</h2><br/>Les opcions han de ser comprensibles per a tothom arreu, no només per a experts en desenvolupament. Es va treballar amb una empresa enquestadora amb seu a l’Àfrica i amb els experts de comunicació de tres organitzacions per tal de revisar el llenguatge per assegurar que fos accessible i el més lliure possible de tecnicismes o referències culturals específiques.<br/><h2 class='methodology-header'>Per què heu preguntat “Què és el que més t’importa a tu i a la teva família”?</h2><br/>Mentre que l’acord post-2015 serà global, en última instància, el seu objectiu és millorar la vida de les persones. Per aquest motiu, el fet de preguntar què és important per a les persones sembla un punt de partida millor i més clar que no pas demanar a la gent que imagini un acord global remot i el que hauria d’incloure-hi. L'enquesta s'emmarca al voltant de les prioritats individuals, però reconeixem que per a moltes persones els seus interessos i opcions personals estan íntimament relacionades amb les dels seus familiars (per exemple, els pares podrien respondre a la pregunta tenint en ment les seves aspiracions per als seus fills). Per això, hem tractat de transmetre la idea que, tot i que estem demanant a la gent el que els importa a ells com a individus, som conscients que la seva felicitat està lligada a la dels altres.<br/><br/>A més, la redacció d’aquesta pregunta vol dir que hi ha menys espai per als enquestats per interpretar la pregunta d'una altra manera, que és un risc si se li fa una pregunta més àmplia sobre les prioritats per a la governança global, o una pregunta sobre les prioritats d’un país o de la comunitat.<br/><h2 class='methodology-header'>Per què limitar-nos a 16 opcions.... no podríeu haver plantejat només una pregunta oberta?</h2><br/>EL MEU Món és només una part d'un esforç de consulta a nivell mundial en el post-2015, i tots els altres inclouen qüestions obertes. Hi ha moltes maneres perquè la gent pugui presentar els seus punts de vista, i aquests mètodes diferents poden complementar-se entre si. El paper d’EL MEU Món és el d'oferir punts de vista sobre les prioritats de la gent, i per això era necessari determinar la llista d'opcions. Com s’ha descrit anteriorment, s’han realitzat grans esforços per assegurar que les prioritats són representatives de les coses que la gent ha dit són importants.<br/><br/>A més, hi ha dues raons tècniques i metodològiques per justificar per què es fan aquestes preguntes tancades:<br/><br/><ul class='list-extra-pages'> <li>Atès que l'estudi es farà en diversos idiomes, i a través de diferents mitjans (web, SMS i <em>en format imprès</em>), la tecnologia actual no és suficient per poder agrupar les respostes a una pregunta oberta de manera coherent i creïble en grups d’anàlisi utilitzant el programari disponible. La codificació manual dels milions de respostes que s'esperen en aquest projecte faria que el projecte fos prohibitivament costós i requerís massa temps.</li><li>Els principals socis en temes de votacions i enquestes han compartit la seva experiència que els índexs de participació són significativament molt menors en qüestionaris amb preguntes obertes. Això no és sorprenent, ja que requereixen més atenció i esforç dels participants. Per tant, per tal de maximitzar la participació i fer que l'enquesta sigui el més accessible possible, oferir opcions tancades és la millor solució.</li></ul><br/><h2 class='methodology-header'>Però realment no es pot lluitar contra la pobresa amb un llistat de qüestions individuals: tot està connectat.</h2><br/>Hi estem d’acord. És per això que és important donar a la gent un gran nombre d'opcions i permetre'ls escollir-ne més d'una. Escollir sis de les setze opcions permetrà a la gent pensar en quines combinacions d'accions podrien produir el millor efecte. També permetrà les persones de seleccionar les opcions que aborden el mateix problema de diferents maneres: un pare preocupat perquè la seva filla rebi una bona educació, per exemple, voldria escollir tant la &quot;igualtat entre homes i dones&quot; com &quot;una bona educació&quot; per representar les diferents dimensions dels canvis que volen veure.<br/><br/>Varem posar a prova l'enquesta amb tres grups pilot de persones per veure si hi havia alguna diferència si se’ls demanava de triar 3, 5 o 7 opcions. Se’ls va preguntar si l'enquesta va ser més dura / més fàcil i més o menys agradable. No es van trobar diferències notables.<br/><br/><h2 class='methodology-header'>Com sabreu si les persones que responen l’enquesta són representatives de la població en el seu conjunt o de grups diferents dins d’aquesta?</h2><br/>Esbrinarem tot el que es pugui sobre les persones que responen a l'enquesta, de manera que puguem dir tant sobre qui són com sigui possible. Però tindrem molta cura de no demanar massa, per ser oberts i transparents sobre el contingut i les limitacions de les dades. A més, comptem amb el consell d'una empresa enquestadora mundial d’opinió experta, sobre com analitzar i presentar les dades. Els nivells d'informació són els següents:<br/><br/><ul class='list-extra-pages'> <li>Gènere – A tots els enquestats se’ls pregunta el seu gènere per tal que aquest s’apliqui a totes les dades. </li> <li>Edat - Novament, a tots els enquestats. </li> <li>País – A tots els enquestats. </li> <li>Mètode de resposta – Així serem capaços d’analitzar les dades d’acord amb com la gent participa, fet que establirà les àmplies diferències entre els grups. </li> <li>Data i hora de la resposta – Per avaluar l’impacte de qualsevol campanya de màrqueting i per recollir els programes automatitzats que podrien aparellar els resultats. </li> <li>Nivell educatiu – A tots els participants <em>en format imprès</em> i via SMS també se’ls farà aquesta pregunta. A més, a tots els participants <em>en línea</em> se’ls plantejarà aquesta pregunta com a opcional (per tal de reduir al mínim la taxa d’abandonaments). </li> <li>Regió sub-estatal – Obtindrem aquesta informació sobre els participants via SMS a través dels seus operadors mòbils, i dels participants <em>en format imprès</em>, a través dels seus enquestadors. Als participants<em> en línea</em> se’ls tornarà a fer aquesta pregunta com a opcional per tal de minimitzar la taxa d’abandonament. </li></ul><br/>La informació que obtindrem serà d'un nivell de detall similar a la recollida per l'Enquesta Mundial de Gallup i altres mostres representatives a nivell mundial. Si bé no es prendran mostres aleatòriament com fa Gallup, utilitzarem les dades socials i demogràfiques que recopilem per establir com la nostra mostra a cada país reflecteix tota la seva població, i que això quedi clar quan publiquem les dades.<br/><br/><h2 class='methodology-header'>Com presentareu les dades?</h2><br/>Serà possible veure les dades de l'enquesta per Internet en temps real, i les dades dels SMS i les enquestes <em>en format imprès</em> també s'afegiran el més ràpidament possible per assegurar que els resultats estan actualitzats.<br> <br> A més, la informació addicional obtinguda de persones que fan l'enquesta serà utilitzada per desagregar les dades i proporcionar així una imatge de com les prioritats difereixen entre països, grups demogràfics i socioeconòmics. Informarem sobre les prioritats dels distints grups i països per separat.<br/><br/>També afegirem els resultats per país, regió, i a nivell mundial. Per fer això, utilitzarem la informació obtinguda dels participants per ponderar les respostes de manera que quan s'agreguin les dades, es faci d'una manera que proporcioni una imatge tant representativa com sigui possible de la població. Les opcions per a la ponderació inclouen:<br/><br/><ul class='list-extra-pages'> <li>Factors demogràfics: ponderació de les respostes de cada país en funció de la grandària de la població, dels homes i les dones i els grups d'edat diferents per reflectir l'equilibri entre la població.</li> <li>Els factors socioeconòmics i demogràfics nacionals sub-regionals. Esperem tenir informació sobre el nivell de l'educació i la sub-regió de residència en el país d'un important subgrup dels enquestats totals. Quan els números siguin prou grans, serà possible de ponderar les respostes de manera que reflecteixin la composició socioeconòmica i demogràfica dels països.</li> <li>Ingressos: Fins a cert punt els tres mètodes de resposta són representatius dels grups d'ingressos diferents, amb els més rics tendint a tenir accés a la web i els més pobres a ser un dels participants <em>en format imprès</em>. Aquest serà el cas, ja que el focus per a l'enquesta <em>en format imprès</em> seran les regions més pobres en els diferents països on s'administri. Experimentarem amb diferents formes de ponderar les respostes segons la manera en què l'estudi s’hagi dut a terme, per tal de reflectir els patrons regionals de població i la distribució dels grups d'ingressos dins dels països.</li></ul><br/><h2 class='methodology-header'>Si l’agenda post-2015 és sobre eradicar la pobresa... per què ens haurien d’importar les prioritats de la gent que no és pobra?</h2><br/>Hem tingut molta cura en desenvolupar una metodologia que asseguri que les prioritats de les persones més pobres són captades en aquest estudi, i que sigui possible analitzar les seves respostes separadament de la resta. Hem utilitzat les dades d'enquestes de llars per identificar les regions dels països on viuen els més pobres, i centrarem els esforços <em>en format imprès</em> en aquestes regions per garantir la cobertura de les comunitats més pobres. A més, estem planejant treballar amb un grup d'ONGs que ens pot donar consells sobre com fer l'enquesta a  grups específics difícils d’arribar com els infants, la gent gran i les persones amb discapacitat, i moltes d'aquestes mateixes ONGs faran l'enquesta a les comunitats amb les quals treballen. Per tant, serà possible utilitzar aquestes dades per centrar-se només en la pobresa extrema, si aquest és l'enfocament. Quan les dades s'agreguin a nivell mundial, podem utilitzar tècniques de ponderació per garantir que les respostes de les persones pobres compten en proporció al seu nombre a tota la població, i no queden ofegats per una àmplia resposta en xarxa en els països d'alts ingressos.<br/><br/>No obstant això, l'enquesta està dissenyada per ser global perquè tothom té aspiracions i problemes als quals ha d’enfrontar-se en la seva vida. I molt sovint les prioritats dels diferents grups són més similars del que es podria esperar. Comprendre com la gent en tots els països veu la seva vida i les coses que els agradaria canviar, farà més fàcil construir consens en els grups polítics per impulsar un nou acord. Com un marc més reflecteixi un consens mundial sobre les prioritats, més fàcil serà la construcció de la política que poden fer que això succeeixi.<br/><br/><h2 class='methodology-header'>En un marc nou no hi ha una mica més que una selecció dels temes més importants per a la gent de tot el món?</h2><br/>L’enquesta EL MEU Món és només una de les moltes consultes i processos polítics que contribuiran al nou acord. Conèixer les prioritats dels diferents grups serà important per conformar les polítiques públiques. <br/><br/>En l'elaboració de les 16 opcions, varem ser molt conscients que aquest procés tractava de dissenyar objectius globals, de manera que totes les opcions representen les qüestions que es podrien abordar eficaçment i que poden ser viables a través de l'acció internacional. Es van excloure algunes coses, com, per exemple, la religió, que sabem que són molt importants per a la gent, però que seria menys apropiades com a temes per a nous objectius globals.<br/><br/>",
+        "contact-title": "Contacta'ns",
+        "contact-content": "Disponible aviat",
+        "policy-title": "Política de Privacitat",
+        "policy-content": "Aquesta política de privacitat estableix com 'EL MEU Món' utilitza i protegeix qualsevol informació que tu donis quan utilitzes aquesta pàgina web. <br/><br/> EL MEU Món es compromet a assegurar que la teva privacitat està protegida. En cas que et demanem que donis certa informació per la qual puguis ser identificat quan facis servir aquesta web, pots estar segur que només es farà servir d'acord amb aquesta política de privacitat. <br/><br/> EL MEU Món podria canviar aquesta política en algun moment actualitzant aquesta pàgina. Si us plau, comprova aquesta pàgina regularment per assegurar-te que estàs d'acord amb els canvis que s'hi puguin realitzar. <br/><br/><span class='highlight-extra-pages'> El que recollim</span><br/>Podríem recollir la informació següent: <br/><br/><ul class='list-extra-pages'><li>Les sis prioritats que tu has seleccionat</li><li>prioritat opcional que has suggerit</li><li>el teu gènere, edat, i país</li></ul> <span class='highlight-extra-pages'>Què fem amb la informació que recollim</span><br/><br/>EL MEU Món NO ven o comparteix les teves respostes a l’enquesta amb cap tercer ni anunciants o comerciants. <br/><br/>Els resultants de l’enquesta de la pàgina web, enquesta a través dels telèfons mòbils, I l’enquesta fora de línia es presentaran al Panell d’Alt Nivell del Secretari General sobre el post-2015 abans de les seves reunions a Monròvia (Febrer), Bali (Març) i Nova York (Maig) 2013. <br/><br/><span class='highlight-extra-pages'>Security</span><br/>Ens comprometem a assegurar-te que tota la informació és segura. Per tal d’evitar l’accés o divulgació no autoritzat, hem posat en marxa procediments físics, electronics i administratius per salvaguardar i assegurar la informació que recopilem en línia. Com fer servir les cookies</span><br/>Una cookie és un petit arxiu que demana permís per afegir-se al teu disc dur. Una vegada ho has autoritzat, l’arxiu s’afegeix i la cookie t’ajuda a analitzar el tràfic de la web o et permet saber quan visites una pàgina concreta. Les cookies permeten a les aplicacions web respondre’t a tu individualment. L’aplicació web pot adaptar les seves operacions a les teves necessitats, gustos i aversions, agrupant i recordant informació sobre les teves preferències. <br/><br/>Fem servir cookies de registre del transit per identificar quines pàgines s’estan utilitzant. Això ens ajuda a analitzar dades sobre el tràfic web i millorar el nostre lloc web per tal d'adaptar-lo a les necessitats del client. Només utilitzem aquesta informació per a fins d'anàlisi estadística i després les dades s'eliminen del sistema. <br/><br/>En general, les cookies ens ajuden a oferir-te una pàgina web millor, permetent-nos monitoritzar quines pàgines trobes més útils I quines no. Una cookie no ens dóna accés al teu ordinador o a cap informació sobre tu, tret de les dades que tu tries compartir amb nosaltres. <br/><br/>Pots escollir acceptar o no acceptar les cookies. La majoria dels navegadors web accepten automàticament les cookies, però normalment pots modificar les preferències del teu navegador per tal de no acceptar-les si així ho prefereixes. Això no et permetria treure el màxim profit de la pàgina web. <br/><br/><span class='highlight-extra-pages'>Enllaços a altres pàgines web</span><br/>La nostra pàgina web podria contenir enllaços que et permetrien visitar altres pàgines webs d’interès fàcilment. No obstant, una vegada has fet servir aquests links per deixar la nostra pàgina, nosaltres no tenim cap control sobre l’altra pàgina. Per tant, no podem ser responsables de la protecció i privacitat de qualsevol informació que donis mentre visitis aquestes pàgines, i fem constar que aquestes pàgines no es regeixen per aquesta política de privacitat. Cal anar amb compte i mirar la política de privacitat aplicable a aquesta web en qüestió. <br/><br/><span class='highlight-extra-pages'>Controlar la teva informació personal</span><br/>Donar les respostes a l’enquesta és voluntari. Recorda, sempre pots triar no respondre una pregunta (especialment aquelles que et demanen informació o dades personals). Tanmateix, això impedirà que completis l’enquesta. <br/><br/>Si creus que alguna informació que tenim teva és incorrecta o incompleta, si us plau escriu-nos el més aviat possible a info@worldwewant2015.org. Corregirem el més aviat possible la informació incorrecta que ens hagis indicat.",
+        "copyright-title": "Copyright",
+        "copyright-content": "Tots els Drets Reservats. <br/><br/> Cap part de la pàgina web d' 'El Meu Món' ni cap dels seus continguts seran reproduïts, copiats, modificats o adaptats, sense el previ consentiment escrit de l'autor, excepte estigui indicat d'altra manera pels materials.<br/><br/> Es pot compartir aquesta pàgina web amb qualsevol de les següents formes: <br/>1. Utilitzant qualsevol de les icones de compartir en cada pàgina;<br/>2. Aportant un link o la URL del contingut que es vol reproduir; i <br/>3. Es poden extreure frases de la pàgina web amb atribució a <a href='http://www.myworld2015.org/' target='_blank' class='links-extra-pages'>www.myworld2015.org</a><br/><br/>L'ús i ditribució comercial dels continguts dels llocs web no està permès sense el consentiment previ i escrit de l'autor.",
+        "about-my-world-title": "Sobre EL MEU Món",
+        "about-my-world-content": "<span class='highlight-extra-pages'>EL MEU Món és una enquesta global per als ciutadans dirigida per les Nacions Unides i els seus socis. </span>El seu objectiu és capturar les veus de la gent, les seves prioritats i opinions, de manera que els líders globals puguin estar informats quan comencin el procés per definir la nova agenda mundial de desenvolupament.<br/><br/>A través de mètodes creatius <em>en línea</em> i <em>en format imprès</em>, <span class='highlight-extra-pages'>EL MEU Món</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>demana als</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>individus</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>quins sis</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>dels setze</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>possibles</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>temes</span> pensen que implicarien la major diferència en les seves vides. Els setze temes s'han construït a partir de les prioritats expressades per les persones més desafavorides que participen en exercicis de recerca i electorals existents, i cobreixen els actuals Objectius de Desenvolupament del Mil·lenni ja existents, a més de les qüestions de sostenibilitat, seguretat, governança i  transparència.<br/><br/>D’ara fins al 2015, <span class='highlight-extra-pages'>volem que el major nombre possible de gent del major nombre possible de països s’impliquin a EL MEU Món:</span> ciutadans de totes les edats, gènere, origen, i particularment, les comunitats més pobres i marginals.<br/><br/>Els resultats es presentaran primer al <a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>Panell</a><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'> </a><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>d'Alt</a><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'> </a><a href='http://www.post2015hlp.org' target='_blank' class='links-extra-pages-normal'>Nivell</a> del Secretari General sobre l’agenda de desenvolupament post-2015, abans de les seves reunions a Monròvia, Bali i Nova York, i alimentaran el seu informe final i les recomanacions per a un nou marc de desenvolupament al maig de 2013.<br/><br/>Després d’això, EL MEU Món continuarà recollint les opinions de la gent fins al 2015 i els resultats es compartiran amb el Secretari General i els líders globals mentre preparen la propera agenda de desenvolupament en el període previ a 2015.",
+        "who-we-are-title": "Qui som",
+        "who-we-are-content": "<span class=' highlight-extra-pages'>El Programa de Nacions Unides per al Desenvolupament (PNUD), la Campanya del Mil•lenni de Nacions Unides, l’Overseas Development Institute i la World Wide Web Foundation han desenvolupat conjuntament EL MEU Món. Ha estat objecte d’un ampli procés de consulta i té l’extens suport d’un gran nombre d’organitzacions, incloent ONGs, grups religiosos i moviments juvenils.</span><br/><br/><span class=' highlight-extra-pages'>El Departament d’Informació Pública de Nacions Unides i el Programa de Voluntaris de Nacions Unides (UNV) també juguen un paper de lideratge a EL MEU Món.</span><br/><br/><span class='highlight-extra-pages'><a href='#' id='more-partners-link'>Coneix els altres socis importants</a></span><br/><br/><ul class='list-extra-pages'><li><span class=' highlight-extra-pages'>Sobre <a href='http://www.undp.org/' target='_blank' class='links-extra-pages'>PNUD</a></span> El Programa de Nacions Unides per al Desenvolupament és la xarxa mundial de l'ONU que promou el canvi i connecta els països amb coneixements, experiència i recursos per ajudar les persones a forjar una vida millor. Es treballa sobre el terreny en 177 països i territoris.</li><li><span class='highlight-extra-pages'>Sobre <a href='http://www.endpoverty2015.org/' target='_blank' class='links-extra-pages'>la Campanya del Mil lenni de Nacions Unides</a> </span> Establerta el 2002 pel Secretari General de les Nacions Unides, la Campanya dóna suport i incentiva persones de tot el món a prendre mesures per a l'assoliment dels Objectius de Desenvolupament del Mil•lenni abans de 2015, i facilita la participació de la societat civil en l’agenda de desenvolupament post-2015. </li> <li><span class='highlight-extra-pages' >Sobre <a href='http://www.odi.org.uk/' target='_blank' class='links-extra-pages'>l’ODI</a> </span> L'Overseas Development Institute és el think tank independent líder del Regne Unit de reflexió sobre desenvolupament internacional i qüestions humanitàries que treballa per inspirar i informar la política i la pràctica que condueix a la reducció de la pobresa, l'alleujament del sofriment i l'assoliment de mitjans de vida sostenibles en els països en desenvolupament. </li><li><span class='highlight-extra-pages'>Sobre la <a href='http://www.webfoundation.org/' target='_blank' class='links-extra-pages'>Fundació World Wide Web</a> </span> Establerta per l’inventor de la Web, Sir Tim Berners-Lee, la Fundació World Wide Web és una organització sense ànim de lucre dedicada a promoure un món on tothom pugui fer servir la web per comunicar-se, col laborar i innovar lliurement, construint ponts entre les diferències que amenacen el nostre futur compartit.</li></ul>",
+        "faq-title": "Preguntes Més Freqüents",
+        "faq-content": "<h2 class='faq-header'>Què és EL MEU Món?</h2><br/><span class='highlight-extra-pages'>És una </span><span class='highlight-extra-pages'>enquesta </span><span class='highlight-extra-pages'>d'opcions</span> que, a través de mètodes creatius <em>en línea</em> i <em>en format imprès</em>, permet a persones de tot el món explicar a les Nacions Unides, als líders mundials - i, en particular, al Panell d'Alt Nivell del Secretari General-, els temes més importants que els agradaria que tractés l’agenda post-2015.<br/><br/><span class='highlight-extra-pages'>EL MEU Món</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>demana als</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>individus</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>quins sis</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>dels setze</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>possibles</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>temes</span> pensen que implicarien la major diferència en les seves vides. Els setze temes s'han construït a partir de les prioritats expressades per les persones més desafavorides que participen en exercicis de recerca i electorals existents, i dels continus debats tècnics i polítics sobre els possibles objectius futurs. Aquests setze temes cobreixen els ODM ja existents, a més de les qüestions de sostenibilitat, seguretat, governança i  transparència.<br/><br/><h2 class='faq-header'>Com funcionarà?</h2><br/><span class='highlight-extra-pages'>Des de desembre de 2012, l’enquesta està disponible en línea a </span><a href='http://www.myworld2015.org'><span class='highlight-extra-pages'>www.myworld2015.org</span></a><span class='highlight-extra-pages'> </span>en les sis llengües oficials de Nacions Unides. Els ciutadans també podran participar en aquesta enquesta a través de tecnologies mòbils com els SMS o l’IVR (números de telèfon gratuïts) <span class='highlight-extra-pages'>a partir de gener del 2013</span>. <br/><br/>L'enquesta també estarà disponible <em>en format imprès</em> en format paper que seran distribuïts a través d'una xarxa d'organitzacions de base, comunitats religioses, associacions juvenils, entitats del sector privat i ONGs arreu del món. El suport d'aquestes organitzacions <span class='highlight-extra-pages'>és vital per arribar directament a les comunitats</span> i implicar les comunitats digitalment desconnectades, analfabetes i més pobres en aquest debat global.<br/><br/>Als participants se'ls demanarà el seu sexe, edat i país, per permetre la desagregació de les dades i presentar als responsables de la presa de decisions una visió global i acurada del que els ciutadans pensen.<br/><br/><h2 class='faq-header'>Quan i On passarà tot això?</h2><br/>A partir d'ara i fins al 2015, volem que s’involucri el major nombre de gent de tants països com sigui possible: ciutadans de totes les edats, sexes i orígens, i en particular de les comunitats pobres i marginades del món.<br/><br/><h2 class='faq-header'>Què passarà amb els resultats de l’enquesta?</h2><br/>Les dades dels telèfons mòbils, web i enquestes <em>en format imprès</em> seran contínuament consolidades i disponibles al lloc web d’EL MEU Món.<br/><br/>Els resultats es presentaran al Panell d'Alt Nivell abans de les seves reunions a Monròvia, Bali i Nova York, abans que aquest presenti el seu informe final al Secretari General per assessorar-lo en la seva visió de l’agenda de desenvolupament post-2015. EL MEU Món continuarà recollint la veu de la gent i els resultats seran compartits amb el Secretari General i els líders mundials que preparen la propera agenda de desenvolupament en el període previ a 2015.<br/><br/><h2 class='faq-header'>Per què ara?</h2><br/><span class='highlight-extra-pages'>Els Objectius de Desenvolupament del Mil·lenni (ODM) han tingut un impacte molt gran en la vida de milers de milions,</span> però encara queda molt per fer per combatre la pobresa extrema, malalties i crisis mediambientals.<br/><br/>L’agenda global de desenvolupament per al període post-2015 <span class='highlight-extra-pages'>es basarà en els avenços fets en els ODM</span>, mentre afronta les desigualtats persistents i els nous reptes que tenen les persones i el planeta.<br/><br/><span class='highlight-extra-pages'>La nova</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>agenda</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>de desenvolupament</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>ha de ser el</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>resultat</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>d'un</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>procés</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>veritablement</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>obert</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>i inclusiu</span> que involucri persones d'arreu del món i de tots els sectors de la societat.<br/><br/><span class='highlight-extra-pages'>L'ONU</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>i</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>el Panell d'Alt</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>Nivell sobre el Post-2015 del</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>Secretari General volen conèixer directament de persones de tot el món</span> que és important per a elles, de manera que les seves opinions es puguin tenir en compte en aquesta conversa global. EL MEU Món es concep com una eina per aconseguir-ho.<br/><br/><h2 class='faq-header'>Com pots implicar-te amb EL MEU Món?</h2><br/>Si ets una persona:<br/><br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Ajuda’ns</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>a difondre</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>la</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>paraula</span><span class='highlight-extra-pages'>!</span> Comparteix l'enquesta i les teves prioritats amb els teus amics i familiars i anima’ls a participar en aquesta enquesta tant important.</li> <li><span class='highlight-extra-pages'>Envia’ns notícies!</span><span class='highlight-extra-pages'> </span>Recull fotos, vídeos i històries d’aquells que es comprometen amb EL MEU Món i comparteix-los en els seus comptes de xarxes socials.</li> <li><span class='highlight-extra-pages'>Deixa’ns les teves</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>dades</span> perquè puguem mantenir-te informat sobre els últims resultats de l'enquesta i altres maneres de comprometre’t en la lluita contra la pobresa mundial.</li></ul>Si ets una organització:<br> Un conjunt d'eines específic per als socis de divulgació estarà disponible a <a href='http://www.myworld2015.org'>www.myworld2015.org</a>  abans del llançament mundial al gener de 2013. En termes generals, si una organització està interessada en donar suport a EL MEU Món pot:<br><br/><br/><ul class='list-extra-pages'> <li><span class='highlight-extra-pages'>Administrar</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>l'enquesta</span> <span class='highlight-extra-pages'><em>en format imprès</em></span> a les comunitats locals mitjançant la distribució de paperetes electorals, el recollint els resultats i enviant les dades als centres de coordinació nacionals i regionals.</li> <li><span class='highlight-extra-pages'>Arribar</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>als</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>socis</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>existents</span><span class='highlight-extra-pages'>, </span><span class='highlight-extra-pages'>organitzacions</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>locals</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>i</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>membres</span> i animar-los a participar.</li> <li><span class='highlight-extra-pages'>Ajudar</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>a fer arribar a</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>la</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>gent</span> el <a href='http://www.myworld2015.org'>www.myworld2015.org</a> a través de xarxes externes i plataformes de comunicació (pàgines web, butlletins de notícies i activitats dels mitjans de comunicació social).</li> <li><span class='highlight-extra-pages'>Collaborar</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>amb</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>altres</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>socis</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>potencials</span> (per exemple, els proveïdors de telefonia mòbil, entitats del sector privat i mitjans de comunicació) per facilitar l'abast i l'impacte d’EL MEU Món.</li> <li><span class='highlight-extra-pages'>Envia’ns notícies!</span><span class='highlight-extra-pages'> </span>Recull fotos, vídeos i històries d’aquells que es comprometen amb EL MEU Món.</li></ul><h2 class='faq-header'>Com està relacionat EL MEU Món amb El Món Que Volem 2015?</h2><br/>Ara els ciutadans d’arreu del món tenen una gran oportunitat, com mai l’havien tingut, de formar part des de les etapes inicials, del procés per establir els nous objectius per acabar amb la pobresa i crear un medi ambient sostenible.<br/><br/>La web <em>en línea</em> <a href='http://www.worldwewant2015.org'>www.worldwewant2015.org</a> permet a persones de tot el món unir-se al procés post-2015 de compartir idees i participar al debat. EL MEU Món està completament integrat en aquest esforç global i és una peça única per captar les veus dels ciutadans que enriqueixen aquesta conversa global. <a href='http://www.myworld2015.org'>www.myworld2015.org</a> està completament relacionat amb <a href='http://www.worldwewant2015.org'>www.worldwewant2015.org</a> i convida als ciutadans a continuar la conversa després d’haver emès els seus vots.<br/><br/><h2 class='faq-header'>On encaixen els Objectius de Desenvolupament del Mil·lenni en aquest procés?</h2><br/>Tal i com es va acordar a Rio+20, el Grup Obert de Treball dissenyarà un conjunt d'Objectius de Desenvolupament Sostenible abans de setembre de 2013. El Panell d'Alt Nivell treballarà en paral·lel amb el Grup Obert de Treball i presentarà les seves recomanacions a l'Oficina del Secretari General.<br/><br/><span class='highlight-extra-pages'>Sobre el Panell d’Alt Nivell del Secretari General per al post-2015</span><br/><br/>El <u>Panell d’Alt Nivell del Secretari General de Nacions Unides</u> forma part de la iniciativa post-2015 del Secretari General Ban Ki-moon, i es va crear per assessorar-lo en l’agenda de desenvolupament global post-2015, data per aconseguir els objectius per lluitar contra la pobresa coneguts com els Objectius de Desenvolupament del Mil·lenni (ODM).<br/><br/>La tasca del Panel d’Alt Nivell reflectirà els nous reptes de desenvolupament  i alhora aprofitar l’experiència adquirida implementant els ODM, tant a nivell de resultats obtinguts com en àrees de millora. S’espera que el Panel d’Alt Nivell presenti les seves conclusions al Secretari General de l’ONU al primer semestre de 2013, i aquests formaran part del seu informe als estats membres de Nacions Unides a l’Assemblea General de l’ONU del setembre 2013.<br/><br/><u>Consulta els membres del Panell d’Alt Nivell</u><br/><br/><h2 class='faq-header'>Qui coordina EL MEU Món?</h2><br/><span class='highlight-extra-pages'>El <u>Programa de Nacions Unides per al Desenvolupament (PNUD),</u> la <u>Campanya</u><u> del Mil·lenni de Nacions Unides</u>, l’<u>Overseas Development Institute</u> i la <u>Fundació World</u><u> Wide Web </u></span>han desenvolupat conjuntament EL MEU Món. Ha estat objecte d’un ampli procés de consulta i té l’extens suport d’un gran nombre d’organitzacions, incloent ONGs, grups religiosos i moviments juvenils.<br/><br/><span class='highlight-extra-pages'>El Departament d’Informació Pública de Nacions Unides i el Programa de Voluntaris de Nacions Unides (UNV) també juguen un paper de lideratge a EL MEU Món. </span><br/><br/><span class='highlight-extra-pages'><a id='faq-see-more-partners' href='#' target='_blank' class='links-extra-pages-normal'>Consulta els altres socis</a></span>",
+        "how-it-works-title": "Com Funciona",
+        "how-it-works-content": "EL MEU Món pregunta als individus quins sis dels setze possibles temes creuen que implicarien una major diferència a les seves vides. Els setze temes s’han construït a partir d’un <span class='highlight-extra-pages'>exercici extens d’anàlisi i consulta</span>:<br/><br/> L’enquesta es va dissenyar com un <span class='highlight-extra-pages'>qüestionari d’opcions</span>, més que una enquesta de “pregunta oberta' perquè l’objectiu concret d’EL MEU Món dins de l’esforç de l’ampli procés de consulta mundial de Nacions Unides sobre el post-2015 era <span class='highlight-extra-pages'>oferir punts de vista sobre les prioritats de la gent.</span><br/><br/> Es va elaborar <span class='highlight-extra-pages'>una</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>llista inicial</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>de vint-i-quatre</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>opcions</span><span class='highlight-extra-pages'> </span><span class='highlight-extra-pages'>de primera línia</span><span class='highlight-extra-pages'> provinents d’una diversitat important de fons</span>, incloent recerca participativa, votacions, inputs de la societat civil, els Objectius de Desenvolupament del Mil·lenni, i els plans pels Objectius de Desenvolupament Sostenible. Les opcions es van polir i van quedar setze opcions després de <span class='highlight-extra-pages'>diverses rondes de consulta</span> amb ONGs, responsables de polítiques públiques, acadèmics, personal de l’ONU, i opinions d’empreses expertes en votacions. L’enquesta també ha estat <span class='highlight-extra-pages'>testada en grups pilot</span> i a través d’una enquesta via SMS a Uganda, per assegurar-nos que les setze opcions són comprensibles i adients. <br/><br/> Per tal de captar qualsevol tema recurrent que es pugui haver obviat, els participants també tenen l’oportunitat d’incloure la seva pròpia prioritat a través de la opció “inclou la teva opció'.<br/><br/> L’enquesta EL MEU Món no pot cobrir tot el que és important per als ciutadans perquè no tots els problemes es poden abordar a través d’objectius globals. No obstant, el ventall de prioritats que els objectius podrien abordar i que sabem que són importants, s’han inclòs.<br/><br/> <span class='highlight-extra-pages'>L’enquesta EL MEU Món es pot accedir per TRES canals:</span><br/><br/> <span class='highlight-extra-pages'><em>En línea</em>:</span> a <span class='highlight-extra-pages'>www.myworld2015.org</span> en les sis llengües oficials de l’ONU i a través de les xarxes socials;<br> <span class='highlight-extra-pages'>Tecnologies mòbils (disponibles a partir de gener de 2013)</span>: via SMS i Resposta Interactiva de Veu (IVR) a través de números de telèfon gratuïts; i<br> <span class='highlight-extra-pages'><em>En format imprès</em> (disponible a partir de desembre 2012)</span>: en format paper, similar a papereta de votació – distribuïda a través d’una xarxa d’organitzacions de base, comunitats religioses, grups juvenils, entitats del sector públic i ONGs d’arreu del món.<br/><br/> L’enquesta és anònima. Als participants només se’ls preguntarà el seu gènere, edat i país, per permetre’ns una anàlisi significativa de les dades de manera que puguem presentar una imatge global acurada del que la ciutadania pensa als responsables polítics.<br> Les dades dels telèfons mòbils, de l’enquesta <em>en línea</em> i la <em>en format imprès </em>es consolidaran contínuament i estaran disponibles al web d’EL MEU Món.<br/><br/> Els resultats de l’enquesta de la web, dels mòbils i de l’enquesta <em>en format imprès</em> <span class='highlight-extra-pages'>s’entregaran al Panell d’Alt Nivell del Secretari General sobre el Post-2015</span> abans de les seves reunions a Monròvia, (febrer), Bali (març) i Nova York (maig) 2013.<br/><br/>",
+        "contact-us-title": "Contacta'ns",
+        "contact-us-title-small": "Completa aquest formulari i dóna'ns la teva opinió",
+        "contact-us-name": "Nom: <span class='required'>*</span>",
+        "contact-us-email": "Correu electrònic: <span class='required'>*</span>",
+        "contact-us-organization": "Organització",
+        "contact-us-description": "Missatge: <span class='required'>*</span>",
+        "page-contact-us-thankyou-title": "Contacta'ns",
+        "page-contact-us-thankyou-content": "Moltes gràcies pel teu missatge. Ens posarem en contacte amb tu ben aviat.",
+        "page-partners-title": "Socis",
+        "page-partners-content": "A sota hi ha un llistat de socis compromesos que treballen amb nosaltres per portar l'enquesta EL MEU Món a les seves comunitats: <br/><br/><a href='http://www.beyond2015.org' class='links-partner-page-normal' target='_blank'>Beyond 2015</a><br/><a href='http://www.csotwg.org' class='links-partner-page-normal' target='_blank'>Civil Society Organizations Network for Development</a><br/><a href='http://www.telefonica.com/' class='links-partner-page-normal' target='_blank'>Telefónica</a><br/><a href='http://www.ilo.org' class='links-partner-page-normal' target='_blank'>International Labour Organization</a><br/><a href='http://www.ituc-csi.org' class='links-partner-page-normal' target='_blank'>International Trade Union Confederation</a><br/><a href='http://www.internationalyouthcouncil.com' class='links-partner-page-normal' target='_blank'>International Youth Council- Kenya</a><br/><a href='http://www.savethechildren.org' class='links-partner-page-normal' target='_blank'>Save the Children</a><br/>School of Midwifery Masuba, Sierra Leone<br/><a href='http://www.uclg.org' class='links-partner-page-normal' target='_blank'>United Cities and Local Governments</a><br/><a href='http://www.wfuna.org' class='links-partner-page-normal' target='_blank'>World Federation of United Nations Associations</a><br/><a href='http://www.unv.org' class='links-partner-page-normal' target='_blank'>United Nations Volunteers (UNV) programme</a><br/><a href='http://www.uncsdchildrenyouth.org/' class='links-partner-page-normal' target='_blank'>Major Group for Children and Youth (MGCY)</a><br/><a href='http://www.wagggsworld.org/en/home' class='links-partner-page-normal' target='_blank'>World Association of Girl Guides and Girl Scouts (WAGGGS)</a><br/><a href='http://scout.org' class='links-partner-page-normal' target='_blank'>The World Organization of the Scout Movement</a><a href='http://change-mob.org/' class='links-partner-page-normal' target='_blank'>Change Mob</a><br/><a href='http://www.worldywca.org' class='links-partner-page-normal' target='_blank'>The World YWCA</a><br/><a href='http://www.ymca.int' class='links-partner-page-normal' target='_blank'>World Alliance of YMCAs </a><br/><a href='http://www.youthforhab.org.tr/' class='links-partner-page-normal' target='_blank'>Youth for Habitat International Network /  Habitat Center for Development and Governanc</a><br/><a href='http://www.restlessdevelopment.org/' class='links-partner-page-normal' target='_blank'>Restless Development</a><br/><a href='http://www.globalyounggreens.org/wordpress/' class='links-partner-page-normal' target='_blank'>Global Young Greens</a><br/>Pax Romana<br/>Rural Voices of Youth<br/>Organisation of African Youth<br/><a href='http://www.ifmsa.org/' class='links-partner-page-normal' target='_blank'>The International Federation of Medical Students' Associations</a><br/><a href='http://www.wscfglobal.org' class='links-partner-page-normal' target='_blank'>World Student Christian Federation, IRO </a><br/><a href='http://www.iycs-jeci.org/' class='links-partner-page-normal' target='_blank'>International Young Catholic Students (IYCS)</a><br/><a href='http://www.sustainabledevelopment2015.org' class='links-partner-page-normal' target='_blank'>Stakeholder Forum</a><br/><a href='http://www.whiteband.org' class='links-partner-page-normal' target='_blank'>Global Call to Action against Poverty</a><br/><a href='http://www.helpage.org' class='links-partner-page-normal' target='_blank'>HelpAge International</a><br/><a href='http://https://childhealthnow.com' class='links-partner-page-normal' target='_blank'>World Vision International</a><br/><br/>Si ets una organització i voldries unir-te als esforços de difusió d’EL MEU Món, si us plau, envia un correu electrònic a  <a href='mailto:xavier.longan@undp.org'>xavier.longan@undp.org</a>",
+        "page-coming-soon-title": "Coming Soon",
+        "page-coming-soon-content": "",
+        "page-results-title": "Mira els resultats",
+        "page-results-content": ""
+    },
+    "social_media": {
+        "facebook": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org&picture=http://www.myworld2015.org/assets/img/logo.png&name=The%20United%20Nations%20wants%20to%20hear%20from%20you&caption=I%20have%20just%20told%20them%20my%20priorities%20for%20creating%20a%20better%20world.%20Join%20me%20%26%20vote!%20myworld2015.org&description=&redirect_uri=http://www.myworld2015.org",
+        "facebook_thankyou": "http://www.facebook.com/dialog/feed?app_id=361383817286519&link=http://www.myworld2015.org/?ballot=-1&picture=http://www.myworld2015.org/image_path&name=The%20United%20Nations%20wants%20to%20hear%20from%20you.&caption=I%20have%20just%20told%20them%20my%20priorities%20for%20creating%20a%20better%20world.%20Join%20me%20and%20vote!%20http://www.myworld2015.org/?ballot=-1&description=&redirect_uri=http://www.myworld2015.org",
+        "twitter": "http://twitter.com/intent/tweet?url=http://myworld2015.org/?ballot=-1&text=The Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor.&via=MyWorld2015",
+        "og_title": "Nacions Unides vol saber la teva opinió.",
+        "og_description": "Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor Fes com jo i vota tu també!",
+        "weibo": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org&appkey=&title=The Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor Fes com jo i vota tu també!&pic=http://www.myworld2015.org/assets/img/logo.png",
+        "weibo_thankyou": "http://service.weibo.com/share/share.php?url=http://www.myworld2015.org/?ballot=-1&appkey=&title=The Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor Fes com jo i vota tu també!&pic=http://www.myworld2015.org/image_path",
+        "orkut": "http://promote.orkut.com/preview?nt=orkut.com&tt=Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org&tn=http://www.myworld2015.org/assets/img/logo.png",
+        "orkut_thankyou": "http://promote.orkut.com/preview?nt=orkut.com&tt=Nacions Unides vol saber la teva opinió. Acabo d’explicar-los quines són les meves prioritats per crear un món millor. Fes com jo i vota tu també! http://www.myworld2015.org/?ballot=-1&tn=http://www.myworld2015.org/image_path"
+    },
+    "viz": {
+        "viz1_title": "El que el Món ha votat",
+        "viz1_subtitle": "Classificació de prioritats (en el moment actual)",
+        "viz2_title": "Gent que va votar com tu",
+        "viz2_title_results": "Mira qui més ha votat",
+        "viz2_subtitle": "Els votants recents que van triar almenys 4 de les teves prioritats",
+        "priorities": "Prioritats",
+        "your_priorities": "Les teves prioritats",
+        "other_priorities": "Altres prioritats",
+        "tip1_results": "Fes un cop d'ull a les prioritats per veure el que la resta del Món va votar sobre elles",
+        "tip1": "Dóna una ullada a les teves seleccions per veure el que la resta del Món ha votat sobre elles",
+        "tip2": "Gent com tu",
+        "tip3": "L’Índex de Desenvolupament Humà (IDH) és una mesura mundial que reflecteix el desenvolupament humà. Serveix per calcular la mitjana d’assoliments en un país mitjançant tres dimensions bàsiques del desenvolupament humà: una vida longeva i saludable (salut), accés al coneixement (educació) i un nivell de vida decent (ingressos). ",
+        "age1": "≤34",
+        "age2": "35-54",
+        "age3": "≥55",
+        "hdi1": "Baix",
+        "hdi2": "Mitjà",
+        "hdi3": "Alt",
+        "hdi4": "Molt alt",
+        "world": "Món",
+        "location": "Lloc",
+        "gender": "Gènere",
+        "age_groups": "Grups d'edat",
+        "hdi": "IDH",
+        "region_or_country": "Regió o país",
+        "all": "Tots",
+        "customize": "Personalitzar",
+        "customize_this_segment": "Personalitza aquesta selecció",
+        "change": "Canvi",
+        "submit": "Acceptar",
+        "hide_markers": "Amagar marcadors",
+        "votes": "Vots",
+        "total_votes": "Total de vots",
+        "none": "Cap",
+        "country_totals": "Total de països recuperats ",
+        "custom_dropdown_values": ["Països amb IDH baix",
+                            "Països amb IDH mitjà",
+                            "Països amb IDH alt",
+                            "Països amb IDH molt alt",
+                            "Àfrica",
+                            "Les Amèriques",
+                            "Àsia",
+                            "Europa",
+                            "Oceania"]
+    }
+}
